@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "17 */2 * * *"   # every 2 hours, at minute 17 (UTC)
+    - cron: "17 * * * *"   # every hour, at minute 17
   workflow_dispatch:
     inputs:
       kind:
@@ -28,11 +28,14 @@ on:
         description: "Enlace a la fuente (opcional)"
         required: false
         default: ""
+  issues:
+    types: [closed]
 
 permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 concurrency:
   group: site
@@ -47,16 +50,21 @@ jobs:
       - name: Put files in their folders
         run: |
           mkdir -p data scripts
-          for f in news.json election.json results.json; do
+          for f in news.json election.json results.json pending.json; do
             if [ -f "$f" ]; then mv -f "$f" data/; fi
           done
-          for f in fetch_news.py record_result.py validate.py news_config.json lab_meta.json; do
+          for f in fetch_news.py record_result.py validate.py news_config.json lab_meta.json results_robot.py candidates.json; do
             if [ -f "$f" ]; then mv -f "$f" scripts/; fi
           done
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Load the results you confirmed
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: if [ -f scripts/results_robot.py ]; then python scripts/results_robot.py sync; fi
 
       - name: Record a result
         if: github.event_name == 'workflow_dispatch' && inputs.kind != 'news'
@@ -69,7 +77,19 @@ jobs:
         run: python scripts/record_result.py --kind "$KIND" --key "$KEY" --value "$VALUE" --source "$SOURCE" --url "$URL"
 
       - name: Fetch news
-        run: python scripts/fetch_news.py
+        if: github.event_name != 'issues'
+        run: |
+          if grep -q dump-items scripts/fetch_news.py; then
+            python scripts/fetch_news.py --dump-items "$RUNNER_TEMP/items.json"
+          else
+            python scripts/fetch_news.py
+          fi
+
+      - name: Suggest results found in the news
+        if: github.event_name != 'issues'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: if [ -f scripts/results_robot.py ] && [ -f "$RUNNER_TEMP/items.json" ]; then python scripts/results_robot.py suggest "$RUNNER_TEMP/items.json"; fi
 
       - name: Validate data files
         run: python scripts/validate.py
