@@ -1,0 +1,700 @@
+{
+ "not_before": "2026-11-03T23:00:00Z",
+ "state_names": {
+  "AL": "Alabama",
+  "AK": "Alaska",
+  "AZ": "Arizona",
+  "AR": "Arkansas",
+  "CA": "California",
+  "CO": "Colorado",
+  "CT": "Connecticut",
+  "DE": "Delaware",
+  "DC": "District of Columbia",
+  "FL": "Florida",
+  "GA": "Georgia",
+  "HI": "Hawaii",
+  "ID": "Idaho",
+  "IL": "Illinois",
+  "IN": "Indiana",
+  "IA": "Iowa",
+  "KS": "Kansas",
+  "KY": "Kentucky",
+  "LA": "Louisiana",
+  "ME": "Maine",
+  "MD": "Maryland",
+  "MA": "Massachusetts",
+  "MI": "Michigan",
+  "MN": "Minnesota",
+  "MS": "Mississippi",
+  "MO": "Missouri",
+  "MT": "Montana",
+  "NE": "Nebraska",
+  "NV": "Nevada",
+  "NH": "New Hampshire",
+  "NJ": "New Jersey",
+  "NM": "New Mexico",
+  "NY": "New York",
+  "NC": "North Carolina",
+  "ND": "North Dakota",
+  "OH": "Ohio",
+  "OK": "Oklahoma",
+  "OR": "Oregon",
+  "PA": "Pennsylvania",
+  "RI": "Rhode Island",
+  "SC": "South Carolina",
+  "SD": "South Dakota",
+  "TN": "Tennessee",
+  "TX": "Texas",
+  "UT": "Utah",
+  "VT": "Vermont",
+  "VA": "Virginia",
+  "WA": "Washington",
+  "WV": "West Virginia",
+  "WI": "Wisconsin",
+  "WY": "Wyoming"
+ },
+ "senate": {
+  "AK": [
+   [
+    "Dan Sullivan",
+    "R"
+   ],
+   [
+    "Mary Peltola",
+    "D"
+   ]
+  ],
+  "IA": [
+   [
+    "Ashley Hinson",
+    "R"
+   ],
+   [
+    "Josh Turek",
+    "D"
+   ]
+  ],
+  "KS": [
+   [
+    "Roger Marshall",
+    "R"
+   ],
+   [
+    "Adam Hamilton",
+    "D"
+   ]
+  ],
+  "ME": [
+   [
+    "Susan Collins",
+    "R"
+   ],
+   [
+    "Troy Jackson",
+    "D"
+   ]
+  ],
+  "NC": [
+   [
+    "Michael Whatley",
+    "R"
+   ],
+   [
+    "Roy Cooper",
+    "D"
+   ]
+  ],
+  "OH": [
+   [
+    "Jon Husted",
+    "R"
+   ],
+   [
+    "Sherrod Brown",
+    "D"
+   ]
+  ],
+  "SC": [
+   [
+    "Darline Graham",
+    "R"
+   ],
+   [
+    "Annie Andrews",
+    "D"
+   ]
+  ],
+  "TX": [
+   [
+    "Ken Paxton",
+    "R"
+   ],
+   [
+    "James Talarico",
+    "D"
+   ]
+  ],
+  "GA": [
+   [
+    "Mike Collins",
+    "R"
+   ],
+   [
+    "Jon Ossoff",
+    "D"
+   ]
+  ],
+  "MI": [
+   [
+    "Mike Rogers",
+    "R"
+   ],
+   [
+    "Abdul El-Sayed",
+    "D"
+   ]
+  ],
+  "NH": [
+   [
+    "John E. Sununu",
+    "R"
+   ],
+   [
+    "Chris Pappas",
+    "D"
+   ]
+  ],
+  "AL": [
+   [
+    "Barry Moore",
+    "R"
+   ],
+   [
+    "Everett Wess",
+    "D"
+   ]
+  ],
+  "AR": [
+   [
+    "Tom Cotton",
+    "R"
+   ],
+   [
+    "Hallie Shoffner",
+    "D"
+   ]
+  ],
+  "ID": [
+   [
+    "Jim Risch",
+    "R"
+   ],
+   [
+    "David Roth",
+    "D"
+   ]
+  ],
+  "IL": [
+   [
+    "Juliana Stratton",
+    "D"
+   ],
+   [
+    "Don Tracy",
+    "R"
+   ]
+  ],
+  "KY": [
+   [
+    "Andy Barr",
+    "R"
+   ],
+   [
+    "Charles Booker",
+    "D"
+   ]
+  ],
+  "LA": [
+   [
+    "Julia Letlow",
+    "R"
+   ],
+   [
+    "Jamie Davis",
+    "D"
+   ]
+  ],
+  "MA": [
+   [
+    "Ed Markey",
+    "D"
+   ],
+   [
+    "John Deaton",
+    "R"
+   ],
+   [
+    "Shiva Ayyadurai",
+    "I"
+   ]
+  ],
+  "MS": [
+   [
+    "Cindy Hyde-Smith",
+    "R"
+   ],
+   [
+    "Scott Colom",
+    "D"
+   ]
+  ],
+  "MT": [
+   [
+    "Kurt Alme",
+    "R"
+   ],
+   [
+    "Alani Bankhead",
+    "D"
+   ],
+   [
+    "Seth Bodnar",
+    "I"
+   ]
+  ],
+  "NE": [
+   [
+    "Pete Ricketts",
+    "R"
+   ],
+   [
+    "Dan Osborn",
+    "I"
+   ]
+  ],
+  "NJ": [
+   [
+    "Cory Booker",
+    "D"
+   ],
+   [
+    "Justin Murphy",
+    "R"
+   ]
+  ],
+  "NM": [
+   [
+    "Ben Ray Luján",
+    "D"
+   ],
+   [
+    "Larry Marker",
+    "R"
+   ]
+  ],
+  "OR": [
+   [
+    "Jeff Merkley",
+    "D"
+   ],
+   [
+    "David Brock Smith",
+    "R"
+   ]
+  ],
+  "SD": [
+   [
+    "Mike Rounds",
+    "R"
+   ],
+   [
+    "Julian Beaudion",
+    "D"
+   ]
+  ],
+  "WV": [
+   [
+    "Shelley Moore Capito",
+    "R"
+   ],
+   [
+    "Rachel Fetty Anderson",
+    "D"
+   ]
+  ]
+ },
+ "governors": {
+  "AL": [
+   [
+    "Tommy Tuberville",
+    "R"
+   ],
+   [
+    "Doug Jones",
+    "D"
+   ]
+  ],
+  "AK": [
+   [
+    "Dave Bronson",
+    "R"
+   ],
+   [
+    "Treg Taylor",
+    "R"
+   ],
+   [
+    "Bernadette Wilson",
+    "R"
+   ],
+   [
+    "Jonathan Kreiss-Tomkins",
+    "D"
+   ]
+  ],
+  "AZ": [
+   [
+    "Katie Hobbs",
+    "D"
+   ],
+   [
+    "Andy Biggs",
+    "R"
+   ]
+  ],
+  "AR": [
+   [
+    "Sarah Huckabee Sanders",
+    "R"
+   ],
+   [
+    "Fredrick Love",
+    "D"
+   ]
+  ],
+  "CA": [
+   [
+    "Xavier Becerra",
+    "D"
+   ],
+   [
+    "Steve Hilton",
+    "R"
+   ]
+  ],
+  "CO": [
+   [
+    "Phil Weiser",
+    "D"
+   ],
+   [
+    "Victor Marx",
+    "R"
+   ]
+  ],
+  "CT": [
+   [
+    "Ned Lamont",
+    "D"
+   ],
+   [
+    "Ryan Fazio",
+    "R"
+   ]
+  ],
+  "FL": [
+   [
+    "Byron Donalds",
+    "R"
+   ],
+   [
+    "David Jolly",
+    "D"
+   ]
+  ],
+  "GA": [
+   [
+    "Rick Jackson",
+    "R"
+   ],
+   [
+    "Keisha Lance Bottoms",
+    "D"
+   ]
+  ],
+  "HI": [
+   [
+    "Josh Green",
+    "D"
+   ],
+   [
+    "Gary Cordery",
+    "R"
+   ]
+  ],
+  "ID": [
+   [
+    "Brad Little",
+    "R"
+   ],
+   [
+    "Terri Pickens",
+    "D"
+   ]
+  ],
+  "IL": [
+   [
+    "JB Pritzker",
+    "D"
+   ],
+   [
+    "Darren Bailey",
+    "R"
+   ]
+  ],
+  "IA": [
+   [
+    "Zach Lahn",
+    "R"
+   ],
+   [
+    "Rob Sand",
+    "D"
+   ]
+  ],
+  "KS": [
+   [
+    "Cindy Holscher",
+    "D"
+   ],
+   [
+    "Ty Masterson",
+    "R"
+   ]
+  ],
+  "ME": [
+   [
+    "Hannah Pingree",
+    "D"
+   ],
+   [
+    "Robert Charles",
+    "R"
+   ],
+   [
+    "Rick Bennett",
+    "I"
+   ]
+  ],
+  "MD": [
+   [
+    "Wes Moore",
+    "D"
+   ],
+   [
+    "Dan Cox",
+    "R"
+   ]
+  ],
+  "MA": [
+   [
+    "Maura Healey",
+    "D"
+   ],
+   [
+    "Mike Minogue",
+    "R"
+   ]
+  ],
+  "MI": [
+   [
+    "Jocelyn Benson",
+    "D"
+   ],
+   [
+    "John James",
+    "R"
+   ]
+  ],
+  "MN": [
+   [
+    "Amy Klobuchar",
+    "D"
+   ],
+   [
+    "Lisa Demuth",
+    "R"
+   ]
+  ],
+  "NE": [
+   [
+    "Jim Pillen",
+    "R"
+   ],
+   [
+    "Lynne Walz",
+    "D"
+   ]
+  ],
+  "NV": [
+   [
+    "Joe Lombardo",
+    "R"
+   ],
+   [
+    "Aaron Ford",
+    "D"
+   ]
+  ],
+  "NH": [
+   [
+    "Kelly Ayotte",
+    "R"
+   ],
+   [
+    "Cinde Warmington",
+    "D"
+   ]
+  ],
+  "NM": [
+   [
+    "Deb Haaland",
+    "D"
+   ],
+   [
+    "Gregg Hull",
+    "R"
+   ]
+  ],
+  "NY": [
+   [
+    "Kathy Hochul",
+    "D"
+   ],
+   [
+    "Bruce Blakeman",
+    "R"
+   ]
+  ],
+  "OH": [
+   [
+    "Vivek Ramaswamy",
+    "R"
+   ],
+   [
+    "Amy Acton",
+    "D"
+   ]
+  ],
+  "OK": [
+   [
+    "Mike Mazzei",
+    "R"
+   ],
+   [
+    "Cyndi Munson",
+    "D"
+   ]
+  ],
+  "OR": [
+   [
+    "Tina Kotek",
+    "D"
+   ],
+   [
+    "Christine Drazan",
+    "R"
+   ]
+  ],
+  "PA": [
+   [
+    "Josh Shapiro",
+    "D"
+   ],
+   [
+    "Stacy Garrity",
+    "R"
+   ]
+  ],
+  "RI": [
+   [
+    "Helena Foulkes",
+    "D"
+   ],
+   [
+    "Aaron Guckian",
+    "R"
+   ]
+  ],
+  "SC": [
+   [
+    "Alan Wilson",
+    "R"
+   ],
+   [
+    "Jermaine Johnson",
+    "D"
+   ]
+  ],
+  "SD": [
+   [
+    "Larry Rhoden",
+    "R"
+   ],
+   [
+    "Dan Ahlers",
+    "D"
+   ]
+  ],
+  "TN": [
+   [
+    "Marsha Blackburn",
+    "R"
+   ],
+   [
+    "Jerri Green",
+    "D"
+   ]
+  ],
+  "TX": [
+   [
+    "Greg Abbott",
+    "R"
+   ],
+   [
+    "Gina Hinojosa",
+    "D"
+   ]
+  ],
+  "VT": [
+   [
+    "Phil Scott",
+    "R"
+   ],
+   [
+    "Amanda Janoo",
+    "D"
+   ]
+  ],
+  "WI": [
+   [
+    "David Crowley",
+    "D"
+   ],
+   [
+    "Tom Tiffany",
+    "R"
+   ]
+  ],
+  "WY": [
+   [
+    "Eric Barlow",
+    "R"
+   ],
+   [
+    "Kenneth Casner",
+    "D"
+   ]
+  ]
+ }
+}
