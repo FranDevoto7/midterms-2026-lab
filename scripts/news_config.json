@@ -75,6 +75,24 @@
    "url": "https://news.google.com/rss/search?hl=en-US&gl=US&ceid=US:en&q=Massachusetts%20%22Question%207%22%20when%3A3d",
    "weight": 0.6,
    "google": true
+  },
+  {
+   "name": "Google News",
+   "url": "https://news.google.com/rss/search?hl=en-US&gl=US&ceid=US:en&q=%22projected%22%20Senate%20when%3A1d",
+   "weight": 0.6,
+   "google": true
+  },
+  {
+   "name": "Google News",
+   "url": "https://news.google.com/rss/search?hl=en-US&gl=US&ceid=US:en&q=%22wins%22%20Senate%20race%20when%3A1d",
+   "weight": 0.6,
+   "google": true
+  },
+  {
+   "name": "Google News",
+   "url": "https://news.google.com/rss/search?hl=en-US&gl=US&ceid=US:en&q=%22wins%22%20governor%20race%20when%3A1d",
+   "weight": 0.6,
+   "google": true
   }
  ],
  "require": "\\b(elections?|midterms?|senate|senator|house|congress\\w*|governor|gubernatorial|ballots?|votes?|voters?|voting|polls?|campaign|races?|redistrict\\w*|turnout|primar(y|ies)|certif\\w*|electoral)\\b",

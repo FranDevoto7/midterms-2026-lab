@@ -247,6 +247,7 @@ def main():
     ap.add_argument("--feeds", help="JSON file with a list of feeds that replaces the configured ones")
     ap.add_argument("--out", default=str(OUT))
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--dump-items", help="also write every item read to this JSON file (used by results_robot.py)")
     args = ap.parse_args()
 
     cfg = json.loads(Path(args.config).read_text(encoding="utf-8"))
@@ -267,6 +268,10 @@ def main():
             failed.append(feed["name"])
             warn(f"Feed failed: {feed['name']} ({feed['url'][:80]}): {exc}")
 
+    if args.dump_items:
+        dump = [{"title": it["title"], "summary": it["summary"], "link": it["link"], "source": it["source"],
+                 "date": it["date"].strftime("%Y-%m-%dT%H:%M:%SZ") if it["date"] else ""} for it in items]
+        Path(args.dump_items).write_text(json.dumps(dump, ensure_ascii=False), encoding="utf-8")
     stories = select(items, cfg, rules, now)
     print(f"{len(items)} items read, {len(stories)} stories kept, {len(failed)} feeds failed")
     if not stories:
