@@ -1,0 +1,155 @@
+{
+  "updated_at": "2026-11-03T21:47:49Z",
+  "mode": "automatic-rss",
+  "feeds_ok": 13,
+  "feeds_failed": [],
+  "stories": [
+    {
+      "category": "Redistricting",
+      "title": "Voters decide key ballot measures on abortion rights, congressional redistricting and voter ID laws",
+      "summary": "Some measures put President Donald Trump's priorities to a public test by gauging support for his attempts to reshape congressional districts, limit transgender athletes in sports and strengthen voter identification requirements.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "PBS News",
+      "published": "2026-11-03T17:30:12Z",
+      "url": "https://www.pbs.org/newshour/politics/voters-decide-key-ballot-measures-on-abortion-rights-congressional-redistricting-and-voter-id-laws",
+      "concepts": [
+        "redistricting",
+        "direct-democracy"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Maryland Question 3 explained: Could congressional maps change?",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "WBFF",
+      "published": "2026-11-03T20:14:24Z",
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNVnY0TzVkS3UzendoWFBaQXN4WFZMWkhJYUxrdFJkai1vS3BTTHQyVDlpY2UyNGVEbExFMzAyTnpEYXZPZXNSbWp2eDFCWmlyU3d0YXFRNm5qQldpX0FLU05oR1Y4OTY1bU9qcWU5elpjMV9YX041NXJHV3pvd1RYOXp0NTFtYzJwR2lpTE9Wem1jNmlRRWFJV0xhZlpKLTNTSS1xOFFPSHpKdjJXUmx5NDVqckZ1UUdFa0xMX2tEOFh2OHliaDBWTUpjNGROZHBmdE5WT0pDTUxUTmdjMDFhT3NWMUZpS1JaZjlRRFNGQ3hyS2tCUVYyTnFTbHZFbWpuWE1WQkZyUmRTYURhR1ZYTVhkZFByOUs5NWdIdFoxQTBBUEZWODBhN0Y0OHY?oc=5",
+      "concepts": [
+        "redistricting",
+        "direct-democracy"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Maryland Question 3 explained: What a yes or no vote means for congressional redistricting",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "WUSA9",
+      "published": "2026-11-03T11:00:00Z",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPRFMxd292V0ZSS3VIZGw5bkZSVGhTT1VRTWxSeWFpY09vUTJrTlQxMmd0WG5DamVEUFlyU3RNcGlPZ1lMUExRZUxpUFM1RUZWTGQ4Qzg4NDkyTUN1OTltZGRhNnNkNWY4QTJaUzRFbVJpYmpYeTQ0aElfWFV4aE8tV3V3aEZXcFNZbGxlMWE1Y1h3ZTJOelZmWlJNVm1BMi1EeTc4ZTgxZHVYQ1JwOUJkV0czUGw1LW1kM0EzNzgzQ0xsb3hCN24wY19kTm16RzBuNWRHM0RDOThHMHpUNGVlWUVieXdRYUNLNFI5eGtVVm83X2E5WHJnNA?oc=5",
+      "concepts": [
+        "redistricting",
+        "direct-democracy"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "What to look for on Election Day as questions loom over Trump",
+      "summary": "History, polling and vibes suggest it could be an ugly night for President Trump's Republican Party. But the political map, not to mention Republican gerrymandering, could limit Democratic gains.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "PBS News",
+      "published": "2026-11-03T15:40:03Z",
+      "url": "https://www.pbs.org/newshour/politics/what-to-look-for-on-election-day-as-questions-loom-over-trump",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Senate",
+      "title": "Alaska voter 'disgusted' by reported 'decoy Dan' plot switches from Peltola to Sullivan",
+      "summary": "An Alaska voter who considered voting for former Rep. Mary Peltola, said he \"switched\" and would vote for incumbent GOP Sen. Dan S. Sullivan.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "Fox News",
+      "published": "2026-11-03T14:15:53Z",
+      "url": "https://www.foxnews.com/politics/alaska-voter-disgusted-decoy-dan-plot-switches-peltola-sullivan",
+      "concepts": [
+        "incumbency"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
+      "title": "Michigan voters weigh in after Dem Rep Haley Stevens endorses GOP candidate",
+      "summary": "Michigan Republican Mike Rogers' campaign touted Haley Stevens' endorsement as a breakthrough with Black and Jewish voters before Election Day.",
+      "why": "Trusted figures help voters infer which choice fits their values.",
+      "source": "Fox News",
+      "published": "2026-11-03T13:27:22Z",
+      "url": "https://www.foxnews.com/politics/big-difference-dems-last-minute-endorsement-gives-gop-new-hope-crucial-senate-battle",
+      "concepts": [
+        "elite-cues"
+      ],
+      "cases": [
+        "michigan"
+      ],
+      "signal": 2,
+      "mechanism": "Elite cues and endorsements",
+      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+    },
+    {
+      "category": "Senate",
+      "title": "Michigan US Senate race: Rogers, El-Sayed urge turnout for critical race",
+      "summary": "Open the source for the full story.",
+      "why": "Margins change when voters switch, or when a different electorate shows up.",
+      "source": "Al Jazeera",
+      "published": "2026-11-03T19:18:28Z",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNclR2eTl6b2U2X2R5TzdQb1Fha1pYeXBiSVVfTmdYRS1GZkxWNl9nSlZZZFA5cFFITURjWmpDSUp4ZDdOQnFQa1RkXzZmbDFYVTNqbHRXNWpWSndzNnMwczlQNUZFYzkwM2dWWW54SmZoeFR1dGVfRnZwUFBzcWYzMVZVQ1JnQkZsSWRwcFVRTXFkMmpwZTllcVF6NFk2V1hXcnlBdVNvSEhkWHNGTEdydtIBtgFBVV95cUxOcEQ4V3BHcmw0akpKQWNXMGNaRlZzcGpHT3lpZ09HRk4xYWRZZHpTNFloMkZfUkJ3UGhFSXUzNmFDYXczdHNaYXFfNno0MnV1eUN4MG1BTmJGN2xWSWFNVk9RYTNzazd0elhacExyd05acjZSU3gxS0dNWjhRMkFVQ1RKT01oLW9LckNFM0w0bGdDN3Y1Z1VTQ3g1VTJvLUxocFZxajZNdnZzLWoybUpoOVBlOGRxdw?oc=5",
+      "concepts": [
+        "turnout"
+      ],
+      "cases": [
+        "michigan"
+      ],
+      "signal": 2,
+      "mechanism": "Turnout versus persuasion",
+      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+    },
+    {
+      "category": "Senate",
+      "title": "Chaos consumes Michigan Senate race after Stevens endorsement",
+      "summary": "Open the source for the full story.",
+      "why": "Trusted figures help voters infer which choice fits their values.",
+      "source": "MS NOW",
+      "published": "2026-11-03T16:51:33Z",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbGViQkhOaDJTVmg5bVVzd3Rtal92NHIwaUdEQnBBQTM2el9oZlp5WkdTeGVMX2FrMXRkSmNVY1VXVHZwODN2Nmp3bTV6Yk81dWxLMk9vY2lKaXVwV2ZjYThZRkx0cTZpcGVJck43Y1I4Xzd6OVktaG84alJBcWRVUDl3?oc=5",
+      "concepts": [
+        "elite-cues"
+      ],
+      "cases": [
+        "michigan"
+      ],
+      "signal": 2,
+      "mechanism": "Elite cues and endorsements",
+      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+    }
+  ]
+}
