@@ -1,0 +1,16 @@
+{
+  "updated_at": "2026-11-03T08:00:00-05:00",
+  "phase": "election-night",
+  "house": {
+    "republican": 218,
+    "democratic": 214,
+    "independent": 1,
+    "vacant": 2
+  },
+  "senate": {
+    "republican": 53,
+    "democratic": 45,
+    "independent": 2
+  },
+  "white_house": "Republican"
+}
