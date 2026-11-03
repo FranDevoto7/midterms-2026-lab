@@ -1,1 +1,105 @@
+name: Update and deploy the site
 
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 */2 * * *"   # every 2 hours, at minute 17 (UTC)
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: "Qué cargar. Dejá 'news' para sólo actualizar las noticias."
+        type: choice
+        options: [news, senate, governors, case, house_net_change]
+        default: news
+      key:
+        description: "Código del estado (GA, MI…) o id del caso (maine, texas…)"
+        required: false
+        default: ""
+      value:
+        description: "D, R, I o clear; el texto del resultado del caso; o el número para la Cámara (-12)"
+        required: false
+        default: ""
+      source:
+        description: "Fuente (por ejemplo AP)"
+        required: false
+        default: "AP"
+      url:
+        description: "Enlace a la fuente (opcional)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Put files in their folders
+        run: |
+          mkdir -p data scripts
+          for f in news.json election.json results.json; do
+            if [ -f "$f" ]; then mv -f "$f" data/; fi
+          done
+          for f in fetch_news.py record_result.py validate.py news_config.json lab_meta.json; do
+            if [ -f "$f" ]; then mv -f "$f" scripts/; fi
+          done
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Record a result
+        if: github.event_name == 'workflow_dispatch' && inputs.kind != 'news'
+        env:
+          KIND: ${{ inputs.kind }}
+          KEY: ${{ inputs.key }}
+          VALUE: ${{ inputs.value }}
+          SOURCE: ${{ inputs.source }}
+          URL: ${{ inputs.url }}
+        run: python scripts/record_result.py --kind "$KIND" --key "$KEY" --value "$VALUE" --source "$SOURCE" --url "$URL"
+
+      - name: Fetch news
+        run: python scripts/fetch_news.py
+
+      - name: Validate data files
+        run: python scripts/validate.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Nothing to commit."; exit 0; fi
+          git commit -m "Update site data $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          echo "::error::Could not push the update."; exit 1
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
