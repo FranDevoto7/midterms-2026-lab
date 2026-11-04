@@ -325,8 +325,9 @@
       "source": "The Boston Globe",
       "date": "2026-11-04T03:00:59Z",
       "issue": 24,
-      "status": "open",
-      "opened": "2026-11-04T03:21:14Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T03:21:14Z",
+      "closed": "2026-11-04T04:24:13Z"
     },
     "governors:WI:D": {
       "office": "governors",
