@@ -191,8 +191,9 @@
       "source": "Axios",
       "date": "2026-11-04T02:07:40Z",
       "issue": 14,
-      "status": "open",
-      "opened": "2026-11-04T02:59:58Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T02:59:58Z",
+      "closed": "2026-11-04T04:04:27Z"
     },
     "governors:WY:R": {
       "office": "governors",

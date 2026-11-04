@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T04:03:34Z",
+  "updated_at": "2026-11-04T04:04:31Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -72,6 +72,13 @@
       "winner": "R",
       "source": "The Hill",
       "url": "https://thehill.com/homenews/6185051-mike-mazzei-oklahoma-governor/"
+    },
+    "CO": {
+      "winner": "D",
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaUVwN1VLT1dHbVNrUEhQbTB1dHFOMTY2Y0h3ZnFrUDlHd3Job0kxQVd0WTA5ampDUFJSSXhYMVlGNXFJUkcwWmpLa3RiRVBhMmJXZk5taDJyQ2M1ODNZblZWQWZZTkhOYUdvOEJoLWZCNUxVdUtVY2ctbjdqRnRGSnRaR1NpUzVXWWZUM3dwcngyMTNhcVNwS3JoTkd4ci0tMUx1RXN1N2RKUQ?oc=5",
+      "note": "Weiser's victory means Democrats will have held the governorship for 20 consecutive years and counting.",
+      "at": "2026-11-04T04:04:18Z"
     }
   }
 }
