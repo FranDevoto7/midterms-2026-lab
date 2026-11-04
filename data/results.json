@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T04:20:18Z",
+  "updated_at": "2026-11-04T04:21:38Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -119,6 +119,13 @@
       "source": "The Hill",
       "url": "https://thehill.com/homenews/campaign/6190884-hannah-pingree-maine-governor/",
       "at": "2026-11-04T04:19:53Z"
+    },
+    "WI": {
+      "winner": "D",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6168646-crowley-defeats-tiffany-wisconsin-governor/",
+      "note": "Crowley is Wisconsin’s first Black governor.",
+      "at": "2026-11-04T04:21:26Z"
     }
   }
 }

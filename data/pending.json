@@ -338,8 +338,9 @@
       "source": "The Hill",
       "date": "2026-11-04T03:24:20Z",
       "issue": 25,
-      "status": "open",
-      "opened": "2026-11-04T03:25:44Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T03:25:44Z",
+      "closed": "2026-11-04T04:21:37Z"
     },
     "governors:AR:R": {
       "office": "governors",
