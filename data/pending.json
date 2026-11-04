@@ -313,8 +313,9 @@
       "source": "DC News Now",
       "date": "2026-11-04T01:11:49Z",
       "issue": 23,
-      "status": "open",
-      "opened": "2026-11-04T03:21:13Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T03:21:13Z",
+      "closed": "2026-11-04T04:25:33Z"
     },
     "governors:RI:D": {
       "office": "governors",
