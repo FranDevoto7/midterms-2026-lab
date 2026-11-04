@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T13:47:53Z",
+  "updated_at": "2026-11-04T13:48:40Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -129,6 +129,12 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcXdrdFRCd3Z6ejJXSjczdzBUYmdfTlg5Y19ZX0VUTVFVenF4NU1vcElUdGNLUGdfVjd1cEIzNlc5dEJuVWstNHFXTV9maVJwRHBtTzZObHR5bmFhdjltT3B2NVNUY3EzcXpab1pVczVtMnVQcTBvX21jZ0dqNmxMZm9XMzU2MkRr0gGcAUFVX3lxTE1vWTRHZm5pNkljT1Jyem41Z1pzdWxwZm1JbVZwYk1kMEZWRFkyRGpFOExzZUpyYzFCR0steVRVMDZ2bGdtaXhXckF4UF9xZ1V4Wm5VVGItaHZCWV82ZlNCYkM1RVBsbXZYQVdubVBJS18zQzdCVEVYYndJQkwycGNCTllmaV9tZm5QdXp3bXkzaG92N25GRnVIV0k3cQ?oc=5",
       "note": "Louisiana’s first Republican woman elected to U.S. Senate.",
       "at": "2026-11-04T13:47:35Z"
+    },
+    "AR": {
+      "winner": "R",
+      "source": "KATV",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSeUZZTkhmRU4zUjRYemJDdjhVeTlGOTdFaVdWWFlTSVBTeXRheHl4TlhHRTMteVEwOGQtUmpZbmtEZ09ob3VVbjU1R2Z3dm5pQ0FKVFByRC1SbkhHZzFMZkZLQ3hMMU1ibnFxUEhvRy1kS3hfeXc?oc=5",
+      "at": "2026-11-04T13:48:28Z"
     }
   },
   "governors": {

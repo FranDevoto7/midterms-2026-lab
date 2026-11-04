@@ -629,8 +629,9 @@
       ],
       "ap": false,
       "issue": 40,
-      "status": "open",
-      "opened": "2026-11-04T04:50:32Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T04:50:32Z",
+      "closed": "2026-11-04T13:48:35Z"
     },
     "governors:MN:D": {
       "office": "governors",
