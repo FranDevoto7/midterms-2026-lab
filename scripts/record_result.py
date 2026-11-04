@@ -52,6 +52,7 @@ def main():
         winner = value.upper()
         if winner == "CLEAR":
             data[a.kind].pop(key, None)
+            data.setdefault("cleared", {})[f"{a.kind}:{key}"] = now  # the robot will not put it back
             print(f"Cleared {a.kind} result for {key}.")
         elif winner in ("D", "R", "I"):
             old = data[a.kind].get(key) if isinstance(data[a.kind].get(key), dict) else {}
@@ -69,6 +70,7 @@ def main():
                     entry["note_from"] = old["note_from"]
             entry["at"] = old.get("at") if same and old.get("at") else now
             data[a.kind][key] = entry
+            (data.get("cleared") or {}).pop(f"{a.kind}:{key}", None)
             print(f"{a.kind} {key}: {winner}")
         else:
             fail("For senate and governors, value must be D, R, I or clear.")

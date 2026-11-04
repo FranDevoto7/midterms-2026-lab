@@ -207,7 +207,7 @@ def suggest(items_path):
             continue
         status = "open"
         if auto:
-            entry = {"winner": s["winner"], "source": ", ".join(s["outlets"][:3]) or s["source"], "auto": True, "at": now_iso()}
+            entry = {"winner": s["winner"], "source": ", ".join(s["outlets"][:3]) or s["source"], "auto": True, "at": now_iso(), "issue": issue.get("number")}
             if s.get("url"):
                 entry["url"] = s["url"]
             results[s["office"]][s["state"]] = entry
@@ -334,95 +334,176 @@ def latest_note(number):
     return clean_note(people[-1]["body"]) if people else ""
 
 
+def event_issue_number():
+    """The issue behind this run, when an issue was closed or commented on."""
+    path = os.environ.get("GITHUB_EVENT_PATH")
+    try:
+        ev = json.loads(Path(path).read_text(encoding="utf-8")) if path else {}
+    except (OSError, ValueError):
+        return None
+    return (ev.get("issue") or {}).get("number")
+
+
+def robot_issues():
+    """Every notice the robot opened, read straight from GitHub, open and closed."""
+    out = []
+    for page in range(1, 8):
+        try:
+            batch = gh("GET", f"/repos/{REPO}/issues?state=all&per_page=100&page={page}") or []
+        except (urllib.error.URLError, OSError) as exc:
+            warn(f"Could not list the issues: {exc}")
+            return None
+        for it in batch:
+            if "pull_request" in it:
+                continue
+            m = MARK.search(it.get("body") or "")
+            if not m:
+                continue
+            try:
+                meta = json.loads(m.group(1))
+            except ValueError:
+                continue
+            if meta.get("office") in ("senate", "governors") and meta.get("state") and meta.get("winner") in ("D", "R", "I"):
+                out.append((it, meta))
+        if len(batch) < 100:
+            break
+    return out
+
+
+def comment(number, text):
+    try:
+        gh("POST", f"/repos/{REPO}/issues/{number}/comments", {"body": text})
+    except (urllib.error.URLError, OSError):
+        pass
+
+
 def sync():
-    pending = load(PENDING, {"suggestions": {}})
-    sugg = pending.get("suggestions", {})
-    todo = {k: v for k, v in sugg.items() if v.get("issue") and v.get("status") in ("open", "confirmed", "auto")}
-    if not todo:
-        print("No suggestions to sync.")
-        return
     if not (TOKEN and REPO):
         print("No GitHub token; skipping the sync.")
         return
+    issues = robot_issues()
+    if issues is None:
+        return
+    pending = load(PENDING, {"suggestions": {}})
+    sugg = pending.setdefault("suggestions", {})
     results = load(RESULTS, {})
     for k in ("cases", "senate", "governors"):
         if not isinstance(results.get(k), dict):
             results[k] = {}
-    changed = False
-    for key, s in todo.items():
-        if s["status"] == "auto":
-            try:
-                issue = gh("GET", f"/repos/{REPO}/issues/{s['issue']}")
-            except urllib.error.URLError as exc:
-                warn(f"Could not read issue #{s['issue']}: {exc}")
-                continue
-            entry = results.get(s["office"], {}).get(s["state"])
-            if issue.get("state") == "closed" and issue.get("state_reason") not in ("completed", None):
-                if isinstance(entry, dict) and entry.get("auto") and entry.get("winner") == s.get("winner"):
-                    results[s["office"]].pop(s["state"], None)
-                s["status"], s["closed"], changed = "rejected", now_iso(), True
-                print(f"Removed {key} (issue #{s['issue']} closed as not planned)")
-                try:
-                    gh("POST", f"/repos/{REPO}/issues/{s['issue']}/comments", {"body": "Borrado: el resultado ya no aparece en el sitio."})
-                except urllib.error.URLError:
-                    pass
-                continue
-            if issue.get("state") == "closed":
-                s["status"] = "confirmed"
-                if isinstance(entry, dict):
-                    entry.pop("auto", None)
-                changed = True
-        if s["status"] in ("confirmed", "auto"):
-            # Keep the description in step with the comment, if it was edited or a new one was added.
-            entry = results.get(s["office"], {}).get(s["state"])
-            if not isinstance(entry, dict) or entry.get("winner") != s.get("winner") or entry.get("note_from") == "form":
-                continue
-            note = latest_note(s["issue"])
-            if note is None or note == entry.get("note", ""):
-                continue
-            if note:
-                entry["note"] = note
+    p_changed = r_changed = False
+
+    # 1. Notices whose record was lost (for example, after a failed run) are adopted again.
+    known = {v.get("issue") for v in sugg.values()}
+    for it, meta in issues:
+        if it["number"] in known:
+            continue
+        key = f"{meta['office']}:{meta['state']}:{meta['winner']}"
+        if key in sugg:
+            key = f"{key}#{it['number']}"
+        sugg[key] = {"office": meta["office"], "state": meta["state"], "winner": meta["winner"],
+                     "source": meta.get("source", ""), "url": meta.get("url", ""), "issue": it["number"],
+                     "status": "auto" if (it.get("title") or "").startswith("Cargado") else "open",
+                     "adopted": now_iso()}
+        p_changed = True
+        print(f"Recovered notice #{it['number']} ({key})")
+
+    by_num = {it["number"]: it for it, _ in issues}
+    focus = event_issue_number()
+    for key, s in sugg.items():
+        it = by_num.get(s.get("issue"))
+        if not it or s.get("status") not in ("open", "auto", "confirmed"):
+            continue
+        office, st, w = s["office"], s["state"], s["winner"]
+        closed = it.get("state") == "closed"
+        rejected = closed and it.get("state_reason") not in ("completed", None)
+        just = False
+
+        # 2. Closed as "not planned": a suggestion is discarded, an automatic load is removed.
+        if s["status"] in ("open", "auto") and rejected:
+            entry = results[office].get(st)
+            if s["status"] == "auto" and isinstance(entry, dict) and entry.get("auto") and entry.get("winner") == w:
+                results[office].pop(st, None)
+                r_changed = True
+                comment(it["number"], "Borrado: el resultado ya no aparece en el sitio.")
             else:
-                entry.pop("note", None)
-            changed = True
-            print(f"Updated the description of {key} from issue #{s['issue']}")
+                comment(it["number"], "Descartado: el robot no va a volver a sugerir este resultado.")
+            s["status"], s["closed"], p_changed = "rejected", now_iso(), True
+            print(f"Rejected {key} (notice #{it['number']})")
             continue
-        try:
-            issue = gh("GET", f"/repos/{REPO}/issues/{s['issue']}")
-        except urllib.error.URLError as exc:
-            warn(f"Could not read issue #{s['issue']}: {exc}")
+
+        # 3. A suggestion you closed with "Close issue" is a confirmed result.
+        if s["status"] == "open" and closed:
+            entry = results[office].get(st)
+            if not (isinstance(entry, dict) and entry.get("winner") == w):
+                new = {"winner": w}
+                if s.get("source"):
+                    new["source"] = s["source"]
+                if s.get("url"):
+                    new["url"] = s["url"]
+                new["at"] = it.get("closed_at") or now_iso()
+                new["issue"] = it["number"]
+                results[office][st] = new
+                r_changed = True
+            s["status"], s["closed"], p_changed, just = "confirmed", now_iso(), True, True
+            comment(it["number"], "Listo: el resultado ya está cargado en el sitio. Si editás tu comentario o agregás otro, la descripción se actualiza sola.")
+            print(f"Confirmed {key} (notice #{it['number']})")
+
+        # 4. An automatic load whose record was lost is put back; closing it as done confirms it.
+        if s["status"] == "auto":
+            entry = results[office].get(st)
+            if not isinstance(entry, dict):
+                entry = {"winner": w, "source": s.get("source", ""), "auto": True, "at": it.get("created_at") or now_iso(), "issue": it["number"]}
+                if s.get("url"):
+                    entry["url"] = s["url"]
+                results[office][st] = entry
+                r_changed, just = True, True
+                print(f"Restored {key} (notice #{it['number']})")
+            if closed:
+                s["status"], p_changed = "confirmed", True
+                if entry.get("winner") == w and entry.pop("auto", None) is not None:
+                    r_changed = True
+
+        # 4b. A result you confirmed that went missing from the data file is put back,
+        #     unless you removed it on purpose with "clear".
+        if s["status"] == "confirmed" and closed and results[office].get(st) is None and not (results.get("cleared") or {}).get(f"{office}:{st}"):
+            new = {"winner": w}
+            if s.get("source"):
+                new["source"] = s["source"]
+            if s.get("url"):
+                new["url"] = s["url"]
+            new["at"], new["issue"] = it.get("closed_at") or now_iso(), it["number"]
+            results[office][st] = new
+            r_changed, just = True, True
+            print(f"Restored the confirmed result {key} (notice #{it['number']})")
+
+        # 5. Descriptions follow your comments. Only notices that changed are read, to keep it light.
+        entry = results[office].get(st)
+        if s["status"] not in ("confirmed", "auto") or not isinstance(entry, dict) or entry.get("winner") != w or entry.get("note_from") == "form":
             continue
-        if issue.get("state") != "closed":
+        owner = entry.get("issue")
+        if (owner is not None and owner != it["number"]) or (owner is None and "#" in key):
+            continue  # a duplicate notice: the description comes from the one that loaded the result
+        stamp = it.get("updated_at") or ""
+        if not just:
+            if focus is not None and focus != it["number"]:
+                continue
+            if focus is None and s.get("seen") == stamp:
+                continue
+        note = latest_note(it["number"])
+        s["seen"], p_changed = stamp, True
+        if note is None or note == entry.get("note", ""):
             continue
-        m = MARK.search(issue.get("body") or "")
-        meta = json.loads(m.group(1)) if m else s
-        if issue.get("state_reason") in ("completed", None):
-            entry = {"winner": meta["winner"]}
-            if meta.get("source"):
-                entry["source"] = meta["source"]
-            if meta.get("url"):
-                entry["url"] = meta["url"]
-            note = latest_note(s["issue"])
-            if note:
-                entry["note"] = note
-            entry["at"] = issue.get("closed_at") or now_iso()
-            results[meta["office"]][meta["state"]] = entry
-            s["status"] = "confirmed"
-            reply = "Listo: el resultado ya está cargado en el sitio. Si editás tu comentario o agregás otro, la descripción se actualiza sola en unos minutos."
-            print(f"Confirmed {key} (issue #{s['issue']})")
+        if note:
+            entry["note"] = note
         else:
-            s["status"] = "rejected"
-            reply = "Descartado: el robot no va a volver a sugerir este resultado."
-            print(f"Rejected {key} (issue #{s['issue']})")
-        s["closed"] = now_iso()
-        changed = True
-        try:
-            gh("POST", f"/repos/{REPO}/issues/{s['issue']}/comments", {"body": reply})
-        except urllib.error.URLError:
-            pass
-    if changed:
+            entry.pop("note", None)
+        r_changed = True
+        print(f"Updated the description of {key} from notice #{it['number']}")
+
+    if r_changed:
         results["updated_at"] = now_iso()
         save(RESULTS, results)
+    if p_changed or r_changed:
         save(PENDING, pending)
 
 
