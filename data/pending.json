@@ -790,6 +790,57 @@
       "issue": 50,
       "status": "open",
       "opened": "2026-11-04T06:23:03Z"
+    },
+    "governors:OR:D": {
+      "office": "governors",
+      "state": "OR",
+      "winner": "D",
+      "candidate": "Tina Kotek",
+      "title": "Oregon's Democratic Gov. Tina Kotek wins after tough reelection battle",
+      "url": "https://www.cbsnews.com/news/orgeon-governors-race-tina-kotek/",
+      "source": "CBS News",
+      "date": "2026-11-04T06:29:00Z",
+      "outlets": [
+        "CBS News"
+      ],
+      "ap": false,
+      "issue": 51,
+      "status": "open",
+      "opened": "2026-11-04T06:53:07Z"
+    },
+    "senate:NE:R": {
+      "office": "senate",
+      "state": "NE",
+      "winner": "R",
+      "candidate": "Pete Ricketts",
+      "title": "Ricketts wins reelection over independent Osborn in Nebraska Senate race",
+      "url": "https://thehill.com/homenews/campaign/6182241-ricketts-wins-nebraska-senate-race/",
+      "source": "The Hill",
+      "date": "2026-11-04T06:37:32Z",
+      "outlets": [
+        "The Hill"
+      ],
+      "ap": false,
+      "issue": 52,
+      "status": "open",
+      "opened": "2026-11-04T06:53:08Z"
+    },
+    "senate:MI:D": {
+      "office": "senate",
+      "state": "MI",
+      "winner": "D",
+      "candidate": "Abdul El-Sayed",
+      "title": "Democrat El-Sayed Wins Michigan Senate Race, DDHQ Projects",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQnFlWkk3R1lCeEFkR2xPVzBCVUt6Wk9fc3hMeF9LTWlMWnVlSTNkZWxjYjRqTVI5dnhMdFVOdHRMeHFyNDE3ekJ1N0lEbFJ2SjJWUnJ2eTBTMnNkSl9mUTNGUTJCRHRoZFFJMXNrQ0l6cGs3THZ4Y0NRWHlsWnJzNHZLbGxUaUgyVjJ1Sjc3Y0VnUVc3MHcxZXlDQkFfNGFWZ1c3Z0R6dkg4a0dP?oc=5",
+      "source": "Bloomberg.com",
+      "date": "2026-11-04T06:16:00Z",
+      "outlets": [
+        "Bloomberg.com"
+      ],
+      "ap": false,
+      "issue": 53,
+      "status": "open",
+      "opened": "2026-11-04T06:53:08Z"
     }
   }
 }
