@@ -577,6 +577,58 @@
       "issue": 37,
       "status": "open",
       "opened": "2026-11-04T04:48:58Z"
+    },
+    "senate:DE:D": {
+      "office": "senate",
+      "state": "DE",
+      "winner": "D",
+      "candidate": "Chris Coons",
+      "title": "Delaware election results 2026: Chris Coons projected to win Del. Senate race",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUEsxcUNVbUlQWWVyMm1vd0F5WTdjd3dmNnI0cXNVZ3JseThuYnlmYkxZTVo3ZkxkS3lXUWY4VGxCN1B5bjlVT3ZBTWpLU0lqWHZkZ2llaE9oZ1BPQlhfVVlnVDRyN241cjI5ZUJtWnV2VkRCYU1wUW5IUk1oT3o5MEVBZHVvcUoyNnpXNDdFTFJYcFZPa2F1RFQwVUFMZURvUnBMQlJfYw?oc=5",
+      "source": "6abc Philadelphia",
+      "date": "2026-11-04T01:57:05Z",
+      "outlets": [
+        "6abc Philadelphia",
+        "NBC10 Philadelphia"
+      ],
+      "ap": false,
+      "issue": 38,
+      "status": "auto",
+      "opened": "2026-11-04T04:50:31Z"
+    },
+    "senate:LA:R": {
+      "office": "senate",
+      "state": "LA",
+      "winner": "R",
+      "candidate": "Julia Letlow",
+      "title": "Julia Letlow projected to win Louisiana Senate race",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcXdrdFRCd3Z6ejJXSjczdzBUYmdfTlg5Y19ZX0VUTVFVenF4NU1vcElUdGNLUGdfVjd1cEIzNlc5dEJuVWstNHFXTV9maVJwRHBtTzZObHR5bmFhdjltT3B2NVNUY3EzcXpab1pVczVtMnVQcTBvX21jZ0dqNmxMZm9XMzU2MkRr0gGcAUFVX3lxTE1vWTRHZm5pNkljT1Jyem41Z1pzdWxwZm1JbVZwYk1kMEZWRFkyRGpFOExzZUpyYzFCR0steVRVMDZ2bGdtaXhXckF4UF9xZ1V4Wm5VVGItaHZCWV82ZlNCYkM1RVBsbXZYQVdubVBJS18zQzdCVEVYYndJQkwycGNCTllmaV9tZm5QdXp3bXkzaG92N25GRnVIV0k3cQ?oc=5",
+      "source": "KSLA",
+      "date": "2026-11-04T03:43:00Z",
+      "outlets": [
+        "KSLA"
+      ],
+      "ap": false,
+      "issue": 39,
+      "status": "open",
+      "opened": "2026-11-04T04:50:32Z"
+    },
+    "senate:AR:R": {
+      "office": "senate",
+      "state": "AR",
+      "winner": "R",
+      "candidate": "Tom Cotton",
+      "title": "Tom Cotton wins Arkansas U.S. Senate race",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSeUZZTkhmRU4zUjRYemJDdjhVeTlGOTdFaVdWWFlTSVBTeXRheHl4TlhHRTMteVEwOGQtUmpZbmtEZ09ob3VVbjU1R2Z3dm5pQ0FKVFByRC1SbkhHZzFMZkZLQ3hMMU1ibnFxUEhvRy1kS3hfeXc?oc=5",
+      "source": "KATV",
+      "date": "2026-11-04T03:50:50Z",
+      "outlets": [
+        "KATV"
+      ],
+      "ap": false,
+      "issue": 40,
+      "status": "open",
+      "opened": "2026-11-04T04:50:32Z"
     }
   }
 }
