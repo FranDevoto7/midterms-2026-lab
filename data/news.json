@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T06:53:01Z",
+  "updated_at": "2026-11-04T07:23:03Z",
   "mode": "automatic-rss",
   "feeds_ok": 16,
   "feeds_failed": [],
@@ -61,6 +61,24 @@
     },
     {
       "category": "Senate",
+      "title": "WATCH: Democrat Troy Jackson speaks after Maine Sen. Susan Collins concedes",
+      "summary": "Jackson won election Wednesday to the U.S. Senate representing Maine, defeating Republican incumbent Sen. Susan Collins.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "PBS News",
+      "published": "2026-11-04T06:55:51Z",
+      "url": "https://www.pbs.org/newshour/politics/watch-democrat-troy-jackson-speaks-after-maine-sen-susan-collins-concedes",
+      "concepts": [
+        "incumbency"
+      ],
+      "cases": [
+        "maine"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Collins’s margin against the Republican candidate for governor, town by town."
+    },
+    {
+      "category": "Senate",
       "title": "Democrat Troy Jackson wins election to U.S. Senate from Maine",
       "summary": "Jackson, 58, a fifth-generation logger and former president of the state Senate, had a little more than 100 days to sell himself to Maine voters after he replaced Graham Platner as the party's nominee in July.",
       "why": "Nominations reveal bargaining among a party’s factions.",
@@ -119,7 +137,7 @@
       "summary": "Democrats had heavily targeted the South Texas district, which had been redrawn in last year's redistricting.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
       "source": "CBS News",
-      "published": "2026-11-04T05:35:35Z",
+      "published": "2026-11-04T05:35:00Z",
       "url": "https://www.cbsnews.com/news/texas-15-district-pulido-de-la-cruz/",
       "concepts": [
         "redistricting"
@@ -130,24 +148,6 @@
       "signal": 2,
       "mechanism": "Gerrymandering and the seats–votes link",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Adam Hamilton wins Kansas Senate race in another Democratic upset",
-      "summary": "Democratic Reverend Adam Hamilton defeated GOP Sen. Roger Marshall in the Kansas Senate race, CBS News projects, unseating the incumbent in a major upset.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "CBS News",
-      "published": "2026-11-04T05:03:21Z",
-      "url": "https://www.cbsnews.com/news/kansas-2026-senate-hamilton-marshall/",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "reach"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
     }
   ]
 }
