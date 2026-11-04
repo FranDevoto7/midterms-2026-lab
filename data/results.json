@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T13:46:47Z",
+  "updated_at": "2026-11-04T13:47:53Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -122,6 +122,13 @@
       "source": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQnFlWkk3R1lCeEFkR2xPVzBCVUt6Wk9fc3hMeF9LTWlMWnVlSTNkZWxjYjRqTVI5dnhMdFVOdHRMeHFyNDE3ekJ1N0lEbFJ2SjJWUnJ2eTBTMnNkSl9mUTNGUTJCRHRoZFFJMXNrQ0l6cGs3THZ4Y0NRWHlsWnJzNHZLbGxUaUgyVjJ1Sjc3Y0VnUVc3MHcxZXlDQkFfNGFWZ1c3Z0R6dkg4a0dP?oc=5",
       "at": "2026-11-04T13:45:57Z"
+    },
+    "LA": {
+      "winner": "R",
+      "source": "KSLA",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcXdrdFRCd3Z6ejJXSjczdzBUYmdfTlg5Y19ZX0VUTVFVenF4NU1vcElUdGNLUGdfVjd1cEIzNlc5dEJuVWstNHFXTV9maVJwRHBtTzZObHR5bmFhdjltT3B2NVNUY3EzcXpab1pVczVtMnVQcTBvX21jZ0dqNmxMZm9XMzU2MkRr0gGcAUFVX3lxTE1vWTRHZm5pNkljT1Jyem41Z1pzdWxwZm1JbVZwYk1kMEZWRFkyRGpFOExzZUpyYzFCR0steVRVMDZ2bGdtaXhXckF4UF9xZ1V4Wm5VVGItaHZCWV82ZlNCYkM1RVBsbXZYQVdubVBJS18zQzdCVEVYYndJQkwycGNCTllmaV9tZm5QdXp3bXkzaG92N25GRnVIV0k3cQ?oc=5",
+      "note": "Louisiana’s first Republican woman elected to U.S. Senate.",
+      "at": "2026-11-04T13:47:35Z"
     }
   },
   "governors": {
@@ -280,6 +287,13 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONkUtUWgtSVh5MWk3a2ZLcmVJU1ZhTHFBOHlac2xSdmtUWkgydm1paGxMcFhYcVhJZEd6eEQ5Wkpwc01rdnJ1bVBfTEU2MXVvaG1zdUFMLW9aLTBCblN4bWNPYWRBNkdhUU5lV3NfY2l6LS05TF9sMUpncjNZeVVXckVkRlE1RjNoZjRuQjdnT25qUlM3XzR3dUUwdVFSMVVVRVRqZ29BdHJxYnA3UkdHVDdFUkxSRXVBdm1wa1ZheVE1TWJsUEpR?oc=5",
       "note": "Bastión republicano.",
       "at": "2026-11-04T13:44:43Z"
+    },
+    "OR": {
+      "winner": "D",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/orgeon-governors-race-tina-kotek/",
+      "note": "Kotek, first elected in 2022, is one of the most unpopular governors in the country as the state struggles with a large homeless population. Tough reelection.",
+      "at": "2026-11-04T13:46:58Z"
     }
   }
 }

@@ -611,8 +611,9 @@
       ],
       "ap": false,
       "issue": 39,
-      "status": "open",
-      "opened": "2026-11-04T04:50:32Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T04:50:32Z",
+      "closed": "2026-11-04T13:47:47Z"
     },
     "senate:AR:R": {
       "office": "senate",
@@ -806,8 +807,9 @@
       ],
       "ap": false,
       "issue": 51,
-      "status": "open",
-      "opened": "2026-11-04T06:53:07Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T06:53:07Z",
+      "closed": "2026-11-04T13:47:51Z"
     },
     "senate:NE:R": {
       "office": "senate",
