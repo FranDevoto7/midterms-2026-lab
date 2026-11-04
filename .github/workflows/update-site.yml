@@ -34,6 +34,8 @@ on:
         default: ""
   issues:
     types: [closed]
+  issue_comment:
+    types: [created, edited, deleted]
 
 permissions:
   contents: write
@@ -50,6 +52,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # always start from the newest version, even if this run waited behind another
 
       - name: Put files in their folders
         run: |
@@ -82,7 +86,7 @@ jobs:
         run: python scripts/record_result.py --kind "$KIND" --key "$KEY" --value "$VALUE" --source "$SOURCE" --url "$URL" --note "$NOTE"
 
       - name: Fetch news
-        if: github.event_name != 'issues'
+        if: github.event_name != 'issues' && github.event_name != 'issue_comment'
         run: |
           if grep -q dump-items scripts/fetch_news.py; then
             python scripts/fetch_news.py --dump-items "$RUNNER_TEMP/items.json"
@@ -91,7 +95,7 @@ jobs:
           fi
 
       - name: Suggest results found in the news
-        if: github.event_name != 'issues'
+        if: github.event_name != 'issues' && github.event_name != 'issue_comment'
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: if [ -f scripts/results_robot.py ] && [ -f "$RUNNER_TEMP/items.json" ]; then python scripts/results_robot.py suggest "$RUNNER_TEMP/items.json"; fi
@@ -107,7 +111,9 @@ jobs:
           if git diff --cached --quiet; then echo "Nothing to commit."; exit 0; fi
           git commit -m "Update site data $(date -u +%Y-%m-%dT%H:%MZ)"
           for i in 1 2 3; do
-            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            # If another run saved data in the meantime, keep the data this run just generated.
+            if git pull --rebase -X theirs origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
             sleep 5
           done
           echo "::error::Could not push the update."; exit 1
