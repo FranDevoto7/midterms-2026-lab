@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T03:25:37Z",
+  "updated_at": "2026-11-04T03:44:31Z",
   "mode": "automatic-rss",
   "feeds_ok": 16,
   "feeds_failed": [],
@@ -25,25 +25,6 @@
     },
     {
       "category": "Redistricting",
-      "title": "Results: States decide on voter ID and redistricting ballot measures",
-      "summary": "Several states — including Alaska, Arizona, California and Nevada — are voting on changes to how their elections are run, including voter ID measures. Other states decide on redistricting proposals.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "NPR",
-      "published": "2026-11-03T22:53:23Z",
-      "url": "https://www.npr.org/2026/11/03/nx-s1-6027957/results-voter-id-citizenship-ballot-measures",
-      "concepts": [
-        "redistricting",
-        "direct-democracy"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
       "title": "Virginia Supreme Court overturns Democrats' redistricting measure",
       "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
@@ -60,6 +41,24 @@
       "signal": 2,
       "mechanism": "Gerrymandering and the seats–votes link",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "House",
+      "title": "Democrat Bob Brooks wins election to U.S. House in Pennsylvania's 7th Congressional District",
+      "summary": "2026 ELECTION COVERAGE: Watch Live | Poll Closing Times | All Live Results | Live Updates | Live Fact Check Democrat Bob Brooks won election Tuesday to the U.S.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "PBS News",
+      "published": "2026-11-04T03:38:52Z",
+      "url": "https://www.pbs.org/newshour/politics/democrat-bob-brooks-wins-election-to-u-s-house-in-pennsylvanias-7th-congressional-district",
+      "concepts": [
+        "incumbency"
+      ],
+      "cases": [
+        "pennsylvania"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Whether the four districts swing by similar amounts."
     },
     {
       "category": "Senate",
@@ -81,12 +80,12 @@
     },
     {
       "category": "Redistricting",
-      "title": "Maryland voters pass Democratic-backed redistricting amendment",
-      "summary": "A constitutional amendment passed Tuesday could pave the way for Democratic lawmakers to redraw Maryland's congressional districts ahead of the 2028 election.",
+      "title": "Maryland voters approve Democratic-backed redistricting amendment",
+      "summary": "Maryland voters approved a constitutional amendment that paves the way for Democrats to redraw their state’s congressional map, NBC News projects.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "PBS News",
-      "published": "2026-11-04T03:09:46Z",
-      "url": "https://www.pbs.org/newshour/politics/maryland-voters-pass-democratic-backed-redistricting-amendment",
+      "source": "NBC News",
+      "published": "2026-11-04T02:54:35Z",
+      "url": "https://www.nbcnews.com/politics/2026-election/maryland-redistricting-ballot-measure-approved-democrat-backed-rcna603387",
       "concepts": [
         "redistricting"
       ],

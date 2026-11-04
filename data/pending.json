@@ -345,6 +345,45 @@
       "issue": 26,
       "status": "open",
       "opened": "2026-11-04T03:25:44Z"
+    },
+    "governors:NM:D": {
+      "office": "governors",
+      "state": "NM",
+      "winner": "D",
+      "candidate": "Deb Haaland",
+      "title": "Deb Haaland wins New Mexico governor's race",
+      "url": "https://thehill.com/homenews/campaign/6185035-deb-haaland-wins-new-mexico-governors-race-2026/",
+      "source": "The Hill",
+      "date": "2026-11-04T03:38:19Z",
+      "issue": 27,
+      "status": "open",
+      "opened": "2026-11-04T03:44:42Z"
+    },
+    "governors:OH:D": {
+      "office": "governors",
+      "state": "OH",
+      "winner": "D",
+      "candidate": "Amy Acton",
+      "title": "Acton defeats Ramaswamy in Ohio governor's race",
+      "url": "https://thehill.com/homenews/campaign/6173284-acton-wins-ohio-governor-election/",
+      "source": "The Hill",
+      "date": "2026-11-04T03:35:16Z",
+      "issue": 28,
+      "status": "open",
+      "opened": "2026-11-04T03:44:43Z"
+    },
+    "governors:ME:D": {
+      "office": "governors",
+      "state": "ME",
+      "winner": "D",
+      "candidate": "Hannah Pingree",
+      "title": "Pingree wins Maine governor's race",
+      "url": "https://thehill.com/homenews/campaign/6190884-hannah-pingree-maine-governor/",
+      "source": "The Hill",
+      "date": "2026-11-04T03:33:35Z",
+      "issue": 29,
+      "status": "open",
+      "opened": "2026-11-04T03:44:43Z"
     }
   }
 }
