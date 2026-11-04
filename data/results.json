@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T05:53:05Z",
+  "updated_at": "2026-11-04T10:23:22Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -249,6 +249,13 @@
       "source": "MultiState",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hcU9Pc0FhaTBBM2FBZVIyWEFNckt0ZFNHU2pVSGM1TjlHa2Noc3o0YmNqeFl2YkNSaURDS05NZVRnTmVVUTdTdm9qOFZuYktGVjR2eVItSlJ0Z21rYzB4UFlaTElrS3o4NTljMkV5Q2J6ekpNOGtz?oc=5",
       "at": "2026-11-04T05:31:18Z"
+    },
+    "NV": {
+      "winner": "D",
+      "source": "NPR, NBC News",
+      "auto": true,
+      "at": "2026-11-04T10:23:22Z",
+      "url": "https://www.npr.org/2026/11/04/g-s1-151138/midterms-ford-nevada-governor-lombardo"
     }
   }
 }

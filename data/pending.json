@@ -875,6 +875,24 @@
       "issue": 55,
       "status": "open",
       "opened": "2026-11-04T09:23:21Z"
+    },
+    "governors:NV:D": {
+      "office": "governors",
+      "state": "NV",
+      "winner": "D",
+      "candidate": "Aaron Ford",
+      "title": "Nevada Attorney General Aaron Ford beats GOP incumbent for governor",
+      "url": "https://www.npr.org/2026/11/04/g-s1-151138/midterms-ford-nevada-governor-lombardo",
+      "source": "NPR",
+      "date": "2026-11-04T09:48:40Z",
+      "outlets": [
+        "NPR",
+        "NBC News"
+      ],
+      "ap": false,
+      "issue": 56,
+      "status": "auto",
+      "opened": "2026-11-04T10:23:22Z"
     }
   }
 }
