@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T02:57:17Z",
+  "updated_at": "2026-11-04T02:58:20Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -17,6 +17,11 @@
       "winner": "D",
       "source": "Fox News",
       "url": "https://www.foxnews.com/politics/pappas-wins-democrats-score-major-senate-victory-pappas-defeats-trump-backed-republican-key-battleground"
+    },
+    "NM": {
+      "winner": "D",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6152365-lujan-wins-new-mexico-senate/"
     }
   },
   "governors": {

@@ -94,8 +94,9 @@
       "source": "The Hill",
       "date": "2026-11-04T02:35:29Z",
       "issue": 7,
-      "status": "open",
-      "opened": "2026-11-04T02:35:52Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T02:35:52Z",
+      "closed": "2026-11-04T02:58:20Z"
     },
     "governors:OK:R": {
       "office": "governors",
