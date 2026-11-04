@@ -164,8 +164,9 @@
       "source": "WHAS11",
       "date": "2026-11-04T01:43:00Z",
       "issue": 12,
-      "status": "open",
-      "opened": "2026-11-04T02:59:57Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T02:59:57Z",
+      "closed": "2026-11-04T04:03:30Z"
     },
     "senate:TX:D": {
       "office": "senate",
