@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T16:45:14Z",
+  "updated_at": "2026-11-04T16:54:12Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -198,10 +198,10 @@
     },
     "GA": {
       "winner": "D",
-      "source": "NBC News",
+      "source": "AP",
       "url": "https://www.nbcnews.com/video/democrat-keisha-lance-bottoms-projected-to-win-georgia-governor-s-race-272815173913",
-      "milestone": "Democrat Keisha Lance Bottoms becomes 1st Black woman elected US governor.",
-      "milestone_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUFdzV2pCVndyXzZvYmlCUEZkTlV1QjNCWkRscXpjaW5zWUl2dTV3WmtnS2RpNk1TZTZCOEU0Yl9ncXBTalBnWmJyNnplZjhYbi1NaVRaZml4dDNDS0JXSmcwcUo0MmtoZXFibVl6aUtpSGdMVUpxV2ZMTHNnaWloakFLNmtXcEVUUnFNYXg1VTJzSDZ60gGaAUFVX3lxTE14NlhxNGtKVTQtUnNfcTNMVDRuaG9ORXUwWnhKcjEyYmRKY1RPT1A1SFQ0YnFFcGk2OVAwS0I3LU5MT25fYnhiSGlua0dxbzFhZFpFODdvWGJCU0J6b2NTVXVHNTNGeDhDaGgxQ2ZwaEVJdnZsQzZqZGxJTHJzbW1IamFyT3lwVk1MRFlYakN3RW1VWXlUUnRjckE?oc=5"
+      "milestone": "Georgia eligió a su primera gobernadora, también la primera mujer negra en el cargo",
+      "at": "2026-11-04T16:54:12Z"
     },
     "IL": {
       "winner": "D",
