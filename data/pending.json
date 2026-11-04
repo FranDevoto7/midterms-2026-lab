@@ -404,6 +404,179 @@
       "status": "confirmed",
       "opened": "2026-11-04T03:44:43Z",
       "closed": "2026-11-04T04:20:18Z"
+    },
+    "senate:IA:D": {
+      "office": "senate",
+      "state": "IA",
+      "winner": "D",
+      "candidate": "Josh Turek",
+      "title": "Democrat Josh Turek wins the Senate seat in Iowa",
+      "url": "https://www.npr.org/2026/11/03/g-s1-148956/iowa-senate-race-josh-turek",
+      "source": "NPR",
+      "date": "2026-11-04T04:37:55Z",
+      "outlets": [
+        "NPR",
+        "CBS News",
+        "NBC News",
+        "The Hill",
+        "The Guardian"
+      ],
+      "ap": false,
+      "issue": 30,
+      "status": "auto",
+      "opened": "2026-11-04T04:48:54Z"
+    },
+    "governors:TX:D": {
+      "office": "governors",
+      "state": "TX",
+      "winner": "D",
+      "candidate": "Gina Hinojosa",
+      "title": "Democrat Gina Hinojosa wins race for Texas governor, ousting Greg Abbott",
+      "url": "https://www.npr.org/2026/11/03/g-s1-150844/gina-hinojosa-texas-governor-abbott",
+      "source": "NPR",
+      "date": "2026-11-04T04:19:12Z",
+      "outlets": [
+        "NPR",
+        "PBS News",
+        "NBC News",
+        "The Hill",
+        "Bloomberg.com",
+        "PBS",
+        "Click2Houston",
+        "Mother Jones",
+        "The New York Times"
+      ],
+      "ap": false,
+      "issue": 31,
+      "status": "auto",
+      "opened": "2026-11-04T04:48:54Z"
+    },
+    "governors:IA:D": {
+      "office": "governors",
+      "state": "IA",
+      "winner": "D",
+      "candidate": "Rob Sand",
+      "title": "Democrat Rob Sand wins Iowa governor's race, ending GOP control of the office",
+      "url": "https://www.npr.org/2026/11/03/g-s1-151136/democrat-rob-sand-wins-iowa-governors-race-ending-gop-control-of-the-office",
+      "source": "NPR",
+      "date": "2026-11-04T04:16:59Z",
+      "outlets": [
+        "NPR",
+        "PBS News",
+        "CBS News",
+        "NBC News",
+        "Iowa Capital Dispatch",
+        "The Guardian",
+        "KWQC",
+        "KTTC | Rochester, MN"
+      ],
+      "ap": true,
+      "issue": 32,
+      "status": "auto",
+      "opened": "2026-11-04T04:48:55Z"
+    },
+    "senate:OH:D": {
+      "office": "senate",
+      "state": "OH",
+      "winner": "D",
+      "candidate": "Sherrod Brown",
+      "title": "Democrat Sherrod Brown wins Ohio Senate race",
+      "url": "https://www.npr.org/2026/11/03/g-s1-148948/ohio-senate-race-sherrod-brown-jon-husted",
+      "source": "NPR",
+      "date": "2026-11-04T04:10:28Z",
+      "outlets": [
+        "NPR",
+        "CBS News",
+        "NBC News",
+        "Ohio Capital Journal",
+        "The Guardian",
+        "WLWT",
+        "Bloomberg.com"
+      ],
+      "ap": true,
+      "issue": 33,
+      "status": "auto",
+      "opened": "2026-11-04T04:48:55Z"
+    },
+    "governors:CA:D": {
+      "office": "governors",
+      "state": "CA",
+      "winner": "D",
+      "candidate": "Xavier Becerra",
+      "title": "Democrat Xavier Becerra wins California governor's race, defeating Republican Steve Hilton",
+      "url": "https://www.pbs.org/newshour/politics/democrat-xavier-becerra-wins-california-governors-race-defeating-republican-steve-hilton",
+      "source": "PBS News",
+      "date": "2026-11-04T04:12:28Z",
+      "outlets": [
+        "PBS News",
+        "CBS News",
+        "NBC News",
+        "KQED",
+        "Politico",
+        "Axios",
+        "Daily Bruin"
+      ],
+      "ap": false,
+      "issue": 34,
+      "status": "auto",
+      "opened": "2026-11-04T04:48:56Z"
+    },
+    "senate:KS:D": {
+      "office": "senate",
+      "state": "KS",
+      "winner": "D",
+      "candidate": "Adam Hamilton",
+      "title": "Adam Hamilton wins Kansas Senate race in another Democratic upset",
+      "url": "https://www.cbsnews.com/news/kansas-2026-senate-hamilton-marshall/",
+      "source": "CBS News",
+      "date": "2026-11-04T04:25:40Z",
+      "outlets": [
+        "CBS News",
+        "NBC News",
+        "The Guardian"
+      ],
+      "ap": false,
+      "issue": 35,
+      "status": "auto",
+      "opened": "2026-11-04T04:48:56Z"
+    },
+    "senate:FL:R": {
+      "office": "senate",
+      "state": "FL",
+      "winner": "R",
+      "candidate": "Ashley Moody",
+      "title": "Ashley Moody projected to win Florida Senate election",
+      "url": "https://www.cbsnews.com/news/florida-2026-senate-moody-nixon/",
+      "source": "CBS News",
+      "date": "2026-11-04T01:44:00Z",
+      "outlets": [
+        "CBS News",
+        "The Guardian",
+        "The 19th News",
+        "NBC News",
+        "The Independent Florida Alligator"
+      ],
+      "ap": false,
+      "issue": 36,
+      "status": "auto",
+      "opened": "2026-11-04T04:48:57Z"
+    },
+    "senate:WY:R": {
+      "office": "senate",
+      "state": "WY",
+      "winner": "R",
+      "candidate": "Harriet Hageman",
+      "title": "Hageman wins Wyoming’s Senate race",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBOdU1UWnQzX0d4el9oQkotX2xKMUJxOFBIX05ic3pCVklRSWVQTFhlWkpCZjAyZzVydWNybVlKZ3poOFRpZ25zZ0YtWXFjUzZsQ0Ftc2E2Qkh1eUFCck1zQ004ZXg?oc=5",
+      "source": "WyoFile",
+      "date": "2026-11-04T02:12:45Z",
+      "outlets": [
+        "WyoFile"
+      ],
+      "ap": false,
+      "issue": 37,
+      "status": "open",
+      "opened": "2026-11-04T04:48:58Z"
     }
   }
 }

@@ -54,14 +54,20 @@ def main():
             data[a.kind].pop(key, None)
             print(f"Cleared {a.kind} result for {key}.")
         elif winner in ("D", "R", "I"):
+            old = data[a.kind].get(key) if isinstance(data[a.kind].get(key), dict) else {}
+            same = old.get("winner") == winner
             entry = {"winner": winner}
-            if source:
-                entry["source"] = source
-            if url:
-                entry["url"] = url
+            if source or (same and old.get("source")):
+                entry["source"] = source or old["source"]
+            if url or (same and old.get("url")):
+                entry["url"] = url or old["url"]
             if note:
-                entry["note"] = note
-            entry["at"] = now
+                entry["note"], entry["note_from"] = note, "form"
+            elif same and old.get("note"):
+                entry["note"] = old["note"]
+                if old.get("note_from"):
+                    entry["note_from"] = old["note_from"]
+            entry["at"] = old.get("at") if same and old.get("at") else now
             data[a.kind][key] = entry
             print(f"{a.kind} {key}: {winner}")
         else:
@@ -78,9 +84,12 @@ def main():
                 entry["source"] = source
             if url:
                 entry["url"] = url
+            old = data["cases"].get(key) if isinstance(data["cases"].get(key), dict) else {}
             if note:
                 entry["note"] = note
-            entry["at"] = now
+            elif old.get("note"):
+                entry["note"] = old["note"]
+            entry["at"] = old.get("at") or now
             data["cases"][key] = entry
             print(f"case {key}: {value}")
         else:
@@ -88,10 +97,14 @@ def main():
     else:
         if value.lower() in ("clear", ""):
             data["house_net_change_presidents_party"] = None
+            data.pop("house_from", None)
+            data.pop("house_auto", None)
             print("Cleared the House net change.")
         else:
             try:
                 data["house_net_change_presidents_party"] = int(value.replace("−", "-"))
+                data["house_from"] = "form"
+                data.pop("house_auto", None)
             except ValueError:
                 fail("For house_net_change, value must be a whole number, negative for a loss (for example -12).")
             print(f"House net change for the president's party: {data['house_net_change_presidents_party']}")

@@ -126,9 +126,15 @@ def detect(items):
                     continue
                 party, cand = next(iter(winners.items()))
                 key = f"{office}:{st}:{party}"
-                found.setdefault(key, {"office": office, "state": st, "winner": party, "candidate": cand,
-                                       "title": it.get("title", ""), "url": it.get("link", ""),
-                                       "source": it.get("source", ""), "date": it.get("date", "")})
+                s = found.setdefault(key, {"office": office, "state": st, "winner": party, "candidate": cand,
+                                           "title": it.get("title", ""), "url": it.get("link", ""),
+                                           "source": it.get("source", ""), "date": it.get("date", ""),
+                                           "outlets": [], "ap": False})
+                outlet = (it.get("source") or "").strip()
+                if outlet and outlet not in s["outlets"]:
+                    s["outlets"].append(outlet)
+                if re.search(r"\b(?:AP|Associated Press)\b", outlet + " " + (it.get("title") or "")):
+                    s["ap"] = True
     return found
 
 
@@ -144,11 +150,20 @@ def gh(method, path, payload=None):
     return json.loads(body) if body else None
 
 
-def issue_text(s):
+def issue_text(s, auto=False):
     state = CANDS["state_names"][s["state"]]
     race = f"la carrera al Senado en {state}" if s["office"] == "senate" else f"la gobernación de {state}"
-    title = f"Confirmar: {s['candidate']} ({s['winner']}) gana {race}"
+    title = (f"Cargado: {s['candidate']} ({s['winner']}) gana {race}" if auto
+             else f"Confirmar: {s['candidate']} ({s['winner']}) gana {race}")
     meta = {k: s[k] for k in ("office", "state", "winner", "source", "url")}
+    if auto:
+        who = ", ".join(s.get("outlets", [])[:3]) or s["source"]
+        return title, (
+            f"El robot cargó este resultado en el sitio porque lo anuncian {who}:\n\n"
+            f"**{s['title']}**\n{s['source']}, {s['date']}\n{s['url']}\n\n"
+            "- Si está bien, no hace falta hacer nada. Si querés, sumá una descripción en un comentario.\n"
+            "- Si está mal, tocá la flechita al lado de **Close issue** y elegí **Close as not planned**: el resultado se borra del sitio.\n\n"
+            f"<!-- midterms-result {json.dumps(meta, ensure_ascii=False)} -->\n")
     body = (
         "El robot encontró esta noticia y cree que ya hay un ganador:\n\n"
         f"**{s['title']}**\n{s['source']}, {s['date']}\n{s['url']}\n\n"
@@ -164,31 +179,146 @@ def suggest(items_path):
     items = load(Path(items_path), [])
     found = detect(items)
     print(f"{len(items)} news items checked, {len(found)} possible calls found")
-    if not found:
-        return
     results = load(RESULTS, {})
+    for k in ("cases", "senate", "governors"):
+        if not isinstance(results.get(k), dict):
+            results[k] = {}
     pending = load(PENDING, {"suggestions": {}})
     pending.setdefault("suggestions", {})
-    opened = 0
+    races = {}
     for key, s in found.items():
-        if key in pending["suggestions"] or (results.get(s["office"]) or {}).get(s["state"]):
+        races.setdefault(f"{s['office']}:{s['state']}", []).append(key)
+    opened, loaded = 0, 0
+    for key, s in found.items():
+        if key in pending["suggestions"] or results[s["office"]].get(s["state"]):
             continue
         if opened >= MAX_NEW:
             break
-        title, body = issue_text(s)
+        conflict = len(races[f"{s['office']}:{s['state']}"]) > 1
+        auto = not conflict and (s["ap"] or len(s["outlets"]) >= 2)
+        title, body = issue_text(s, auto)
         if not (TOKEN and REPO):
-            print(f"(dry run, no GitHub token) would open: {title}")
+            print(f"(dry run, no GitHub token) would {'load' if auto else 'suggest'}: {title}")
             continue
         try:
             issue = gh("POST", f"/repos/{REPO}/issues", {"title": title, "body": body})
         except urllib.error.URLError as exc:
             warn(f"Could not open an issue for {key}: {exc}")
             continue
-        pending["suggestions"][key] = dict(s, issue=issue.get("number"), status="open", opened=now_iso())
+        status = "open"
+        if auto:
+            entry = {"winner": s["winner"], "source": ", ".join(s["outlets"][:3]) or s["source"], "auto": True, "at": now_iso()}
+            if s.get("url"):
+                entry["url"] = s["url"]
+            results[s["office"]][s["state"]] = entry
+            status, loaded = "auto", loaded + 1
+        pending["suggestions"][key] = dict(s, issue=issue.get("number"), status=status, opened=now_iso())
         opened += 1
-        print(f"Opened issue #{issue.get('number')}: {title}")
+        print(f"{'Loaded' if auto else 'Suggested'} #{issue.get('number')}: {title}")
+    if loaded:
+        results["updated_at"] = now_iso()
+        save(RESULTS, results)
     if opened:
         save(PENDING, pending)
+    update_house()
+
+
+HOUSE_PAGE = "2026_United_States_House_of_Representatives_elections"
+HOUSE_API = ("https://en.wikipedia.org/w/api.php?action=parse&prop=wikitext&format=json&formatversion=2&section=0&page=" + HOUSE_PAGE)
+REP_SEATS_2024 = 220  # seats Republicans won in 2024, the baseline for the midterm seat change
+
+
+def parse_house(wikitext):
+    """Seats won so far and the seat change from the election infobox, if the editors have filled them in."""
+    params = {}
+    for m in re.finditer(r"^\s*\|\s*([a-z_]+?)(\d)\s*=\s*(.*?)\s*$", wikitext or "", flags=re.M):
+        params.setdefault(m.group(2), {})[m.group(1)] = m.group(3)
+
+    def clean(v):
+        return re.sub(r"<ref[^>]*/>|<ref.*?</ref>|'{2,3}", "", v or "", flags=re.S)
+
+    def num(v):
+        m = re.search(r"\d+", clean(v))
+        return int(m.group()) if m else None
+
+    def change(v):
+        v = clean(v)
+        if not v.strip():
+            return None
+        if re.search(r"steady|no ?change", v, re.I):
+            return 0
+        n = num(v)
+        if n is None:
+            return None
+        return -n if re.search(r"decrease|loss|−|-\s*\d", v, re.I) else n
+
+    by_party = {}
+    for p in params.values():
+        name = p.get("party", "")
+        key = "R" if "Republican" in name else "D" if "Democratic" in name else None
+        if key and key not in by_party:
+            by_party[key] = p
+    if "R" not in by_party or "D" not in by_party:
+        return None
+    won = lambda p: p.get("seats") or p.get("seats_after") or p.get("seats_won")
+    seats = {k: num(won(v)) for k, v in by_party.items()}
+    others = sum(num(won(p)) or 0 for p in params.values() if not any(p is q for q in by_party.values()))
+    return {"R": seats["R"], "D": seats["D"], "others": others, "changeR": change(by_party["R"].get("seat_change"))}
+
+
+def update_house():
+    results = load(RESULTS, {})
+    if results.get("house_from") == "form":
+        return
+    try:
+        req = urllib.request.Request(HOUSE_API, headers={"User-Agent": "midterms-2026-lab/1.0 (results robot; github.com)"})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            text = json.loads(resp.read()).get("parse", {}).get("wikitext", "")
+    except (urllib.error.URLError, ValueError) as exc:
+        warn(f"Could not read the House count from Wikipedia: {exc}")
+        return
+    h = parse_house(text)
+    if not h or h["R"] is None or h["D"] is None:
+        print("House: Wikipedia has no seat count yet.")
+        return
+    called = h["R"] + h["D"] + h["others"]
+    if called >= 430:
+        net = h["R"] - REP_SEATS_2024
+    elif h["changeR"] is not None:
+        net = h["changeR"]
+    else:
+        print("House: partial count without a seat change yet.")
+        return
+    if abs(net) > 100 or called > 435:
+        warn(f"House: implausible numbers from Wikipedia (net {net}, called {called}); skipped.")
+        return
+    old = results.get("house_auto") or {}
+    if results.get("house_net_change_presidents_party") == net and old.get("called") == called:
+        return
+    results["house_net_change_presidents_party"] = net
+    results["house_auto"] = {"source": "Wikipedia", "called": called, "url": "https://en.wikipedia.org/wiki/" + HOUSE_PAGE, "at": now_iso()}
+    results["updated_at"] = now_iso()
+    save(RESULTS, results)
+    print(f"House: net change {net:+d} for the president's party, {called} of 435 seats decided (Wikipedia).")
+
+
+def clean_note(text, limit=1500):
+    """Plain text from a GitHub comment: no Markdown marks, tidy paragraphs, cut at a word if very long."""
+    t = (text or "").replace("\r\n", "\n")
+    t = re.sub(r"```.*?```", " ", t, flags=re.S)
+    t = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", t)
+    t = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", t)
+    t = re.sub(r"^[ \t]{0,3}(?:#{1,6}|>|[-*+]|\d+[.)])[ \t]+", "", t, flags=re.M)
+    t = re.sub(r"(\*\*|__)(.+?)\1", r"\2", t)
+    t = re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])", r"\1", t)
+    t = re.sub(r"(?<![\w_])_(?!\s)(.+?)(?<!\s)_(?![\w_])", r"\1", t)
+    t = re.sub(r"~~(.+?)~~", r"\1", t)
+    t = re.sub(r"`([^`]+)`", r"\1", t)
+    paras = [re.sub(r"\s+", " ", p).strip() for p in re.split(r"\n\s*\n", t)]
+    t = "\n\n".join(p for p in paras if p)
+    if len(t) > limit:
+        t = t[:limit].rsplit(" ", 1)[0].rstrip(" ,;:.") + "…"
+    return t
 
 
 def latest_note(number):
@@ -196,16 +326,17 @@ def latest_note(number):
     try:
         comments = gh("GET", f"/repos/{REPO}/issues/{number}/comments?per_page=100") or []
     except urllib.error.URLError:
-        return ""
+        return None
     people = [c for c in comments if (c.get("user") or {}).get("type") != "Bot" and (c.get("body") or "").strip()]
-    return people[-1]["body"].strip()[:600] if people else ""
+    return clean_note(people[-1]["body"]) if people else ""
 
 
 def sync():
     pending = load(PENDING, {"suggestions": {}})
-    waiting = {k: v for k, v in pending.get("suggestions", {}).items() if v.get("status") == "open" and v.get("issue")}
-    if not waiting:
-        print("No suggestions waiting for confirmation.")
+    sugg = pending.get("suggestions", {})
+    todo = {k: v for k, v in sugg.items() if v.get("issue") and v.get("status") in ("open", "confirmed", "auto")}
+    if not todo:
+        print("No suggestions to sync.")
         return
     if not (TOKEN and REPO):
         print("No GitHub token; skipping the sync.")
@@ -215,7 +346,44 @@ def sync():
         if not isinstance(results.get(k), dict):
             results[k] = {}
     changed = False
-    for key, s in waiting.items():
+    for key, s in todo.items():
+        if s["status"] == "auto":
+            try:
+                issue = gh("GET", f"/repos/{REPO}/issues/{s['issue']}")
+            except urllib.error.URLError as exc:
+                warn(f"Could not read issue #{s['issue']}: {exc}")
+                continue
+            entry = results.get(s["office"], {}).get(s["state"])
+            if issue.get("state") == "closed" and issue.get("state_reason") not in ("completed", None):
+                if isinstance(entry, dict) and entry.get("auto") and entry.get("winner") == s.get("winner"):
+                    results[s["office"]].pop(s["state"], None)
+                s["status"], s["closed"], changed = "rejected", now_iso(), True
+                print(f"Removed {key} (issue #{s['issue']} closed as not planned)")
+                try:
+                    gh("POST", f"/repos/{REPO}/issues/{s['issue']}/comments", {"body": "Borrado: el resultado ya no aparece en el sitio."})
+                except urllib.error.URLError:
+                    pass
+                continue
+            if issue.get("state") == "closed":
+                s["status"] = "confirmed"
+                if isinstance(entry, dict):
+                    entry.pop("auto", None)
+                changed = True
+        if s["status"] in ("confirmed", "auto"):
+            # Keep the description in step with the comment, if it was edited or a new one was added.
+            entry = results.get(s["office"], {}).get(s["state"])
+            if not isinstance(entry, dict) or entry.get("winner") != s.get("winner") or entry.get("note_from") == "form":
+                continue
+            note = latest_note(s["issue"])
+            if note is None or note == entry.get("note", ""):
+                continue
+            if note:
+                entry["note"] = note
+            else:
+                entry.pop("note", None)
+            changed = True
+            print(f"Updated the description of {key} from issue #{s['issue']}")
+            continue
         try:
             issue = gh("GET", f"/repos/{REPO}/issues/{s['issue']}")
         except urllib.error.URLError as exc:
@@ -237,16 +405,16 @@ def sync():
             entry["at"] = issue.get("closed_at") or now_iso()
             results[meta["office"]][meta["state"]] = entry
             s["status"] = "confirmed"
-            note = "Listo: el resultado ya está cargado en el sitio. Para deshacerlo, usá Run workflow con kind senate o governors, el estado en key y clear en value."
+            reply = "Listo: el resultado ya está cargado en el sitio. Si editás tu comentario o agregás otro, la descripción se actualiza sola en unos minutos."
             print(f"Confirmed {key} (issue #{s['issue']})")
         else:
             s["status"] = "rejected"
-            note = "Descartado: el robot no va a volver a sugerir este resultado."
+            reply = "Descartado: el robot no va a volver a sugerir este resultado."
             print(f"Rejected {key} (issue #{s['issue']})")
         s["closed"] = now_iso()
         changed = True
         try:
-            gh("POST", f"/repos/{REPO}/issues/{s['issue']}/comments", {"body": note})
+            gh("POST", f"/repos/{REPO}/issues/{s['issue']}/comments", {"body": reply})
         except urllib.error.URLError:
             pass
     if changed:

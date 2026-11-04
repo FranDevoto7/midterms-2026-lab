@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T04:32:01Z",
+  "updated_at": "2026-11-04T04:48:58Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -63,6 +63,34 @@
       "source": "The Hill",
       "url": "https://thehill.com/homenews/campaign/6184544-mike-rounds-wins-south-dakota-senate/",
       "at": "2026-11-04T04:31:50Z"
+    },
+    "IA": {
+      "winner": "D",
+      "source": "NPR, CBS News, NBC News",
+      "auto": true,
+      "at": "2026-11-04T04:48:54Z",
+      "url": "https://www.npr.org/2026/11/03/g-s1-148956/iowa-senate-race-josh-turek"
+    },
+    "OH": {
+      "winner": "D",
+      "source": "NPR, CBS News, NBC News",
+      "auto": true,
+      "at": "2026-11-04T04:48:55Z",
+      "url": "https://www.npr.org/2026/11/03/g-s1-148948/ohio-senate-race-sherrod-brown-jon-husted"
+    },
+    "KS": {
+      "winner": "D",
+      "source": "CBS News, NBC News, The Guardian",
+      "auto": true,
+      "at": "2026-11-04T04:48:56Z",
+      "url": "https://www.cbsnews.com/news/kansas-2026-senate-hamilton-marshall/"
+    },
+    "FL": {
+      "winner": "R",
+      "source": "CBS News, The Guardian, The 19th News",
+      "auto": true,
+      "at": "2026-11-04T04:48:57Z",
+      "url": "https://www.cbsnews.com/news/florida-2026-senate-moody-nixon/"
     }
   },
   "governors": {
@@ -97,7 +125,7 @@
       "winner": "R",
       "source": "WyoFile",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9QcXY5MWRmd1BqcmFsZFJIVURYRlZfV1BjbnkyTWU3WWk4eS00N1dnVktqemk4ZG13VHNzbHlxdjNqSmRiVTJBdW1fRXlCX0V3Yk5yYXJMZlEzMlVWb1h0V21xTUVjM2JTbFR1ZGtONHZtYmd5NnpObmZyWQ?oc=5",
-      "note": "Wyoming voters overwhelmingly supported the president in 2024, but have indicated more recently [a considerable disapproval](https://wyofile.com/trump-and-freedom-caucus-approval-election-confidence-three-takeaways-from-a-wyoming-survey-ahead-of-the-general-election/) of the way he is handling the job. That’s according to the Wyoming Survey and Analysis Center’s 2026 election survey released last week. Gana un republicano, pero no uno endorsed por Trump.",
+      "note": "Wyoming voters overwhelmingly supported the president in 2024, but have indicated more recently a considerable disapproval of the way he is handling the job. That’s according to the Wyoming Survey and Analysis Center’s 2026 election survey released last week. Gana un republicano, pero no uno endorsed por Trump.",
       "at": "2026-11-04T04:07:34Z"
     },
     "PA": {
@@ -180,6 +208,27 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQU5uNWJBNUdhUUlSSHdDNmZZYktwNUhQV0dBNW9SeWN2dVY1a1BLbk1abUE2RGZlU1pwSllGUkJ0YWtaVTdfX2t3bE1WbHBJX3Yzd1ZHT20tSndPVXFQSzMwSHdHS0E3QW9xUnlackdJLW5aUEFQRXE3Qzd6MTZfNHhFY3dxQlFxSnR5Z2VjX0stSzJhTmYzLXJrUHlqTUZxdHhscNIBqgFBVV95cUxQdTB2bWhobTBDTTBWQ2VBMVIyb0lZenZ0MHJTcmFLZ0lNTXV3QUFUUEEwc3czbThzcUxYaFhmVC1MN1RibGR1SVZPd2JXd3hCR0RxRUw5b0RjdXFuZWE3dENDaklMM3lvaXhOOGVHamlkZm1zd2FEcUlGeVhrazNyU3RDRmVRQWdBbnlOdUpPYlVaSHd3U1BCNkVhX0pOWk5LS1ZqWU9iUEtGdw?oc=5",
       "note": "Reelección",
       "at": "2026-11-04T04:28:23Z"
+    },
+    "TX": {
+      "winner": "D",
+      "source": "NPR, PBS News, NBC News",
+      "auto": true,
+      "at": "2026-11-04T04:48:54Z",
+      "url": "https://www.npr.org/2026/11/03/g-s1-150844/gina-hinojosa-texas-governor-abbott"
+    },
+    "IA": {
+      "winner": "D",
+      "source": "NPR, PBS News, CBS News",
+      "auto": true,
+      "at": "2026-11-04T04:48:55Z",
+      "url": "https://www.npr.org/2026/11/03/g-s1-151136/democrat-rob-sand-wins-iowa-governors-race-ending-gop-control-of-the-office"
+    },
+    "CA": {
+      "winner": "D",
+      "source": "PBS News, CBS News, NBC News",
+      "auto": true,
+      "at": "2026-11-04T04:48:56Z",
+      "url": "https://www.pbs.org/newshour/politics/democrat-xavier-becerra-wins-california-governors-race-defeating-republican-steve-hilton"
     }
   }
 }

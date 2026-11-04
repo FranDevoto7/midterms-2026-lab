@@ -1,39 +1,20 @@
 {
-  "updated_at": "2026-11-04T03:44:31Z",
+  "updated_at": "2026-11-04T04:48:46Z",
   "mode": "automatic-rss",
   "feeds_ok": 16,
   "feeds_failed": [],
   "stories": [
     {
-      "category": "Senate",
-      "title": "Justice Department sent target letters in Alaska Senate criminal probe. Here's what that means",
-      "summary": "The Justice Department has escalated its investigation over a Senate candidate who shares a name with the Republican incumbent, issuing a letter to a prominent Democratic attorney in Washington and others that they may be targets of the…",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "PBS News",
-      "published": "2026-11-04T00:14:51Z",
-      "url": "https://www.pbs.org/newshour/politics/justice-department-sent-target-letters-in-alaska-senate-criminal-probe-heres-what-that-means",
-      "concepts": [
-        "incumbency",
-        "federalism"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
       "category": "Redistricting",
-      "title": "Virginia Supreme Court overturns Democrats' redistricting measure",
-      "summary": "Open the source for the full story.",
+      "title": "Missouri voters block Republican-drawn congressional map",
+      "summary": "Missouri voters blocked a GOP-drawn congressional map from going into effect for future elections via a ballot measure, NBC News projects.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-03T22:03:29Z",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMm1XQmNtWWJMMjRWdXhhNG4wcWhjM1FXbW04RGRRWklOZzRBSWNKWnFhb0VaMmc0QmZfLWtRT2JndjNfdjdlRjdpUlVwQkxLTTFESDM3MzN2N0Y3cWpVNmF0SW01dGRQUTEtY09nN3FoQkVUczFKdWprWnpEbkk5M0VRVDNHX0RxUTYtemx3NUs0ck90SWMtZlN0c2F2Ri1ZN2ZURkZwcmRlNlZ0WERoWE1R0gG3AUFVX3lxTE1WZ3p4WE1QdllUdWlyNE01ckhmOHNwQk5iTHJldkhsV0pTUUs5aGJmdUdGX25Wazh4MHhfaXBhWW53Y3BYS25jcmpUVXJQT0VGYkp4bXc5bGw3ZHpZWFF1Q2NwYk85azliU1dHbjkwUlVyQnRmVzlJNG5mRUg4cXg2dFFocEFEYWJLWUhvYXhFOU4ycGtRb3VUR2ZIQnRFa2ZTTTRFQWUxaFZHdi1CYUN6MG52OTJuWQ?oc=5",
+      "source": "NBC News",
+      "published": "2026-11-04T04:19:05Z",
+      "url": "https://www.nbcnews.com/politics/2026-election/missouri-voters-block-republican-drawn-congressional-map-rcna603390",
       "concepts": [
         "redistricting",
-        "federalism"
+        "direct-democracy"
       ],
       "cases": [
         "redistricting"
@@ -43,51 +24,16 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
-      "category": "House",
-      "title": "Democrat Bob Brooks wins election to U.S. House in Pennsylvania's 7th Congressional District",
-      "summary": "2026 ELECTION COVERAGE: Watch Live | Poll Closing Times | All Live Results | Live Updates | Live Fact Check Democrat Bob Brooks won election Tuesday to the U.S.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "PBS News",
-      "published": "2026-11-04T03:38:52Z",
-      "url": "https://www.pbs.org/newshour/politics/democrat-bob-brooks-wins-election-to-u-s-house-in-pennsylvanias-7th-congressional-district",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "pennsylvania"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "Whether the four districts swing by similar amounts."
-    },
-    {
-      "category": "Senate",
-      "title": "Democrat Annie Andrews projected to win South Carolina Senate seat",
-      "summary": "Democratic Senate candidate Annie Andrews is projected to win the South Carolina Senate seat in the deep red state, beating her Republican opponent Sen.",
-      "why": "Trusted figures help voters infer which choice fits their values.",
-      "source": "NBC News",
-      "published": "2026-11-04T03:13:12Z",
-      "url": "https://www.nbcnews.com/video/democrat-annie-andrews-projected-to-win-south-carolina-senate-seat-272816709870",
-      "concepts": [
-        "elite-cues"
-      ],
-      "cases": [
-        "reach"
-      ],
-      "signal": 2,
-      "mechanism": "Elite cues and endorsements",
-      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
-    },
-    {
       "category": "Redistricting",
-      "title": "Maryland voters approve Democratic-backed redistricting amendment",
-      "summary": "Maryland voters approved a constitutional amendment that paves the way for Democrats to redraw their state’s congressional map, NBC News projects.",
+      "title": "LA County Supervisor Hilda Solis wins open California House seat",
+      "summary": "Los Angeles County Supervisor Hilda Solis (D) is projected to win the seat to lead California's 38th Congressional District, drawn up after Golden State voters passed the state's redistricting ballot measure last year, according to…",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "NBC News",
-      "published": "2026-11-04T02:54:35Z",
-      "url": "https://www.nbcnews.com/politics/2026-election/maryland-redistricting-ballot-measure-approved-democrat-backed-rcna603387",
+      "source": "The Hill",
+      "published": "2026-11-04T04:37:54Z",
+      "url": "https://thehill.com/homenews/campaign/6158993-hilda-solis-california-38th-congressional-district/",
       "concepts": [
-        "redistricting"
+        "redistricting",
+        "direct-democracy"
       ],
       "cases": [
         "redistricting"
@@ -98,12 +44,12 @@
     },
     {
       "category": "Redistricting",
-      "title": "Maryland Question 3 explained: What a yes or no vote means for congressional redistricting",
+      "title": "Marylanders approve redistricting ballot question, Democrat-leaning 2028 congressional map possible",
       "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "WUSA9",
-      "published": "2026-11-03T11:00:00Z",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPRFMxd292V0ZSS3VIZGw5bkZSVGhTT1VRTWxSeWFpY09vUTJrTlQxMmd0WG5DamVEUFlyU3RNcGlPZ1lMUExRZUxpUFM1RUZWTGQ4Qzg4NDkyTUN1OTltZGRhNnNkNWY4QTJaUzRFbVJpYmpYeTQ0aElfWFV4aE8tV3V3aEZXcFNZbGxlMWE1Y1h3ZTJOelZmWlJNVm1BMi1EeTc4ZTgxZHVYQ1JwOUJkV0czUGw1LW1kM0EzNzgzQ0xsb3hCN24wY19kTm16RzBuNWRHM0RDOThHMHpUNGVlWUVieXdRYUNLNFI5eGtVVm83X2E5WHJnNA?oc=5",
+      "source": "WYPR",
+      "published": "2026-11-04T04:11:00Z",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORll4bVRCQzR4TmpzZWw0UEJHQjJCRFRPRnVTNTQ0MWRrcTNfLXdpZGcwZzVwUVpOZk5EdlZpMVZ0UnAxeTRJdFFEdnU3RGw1bkpweDlzRmp2eTFZTVQ3c25oR2M0d1lQaVQ5XzJFZmJJOVNkdE54Zk5wUTZjcV9OVHpvSlkzTC11a25UTFdnLXQ4bnlHRlJGNGRhVlBoRDROcXRxblRjSFhxa0gzRTRBaE0yRjhON2gzSWQxdjYwemg1bnNobDItYXZNcGNGTFRaX2cwdHVNdw?oc=5",
       "concepts": [
         "redistricting",
         "direct-democracy"
@@ -120,9 +66,9 @@
       "title": "Maryland Question 3 explained: Could congressional maps change?",
       "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "WJLA",
-      "published": "2026-11-03T09:06:31Z",
-      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPMVdOYnJmUUV1eGhnUW8zNTBOaGN0NDNRQk9xakkxZjJES0oxMmJoZkVqdExmYWJrOGF6NkZlallRemEyQ0hGak00Wm9qYkxlaGVvN3h1NFNYazNGTHdleko3cXRCR2FlRGpHVE9lWHAtTVJIS21DMDd1SERhVlFuczZianFQQXRNVTF4ZGFQXzI5M0FNNnYtTEJ1SXlFal84Mm85eFJUY2YxV0hjdnFEVTY4TUtubERUb0hWLXV1TnlzeFNmZUZJRzRzdDlFRXF1cDA1OENreV9YRkFxNzNYZzVEWXFyZnVDYjNrSmNpazI4RFFZVDdvVWUtNWg0cEVUTmU0N0d6Ulloa0lWX1FvTTZld0Z3NzlvNkxrUDBNZHpVQQ?oc=5",
+      "source": "WBFF",
+      "published": "2026-11-03T20:14:24Z",
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNVnY0TzVkS3UzendoWFBaQXN4WFZMWkhJYUxrdFJkai1vS3BTTHQyVDlpY2UyNGVEbExFMzAyTnpEYXZPZXNSbWp2eDFCWmlyU3d0YXFRNm5qQldpX0FLU05oR1Y4OTY1bU9qcWU5elpjMV9YX041NXJHV3pvd1RYOXp0NTFtYzJwR2lpTE9Wem1jNmlRRWFJV0xhZlpKLTNTSS1xOFFPSHpKdjJXUmx5NDVqckZ1UUdFa0xMX2tEOFh2OHliaDBWTUpjNGROZHBmdE5WT0pDTUxUTmdjMDFhT3NWMUZpS1JaZjlRRFNGQ3hyS2tCUVYyTnFTbHZFbWpuWE1WQkZyUmRTYURhR1ZYTVhkZFByOUs5NWdIdFoxQTBBUEZWODBhN0Y0OHY?oc=5",
       "concepts": [
         "redistricting",
         "direct-democracy"
@@ -136,21 +82,75 @@
     },
     {
       "category": "Senate",
-      "title": "Trump admin puts alleged 'Decoy Dan' conspirators on notice in Alaska election spoiler probe",
-      "summary": "The Justice Department has issued more than 120 subpoenas and 20 target letters in its probe of Daniel J. Sullivan's Alaska Senate candidacy.",
-      "why": "States run elections; federal actors and courts contest the edges.",
-      "source": "Fox News",
-      "published": "2026-11-03T23:31:35Z",
-      "url": "https://www.foxnews.com/politics/trump-admin-puts-alleged-decoy-dan-conspirators-notice-alaska-election-spoiler-probe",
+      "title": "Adam Hamilton wins Kansas Senate race in another Democratic upset",
+      "summary": "Democratic Reverend Adam Hamilton defeated GOP Sen. Roger Marshall in the Kansas Senate race, CBS News projects, unseating the incumbent in a major upset.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "CBS News",
+      "published": "2026-11-04T04:25:40Z",
+      "url": "https://www.cbsnews.com/news/kansas-2026-senate-hamilton-marshall/",
       "concepts": [
-        "federalism"
+        "incumbency"
       ],
       "cases": [
-        "alaska"
+        "reach"
       ],
       "signal": 2,
-      "mechanism": "Federalism and election administration",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
+    },
+    {
+      "category": "Redistricting",
+      "title": "Missouri voters turn down a Republican-backed congressional map",
+      "summary": "Missouri voters have denied a Republican-backed congressional map that wound its way through the courts before ultimately ending up on the state's ballot.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "NPR",
+      "published": "2026-11-04T04:11:48Z",
+      "url": "https://www.npr.org/2026/11/03/nx-s1-6028028/missouri-redistricting-ballot-measure",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Senate",
+      "title": "Democrat Sherrod Brown wins Ohio Senate race",
+      "summary": "Democratic former U.S. Sen. Sherrod Brown has won back a seat on Capitol Hill, defeating incumbent Republican Sen. Jon Husted after a close and expensive battle, according to a race call by the Associated Press.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "NPR",
+      "published": "2026-11-04T04:10:28Z",
+      "url": "https://www.npr.org/2026/11/03/g-s1-148948/ohio-senate-race-sherrod-brown-jon-husted",
+      "concepts": [
+        "incumbency"
+      ],
+      "cases": [
+        "reach"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
+    },
+    {
+      "category": "Senate",
+      "title": "Democrat Sherrod Brown unseats Sen. Jon Husted in Ohio, completing comeback bid",
+      "summary": "NBC News projects that Brown, who lost a re-election bid in 2024, will return to the Senate after he defeated Husted, a Republican who was appointed to succeed JD Vance.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "NBC News",
+      "published": "2026-11-04T04:10:02Z",
+      "url": "https://www.nbcnews.com/politics/2026-election/democrat-sherrod-brown-wins-ohio-senate-race-jon-husted-gop-rcna603317",
+      "concepts": [
+        "incumbency"
+      ],
+      "cases": [
+        "reach"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
     }
   ]
 }

@@ -184,6 +184,36 @@
     "D"
    ]
   ],
+  "CO": [
+   [
+    "John Hickenlooper",
+    "D"
+   ],
+   [
+    "Mark Baisley",
+    "R"
+   ]
+  ],
+  "DE": [
+   [
+    "Chris Coons",
+    "D"
+   ],
+   [
+    "Michael Katz",
+    "R"
+   ]
+  ],
+  "FL": [
+   [
+    "Ashley Moody",
+    "R"
+   ],
+   [
+    "Angie Nixon",
+    "D"
+   ]
+  ],
   "ID": [
    [
     "Jim Risch",
@@ -236,6 +266,16 @@
    [
     "Shiva Ayyadurai",
     "I"
+   ]
+  ],
+  "MN": [
+   [
+    "Peggy Flanagan",
+    "D"
+   ],
+   [
+    "Michele Tafoya",
+    "R"
    ]
   ],
   "MS": [
@@ -292,6 +332,16 @@
     "R"
    ]
   ],
+  "OK": [
+   [
+    "Kevin Hern",
+    "R"
+   ],
+   [
+    "N’Kiyla “Jasmine” Thomas",
+    "D"
+   ]
+  ],
   "OR": [
    [
     "Jeff Merkley",
@@ -299,6 +349,16 @@
    ],
    [
     "David Brock Smith",
+    "R"
+   ]
+  ],
+  "RI": [
+   [
+    "Jack Reed",
+    "D"
+   ],
+   [
+    "Raymond McKay",
     "R"
    ]
   ],
@@ -312,6 +372,26 @@
     "D"
    ]
   ],
+  "TN": [
+   [
+    "Bill Hagerty",
+    "R"
+   ],
+   [
+    "Marquita Bradshaw",
+    "D"
+   ]
+  ],
+  "VA": [
+   [
+    "Mark Warner",
+    "D"
+   ],
+   [
+    "Bert Mizusawa",
+    "R"
+   ]
+  ],
   "WV": [
    [
     "Shelley Moore Capito",
@@ -319,6 +399,16 @@
    ],
    [
     "Rachel Fetty Anderson",
+    "D"
+   ]
+  ],
+  "WY": [
+   [
+    "Harriet Hageman",
+    "R"
+   ],
+   [
+    "James W. Byrd",
     "D"
    ]
   ]
