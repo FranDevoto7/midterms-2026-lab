@@ -756,6 +756,40 @@
       "issue": 48,
       "status": "open",
       "opened": "2026-11-04T05:53:05Z"
+    },
+    "governors:MI:D": {
+      "office": "governors",
+      "state": "MI",
+      "winner": "D",
+      "candidate": "Jocelyn Benson",
+      "title": "Jocelyn Benson wins Michigan governor’s race, extending Democratic control",
+      "url": "https://www.nbcnews.com/politics/2026-election/jocelyn-benson-michigan-governor-win-election-democrat-control-james-rcna603344",
+      "source": "NBC News",
+      "date": "2026-11-04T06:18:26Z",
+      "outlets": [
+        "NBC News"
+      ],
+      "ap": false,
+      "issue": 49,
+      "status": "open",
+      "opened": "2026-11-04T06:23:02Z"
+    },
+    "senate:MT:R": {
+      "office": "senate",
+      "state": "MT",
+      "winner": "R",
+      "candidate": "Kurt Alme",
+      "title": "GOP’s Alme wins Montana Senate race",
+      "url": "https://thehill.com/homenews/campaign/6182199-alme-wins-montana-senate-race/",
+      "source": "The Hill",
+      "date": "2026-11-04T06:16:35Z",
+      "outlets": [
+        "The Hill"
+      ],
+      "ap": false,
+      "issue": 50,
+      "status": "open",
+      "opened": "2026-11-04T06:23:03Z"
     }
   }
 }
