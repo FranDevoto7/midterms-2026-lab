@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T05:24:25Z",
+  "updated_at": "2026-11-04T05:29:47Z",
   "mode": "automatic-rss",
   "feeds_ok": 16,
   "feeds_failed": [],
@@ -31,25 +31,6 @@
       "source": "The Hill",
       "published": "2026-11-04T05:01:36Z",
       "url": "https://thehill.com/homenews/campaign/6191193-maryland-approves-redistricting-amendment-house-map-2026-midterms/",
-      "concepts": [
-        "redistricting",
-        "direct-democracy"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "LA County Supervisor Hilda Solis wins open California House seat",
-      "summary": "Los Angeles County Supervisor Hilda Solis (D) is projected to win the seat to lead California's 38th Congressional District, drawn up after Golden State voters passed the state's redistricting ballot measure last year, according to…",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "The Hill",
-      "published": "2026-11-04T04:37:54Z",
-      "url": "https://thehill.com/homenews/campaign/6158993-hilda-solis-california-38th-congressional-district/",
       "concepts": [
         "redistricting",
         "direct-democracy"
@@ -100,6 +81,25 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
+      "category": "Redistricting",
+      "title": "Virginia Supreme Court overturns Democrats' redistricting measure",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-03T22:03:29Z",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMm1XQmNtWWJMMjRWdXhhNG4wcWhjM1FXbW04RGRRWklOZzRBSWNKWnFhb0VaMmc0QmZfLWtRT2JndjNfdjdlRjdpUlVwQkxLTTFESDM3MzN2N0Y3cWpVNmF0SW01dGRQUTEtY09nN3FoQkVUczFKdWprWnpEbkk5M0VRVDNHX0RxUTYtemx3NUs0ck90SWMtZlN0c2F2Ri1ZN2ZURkZwcmRlNlZ0WERoWE1R0gG3AUFVX3lxTE1WZ3p4WE1QdllUdWlyNE01ckhmOHNwQk5iTHJldkhsV0pTUUs5aGJmdUdGX25Wazh4MHhfaXBhWW53Y3BYS25jcmpUVXJQT0VGYkp4bXc5bGw3ZHpZWFF1Q2NwYk85azliU1dHbjkwUlVyQnRmVzlJNG5mRUg4cXg2dFFocEFEYWJLWUhvYXhFOU4ycGtRb3VUR2ZIQnRFa2ZTTTRFQWUxaFZHdi1CYUN6MG52OTJuWQ?oc=5",
+      "concepts": [
+        "redistricting",
+        "federalism"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
       "category": "Senate",
       "title": "Adam Hamilton wins Kansas Senate race in another Democratic upset",
       "summary": "Democratic Reverend Adam Hamilton defeated GOP Sen. Roger Marshall in the Kansas Senate race, CBS News projects, unseating the incumbent in a major upset.",
@@ -119,25 +119,6 @@
     },
     {
       "category": "Redistricting",
-      "title": "Maryland Question 3 explained: Could congressional maps change?",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "WJLA",
-      "published": "2026-11-03T13:45:48Z",
-      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNR0lsVXhuLUlxYkRsd21XQ3F0Y2tyTUFOajNhR2hrdmNCMEUzcEZMT0RiVGNBbmRFSFNvMHVlTmRES3JCbGhwdld0RFROcFpEUFg5d0pKbVlIdTNGWGZFcGRNaWtUbmZubTlHTDlHWV82Q1M0Z044OWFIOXFMd0xoT0ZSNURfV0FvWDFkU2RQdWExbDhhdUJlNi1NUWU3OWZSbmJEVXB2d3pCeEN2MWhqQk5EUGdXMWQ4aHlEZm84eGFqM2JjTmVCX1U0Zno1RGZkRWk3QXdobzJ5VXM2MVViSW5BRFd4THVFNXZKc0x6ZjhZcVg1QmRkbXM0WEZaMHVaOU40c195SE5MSFRNT3gzWkdNRmR2NEdCZmJKcTdnM1F4VDR0UlYwd2x4NmZJd3N0VDJrdzdCek93Y0xMcGpr?oc=5",
-      "concepts": [
-        "redistricting",
-        "direct-democracy"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
       "title": "Missouri voters turn down a Republican-backed congressional map",
       "summary": "Missouri voters have denied a Republican-backed congressional map that wound its way through the courts before ultimately ending up on the state's ballot.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
@@ -153,6 +134,24 @@
       "signal": 2,
       "mechanism": "Gerrymandering and the seats–votes link",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "House",
+      "title": "Democrat Janelle Stelson wins election to U.S. House in Pennsylvania's 10th Congressional District",
+      "summary": "Democrat Janelle Stelson won election Tuesday to the U.S. House of Representatives representing Pennsylvania's 10th Congressional District, defeating Republican incumbent Scott Perry.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "PBS News",
+      "published": "2026-11-04T03:54:26Z",
+      "url": "https://www.pbs.org/newshour/politics/democrat-janelle-stelson-wins-election-to-u-s-house-in-pennsylvanias-10th-congressional-district",
+      "concepts": [
+        "incumbency"
+      ],
+      "cases": [
+        "pennsylvania"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Whether the four districts swing by similar amounts."
     }
   ]
 }

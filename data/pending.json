@@ -680,6 +680,23 @@
       "issue": 43,
       "status": "open",
       "opened": "2026-11-04T05:07:24Z"
+    },
+    "governors:VT:R": {
+      "office": "governors",
+      "state": "VT",
+      "winner": "R",
+      "candidate": "Phil Scott",
+      "title": "Republican Phil Scott wins record 6th term as Vermont’s governor",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZl9EaTJPWmxZejJxUmJtdG5DVlBPVWNPb0Jfb1dkVVo4ejJfWmdja2ZoWURhY0JiU2cxd0tqVnhJZFNaWld0Z1NOclFnT0x5R1U5d01rMDI5ZFZPZDNNd1d1M2hKS1lmRjVZRi1LM3ZpSG56cGd6M3JYUzhUTTVHV1g1bml5aDQtUEdZWDZxcnNrZklSVFZoVUdpLTY?oc=5",
+      "source": "VTDigger",
+      "date": "2026-11-04T03:56:29Z",
+      "outlets": [
+        "VTDigger"
+      ],
+      "ap": false,
+      "issue": 45,
+      "status": "open",
+      "opened": "2026-11-04T05:29:52Z"
     }
   }
 }
