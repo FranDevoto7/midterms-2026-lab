@@ -1,12 +1,14 @@
 {
-  "updated_at": "2026-11-04T14:09:51Z",
+  "updated_at": "2026-11-04T16:26:04Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
     "GA": {
       "winner": "D",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/11/03/g-s1-150143/georgia-senate-race-jon-ossoff-mike-collins"
+      "url": "https://www.npr.org/2026/11/03/g-s1-150143/georgia-senate-race-jon-ossoff-mike-collins",
+      "milestone": "Georgia elected its first female and first Black governor",
+      "milestone_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORlNGVXNlU0xRS1hkcUcxU2VMa1Z1a0MxbXB4djJKeHZCLXluMVNtR29ULTlBZ3ZWNGdFYWVuOTNFUWM0VjJ3SDI2Z3ljNVBtLWtpbENZOGZPeXhyX3NzUDRabC1KaXduSVAycTVmZTJKd3JxcWxycHJtQTZzT19EY01wWmN0RlNhaUhROXA3UFJXdzh0cDVfbUJwVmJtN3JvQ2lvRV82WU44Tm51X192THBxVE90bUJYWUJqdzZ3RWNiYVVlLWpaTGNBQVBhVHhPS3ppWHlGc2JZRW9XNVE?oc=5"
     },
     "NC": {
       "winner": "D",
@@ -16,7 +18,9 @@
     "NH": {
       "winner": "D",
       "source": "Fox News",
-      "url": "https://www.foxnews.com/politics/pappas-wins-democrats-score-major-senate-victory-pappas-defeats-trump-backed-republican-key-battleground"
+      "url": "https://www.foxnews.com/politics/pappas-wins-democrats-score-major-senate-victory-pappas-defeats-trump-backed-republican-key-battleground",
+      "milestone": "makes history as first openly gay male US senator",
+      "milestone_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYS1yT2xXTjA5cWJQTVd6SHhseGlSREFuQU1oWktJSEVxcDhwWUZPeE1KUzk4b3RyMFp5VGlsUUVhZ1B3OTQtcjAxY1RNWGxsaU9YWTRXOFZJa0c3cDN4MEFsdmZ4eHNzSHVGVzMtQlZSSzBxNWtRcU5TTTJNM2dyMUFSQTdsUERFREFHM3Rrc2hWR0V4S0NYY0hXa3UwRVNJcFpxZnJtR1U3RkY5TnExcmpKSWtUdTY5dzFEdjVoWXQwbTFCM1JWOTdkVQ?oc=5"
     },
     "NM": {
       "winner": "D",
@@ -42,7 +46,9 @@
       "source": "Axios",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNLWsxUDl2TWUzS3Q4VGh0NFIyQUo1UV9CNmY2U01uS20zeHlRYVpWTF9FeWNuLXZad3ZmVW8yb0plbDNnc1ZfTUJMMktCX2J6YTJBOG5XSllJa2NVQk1mbG1iMDhBbVh1S2ZIZjd0WGo1NlJjMmc2WF9oZ2NwZ05yenJMd0dxY0JNNDlXNmtpVU1KV21FZ1dPWEhJZkdQLU0?oc=5",
       "note": "just the second Black woman elected to represent the state in the Senate. History!",
-      "at": "2026-11-04T04:01:43Z"
+      "at": "2026-11-04T04:01:43Z",
+      "milestone": "PBS: “Juliana Stratton makes history with Black women in the Senate”",
+      "milestone_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZk1hU2hQblJkTU9mM1lBTW1jU0R3SDdMY3ZpbktJbm5RWExwcnUwNzE0aE5VbF85TjNaY2tjM01nRnEyeXZ3MVpkZzJLRWJ4aWhaNEVHY0x6aXpiYUpwMEhBRGliV05OWU82N0p1Z1VqakFkRklFX0NCQV9pZ21SRGFjN2Z2cDhjaFRrY284WXlmMjZ6UEtfcFJ0V3NrN21l0gGmAUFVX3lxTE1yLUZUVWFhRjZ0UVlzblhVMWhOWk9WTHhfQ0lPM012ZXBUSkFUR3pWdTRYVEQwT2lVdjRaZnNoaGE3M1Q0Q3pHMXlsVlZJWUtjV3Q0V1J0QmNZYmlHaW1wNTZPQm9YVklNZ3dCVFdTOGw4REFHdXRkZzhaR3YtbHBjTUtHNlh3cmc0Zm1LS1J4T3hYRWt2MExnV1hlQzRWVGdQOWs2SVE?oc=5"
     },
     "KY": {
       "winner": "R",
@@ -74,14 +80,18 @@
       "winner": "D",
       "source": "NPR, CBS News, NBC News",
       "at": "2026-11-04T04:48:55Z",
-      "url": "https://www.npr.org/2026/11/03/g-s1-148948/ohio-senate-race-sherrod-brown-jon-husted"
+      "url": "https://www.npr.org/2026/11/03/g-s1-148948/ohio-senate-race-sherrod-brown-jon-husted",
+      "milestone": "Ramaswamy to become the first woman elected governor in Ohio",
+      "milestone_url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxQY29DSWoyVjI4VjNFMVJtUkswdDlNbERyeUR5QmZTdmF3MWtwMmhuQXY1cHRZNXBKd19lc1BRZ05iUWoxVWlvT0tXZ0RhNUZ1UURKNERyZjI0bFg4NkU5OWFZeVJOV0VCVWc2SXdLZmJIc3k4SnJZSXcyYzZkLXdiRTFBc2dSVldqaTRjRUgxN2lVTFhOT1l6emxPU1JCY1RPangtVkxpVEZycG9hMkhYVklfekd4V1YtQ0UzMGZQS1ZiVXh3bDFNN016ZWlKRExJZlZISHluUGVLcm4zejBSNHRvVjR2VUpXRXQzR09rYS16X1Nsa1lyTHdOeGdMMjBoUkpydDFzaXFkNmNaX2VTQjFnNHlDbWpEckNZX1p2UFFpbW9tU0tmd0ZuSlpfYjZWdDlEajJzdEVEc1FQaVhEeTkxekQ0akdyRkVraEJkT1hIbTFkWElsdGs4U2g?oc=5"
     },
     "KS": {
       "winner": "D",
       "source": "CBS News, NBC News, The Guardian",
       "auto": true,
       "at": "2026-11-04T04:48:56Z",
-      "url": "https://www.cbsnews.com/news/kansas-2026-senate-hamilton-marshall/"
+      "url": "https://www.cbsnews.com/news/kansas-2026-senate-hamilton-marshall/",
+      "milestone": "Hamilton made history as the first Democrat elected to the U.S. Senate in Kansas in 94 years",
+      "milestone_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYS1uRWR2clh2WkY0Z0pTZEJFRkVtajJzcDVUd3VubEFRVWFxUUladS0yanRTMU9YTFYwV2M5Sm4zZnlBVy1EYTlsRWJFRTFhTVZ4aUZXOUhLS1UtaHMzNllrQURleG92d1JTSGh4TWpaLVBmV2RsdFJGbUYzNkl3ZkY2M0tObk9BS3c?oc=5"
     },
     "FL": {
       "winner": "R",
