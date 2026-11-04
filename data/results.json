@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T13:55:03Z",
+  "updated_at": "2026-11-04T13:55:53Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -100,9 +100,9 @@
     "ME": {
       "winner": "D",
       "source": "CBS News, NBC News, Maine Public",
-      "auto": true,
       "at": "2026-11-04T05:53:04Z",
-      "url": "https://www.cbsnews.com/news/maine-2026-senate-collins-jackson/"
+      "url": "https://www.cbsnews.com/news/maine-2026-senate-collins-jackson/",
+      "note": "flipping seat for Democrats."
     },
     "TX": {
       "winner": "D",
