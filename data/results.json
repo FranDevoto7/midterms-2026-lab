@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T13:43:39Z",
+  "updated_at": "2026-11-04T13:44:26Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -67,14 +67,12 @@
     "IA": {
       "winner": "D",
       "source": "NPR, CBS News, NBC News",
-      "auto": true,
       "at": "2026-11-04T04:48:54Z",
       "url": "https://www.npr.org/2026/11/03/g-s1-148956/iowa-senate-race-josh-turek"
     },
     "OH": {
       "winner": "D",
       "source": "NPR, CBS News, NBC News",
-      "auto": true,
       "at": "2026-11-04T04:48:55Z",
       "url": "https://www.npr.org/2026/11/03/g-s1-148948/ohio-senate-race-sherrod-brown-jon-husted"
     },
@@ -233,9 +231,9 @@
     "TX": {
       "winner": "D",
       "source": "NPR, PBS News, NBC News",
-      "auto": true,
       "at": "2026-11-04T04:48:54Z",
-      "url": "https://www.npr.org/2026/11/03/g-s1-150844/gina-hinojosa-texas-governor-abbott"
+      "url": "https://www.npr.org/2026/11/03/g-s1-150844/gina-hinojosa-texas-governor-abbott",
+      "note": "HISTORIA."
     },
     "IA": {
       "winner": "D",

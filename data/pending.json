@@ -424,7 +424,7 @@
       ],
       "ap": false,
       "issue": 30,
-      "status": "auto",
+      "status": "confirmed",
       "opened": "2026-11-04T04:48:54Z"
     },
     "governors:TX:D": {
@@ -449,7 +449,7 @@
       ],
       "ap": false,
       "issue": 31,
-      "status": "auto",
+      "status": "confirmed",
       "opened": "2026-11-04T04:48:54Z"
     },
     "governors:IA:D": {
@@ -496,7 +496,7 @@
       ],
       "ap": true,
       "issue": 33,
-      "status": "auto",
+      "status": "confirmed",
       "opened": "2026-11-04T04:48:55Z"
     },
     "governors:CA:D": {
