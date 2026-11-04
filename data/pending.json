@@ -1011,7 +1011,17 @@
       "status": "confirmed",
       "opened": "2026-11-04T18:38:22Z",
       "closed": "2026-11-04T19:04:44Z",
-      "seen": "2026-11-04T19:04:33Z"
+      "seen": "2026-11-04T19:04:45Z"
+    },
+    "house:US:D": {
+      "office": "house",
+      "state": "US",
+      "winner": "D",
+      "source": "ABC7 New York, CBS News, FOX5 Vegas",
+      "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+      "issue": 80,
+      "status": "auto",
+      "opened": "2026-11-04T20:47:37Z"
     }
   },
   "milestones": {

@@ -13,6 +13,7 @@ Standard library only.
 import datetime as dt
 import email.utils
 import json
+from html import unescape
 import os
 import re
 import sys
@@ -219,7 +220,11 @@ def suggest(items_path):
         results["updated_at"] = now_iso()
         save(RESULTS, results)
     m_opened = suggest_milestones(items, results, pending)
-    if opened or m_opened:
+    h_loaded = detect_house_control(items, results, pending)
+    if h_loaded:
+        results["updated_at"] = now_iso()
+        save(RESULTS, results)
+    if opened or m_opened or h_loaded:
         save(PENDING, pending)
     update_house()
 
@@ -267,40 +272,150 @@ def parse_house(wikitext):
     return {"R": seats["R"], "D": seats["D"], "others": others, "changeR": change(by_party["R"].get("seat_change"))}
 
 
-def update_house():
-    results = load(RESULTS, {})
-    if results.get("house_from") == "form":
-        return
+BALLOTPEDIA_HUB = "https://ballotpedia.org/Ballotpedia%27s_Election_Analysis_Hub,_2026"
+UA = {"User-Agent": "midterms-2026-lab/1.0 (results robot; github.com)"}
+
+# "Democrats win control of the House", "Republicans keep their House majority", "House: Democrats capture majority"
+HOUSE_CTRL = [
+    re.compile(r"\b(democrats?|republicans?|gop)\b[^.?!:;]{0,60}?\b(?:wins?|won|takes?|took|captures?|captured|clinch(?:es|ed)?|flips?|flipped|retakes?|retook|keeps?|kept|holds?|held|retains?|retained)\b"
+               r"[^.?!:;]{0,30}?\b(?:control of the (?:u\.?s\.? )?house|(?:u\.?s\.? )?house majority|majority in the (?:u\.?s\.? )?house|the (?:u\.?s\.? )?house)\b", re.I),
+    re.compile(r"\bhouse\b[^.?!]{0,80}?\b(democrats?|republicans?|gop)\b[^.?!:;]{0,30}?\b(?:wins?|won|takes?|took|captures?|captured|clinch(?:es|ed)?|flips?|flipped|retakes?|retook|keeps?|kept|holds?|held|retains?|retained)\b"
+               r"[^.?!:;]{0,20}?\b(?:control|(?:the |a |their )?majority)\b", re.I),
+]
+SPECULATIVE = re.compile(r"\b(could|may|might|would|poised|on track|expected|likely|favou?red|hopes?|aims?|seeks?|path to|needs?|if|whether|race for|battle for|fight for|chances?|odds|forecast|predict|polls?)\b", re.I)
+
+
+def house_control_party(title):
+    if SPECULATIVE.search(title) or re.search(r"\bwhite house\b", title, re.I) and not re.search(r"control of the house|house majority", title, re.I):
+        return None
+    for rx in HOUSE_CTRL:
+        m = rx.search(title)
+        if m:
+            return "D" if m.group(1).lower().startswith("dem") else "R"
+    return None
+
+
+def detect_house_control(items, results, pending):
+    """Load who controls the House when AP or at least two outlets say it in a headline."""
+    if isinstance((results.get("house") or {}).get("US"), dict):
+        return False
+    sugg = pending.setdefault("suggestions", {})
+    if any(k.startswith("house:US:") for k in sugg):
+        return False
+    not_before = parse_date(CANDS["not_before"])
+    votes = {}
+    for it in items:
+        when = parse_date(it.get("date"))
+        if not when or when < not_before:
+            continue
+        party = house_control_party(norm(it.get("title", "")))
+        if party:
+            votes.setdefault(party, []).append(it)
+    if len(votes) != 1:
+        if len(votes) > 1:
+            warn("House control: headlines disagree; waiting.")
+        return False
+    party, its = next(iter(votes.items()))
+    outlets = sorted({(it.get("source") or "").strip() for it in its if (it.get("source") or "").strip()})
+    ap = any("associated press" in (it.get("source") or "").lower() or "apnews.com" in (it.get("link") or "") for it in its)
+    if not (ap or len(outlets) >= 2):
+        print(f"House control: one outlet so far ({', '.join(outlets)}); waiting for a second.")
+        return False
+    who = "los demócratas" if party == "D" else "los republicanos"
+    entry = {"winner": party, "source": ", ".join(outlets[:3]), "url": its[0].get("link", ""), "auto": True, "at": now_iso()}
+    meta = {"office": "house", "state": "US", "winner": party, "source": entry["source"], "url": entry["url"]}
+    number = None
+    if TOKEN and REPO:
+        lines = "\n".join(f"- {it.get('title', '')} ({it.get('source', '')}) {it.get('link', '')}" for it in its[:5])
+        body = (f"El robot cargó que {who} ganan el control de la Cámara, porque lo dicen estos titulares:\n\n{lines}\n\n"
+                "Ya aparece en el sitio. Si está mal, tocá la flechita al lado de **Close issue** y elegí **Close as not planned**: se borra en la próxima pasada.\n\n"
+                f"<!-- midterms-result {json.dumps(meta, ensure_ascii=False)} -->\n")
+        try:
+            issue = gh("POST", f"/repos/{REPO}/issues", {"title": f"Cargado: {who} ganan el control de la Cámara", "body": body})
+            number = issue.get("number")
+        except (urllib.error.URLError, OSError) as exc:
+            warn(f"Could not open the House control notice: {exc}")
+    if number:
+        entry["issue"] = number
+    results.setdefault("house", {})["US"] = entry
+    sugg[f"house:US:{party}"] = dict(meta, issue=number, status="auto", opened=now_iso())
+    print(f"House control loaded: {party} ({entry['source']})")
+    return True
+
+
+def parse_ballotpedia(html):
+    """Seats after the election from Ballotpedia's 'U.S. House Partisan Breakdown' table, or None while it says TBD."""
+    text = re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", html or "")))
+    i = text.find("U.S. House Partisan Breakdown")
+    if i < 0:
+        return None
+    seg = text[i:i + 2000]
+
+    def after(label):
+        m = re.search(label + r"\s+(\d{1,3})\s+\*?(\d{1,3}|TBD)\b", seg, re.I)
+        return m.group(2) if m else None
+
+    d, r, ind = after(r"Democratic Party"), after(r"Republican Party"), after(r"Independent")
+    if not (d and r and d.isdigit() and r.isdigit()):
+        return None
+    D, R, I = int(d), int(r), int(ind) if ind and ind.isdigit() else 0
+    if not (100 <= D <= 335 and 100 <= R <= 335) or D + R + I > 435:
+        return None
+    return {"D": D, "R": R, "called": D + R + I}
+
+
+def house_from_wikipedia():
     try:
-        req = urllib.request.Request(HOUSE_API, headers={"User-Agent": "midterms-2026-lab/1.0 (results robot; github.com)"})
+        req = urllib.request.Request(HOUSE_API, headers=UA)
         with urllib.request.urlopen(req, timeout=20) as resp:
             text = json.loads(resp.read()).get("parse", {}).get("wikitext", "")
-    except (urllib.error.URLError, ValueError) as exc:
+    except (urllib.error.URLError, OSError, ValueError) as exc:
         warn(f"Could not read the House count from Wikipedia: {exc}")
-        return
+        return None
     h = parse_house(text)
     if not h or h["R"] is None or h["D"] is None:
-        print("House: Wikipedia has no seat count yet.")
-        return
+        return None
     called = h["R"] + h["D"] + h["others"]
     if called >= 430:
         net = h["R"] - REP_SEATS_2024
     elif h["changeR"] is not None:
         net = h["changeR"]
     else:
-        print("House: partial count without a seat change yet.")
+        return None
+    return {"net": net, "called": called, "source": "Wikipedia", "url": "https://en.wikipedia.org/wiki/" + HOUSE_PAGE}
+
+
+def house_from_ballotpedia():
+    try:
+        req = urllib.request.Request(BALLOTPEDIA_HUB, headers=UA)
+        with urllib.request.urlopen(req, timeout=25) as resp:
+            html = resp.read().decode("utf-8", "replace")
+    except (urllib.error.URLError, OSError, ValueError) as exc:
+        warn(f"Could not read the House count from Ballotpedia: {exc}")
+        return None
+    b = parse_ballotpedia(html)
+    if not b:
+        return None
+    return {"net": b["R"] - REP_SEATS_2024, "called": b["called"], "source": "Ballotpedia", "url": BALLOTPEDIA_HUB}
+
+
+def update_house():
+    results = load(RESULTS, {})
+    if results.get("house_from") == "form":
         return
-    if abs(net) > 100 or called > 435:
-        warn(f"House: implausible numbers from Wikipedia (net {net}, called {called}); skipped.")
+    found = [x for x in (house_from_wikipedia(), house_from_ballotpedia()) if x and abs(x["net"]) <= 150 and 0 < x["called"] <= 435]
+    if not found:
+        print("House: neither Wikipedia nor Ballotpedia has a seat count yet.")
         return
+    best = max(found, key=lambda x: x["called"])
     old = results.get("house_auto") or {}
-    if results.get("house_net_change_presidents_party") == net and old.get("called") == called:
+    if results.get("house_net_change_presidents_party") == best["net"] and old.get("called") == best["called"] and old.get("source") == best["source"]:
         return
-    results["house_net_change_presidents_party"] = net
-    results["house_auto"] = {"source": "Wikipedia", "called": called, "url": "https://en.wikipedia.org/wiki/" + HOUSE_PAGE, "at": now_iso()}
+    results["house_net_change_presidents_party"] = best["net"]
+    results["house_auto"] = {"source": best["source"], "called": best["called"], "url": best["url"], "at": now_iso()}
     results["updated_at"] = now_iso()
     save(RESULTS, results)
-    print(f"House: net change {net:+d} for the president's party, {called} of 435 seats decided (Wikipedia).")
+    print(f"House: net change {best['net']:+d} for the president's party, {best['called']} of 435 seats decided ({best['source']}).")
 
 
 def clean_note(text, limit=1500):
@@ -409,7 +524,8 @@ def robot_issues():
                     meta = json.loads(m.group(1))
                 except ValueError:
                     break
-                if meta.get("office") in ("senate", "governors") and meta.get("state") and meta.get("winner") in ("D", "R", "I"):
+                if (meta.get("office") in ("senate", "governors") or (kind == "result" and meta.get("office") == "house")) \
+                        and meta.get("state") and meta.get("winner") in ("D", "R", "I"):
                     out.append((it, meta, kind))
                 break
         if len(batch) < 100:
@@ -551,11 +667,23 @@ def apply_corrections():
         office, st = f.get("office"), f.get("state")
         entry = (results.get(office) or {}).get(st)
         if not isinstance(entry, dict):
-            warn(f"Correction skipped: there is no {office} result for {st}.")
-            continue
+            if not (f.get("create") and office in ("senate", "governors") and f.get("winner") in ("D", "R", "I")):
+                warn(f"Correction skipped: there is no {office} result for {st}.")
+                continue
+            entry = {"winner": f["winner"]}
+            for k in ("source", "url", "at"):
+                if f.get(k):
+                    entry[k] = f[k]
+            results.setdefault(office, {})[st] = entry
+            print(f"Added {office} {st} ({f['winner']})")
         if f.get("winner") and entry.get("winner") != f["winner"]:
             warn(f"Correction skipped for {office} {st}: the winner on file is {entry.get('winner')}, not {f['winner']}.")
             continue
+        if "milestone_url" in f:
+            if f["milestone_url"]:
+                entry["milestone_url"] = f["milestone_url"]
+            else:
+                entry.pop("milestone_url", None)
         if "milestone" in f:
             if f["milestone"]:
                 entry["milestone"] = f["milestone"]
@@ -593,7 +721,7 @@ def sync():
     pending = load(PENDING, {"suggestions": {}})
     sugg = pending.setdefault("suggestions", {})
     results = load(RESULTS, {})
-    for k in ("cases", "senate", "governors"):
+    for k in ("cases", "senate", "governors", "house"):
         if not isinstance(results.get(k), dict):
             results[k] = {}
     p_changed = r_changed = False

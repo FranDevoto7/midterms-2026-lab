@@ -1,27 +1,46 @@
 {
-  "updated_at": "2026-11-04T18:38:15Z",
+  "updated_at": "2026-11-04T20:47:28Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
     {
-      "category": "Senate",
-      "title": "From Texas to Kansas, 6 stunning midterm results that upended the political map",
-      "summary": "Democrats flipped seven Senate seats in a 2026 midterm referendum on Trump, ousting Susan Collins and defeating Attorney General Ken Paxton.",
-      "why": "When voters legislate, drafting and implementation become the policy.",
-      "source": "Fox News",
-      "published": "2026-11-04T12:43:40Z",
-      "url": "https://www.foxnews.com/politics/from-texas-kansas-6-stunning-midterm-results-upended-political-map",
+      "category": "Redistricting",
+      "title": "Trump-backed redistricting sought a midterm edge for Republicans. It didn't work",
+      "summary": "Republicans lost most of the Democratic-held seats they had targeted to flip, lost others they had banked on retaining and got swept out of power by a Democratic surge fueled by voter dissatisfaction with Trump, the economy and the war…",
+      "why": "Voters reward or punish the party in power for conditions they experience.",
+      "source": "PBS News",
+      "published": "2026-11-04T20:00:33Z",
+      "url": "https://www.pbs.org/newshour/politics/trump-backed-redistricting-sought-a-midterm-edge-for-republicans-it-didnt-work",
       "concepts": [
-        "direct-democracy"
+        "referendum",
+        "redistricting"
       ],
       "cases": [
-        "maine",
-        "texas"
+        "redistricting"
       ],
       "signal": 2,
-      "mechanism": "Direct democracy and policy design",
-      "watch": "Collins’s margin against the Republican candidate for governor, town by town."
+      "mechanism": "Referendum and retrospective voting",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Kiley loses House reelection bid in California",
+      "summary": "Rep.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "The Hill",
+      "published": "2026-11-04T18:42:20Z",
+      "url": "https://thehill.com/homenews/campaign/6198722-kiley-loses-ca-district-6/",
+      "concepts": [
+        "incumbency",
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
       "category": "Redistricting",
@@ -62,15 +81,14 @@
     },
     {
       "category": "Redistricting",
-      "title": "Maryland Question 3 Passes: What Comes Next For Congressional Redistricting",
-      "summary": "Open the source for the full story.",
+      "title": "Who won redistricted House seats?",
+      "summary": "One of the biggest stories of the 2026 midterms came before any votes were cast: the mid-decade redistricting wars.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Patch",
-      "published": "2026-11-04T01:00:00Z",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWUg2aS1sRkR4R3I5Rm1jaTBBTS1YTzU1Y2F1bWhFVElQOE9Bb3lwSFhYWjlWb2tsNzMtX2FLLTB2bjlnbFlBWDZORmQ0UWRpR0JvZEpwc1FWb1Fia003NGdpU1dtYlBaZXBPZzlzN2ZORXFteVM3aHBSS0xyYi1INkx0MW9Gc0FQaTdJYUN2MFhpYlVTZGFnVnkwZmkwbXRTMXlRR1hxRS11Z3JOb2w2ODl4UnQ0Z9IBwgFBVV95cUxPVzJHRVU4WXMyTzRDOUE1SUU5UnhVM0FqMFUzWl9xMlNHaDRuVm1qWW14cTV3ODhCS3RTaGxlanRjak9yOFg3VGw4aFF5ZXNVTmEwZUZaNHUxeVpNa1k3N1dQVWxXT3NldUFDdVJsNHNKSHlNZEF5T0RNSTJhT08tZkJoX0prUVBOVmRBZkRkYUVycjVnQ2RxRjZ0OXByTWl2ZXBpRDZDLTNNZTlXUEdpVmtoeVBVbUROWTVPMGt1TGM3UQ?oc=5",
+      "source": "The Hill",
+      "published": "2026-11-04T19:09:42Z",
+      "url": "https://thehill.com/homenews/campaign/6198650-election-day-2026-gop-democrat-redistricting-war-outcomes/",
       "concepts": [
-        "redistricting",
-        "direct-democracy"
+        "redistricting"
       ],
       "cases": [
         "redistricting"
@@ -134,24 +152,6 @@
       "signal": 2,
       "mechanism": "Party coalitions, primaries and nominations",
       "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
-    },
-    {
-      "category": "Redistricting",
-      "title": "Eric Holder on how the GOP's redistricting efforts affected the midterms",
-      "summary": "NPR's Michel Martin speaks to Eric Holder, chairman of the National Democratic Redistricting Committee, about how mid-decade redistricting affected the results of the midterms.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "NPR",
-      "published": "2026-11-04T11:57:51Z",
-      "url": "https://www.npr.org/2026/11/04/nx-s1-6022531/eric-holder-on-how-the-gops-redistricting-efforts-affected-the-midterms",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
 }

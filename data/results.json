@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T19:04:45Z",
+  "updated_at": "2026-11-04T20:47:37Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -194,10 +194,42 @@
     },
     "CO": {
       "winner": "D",
-      "source": "Legis1",
+      "source": "AP",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9OYnRyVmhNUGM0Y1F3R3AwOElMWlZ0ZGtUbTA0eGozMVBFMkdrYzFEZjlaQlM1UTBWdzFNQUloVXpVZUpMbnNYV0ZQTTdjWWJob2tnb1BTU1lDOVRUQXpOZXBjY3RBZGZ0c3c?oc=5",
       "at": "2026-11-04T19:04:33Z",
       "issue": 79
+    },
+    "MA": {
+      "winner": "D",
+      "source": "AP",
+      "url": "https://www.statehousenews.com/news/politics/elections/election-2026-ap-calls-races-for-healey-and-markey/article_768eb886-6b12-48d1-a055-baef69b98280.html",
+      "at": "2026-11-04T01:01:00Z"
+    },
+    "OR": {
+      "winner": "D",
+      "source": "AP",
+      "url": "https://www.bankspost.com/election-2026-ap-calls-races-for-merkley-bonamici/",
+      "at": "2026-11-04T04:00:00Z"
+    },
+    "RI": {
+      "winner": "D",
+      "source": "AP",
+      "url": "https://www.abc10.com/article/news/politics/elections/live-2026-election-results-house-and-senate-maps-by-state-and-district/507-edcc4ab7-82ab-433b-a713-fd75de9f82f9"
+    },
+    "OK": {
+      "winner": "R",
+      "source": "AP",
+      "url": "https://www.abc10.com/article/news/politics/elections/live-2026-election-results-house-and-senate-maps-by-state-and-district/507-edcc4ab7-82ab-433b-a713-fd75de9f82f9"
+    },
+    "TN": {
+      "winner": "R",
+      "source": "AP",
+      "url": "https://www.ksdk.com/article/news/politics/elections/live-2026-election-results-house-and-senate-maps-by-state-and-district/507-edcc4ab7-82ab-433b-a713-fd75de9f82f9"
+    },
+    "WV": {
+      "winner": "R",
+      "source": "AP",
+      "url": "https://www.ksdk.com/article/news/politics/elections/live-2026-election-results-house-and-senate-maps-by-state-and-district/507-edcc4ab7-82ab-433b-a713-fd75de9f82f9"
     }
   },
   "governors": {
@@ -213,8 +245,10 @@
       "winner": "D",
       "source": "NBC News",
       "url": "https://www.nbcnews.com/video/democrat-keisha-lance-bottoms-projected-to-win-georgia-governor-s-race-272815173913",
-      "milestone": "Georgia eligió a su primera gobernadora, también la primera mujer negra en el cargo",
-      "at": "2026-11-04T16:54:12Z"
+      "milestone": "Keisha Lance Bottoms es la primera mujer negra elegida gobernadora de un estado en la historia de EE. UU., y la primera mujer elegida gobernadora de Georgia.",
+      "at": "2026-11-04T16:54:12Z",
+      "milestone_url": "https://www.ajc.com/politics/2026/11/keisha-lance-bottoms-elected-georgia-governor/",
+      "milestone_from": "form"
     },
     "IL": {
       "winner": "D",
@@ -319,8 +353,9 @@
       "winner": "R",
       "source": "The Hill",
       "url": "https://thehill.com/homenews/campaign/6185074-alan-wilson-wins-south-carolina-governors-race-2026/",
-      "note": "Wilson retiene la gobernación, aunque por unos 5 puntos frente a los 17 que ganó McMaster en 2022. Eso sugiere que incluso en South Carolina el entorno de 2026 está reduciendo ventajas republicanas tradicionales",
-      "at": "2026-11-04T04:27:13Z"
+      "note": "El GOP retiene la gobernación con Alan Wilson, aunque por unos 5 puntos frente a los 17 que ganó McMaster en 2022. Eso sugiere que incluso en South Carolina el entorno de 2026 está reduciendo ventajas republicanas tradicionales.",
+      "at": "2026-11-04T04:27:13Z",
+      "note_from": "form"
     },
     "NY": {
       "winner": "D",
@@ -424,6 +459,37 @@
       "auto": true,
       "at": "2026-11-04T14:09:51Z",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORGFNRlctaVBhZjR6WHJMc29HWE9Ga1dOVVE5cnFKdWFJUnpkNm9kUndsNV9EUTZJdGsyNWtSWUlqU1NWcnpOT3NZTjdiSXdqNXZ4U2RzWkpIbVd3eGswbmxIOE9ENHZLSUlMbXljZmpxNFVPOFk2bEdlVTZFNGhpbkRIdXpySlJ4Ry1PQw?oc=5"
+    },
+    "HI": {
+      "winner": "D",
+      "source": "AP",
+      "url": "https://pollstergraph.com/results/us/2026?lang=en"
+    },
+    "ID": {
+      "winner": "R",
+      "source": "AP",
+      "url": "https://multistate.us/elections/governor-race/idaho-2026"
+    },
+    "NE": {
+      "winner": "R",
+      "source": "AP",
+      "url": "https://pollstergraph.com/results/us/2026?lang=en"
+    },
+    "SD": {
+      "winner": "R",
+      "source": "AP",
+      "url": "https://www.keloland.com/keloland-com-original/governors-race-ahlers-vs-rhoden/",
+      "at": "2026-11-04T04:45:00Z"
+    }
+  },
+  "house": {
+    "US": {
+      "winner": "D",
+      "source": "ABC7 New York, CBS News, FOX5 Vegas",
+      "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
+      "auto": true,
+      "at": "2026-11-04T20:47:36Z",
+      "issue": 80
     }
   }
 }
