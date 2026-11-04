@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T13:53:22Z",
+  "updated_at": "2026-11-04T13:55:03Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -332,6 +332,13 @@
       "source": "NBC News",
       "url": "https://www.nbcnews.com/politics/2026-election/jocelyn-benson-michigan-governor-win-election-democrat-control-james-rcna603344",
       "at": "2026-11-04T13:53:07Z"
+    },
+    "TN": {
+      "winner": "R",
+      "source": "WSMV",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR3VhZkd1VzdnRVExUWtqRDBpTjhqUXp2SUVTNjhuTVVCNkhITDF5YTRKdi0tLXE4SVQ1ZjhRRUtIRDctUEwzYkR0T2YxMUNiYWh1SEFSQ0ltVElkYlZpV1ZOMlN1amtLdVJZMTlyVmtnbUFPNzBJMkU2Sjl5LUhMc2wyREktalc5c2h0MFNGWlFqcHpKWmtPWlFjZEFrQ3IzeFRCNHU1QVJVLW9odGZKSng3dkZ0T3I3MG9jUHdJUFNodw?oc=5",
+      "note": "first woman elected to Tennessee governor’s office. Republican.",
+      "at": "2026-11-04T13:54:39Z"
     }
   }
 }

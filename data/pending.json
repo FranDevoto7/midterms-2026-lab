@@ -759,8 +759,9 @@
       ],
       "ap": false,
       "issue": 48,
-      "status": "open",
-      "opened": "2026-11-04T05:53:05Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T05:53:05Z",
+      "closed": "2026-11-04T13:55:01Z"
     },
     "governors:MI:D": {
       "office": "governors",
