@@ -74,7 +74,11 @@ Después del cierre de la votación, el robot revisa cada hora las noticias que 
 
 Con el sitio abierto, los resultados nuevos y las noticias aparecen solos en menos de cinco minutos, sin recargar.
 
-Nada se publica sin tu confirmación. Los resultados de los casos y el cambio neto en la Cámara siguen cargándose con el formulario de **Run workflow**.
+Cuando AP, o dos medios distintos, anuncian el mismo ganador, el robot lo **carga solo** y abre un aviso «Cargado: …» para avisarte; si está mal, cerralo como **Close as not planned** y se borra. Si hay un único titular de otro medio, o titulares que se contradicen, te pide confirmación como siempre. Cada resultado cargado así lleva la marca «Carga automática» en el sitio.
+
+**Cámara:** cada hora el robot lee el recuento de la página de Wikipedia de las elecciones a la Cámara y carga el cambio neto del partido del presidente, marcado como provisorio con la cantidad de bancas definidas. Si cargás un número a mano con *Run workflow*, el robot lo respeta; para volver al modo automático, cargá `clear`.
+
+Los resultados de los casos siguen cargándose con el formulario de **Run workflow**.
 
 ## Ajustes frecuentes
 
