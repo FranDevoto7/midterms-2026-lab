@@ -1,8 +1,14 @@
 {
-  "updated_at": "2026-11-04T02:49:07Z",
+  "updated_at": "2026-11-04T02:49:37Z",
   "house_net_change_presidents_party": null,
   "cases": {},
-  "senate": {},
+  "senate": {
+    "GA": {
+      "winner": "D",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/03/g-s1-150143/georgia-senate-race-jon-ossoff-mike-collins"
+    }
+  },
   "governors": {
     "FL": {
       "winner": "R",

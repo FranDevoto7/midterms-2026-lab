@@ -37,8 +37,9 @@
       "source": "NPR",
       "date": "2026-11-04T00:55:57Z",
       "issue": 3,
-      "status": "open",
-      "opened": "2026-11-04T02:35:50Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T02:35:50Z",
+      "closed": "2026-11-04T02:49:35Z"
     },
     "senate:NH:D": {
       "office": "senate",
