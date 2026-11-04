@@ -1,7 +1,13 @@
 {
-  "updated_at": null,
+  "updated_at": "2026-11-04T02:49:07Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {},
-  "governors": {}
+  "governors": {
+    "FL": {
+      "winner": "R",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/11/03/g-s1-151260/florida-governor-donalds-jolly"
+    }
+  }
 }

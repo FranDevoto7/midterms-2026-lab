@@ -10,8 +10,9 @@
       "source": "NPR",
       "date": "2026-11-04T02:10:59Z",
       "issue": 1,
-      "status": "open",
-      "opened": "2026-11-04T02:35:49Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T02:35:49Z",
+      "closed": "2026-11-04T02:49:05Z"
     },
     "senate:NC:D": {
       "office": "senate",
