@@ -1004,7 +1004,7 @@
       "source": "Atlanta Magazine",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORlNGVXNlU0xRS1hkcUcxU2VMa1Z1a0MxbXB4djJKeHZCLXluMVNtR29ULTlBZ3ZWNGdFYWVuOTNFUWM0VjJ3SDI2Z3ljNVBtLWtpbENZOGZPeXhyX3NzUDRabC1KaXduSVAycTVmZTJKd3JxcWxycHJtQTZzT19EY01wWmN0RlNhaUhROXA3UFJXdzh0cDVfbUJwVmJtN3JvQ2lvRV82WU44Tm51X192THBxVE90bUJYWUJqdzZ3RWNiYVVlLWpaTGNBQVBhVHhPS3ppWHlGc2JZRW9XNVE?oc=5",
       "issue": 58,
-      "status": "confirmed",
+      "status": "rejected",
       "opened": "2026-11-04T16:13:28Z",
       "seen": "2026-11-04T16:26:00Z"
     },
@@ -1149,7 +1149,8 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRlU4M1dLbjdpbkxpZDl1TGdGZU50YWd2QjBFZ0puelU5QTJ3cWFGVWMzZ0NNYkpoVDNNNDF6U2Ewc2dUZUZuZ24xM004N1lzZUVwZDEyejVQUF9xVjZrMTR0TGNGZ2dDakJMMGk4N2Qzd3lHYzM1bzhmSHNwazJ4VFNMcnJRdw?oc=5",
       "issue": 70,
       "status": "open",
-      "opened": "2026-11-04T16:51:48Z"
+      "opened": "2026-11-04T16:51:48Z",
+      "seen": "2026-11-04T16:51:48Z"
     },
     "governors:OH": {
       "office": "governors",
@@ -1160,7 +1161,8 @@
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGOE0tekFKdUpCUEhSNkgxR0FKUTRkZnRtX2VscHJ2NUZVR0w5M3JMQXlLQ19sdFBwM3l3Q1VZSFpHajA2elNUT2taZTY2WF9uS1ZGX1FZSFpYYjlSbWMwcnpZOTA1U1Zpd0JrSA?oc=5",
       "issue": 71,
       "status": "open",
-      "opened": "2026-11-04T16:51:49Z"
+      "opened": "2026-11-04T16:51:49Z",
+      "seen": "2026-11-04T16:51:48Z"
     },
     "governors:WI": {
       "office": "governors",
@@ -1171,7 +1173,8 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSjdfYkt5bS1DOEdTRDZwTHowUVFsTnJ1Zk5Qb2c0ZVZBMFppS3QwQkRKckc3SlMza29rcXcxMFlvZjAybVBzMWN3TFhvTnZFXzhLa0F2S29CV1d0enB4MTNsdlhhblRzSk5qdVdFRy1mMzZiMVJDTWgweU9zeUsweUdOamtJVVBDdEZQYlI3U1kyTUNVei1CVWY1U0UzcmxGNjBhRg?oc=5",
       "issue": 72,
       "status": "open",
-      "opened": "2026-11-04T16:51:49Z"
+      "opened": "2026-11-04T16:51:49Z",
+      "seen": "2026-11-04T16:51:49Z"
     },
     "governors:TX": {
       "office": "governors",
@@ -1182,7 +1185,8 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mU1M5MjZ6a2ZORFAyeUY3RV95eUs3SjVGQnd1ckRQM080Z2NuOTFEQXAzMFIwbTVYeU1jQVozTmM1dDczVTZ4WTY5SzR3ajNYZXN0OFJXTUV5OEFtZTZMTV8wRGFHdkxfMFlHdXJfTHJ4QUphZmc?oc=5",
       "issue": 73,
       "status": "open",
-      "opened": "2026-11-04T16:51:49Z"
+      "opened": "2026-11-04T16:51:49Z",
+      "seen": "2026-11-04T16:51:49Z"
     },
     "governors:CA": {
       "office": "governors",
@@ -1193,7 +1197,8 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMG02TnAzUG96YklJZm9HRE1OazByY19Icm52T2lPNmhLLWJ3ajNmY1Y3dmw3Q3RpQk5icXNQZnZabG9kcGtTcmx5MnpFYjdMdU9CRG5HSDJFSFZSRVdQSHNMTkp4T2VtbUR1VHFpS3FSc21QZ1Y3cklvSjdSTHRMbXZUR04taVAxLXJ6M2NB?oc=5",
       "issue": 74,
       "status": "open",
-      "opened": "2026-11-04T16:51:50Z"
+      "opened": "2026-11-04T16:51:50Z",
+      "seen": "2026-11-04T16:51:50Z"
     },
     "governors:NV": {
       "office": "governors",
@@ -1204,7 +1209,8 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSVVGcVY3N2tGcjVmc1RLcHJVcS1hUFNVM21US0NaOGVMZHVZTGJieHpIYU5zZU5MN1JxcmNqa0FQM2JFaHljQlB6R1hvTmhBZ3RlNjBpNTJ5QUdYa2lPX3VBTXJLeVRPOXdlQjRPUTJxMXlCemZULUpUMkc4bFBvODN5UnZPWXJhRXVMX09PaTVseTZ6X2x6NWRGUXQtbWFCVlV6XzBEWWR0bDZwYUh1bTNVbHNiMzBtWG1PS1R3?oc=5",
       "issue": 75,
       "status": "open",
-      "opened": "2026-11-04T16:51:50Z"
+      "opened": "2026-11-04T16:51:50Z",
+      "seen": "2026-11-04T16:51:50Z"
     }
   }
 }
