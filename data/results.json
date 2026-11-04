@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T04:07:46Z",
+  "updated_at": "2026-11-04T04:09:20Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -86,6 +86,13 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9QcXY5MWRmd1BqcmFsZFJIVURYRlZfV1BjbnkyTWU3WWk4eS00N1dnVktqemk4ZG13VHNzbHlxdjNqSmRiVTJBdW1fRXlCX0V3Yk5yYXJMZlEzMlVWb1h0V21xTUVjM2JTbFR1ZGtONHZtYmd5NnpObmZyWQ?oc=5",
       "note": "Wyoming voters overwhelmingly supported the president in 2024, but have indicated more recently [a considerable disapproval](https://wyofile.com/trump-and-freedom-caucus-approval-election-confidence-three-takeaways-from-a-wyoming-survey-ahead-of-the-general-election/) of the way he is handling the job. That’s according to the Wyoming Survey and Analysis Center’s 2026 election survey released last week. Gana un republicano, pero no uno endorsed por Trump.",
       "at": "2026-11-04T04:07:34Z"
+    },
+    "PA": {
+      "winner": "D",
+      "source": "NBC News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX3hDaXVfdnR1QnpuR3R0RUdOTTQtYU8xVjVKdUVyQmFXR2toS3hIeXR1N1ZTNnVmMFR6SG9HS2RzYU1sNWdzeWZ4T0Q4aFVsbDZrd2J2bDg1T0c0OTVUVjAtM0xHdHB0LUwzSXVFTUYtTE9WY1IyalpVbW53Mm5DamQwMA?oc=5",
+      "note": "The Pennsylvania Governor race has shifted 23.72 points toward Democrats compared with the 2024 presidential election.",
+      "at": "2026-11-04T04:09:08Z"
     }
   }
 }

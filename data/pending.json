@@ -219,8 +219,9 @@
       "source": "NBC News",
       "date": "2026-11-04T02:51:15Z",
       "issue": 16,
-      "status": "open",
-      "opened": "2026-11-04T02:59:59Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T02:59:59Z",
+      "closed": "2026-11-04T04:09:17Z"
     },
     "governors:AZ:D": {
       "office": "governors",
