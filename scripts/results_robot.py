@@ -327,7 +327,10 @@ def latest_note(number):
         comments = gh("GET", f"/repos/{REPO}/issues/{number}/comments?per_page=100") or []
     except urllib.error.URLError:
         return None
-    people = [c for c in comments if (c.get("user") or {}).get("type") != "Bot" and (c.get("body") or "").strip()]
+    # Only the repository's owner and collaborators can write the description shown on the site.
+    trusted = ("OWNER", "MEMBER", "COLLABORATOR")
+    people = [c for c in comments if (c.get("user") or {}).get("type") != "Bot" and c.get("author_association") in trusted
+              and (c.get("body") or "").strip()]
     return clean_note(people[-1]["body"]) if people else ""
 
 
