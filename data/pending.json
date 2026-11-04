@@ -352,8 +352,9 @@
       "source": "KATV",
       "date": "2026-11-04T03:16:26Z",
       "issue": 26,
-      "status": "open",
-      "opened": "2026-11-04T03:25:44Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T03:25:44Z",
+      "closed": "2026-11-04T04:22:51Z"
     },
     "governors:NM:D": {
       "office": "governors",

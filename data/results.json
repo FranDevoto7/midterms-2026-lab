@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T04:21:38Z",
+  "updated_at": "2026-11-04T04:22:51Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -126,6 +126,13 @@
       "url": "https://thehill.com/homenews/campaign/6168646-crowley-defeats-tiffany-wisconsin-governor/",
       "note": "Crowley is Wisconsin’s first Black governor.",
       "at": "2026-11-04T04:21:26Z"
+    },
+    "AR": {
+      "winner": "R",
+      "source": "KATV",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSjZITHZoTmk1bWR6SHhkcDNzd1NuVFpOdDZOVHV4b0dabTFCRVJ3TmpNYVBCNVZrSWl2U2hVRFhVQWFuX3RSV1ZheFozNDhWdEhCSGlmZ0oxWW1VTjNHcjJ1MkJZVlBFYXFKdHROWjZNek5qWlJWMnZ5V01GS2VJUlBpcjVZT3ppTlNGYmQxd2lqdGc?oc=5",
+      "note": "Continuidad republicana.",
+      "at": "2026-11-04T04:22:40Z"
     }
   }
 }
