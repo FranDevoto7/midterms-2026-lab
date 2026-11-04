@@ -629,6 +629,57 @@
       "issue": 40,
       "status": "open",
       "opened": "2026-11-04T04:50:32Z"
+    },
+    "governors:MN:D": {
+      "office": "governors",
+      "state": "MN",
+      "winner": "D",
+      "candidate": "Amy Klobuchar",
+      "title": "Klobuchar notches win in Minnesota governor's race",
+      "url": "https://thehill.com/homenews/campaign/6190374-amy-klobuchar-wins-minnesota-gubernatorial-race-2026/",
+      "source": "The Hill",
+      "date": "2026-11-04T05:06:59Z",
+      "outlets": [
+        "The Hill"
+      ],
+      "ap": false,
+      "issue": 41,
+      "status": "open",
+      "opened": "2026-11-04T05:07:23Z"
+    },
+    "senate:MN:D": {
+      "office": "senate",
+      "state": "MN",
+      "winner": "D",
+      "candidate": "Peggy Flanagan",
+      "title": "Flanagan wins Minnesota Senate seat left open by Smith",
+      "url": "https://thehill.com/homenews/campaign/6175415-peggy-flanagan-minnesota-senate/",
+      "source": "The Hill",
+      "date": "2026-11-04T05:04:56Z",
+      "outlets": [
+        "The Hill"
+      ],
+      "ap": false,
+      "issue": 42,
+      "status": "open",
+      "opened": "2026-11-04T05:07:24Z"
+    },
+    "governors:MA:D": {
+      "office": "governors",
+      "state": "MA",
+      "winner": "D",
+      "candidate": "Maura Healey",
+      "title": "Massachusetts Governor Election Results 2026: Maura Healey Wins",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hcU9Pc0FhaTBBM2FBZVIyWEFNckt0ZFNHU2pVSGM1TjlHa2Noc3o0YmNqeFl2YkNSaURDS05NZVRnTmVVUTdTdm9qOFZuYktGVjR2eVItSlJ0Z21rYzB4UFlaTElrS3o4NTljMkV5Q2J6ekpNOGtz?oc=5",
+      "source": "MultiState",
+      "date": "2026-11-04T02:54:26Z",
+      "outlets": [
+        "MultiState"
+      ],
+      "ap": false,
+      "issue": 43,
+      "status": "open",
+      "opened": "2026-11-04T05:07:24Z"
     }
   }
 }
