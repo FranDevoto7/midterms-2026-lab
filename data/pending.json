@@ -701,8 +701,9 @@
       ],
       "ap": false,
       "issue": 45,
-      "status": "open",
-      "opened": "2026-11-04T05:29:52Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T05:29:52Z",
+      "closed": "2026-11-04T13:58:18Z"
     },
     "senate:ME:D": {
       "office": "senate",
