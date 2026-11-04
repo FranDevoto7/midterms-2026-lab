@@ -1,0 +1,47 @@
+name: Keep the robot running tonight
+
+# Start it once with Run workflow. It starts the robot every 30 minutes for up to six hours,
+# even if GitHub's hourly clock does not fire and your computer is off.
+on:
+  workflow_dispatch:
+    inputs:
+      hours:
+        description: "Cuántas horas mantener al robot andando (máximo 6)"
+        required: false
+        default: "6"
+      every:
+        description: "Cada cuántos minutos correr el robot (mínimo 10)"
+        required: false
+        default: "30"
+
+permissions:
+  actions: write
+
+concurrency:
+  group: vigil
+  cancel-in-progress: true
+
+jobs:
+  vigil:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Run the robot every so often
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HOURS: ${{ inputs.hours }}
+          EVERY: ${{ inputs.every }}
+        run: |
+          hours="${HOURS:-6}"; every="${EVERY:-30}"
+          if [ "$hours" -gt 6 ]; then hours=6; fi
+          if [ "$every" -lt 10 ]; then every=10; fi
+          rounds=$(( hours * 60 / every ))
+          if [ "$rounds" -lt 1 ]; then rounds=1; fi
+          for i in $(seq 1 "$rounds"); do
+            echo "Round $i of $rounds: starting the robot at $(date -u +%H:%M) UTC"
+            if ! gh workflow run update-site.yml --repo "$GITHUB_REPOSITORY" --ref main -f kind=news; then
+              echo "::warning::Could not start the robot this round."
+            fi
+            if [ "$i" -lt "$rounds" ]; then sleep $(( every * 60 )); fi
+          done
+          echo "Done: the robot ran $rounds times."
