@@ -24,8 +24,9 @@
       "source": "NPR",
       "date": "2026-11-04T01:24:24Z",
       "issue": 2,
-      "status": "open",
-      "opened": "2026-11-04T02:35:49Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T02:35:49Z",
+      "closed": "2026-11-04T02:50:14Z"
     },
     "senate:GA:D": {
       "office": "senate",
