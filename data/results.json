@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T04:25:33Z",
+  "updated_at": "2026-11-04T04:27:23Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -153,6 +153,13 @@
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOHdqT0pyUEI1THFuZWE4c2JaZHVueGJTWkdWLUxlV3lPV05VQUdza3Z3cjlwc3FENGI2b3RHNDZfdFhKbElJZ20xV0VwODJlakpkU2xoNXhUVlZqbl9RYm1LaGxVSEVodFdUdkhoMlp6cjB5dlUtczVZcmdSTndVVnN5ZmpxYTZ1ejFuLVJnME1rUjBMM0Z4U3ZXUWROWENSVFJjWFZFWElkbF9UVmREZ19mbEtndVJYY1lV0gHAAUFVX3lxTE9kbE4tOTQ5bXE4TVJia180VEh6LWFnRURURnVRa1NBckx6SFFwbzJSWjBkUDVuQkQ5VkJuNzdqeUpzTDNuQVZUSTcwWmUzU2lURG1SbElHamVNQWozOG9NRmVyeTgzOVlHVGhEaXg5SVZmX1Zzc216YmljMHZLQ0xFQzVJd21uMkhIRlk5OG1OMllPcS1IZENOMnJqaTJ4STBGNnVvdkFic1lmSmlDVDB2bmxYdHlLUXAtNy1zSFNjUQ?oc=5",
       "note": "Reelección",
       "at": "2026-11-04T04:25:19Z"
+    },
+    "SC": {
+      "winner": "R",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6185074-alan-wilson-wins-south-carolina-governors-race-2026/",
+      "note": "Wilson retiene la gobernación, aunque por unos 5 puntos frente a los 17 que ganó McMaster en 2022. Eso sugiere que incluso en South Carolina el entorno de 2026 está reduciendo ventajas republicanas tradicionales",
+      "at": "2026-11-04T04:27:13Z"
     }
   }
 }

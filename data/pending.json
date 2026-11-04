@@ -273,8 +273,9 @@
       "source": "The Hill",
       "date": "2026-11-04T03:01:52Z",
       "issue": 20,
-      "status": "open",
-      "opened": "2026-11-04T03:21:12Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T03:21:12Z",
+      "closed": "2026-11-04T04:27:23Z"
     },
     "governors:NY:D": {
       "office": "governors",
