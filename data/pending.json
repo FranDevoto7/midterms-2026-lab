@@ -392,8 +392,9 @@
       "source": "The Hill",
       "date": "2026-11-04T03:33:35Z",
       "issue": 29,
-      "status": "open",
-      "opened": "2026-11-04T03:44:43Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T03:44:43Z",
+      "closed": "2026-11-04T04:20:18Z"
     }
   }
 }
