@@ -909,6 +909,23 @@
       "issue": 56,
       "status": "confirmed",
       "opened": "2026-11-04T10:23:22Z"
+    },
+    "governors:NH:R": {
+      "office": "governors",
+      "state": "NH",
+      "winner": "R",
+      "candidate": "Kelly Ayotte",
+      "title": "New Hampshire Gov. Kelly Ayotte wins re-election, AP projects",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORGFNRlctaVBhZjR6WHJMc29HWE9Ga1dOVVE5cnFKdWFJUnpkNm9kUndsNV9EUTZJdGsyNWtSWUlqU1NWcnpOT3NZTjdiSXdqNXZ4U2RzWkpIbVd3eGswbmxIOE9ENHZLSUlMbXljZmpxNFVPOFk2bEdlVTZFNGhpbkRIdXpySlJ4Ry1PQw?oc=5",
+      "source": "WMUR",
+      "date": "2026-11-04T11:53:00Z",
+      "outlets": [
+        "WMUR"
+      ],
+      "ap": true,
+      "issue": 57,
+      "status": "auto",
+      "opened": "2026-11-04T14:09:51Z"
     }
   }
 }
