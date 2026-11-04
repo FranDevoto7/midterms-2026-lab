@@ -858,6 +858,23 @@
       "issue": 54,
       "status": "open",
       "opened": "2026-11-04T08:53:11Z"
+    },
+    "governors:AL:R": {
+      "office": "governors",
+      "state": "AL",
+      "winner": "R",
+      "candidate": "Tommy Tuberville",
+      "title": "Tommy Tuberville wins Alabama governor’s race; Doug Jones does not concede",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONkUtUWgtSVh5MWk3a2ZLcmVJU1ZhTHFBOHlac2xSdmtUWkgydm1paGxMcFhYcVhJZEd6eEQ5Wkpwc01rdnJ1bVBfTEU2MXVvaG1zdUFMLW9aLTBCblN4bWNPYWRBNkdhUU5lV3NfY2l6LS05TF9sMUpncjNZeVVXckVkRlE1RjNoZjRuQjdnT25qUlM3XzR3dUUwdVFSMVVVRVRqZ29BdHJxYnA3UkdHVDdFUkxSRXVBdm1wa1ZheVE1TWJsUEpR?oc=5",
+      "source": "Alabama Reflector",
+      "date": "2026-11-04T07:54:09Z",
+      "outlets": [
+        "Alabama Reflector"
+      ],
+      "ap": false,
+      "issue": 55,
+      "status": "open",
+      "opened": "2026-11-04T09:23:21Z"
     }
   }
 }
