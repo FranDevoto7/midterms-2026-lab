@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T03:57:24Z",
+  "updated_at": "2026-11-04T04:00:37Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -29,6 +29,13 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQjFrVnRfUHc2d19jTVdsbnhhZUZGcmtoZ19HZEY4Y05CeVJGc04wODNoWXdPcHdHaER2RFhmejNabWk0YjdMd2VxZEU4ajgyYzZwSDZWaWxhZTdfb1pGVlk0SnpYcWFHbXhuSGFQWmZkZkxiMVRsZmpVcGpndW9rS2FaY3ByeFJ1NDF4VFhFWWplQ24ya092NEttVy1OR0xnX281WFN6VktLSGUy0gGyAUFVX3lxTE5sTEJabk9pbTk3aWdUclJkS2ctWjZVNFZSaHk4QXc0TUVaU3UteTU4eG5rV3VBVUtDemdKY2FxOGdUR0xSaHJZNl9UeE5CQ1loWU9LMWo5a3JSVE9UUmtKTlduUDc1ZGx1LTZRY1Vxd2JnSW5QenpkUVc4NUMxVEUyOTczNmdLM3BSQVppNEltbzEzNDgtbEhYdjJuc1dIeVZjUDFrS0RKWjFHXzcyZjVodkE?oc=5",
       "note": "Victoria cantada demócrata. New Jersey has not elected a Republican senator since 1972.",
       "at": "2026-11-04T03:57:07Z"
+    },
+    "SC": {
+      "winner": "D",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6190941-live-updates-trump-midterm-elections-2026/",
+      "note": "flipping Senate seat.",
+      "at": "2026-11-04T04:00:22Z"
     }
   },
   "governors": {

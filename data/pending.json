@@ -122,8 +122,9 @@
       "source": "The Hill",
       "date": "2026-11-04T02:57:59Z",
       "issue": 9,
-      "status": "open",
-      "opened": "2026-11-04T02:59:55Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T02:59:55Z",
+      "closed": "2026-11-04T04:00:32Z"
     },
     "senate:NJ:D": {
       "office": "senate",
