@@ -76,9 +76,9 @@ def main():
                 if old.get("note_from"):
                     entry["note_from"] = old["note_from"]
             if milestone.lower() in ("borrar", "quitar", "clear", "-"):
-                pass  # "Hito: borrar" removes the milestone
+                entry["milestone_from"] = "form"  # "Hito: borrar" removes the milestone, and the robot won't put it back
             elif milestone:
-                entry["milestone"] = milestone
+                entry["milestone"], entry["milestone_from"] = milestone, "form"
             elif same and old.get("milestone"):
                 entry["milestone"] = old["milestone"]
                 if old.get("milestone_url"):
@@ -118,12 +118,23 @@ def main():
             data.pop("house_auto", None)
             print("Cleared the House net change.")
         else:
-            try:
-                data["house_net_change_presidents_party"] = int(value.replace("−", "-"))
-                data["house_from"] = "form"
-                data.pop("house_auto", None)
-            except ValueError:
-                fail("For house_net_change, value must be a whole number, negative for a loss (for example -12).")
+            v = value.replace("−", "-").strip()
+            net = called = None
+            # "R 180 D 240": seats won by each party, as results pages show them; the change is R seats minus the 220 of 2024.
+            mr, md = re.search(r"\bR\s*[:=]?\s*(\d{1,3})\b", v, re.I), re.search(r"\bD\s*[:=]?\s*(\d{1,3})\b", v, re.I)
+            if mr:
+                net = int(mr.group(1)) - 220
+                called = int(mr.group(1)) + (int(md.group(1)) if md else 0) if md else None
+            else:
+                # "-27" or "-27 de 425": the net change, and optionally how many seats are decided.
+                m = re.match(r"^([+-]?\d{1,3})(?:\s*(?:de|of|/)\s*(\d{1,3}))?$", v, re.I)
+                if m:
+                    net, called = int(m.group(1)), (int(m.group(2)) if m.group(2) else None)
+            if net is None or abs(net) > 150 or (called is not None and not 0 < called <= 435):
+                fail("For house_net_change, write the net change (-27), the net change and seats decided (-27 de 425), or the seats of each party (R 180 D 240).")
+            data["house_net_change_presidents_party"] = net
+            data["house_from"] = "form"
+            data["house_auto"] = {"source": source or "", "url": url or "", "called": called, "at": now, "manual": True}
             print(f"House net change for the president's party: {data['house_net_change_presidents_party']}")
 
     data["updated_at"] = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")

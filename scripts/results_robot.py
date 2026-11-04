@@ -509,7 +509,7 @@ def sync_milestones(m_issues, pending, results):
                 m["status"], p_changed = "rejected", True
             continue
         entry = (results.get(m["office"]) or {}).get(m["state"])
-        if not isinstance(entry, dict) or entry.get("winner") != m.get("winner"):
+        if not isinstance(entry, dict) or entry.get("winner") != m.get("winner") or entry.get("milestone_from") == "form":
             continue
         stamp = it.get("updated_at") or ""
         newly = closed and m["status"] == "open"
@@ -532,7 +532,56 @@ def sync_milestones(m_issues, pending, results):
             comment(it["number"], "Listo: el hito ya aparece en el sitio. Si escribís otro comentario con «Hito: …», el texto se actualiza.")
     return p_changed, r_changed
 
+CORRECTIONS = [ROOT / "data" / "corrections.json", ROOT / "corrections.json"]
+
+
+def apply_corrections():
+    """A one-time batch of hand-written fixes (corrections.json). Applied once, then the file is removed."""
+    path = next((p for p in CORRECTIONS if p.exists()), None)
+    if not path:
+        return
+    try:
+        fixes = json.loads(path.read_text(encoding="utf-8")).get("fixes", [])
+    except (OSError, ValueError) as exc:
+        warn(f"corrections.json could not be read: {exc}")
+        return
+    results = load(RESULTS, {})
+    done = 0
+    for f in fixes:
+        office, st = f.get("office"), f.get("state")
+        entry = (results.get(office) or {}).get(st)
+        if not isinstance(entry, dict):
+            warn(f"Correction skipped: there is no {office} result for {st}.")
+            continue
+        if f.get("winner") and entry.get("winner") != f["winner"]:
+            warn(f"Correction skipped for {office} {st}: the winner on file is {entry.get('winner')}, not {f['winner']}.")
+            continue
+        if "milestone" in f:
+            if f["milestone"]:
+                entry["milestone"] = f["milestone"]
+            else:
+                for k in ("milestone", "milestone_url", "milestone_issue"):
+                    entry.pop(k, None)
+            entry["milestone_from"] = "form"
+        if "note" in f:
+            if f["note"]:
+                entry["note"] = f["note"]
+            else:
+                entry.pop("note", None)
+            entry["note_from"] = "form"
+        if f.get("source"):
+            entry["source"] = f["source"]
+        done += 1
+        print(f"Corrected {office} {st}")
+    if done:
+        results["updated_at"] = now_iso()
+        save(RESULTS, results)
+    path.unlink()
+    print(f"Applied {done} of {len(fixes)} corrections and removed {path.name}.")
+
+
 def sync():
+    apply_corrections()
     if not (TOKEN and REPO):
         print("No GitHub token; skipping the sync.")
         return
@@ -658,7 +707,7 @@ def sync():
                 entry.pop("note", None)
             r_changed = True
             print(f"Updated the description of {key} from notice #{it['number']}")
-        if milestone and milestone != entry.get("milestone"):
+        if milestone and milestone != entry.get("milestone") and entry.get("milestone_from") != "form":
             entry["milestone"] = milestone
             r_changed = True
             print(f"Marked a milestone for {key} from notice #{it['number']}")
