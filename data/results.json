@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T13:51:02Z",
+  "updated_at": "2026-11-04T13:52:18Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -142,6 +142,19 @@
       "url": "https://thehill.com/homenews/campaign/6175415-peggy-flanagan-minnesota-senate/",
       "note": "Uphill battle with corruption accusations.",
       "at": "2026-11-04T13:49:33Z"
+    },
+    "WY": {
+      "winner": "R",
+      "source": "WyoFile",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBOdU1UWnQzX0d4el9oQkotX2xKMUJxOFBIX05ic3pCVklRSWVQTFhlWkpCZjAyZzVydWNybVlKZ3poOFRpZ25zZ0YtWXFjUzZsQ0Ftc2E2Qkh1eUFCck1zQ004ZXg?oc=5",
+      "note": "Republican alligned with Trump wins.",
+      "at": "2026-11-04T13:51:21Z"
+    },
+    "NE": {
+      "winner": "R",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6182241-ricketts-wins-nebraska-senate-race/",
+      "at": "2026-11-04T13:51:51Z"
     }
   },
   "governors": {
