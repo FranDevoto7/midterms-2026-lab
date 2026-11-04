@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T16:26:04Z",
+  "updated_at": "2026-11-04T16:41:53Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -119,7 +119,9 @@
       "source": "WPLG Local 10",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQi1VZk5NQUhfdGVCTjJ4MGZvcmFRQ1lDa0FCSGEyZ3ZSUXJEak9SQXNtUUJ5bDZXcC0xSHl3SWJEWGtnR25tYlg4N2NLQXBNRTNnNUxMUXNPUnF4SDliN2ZMSzFCU0RINUVJQTZveVV0MVBnMmxDRHcyQzV6VjYtZVVpUGtUazJhTGNwa294NjU3d0prQjYyREUzRUVaMVRM?oc=5",
       "note": "HISTORIA.",
-      "at": "2026-11-04T13:43:09Z"
+      "at": "2026-11-04T13:43:09Z",
+      "milestone": "the first Democrat to win a US Senate seat in the Lone Star state since 1988",
+      "milestone_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMGhJZnFRWk9SS2NkMWJIM21ObEVYVmZmSmtydlEzdW9oLW43WFZkNGNUejJnUGlOQmkza0EwWXhHc29EcXA4blE0ejJ2UlM3VGR5VmFocEhLTUoxOFZlOG1nckVzYnY4a1ZFdFlzd3Ewd1hocGhUbG1LZ2w5ZWNaNzBReG1hTGlkcE43VFJBWVo4MnBuT3Z0Tnd0OXI0QkFEc1hjQmZOemxUZ2dEWm1ERjI5LTRwNHhNMnlDNTVxTzl6VnM?oc=5"
     },
     "VA": {
       "winner": "D",
@@ -184,7 +186,9 @@
     "FL": {
       "winner": "R",
       "source": "NPR",
-      "url": "https://www.npr.org/2026/11/03/g-s1-151260/florida-governor-donalds-jolly"
+      "url": "https://www.npr.org/2026/11/03/g-s1-151260/florida-governor-donalds-jolly",
+      "milestone": "state’s first Black leader",
+      "milestone_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSVlIcmdDR3BpbENtb2lHc3pSbE0ybXRoTHJpMlFQUnY5MHAtRU5JcWc0VWNLemZ6WUpDU0VEbjNwZ2NfRzBuN0VJTkFWRWZWdkZLNHZHY21XMWhMMTdfenBGR0VxQWMwVWx2Qjh3Ny1QRmxHM1J4UXh3MmRlRkF6QUR5TnBHbUZMb2pNYUJlYVlWWllMT2l4cGtaeEJ2TS1XV0JDYmNfX2p1VUNQWFo4SGlKUVFJdklYbnM2N2p3?oc=5"
     },
     "GA": {
       "winner": "D",
