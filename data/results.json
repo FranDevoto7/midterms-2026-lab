@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T04:29:40Z",
+  "updated_at": "2026-11-04T04:32:01Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -57,6 +57,12 @@
       "url": "https://thehill.com/homenews/campaign/6137514-moore-wins-alabama-senate-race/",
       "note": "Barry Moore retiene para el GOP el escaño que deja Tommy Tuberville en un estado profundamente conservador.",
       "at": "2026-11-04T04:29:30Z"
+    },
+    "SD": {
+      "winner": "R",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6184544-mike-rounds-wins-south-dakota-senate/",
+      "at": "2026-11-04T04:31:50Z"
     }
   },
   "governors": {
