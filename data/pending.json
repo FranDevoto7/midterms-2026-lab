@@ -1,0 +1,108 @@
+{
+  "suggestions": {
+    "governors:FL:R": {
+      "office": "governors",
+      "state": "FL",
+      "winner": "R",
+      "candidate": "Byron Donalds",
+      "title": "Republican Byron Donalds wins governor's race in Florida",
+      "url": "https://www.npr.org/2026/11/03/g-s1-151260/florida-governor-donalds-jolly",
+      "source": "NPR",
+      "date": "2026-11-04T02:10:59Z",
+      "issue": 1,
+      "status": "open",
+      "opened": "2026-11-04T02:35:49Z"
+    },
+    "senate:NC:D": {
+      "office": "senate",
+      "state": "NC",
+      "winner": "D",
+      "candidate": "Roy Cooper",
+      "title": "Democrat Roy Cooper wins a North Carolina Senate seat",
+      "url": "https://www.npr.org/2026/11/03/g-s1-150958/north-carolina-senate-results",
+      "source": "NPR",
+      "date": "2026-11-04T01:24:24Z",
+      "issue": 2,
+      "status": "open",
+      "opened": "2026-11-04T02:35:49Z"
+    },
+    "senate:GA:D": {
+      "office": "senate",
+      "state": "GA",
+      "winner": "D",
+      "candidate": "Jon Ossoff",
+      "title": "Jon Ossoff wins reelection in Georgia, easily defeating Republican Mike Collins",
+      "url": "https://www.npr.org/2026/11/03/g-s1-150143/georgia-senate-race-jon-ossoff-mike-collins",
+      "source": "NPR",
+      "date": "2026-11-04T00:55:57Z",
+      "issue": 3,
+      "status": "open",
+      "opened": "2026-11-04T02:35:50Z"
+    },
+    "senate:NH:D": {
+      "office": "senate",
+      "state": "NH",
+      "winner": "D",
+      "candidate": "Chris Pappas",
+      "title": "Democrats score major Senate victory as Pappas defeats Trump-backed Republican in key battleground",
+      "url": "https://www.foxnews.com/politics/pappas-wins-democrats-score-major-senate-victory-pappas-defeats-trump-backed-republican-key-battleground",
+      "source": "Fox News",
+      "date": "2026-11-04T00:23:36Z",
+      "issue": 4,
+      "status": "open",
+      "opened": "2026-11-04T02:35:50Z"
+    },
+    "governors:GA:D": {
+      "office": "governors",
+      "state": "GA",
+      "winner": "D",
+      "candidate": "Keisha Lance Bottoms",
+      "title": "Democrat Keisha Lance Bottoms projected to win Georgia governor's race",
+      "url": "https://www.nbcnews.com/video/democrat-keisha-lance-bottoms-projected-to-win-georgia-governor-s-race-272815173913",
+      "source": "NBC News",
+      "date": "2026-11-04T02:13:47Z",
+      "issue": 5,
+      "status": "open",
+      "opened": "2026-11-04T02:35:51Z"
+    },
+    "governors:IL:D": {
+      "office": "governors",
+      "state": "IL",
+      "winner": "D",
+      "candidate": "JB Pritzker",
+      "title": "Democratic Gov. JB Pritzker wins a third term in Illinois",
+      "url": "https://www.nbcnews.com/politics/2026-election/jb-pritzker-wins-governor-race-illinois-third-term-darren-bailey-rcna603363",
+      "source": "NBC News",
+      "date": "2026-11-04T01:00:40Z",
+      "issue": 6,
+      "status": "open",
+      "opened": "2026-11-04T02:35:51Z"
+    },
+    "senate:NM:D": {
+      "office": "senate",
+      "state": "NM",
+      "winner": "D",
+      "candidate": "Ben Ray Luján",
+      "title": "Luján wins second term as New Mexico senator",
+      "url": "https://thehill.com/homenews/campaign/6152365-lujan-wins-new-mexico-senate/",
+      "source": "The Hill",
+      "date": "2026-11-04T02:35:29Z",
+      "issue": 7,
+      "status": "open",
+      "opened": "2026-11-04T02:35:52Z"
+    },
+    "governors:OK:R": {
+      "office": "governors",
+      "state": "OK",
+      "winner": "R",
+      "candidate": "Mike Mazzei",
+      "title": "Trump-backed Mike Mazzei wins Oklahoma governor's race",
+      "url": "https://thehill.com/homenews/6185051-mike-mazzei-oklahoma-governor/",
+      "source": "The Hill",
+      "date": "2026-11-04T02:34:44Z",
+      "issue": 8,
+      "status": "open",
+      "opened": "2026-11-04T02:35:52Z"
+    }
+  }
+}

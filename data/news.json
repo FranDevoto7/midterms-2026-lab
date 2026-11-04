@@ -1,36 +1,55 @@
 {
-  "updated_at": "2026-11-03T22:22:25Z",
+  "updated_at": "2026-11-04T02:35:42Z",
   "mode": "automatic-rss",
   "feeds_ok": 16,
   "feeds_failed": [],
   "stories": [
     {
       "category": "Senate",
-      "title": "Crockett: Stevens did El-Sayed 'a favor' among Black voters",
-      "summary": "Rep. Jasmine Crockett (D-Texas) says Rep. Haley Stevens (D-Mich.) did Michigan’s Democratic Senate Nominee Abdul El-Sayed a favor with her last-minute decision to endorse former Rep. Mike Rogers (R-Mich.) over the Democrat.",
-      "why": "Trusted figures help voters infer which choice fits their values.",
-      "source": "The Hill",
-      "published": "2026-11-03T22:05:47Z",
-      "url": "https://thehill.com/homenews/campaign/6194159-crockett-says-stevens-boosted-el-sayed/",
+      "title": "Justice Department sent target letters in Alaska Senate criminal probe. Here's what that means",
+      "summary": "The Justice Department has escalated its investigation over a Senate candidate who shares a name with the Republican incumbent, issuing a letter to a prominent Democratic attorney in Washington and others that they may be targets of the…",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "PBS News",
+      "published": "2026-11-04T00:14:51Z",
+      "url": "https://www.pbs.org/newshour/politics/justice-department-sent-target-letters-in-alaska-senate-criminal-probe-heres-what-that-means",
       "concepts": [
-        "elite-cues",
-        "party-coalitions"
+        "incumbency",
+        "federalism"
       ],
       "cases": [
-        "michigan"
+        "alaska"
       ],
       "signal": 2,
-      "mechanism": "Elite cues and endorsements",
-      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
       "category": "Redistricting",
-      "title": "Voters decide key ballot measures on abortion rights, congressional redistricting and voter ID laws",
-      "summary": "Some measures put President Donald Trump's priorities to a public test by gauging support for his attempts to reshape congressional districts, limit transgender athletes in sports and strengthen voter identification requirements.",
+      "title": "Results: States decide on voter ID and redistricting ballot measures",
+      "summary": "Several states — including Alaska, Arizona, California and Nevada — are voting on changes to how their elections are run, including voter ID measures. Other states decide on redistricting proposals.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "PBS News",
-      "published": "2026-11-03T17:30:12Z",
-      "url": "https://www.pbs.org/newshour/politics/voters-decide-key-ballot-measures-on-abortion-rights-congressional-redistricting-and-voter-id-laws",
+      "source": "NPR",
+      "published": "2026-11-03T22:53:23Z",
+      "url": "https://www.npr.org/2026/11/03/nx-s1-6027957/results-voter-id-citizenship-ballot-measures",
+      "concepts": [
+        "redistricting",
+        "direct-democracy"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Maryland Question 3 explained: Could congressional maps change?",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "WJLA",
+      "published": "2026-11-03T13:45:48Z",
+      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNR0lsVXhuLUlxYkRsd21XQ3F0Y2tyTUFOajNhR2hrdmNCMEUzcEZMT0RiVGNBbmRFSFNvMHVlTmRES3JCbGhwdld0RFROcFpEUFg5d0pKbVlIdTNGWGZFcGRNaWtUbmZubTlHTDlHWV82Q1M0Z044OWFIOXFMd0xoT0ZSNURfV0FvWDFkU2RQdWExbDhhdUJlNi1NUWU3OWZSbmJEVXB2d3pCeEN2MWhqQk5EUGdXMWQ4aHlEZm84eGFqM2JjTmVCX1U0Zno1RGZkRWk3QXdobzJ5VXM2MVViSW5BRFd4THVFNXZKc0x6ZjhZcVg1QmRkbXM0WEZaMHVaOU40c195SE5MSFRNT3gzWkdNRmR2NEdCZmJKcTdnM1F4VDR0UlYwd2x4NmZJd3N0VDJrdzdCek93Y0xMcGpr?oc=5",
       "concepts": [
         "redistricting",
         "direct-democracy"
@@ -62,86 +81,67 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
-      "category": "Redistricting",
-      "title": "Maryland Question 3 explained: Could congressional maps change?",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "WJLA",
-      "published": "2026-11-03T09:06:31Z",
-      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPMVdOYnJmUUV1eGhnUW8zNTBOaGN0NDNRQk9xakkxZjJES0oxMmJoZkVqdExmYWJrOGF6NkZlallRemEyQ0hGak00Wm9qYkxlaGVvN3h1NFNYazNGTHdleko3cXRCR2FlRGpHVE9lWHAtTVJIS21DMDd1SERhVlFuczZianFQQXRNVTF4ZGFQXzI5M0FNNnYtTEJ1SXlFal84Mm85eFJUY2YxV0hjdnFEVTY4TUtubERUb0hWLXV1TnlzeFNmZUZJRzRzdDlFRXF1cDA1OENreV9YRkFxNzNYZzVEWXFyZnVDYjNrSmNpazI4RFFZVDdvVWUtNWg0cEVUTmU0N0d6Ulloa0lWX1FvTTZld0Z3NzlvNkxrUDBNZHpVQQ?oc=5",
+      "category": "House",
+      "title": "Democrat Paige Cognetti defeats Bresnahan, flipping key House seat",
+      "summary": "Democrat Paige Cognetti is projected to defeat freshman incumbent Rep. Rob Bresnahan (R) in Pennsylvania's 8th Congressional District, according to Decision Desk HQ (DDHQ).",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "The Hill",
+      "published": "2026-11-04T02:08:39Z",
+      "url": "https://thehill.com/homenews/campaign/6179073-paige-cognetti-pennsylvania-8th-district/",
       "concepts": [
-        "redistricting",
-        "direct-democracy"
+        "incumbency"
       ],
       "cases": [
-        "redistricting"
+        "pennsylvania"
       ],
       "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "What to look for on Election Day as questions loom over Trump",
-      "summary": "History, polling and vibes suggest it could be an ugly night for President Trump's Republican Party. But the political map, not to mention Republican gerrymandering, could limit Democratic gains.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "PBS News",
-      "published": "2026-11-03T15:40:03Z",
-      "url": "https://www.pbs.org/newshour/politics/what-to-look-for-on-election-day-as-questions-loom-over-trump",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Whether the four districts swing by similar amounts."
     },
     {
       "category": "Senate",
-      "title": "Alaska voter 'disgusted' by reported 'decoy Dan' plot switches from Peltola to Sullivan",
-      "summary": "An Alaska voter who considered voting for former Rep. Mary Peltola, said he \"switched\" and would vote for incumbent GOP Sen. Dan S. Sullivan.",
-      "why": "Officeholders can build support that outlasts party tides.",
+      "title": "Trump admin puts alleged 'Decoy Dan' conspirators on notice in Alaska election spoiler probe",
+      "summary": "The Justice Department has issued more than 120 subpoenas and 20 target letters in its probe of Daniel J. Sullivan's Alaska Senate candidacy.",
+      "why": "States run elections; federal actors and courts contest the edges.",
       "source": "Fox News",
-      "published": "2026-11-03T14:15:53Z",
-      "url": "https://www.foxnews.com/politics/alaska-voter-disgusted-decoy-dan-plot-switches-peltola-sullivan",
+      "published": "2026-11-03T23:31:35Z",
+      "url": "https://www.foxnews.com/politics/trump-admin-puts-alleged-decoy-dan-conspirators-notice-alaska-election-spoiler-probe",
       "concepts": [
-        "incumbency"
+        "federalism"
       ],
       "cases": [
         "alaska"
       ],
       "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
+      "mechanism": "Federalism and election administration",
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
-      "category": "Senate",
-      "title": "Michigan voters weigh in after Dem Rep Haley Stevens endorses GOP candidate",
-      "summary": "Michigan Republican Mike Rogers' campaign touted Haley Stevens' endorsement as a breakthrough with Black and Jewish voters before Election Day.",
-      "why": "Trusted figures help voters infer which choice fits their values.",
-      "source": "Fox News",
-      "published": "2026-11-03T13:27:22Z",
-      "url": "https://www.foxnews.com/politics/big-difference-dems-last-minute-endorsement-gives-gop-new-hope-crucial-senate-battle",
+      "category": "Redistricting",
+      "title": "Republican redistricting efforts appear to come up short in Florida",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Washington Examiner",
+      "published": "2026-11-04T01:41:07Z",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMHlYaWt4TTdmcFhHVWxkNFFzUFJZeWJNTFhQQ0FMUzFOUjlaRFh0dTk0dmsxTVRvV0hiTkN5WG1yWmFhT1R4Q3kzeTlXRHM4cmVTZXZmbDNXWWRHOEppSTFNQXNsRG9HeGxBOUhPak96ZGc2aXBUM0FsNU5QVXN3cElscVR4NFRkeTRGZDhiRXN0NTZvWXVKM0ZOZ2FQUzZLeGhHVGYyLU5JWmtfTE1VdGtTR2hvd0lLa0c1WWlhY1JIMjNZ?oc=5",
       "concepts": [
-        "elite-cues"
+        "redistricting"
       ],
       "cases": [
-        "michigan"
+        "redistricting"
       ],
       "signal": 2,
-      "mechanism": "Elite cues and endorsements",
-      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
       "category": "Redistricting",
-      "title": "With Redistricting on the Ballot, a Longtime Missouri Democrat Persists",
+      "title": "Texas election results: GOP's new redistricting map faces first test",
       "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "The New York Times",
-      "published": "2026-11-03T22:10:05Z",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUFZBVFc2cDdlWGNKc05Mel9tcDZxa1dleU40WU1YWGllVTR4d09GcW9icnNqbUtMNnV3a29mXzRGcnRUMXVMSEdpUGx4MXpMNzNHc0Z2Z0tqVnA4YUtOTG1abzRVMFNfOWM1cFhlY0lLWk5NbDRvME54YTJHWkhGU2UzX3NTVmgyR0V2MVJPckhNMF8tYUE?oc=5",
+      "source": "USA Today",
+      "published": "2026-11-04T01:28:00Z",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORjQ1TlBmb2FBNG1INHc2SDA4TkQ5TUw4VktMOXhRei0tMXl4cVYwTDNEUWlocExGUGUzZEJLMUp1U25KZFlWM2hzMGFWX3hwVXUya2dpaHI2ZTNkZmZablZpWEtNN0t2eEFZck1nbkU2amF4Y3pBV3c3SFBHa3lxWERnQkhjSWVkeGVoZ3J0M2szeWNQVzhsRTlkSzhma2s1YnBvZ1lEUHlLX3JuU1M5SWpVaERUcC1KaWU5VHpYSnBGN3VYTHlTYmV6Tno4LWN3RlZmNV91bU8?oc=5",
       "concepts": [
         "redistricting"
       ],
