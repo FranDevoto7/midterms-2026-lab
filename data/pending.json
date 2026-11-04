@@ -135,8 +135,9 @@
       "source": "6abc Philadelphia",
       "date": "2026-11-04T01:57:05Z",
       "issue": 10,
-      "status": "open",
-      "opened": "2026-11-04T02:59:56Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T02:59:56Z",
+      "closed": "2026-11-04T03:57:18Z"
     },
     "senate:IL:D": {
       "office": "senate",
