@@ -299,8 +299,9 @@
       "source": "WTNH.com",
       "date": "2026-11-04T02:18:08Z",
       "issue": 22,
-      "status": "open",
-      "opened": "2026-11-04T03:21:13Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T03:21:13Z",
+      "closed": "2026-11-04T04:25:01Z"
     },
     "governors:MD:D": {
       "office": "governors",
