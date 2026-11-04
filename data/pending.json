@@ -1006,7 +1006,7 @@
       "issue": 58,
       "status": "confirmed",
       "opened": "2026-11-04T16:13:28Z",
-      "seen": "2026-11-04T16:23:03Z"
+      "seen": "2026-11-04T16:26:00Z"
     },
     "senate:NH": {
       "office": "senate",
@@ -1018,7 +1018,7 @@
       "issue": 59,
       "status": "confirmed",
       "opened": "2026-11-04T16:13:28Z",
-      "seen": "2026-11-04T16:22:23Z"
+      "seen": "2026-11-04T16:26:01Z"
     },
     "senate:IL": {
       "office": "senate",
@@ -1030,7 +1030,7 @@
       "issue": 60,
       "status": "confirmed",
       "opened": "2026-11-04T16:13:29Z",
-      "seen": "2026-11-04T16:25:36Z"
+      "seen": "2026-11-04T16:26:02Z"
     },
     "senate:OH": {
       "office": "senate",
@@ -1042,7 +1042,7 @@
       "issue": 61,
       "status": "confirmed",
       "opened": "2026-11-04T16:13:29Z",
-      "seen": "2026-11-04T16:24:29Z"
+      "seen": "2026-11-04T16:26:03Z"
     },
     "senate:KS": {
       "office": "senate",
@@ -1054,7 +1054,7 @@
       "issue": 62,
       "status": "confirmed",
       "opened": "2026-11-04T16:13:30Z",
-      "seen": "2026-11-04T16:23:53Z"
+      "seen": "2026-11-04T16:26:04Z"
     },
     "senate:ME": {
       "office": "senate",
@@ -1064,7 +1064,7 @@
       "source": "CBS News",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT0pZTGJpU3BmdnBGWGhtZXFNeklSOV9UQXV3MFZZdmhwVktVWVBlYUd5MzliaUpmQ2d6MDRPZmNxZndkN0JjdTJ4eW1DSkRsZmNmWFUzODJack1qR051dnVZaEJxdDdyU1I0VmVXaGw5WXA0eEV3WTA5MEFKWHhkMVBaUGdGM3BPY3c0YW1HRThyQU10ZnNQdHdFWEtqcXgwbFVLWVN3YkE2NEFBUUpZ?oc=5",
       "issue": 63,
-      "status": "open",
+      "status": "rejected",
       "opened": "2026-11-04T16:13:30Z",
       "seen": "2026-11-04T16:13:30Z"
     }
