@@ -260,8 +260,9 @@
       "source": "The Hill",
       "date": "2026-11-04T03:08:15Z",
       "issue": 19,
-      "status": "open",
-      "opened": "2026-11-04T03:21:11Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T03:21:11Z",
+      "closed": "2026-11-04T04:29:39Z"
     },
     "governors:SC:R": {
       "office": "governors",

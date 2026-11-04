@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T04:28:35Z",
+  "updated_at": "2026-11-04T04:29:40Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -50,6 +50,13 @@
       "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTV9BMlhETDFYVjE1ZGlLOVdtQmlXbnNzR09SQkl0SkRudm1uNzN6V0Z5LXZEV01xUVhqYzZHN2UxT2o3VTBwOERhY09TVV8wQl80RTVMcUc3RUN6VnBvVk83R2twdlJMNXZ5emtEcWZNWkV4dHRlQlI0Q1htTmFWTVdfSU9XQ2xfeTVoU1RuVDUyYzVRNXM2UVpKVXFGZ1JuYjBsOXo2cURqV0p4SGx2NUZBeDJmOVloQlhaWnV2dnl4WkM2NTFlMjM4QmxKWHRYTFB6M3Faa2J5VGFjdXpiVmwzNHlST0hQd1JLdTF2d1NlLW44VHdtUW80dmg?oc=5",
       "note": "Barr’s win shows Trump’s influence on Republican politics in Kentucky remains strong.",
       "at": "2026-11-04T04:03:20Z"
+    },
+    "AL": {
+      "winner": "R",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6137514-moore-wins-alabama-senate-race/",
+      "note": "Barry Moore retiene para el GOP el escaño que deja Tommy Tuberville en un estado profundamente conservador.",
+      "at": "2026-11-04T04:29:30Z"
     }
   },
   "governors": {
