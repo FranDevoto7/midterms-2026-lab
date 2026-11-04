@@ -42,7 +42,7 @@ Laboratorio interactivo de ciencia política y políticas públicas sobre las el
 
 ## Cómo se actualiza
 
-- **Noticias.** Cada 2 horas el robot lee las fuentes de `scripts/news_config.json` (NPR, PBS, Fox News, CBS, NBC, The Hill, Politico, Ballotpedia y búsquedas de Google News). Descarta lo que no es política estadounidense, lo viejo y los duplicados. Etiqueta cada nota con los casos y conceptos del laboratorio y guarda hasta 8; el sitio muestra las 5 primeras. Nunca pone más de 2 notas del mismo medio.
+- **Noticias.** Cada hora el robot lee las fuentes de `scripts/news_config.json` (NPR, PBS, Fox News, CBS, NBC, The Hill, Politico, Ballotpedia y búsquedas de Google News). Descarta lo que no es política estadounidense, lo viejo y los duplicados. Etiqueta cada nota con los casos y conceptos del laboratorio y guarda hasta 8; el sitio muestra las 5 primeras. Nunca pone más de 2 notas del mismo medio.
 - **Medidas de seguridad.** Una fuente caída se salta con un aviso amarillo en el registro. Si no aparece nada relevante, se conserva el `news.json` anterior. Si un JSON tiene un error, el paso de validación frena la publicación y deja el sitio como estaba.
 - **Lo que hace el robot y lo que no.** Asigna señal 2 a lo que toca un caso y 1 al resto. La señal 3 («cambia la lectura») es un juicio editorial y queda para la edición seleccionada. Los resúmenes son extractos cortos con enlace al original.
 - **Publicación.** Cada vez que hacés un cambio en `main` (por ejemplo, editás un archivo desde el navegador), el sitio se vuelve a publicar solo. GitHub Pages puede tardar hasta unos 10 minutos en mostrar la versión nueva por su caché.
@@ -64,9 +64,21 @@ El modo **Results** de Predictions toma estos datos y no deja pisarlos a mano. E
 
 Para la foto institucional (`data/election.json`), editá el archivo desde el navegador con el lápiz. Las bancas de la Cámara tienen que sumar 435 y las del Senado 100, si no, la validación lo avisa. Una `phase` posterior a la del calendario adelanta el sitio (por ejemplo, `post-election`); una anterior se ignora.
 
+## Resultados sugeridos por el robot
+
+Después del cierre de la votación, el robot revisa cada hora las noticias que trae. Si un titular dice que alguien ganó una carrera al Senado o a una gobernación, abre un aviso en la pestaña **Issues** (y GitHub te manda un mail). Abrilo, mirá el enlace y decidí:
+
+- **Close issue**: confirma el resultado; en un par de minutos aparece en el sitio.
+- **Close as not planned** (en la flechita al lado de *Close issue*): lo descarta y el robot no lo vuelve a sugerir.
+- **Tu descripción**: si antes de cerrar escribís un comentario (por ejemplo, «Estado pivote donde Trump había apostado fuerte por el candidato republicano»), el botón pasa a decir *Close with comment* y ese texto aparece junto al resultado en la sección **Resultados** del sitio. En el formulario de *Run workflow* también hay un campo **note** para lo mismo.
+
+Con el sitio abierto, los resultados nuevos y las noticias aparecen solos en menos de cinco minutos, sin recargar.
+
+Nada se publica sin tu confirmación. Los resultados de los casos y el cambio neto en la Cámara siguen cargándose con el formulario de **Run workflow**.
+
 ## Ajustes frecuentes
 
-- **Frecuencia de las noticias.** En `.github/workflows/update-site.yml`, la línea `cron: "17 */2 * * *"` significa «cada 2 horas, en el minuto 17, hora UTC». Para cada hora: `"17 * * * *"`. Para cada 6 horas: `"17 */6 * * *"`.
+- **Frecuencia de las noticias.** En `.github/workflows/update-site.yml`, la línea `cron: "17 * * * *"` significa «cada hora, en el minuto 17». Para cada 2 horas: `"17 */2 * * *"`. Para cada 6 horas: `"17 */6 * * *"`.
 - **Fuentes.** En `scripts/news_config.json`, lista `feeds`: cada fuente tiene `name`, `url` y `weight` (de 0 a 1). Para Google News se agrega `"google": true`.
 - **Palabras clave.** En el mismo archivo, `cases` define qué nota corresponde a cada caso (`any` alcanza con una coincidencia; `all` exige además otra) y `concepts` define el etiquetado por concepto. Son expresiones regulares y no distinguen mayúsculas.
 
