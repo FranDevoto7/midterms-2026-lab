@@ -319,6 +319,32 @@
       "issue": 24,
       "status": "open",
       "opened": "2026-11-04T03:21:14Z"
+    },
+    "governors:WI:D": {
+      "office": "governors",
+      "state": "WI",
+      "winner": "D",
+      "candidate": "David Crowley",
+      "title": "Crowley wins Wisconsin governor's race to succeed Evers",
+      "url": "https://thehill.com/homenews/campaign/6168646-crowley-defeats-tiffany-wisconsin-governor/",
+      "source": "The Hill",
+      "date": "2026-11-04T03:24:20Z",
+      "issue": 25,
+      "status": "open",
+      "opened": "2026-11-04T03:25:44Z"
+    },
+    "governors:AR:R": {
+      "office": "governors",
+      "state": "AR",
+      "winner": "R",
+      "candidate": "Sarah Huckabee Sanders",
+      "title": "Sarah Huckabee Sanders wins Arkansas governor race, AP reports",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSjZITHZoTmk1bWR6SHhkcDNzd1NuVFpOdDZOVHV4b0dabTFCRVJ3TmpNYVBCNVZrSWl2U2hVRFhVQWFuX3RSV1ZheFozNDhWdEhCSGlmZ0oxWW1VTjNHcjJ1MkJZVlBFYXFKdHROWjZNek5qWlJWMnZ5V01GS2VJUlBpcjVZT3ppTlNGYmQxd2lqdGc?oc=5",
+      "source": "KATV",
+      "date": "2026-11-04T03:16:26Z",
+      "issue": 26,
+      "status": "open",
+      "opened": "2026-11-04T03:25:44Z"
     }
   }
 }

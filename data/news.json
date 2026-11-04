@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T03:21:05Z",
+  "updated_at": "2026-11-04T03:25:37Z",
   "mode": "automatic-rss",
   "feeds_ok": 16,
   "feeds_failed": [],
@@ -44,15 +44,15 @@
     },
     {
       "category": "Redistricting",
-      "title": "Maryland Question 3 explained: Could congressional maps change?",
+      "title": "Virginia Supreme Court overturns Democrats' redistricting measure",
       "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "WBFF",
-      "published": "2026-11-03T20:14:24Z",
-      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNVnY0TzVkS3UzendoWFBaQXN4WFZMWkhJYUxrdFJkai1vS3BTTHQyVDlpY2UyNGVEbExFMzAyTnpEYXZPZXNSbWp2eDFCWmlyU3d0YXFRNm5qQldpX0FLU05oR1Y4OTY1bU9qcWU5elpjMV9YX041NXJHV3pvd1RYOXp0NTFtYzJwR2lpTE9Wem1jNmlRRWFJV0xhZlpKLTNTSS1xOFFPSHpKdjJXUmx5NDVqckZ1UUdFa0xMX2tEOFh2OHliaDBWTUpjNGROZHBmdE5WT0pDTUxUTmdjMDFhT3NWMUZpS1JaZjlRRFNGQ3hyS2tCUVYyTnFTbHZFbWpuWE1WQkZyUmRTYURhR1ZYTVhkZFByOUs5NWdIdFoxQTBBUEZWODBhN0Y0OHY?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-03T22:03:29Z",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMm1XQmNtWWJMMjRWdXhhNG4wcWhjM1FXbW04RGRRWklOZzRBSWNKWnFhb0VaMmc0QmZfLWtRT2JndjNfdjdlRjdpUlVwQkxLTTFESDM3MzN2N0Y3cWpVNmF0SW01dGRQUTEtY09nN3FoQkVUczFKdWprWnpEbkk5M0VRVDNHX0RxUTYtemx3NUs0ck90SWMtZlN0c2F2Ri1ZN2ZURkZwcmRlNlZ0WERoWE1R0gG3AUFVX3lxTE1WZ3p4WE1QdllUdWlyNE01ckhmOHNwQk5iTHJldkhsV0pTUUs5aGJmdUdGX25Wazh4MHhfaXBhWW53Y3BYS25jcmpUVXJQT0VGYkp4bXc5bGw3ZHpZWFF1Q2NwYk85azliU1dHbjkwUlVyQnRmVzlJNG5mRUg4cXg2dFFocEFEYWJLWUhvYXhFOU4ycGtRb3VUR2ZIQnRFa2ZTTTRFQWUxaFZHdi1CYUN6MG52OTJuWQ?oc=5",
       "concepts": [
         "redistricting",
-        "direct-democracy"
+        "federalism"
       ],
       "cases": [
         "redistricting"
@@ -117,6 +117,25 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
+      "category": "Redistricting",
+      "title": "Maryland Question 3 explained: Could congressional maps change?",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "WJLA",
+      "published": "2026-11-03T09:06:31Z",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPMVdOYnJmUUV1eGhnUW8zNTBOaGN0NDNRQk9xakkxZjJES0oxMmJoZkVqdExmYWJrOGF6NkZlallRemEyQ0hGak00Wm9qYkxlaGVvN3h1NFNYazNGTHdleko3cXRCR2FlRGpHVE9lWHAtTVJIS21DMDd1SERhVlFuczZianFQQXRNVTF4ZGFQXzI5M0FNNnYtTEJ1SXlFal84Mm85eFJUY2YxV0hjdnFEVTY4TUtubERUb0hWLXV1TnlzeFNmZUZJRzRzdDlFRXF1cDA1OENreV9YRkFxNzNYZzVEWXFyZnVDYjNrSmNpazI4RFFZVDdvVWUtNWg0cEVUTmU0N0d6Ulloa0lWX1FvTTZld0Z3NzlvNkxrUDBNZHpVQQ?oc=5",
+      "concepts": [
+        "redistricting",
+        "direct-democracy"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
       "category": "Senate",
       "title": "Trump admin puts alleged 'Decoy Dan' conspirators on notice in Alaska election spoiler probe",
       "summary": "The Justice Department has issued more than 120 subpoenas and 20 target letters in its probe of Daniel J. Sullivan's Alaska Senate candidacy.",
@@ -133,24 +152,6 @@
       "signal": 2,
       "mechanism": "Federalism and election administration",
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Redistricting",
-      "title": "Republican redistricting efforts appear to come up short in Florida",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Washington Examiner",
-      "published": "2026-11-04T01:41:07Z",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMHlYaWt4TTdmcFhHVWxkNFFzUFJZeWJNTFhQQ0FMUzFOUjlaRFh0dTk0dmsxTVRvV0hiTkN5WG1yWmFhT1R4Q3kzeTlXRHM4cmVTZXZmbDNXWWRHOEppSTFNQXNsRG9HeGxBOUhPak96ZGc2aXBUM0FsNU5QVXN3cElscVR4NFRkeTRGZDhiRXN0NTZvWXVKM0ZOZ2FQUzZLeGhHVGYyLU5JWmtfTE1VdGtTR2hvd0lLa0c1WWlhY1JIMjNZ?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
 }
