@@ -1,10 +1,8 @@
 {
-  "updated_at": "2026-11-04T16:54:12Z",
+  "updated_at": "2026-11-04T17:04:23Z",
   "mode": "automatic-rss",
-  "feeds_ok": 9,
-  "feeds_failed": [
-    "Google News"
-  ],
+  "feeds_ok": 19,
+  "feeds_failed": [],
   "stories": [
     {
       "category": "Senate",
@@ -24,6 +22,82 @@
       "signal": 2,
       "mechanism": "Direct democracy and policy design",
       "watch": "Collins’s margin against the Republican candidate for governor, town by town."
+    },
+    {
+      "category": "Redistricting",
+      "title": "Marylanders approve redistricting ballot question, Democrat-leaning 2028 congressional map possible",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "WYPR",
+      "published": "2026-11-04T04:11:00Z",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORll4bVRCQzR4TmpzZWw0UEJHQjJCRFRPRnVTNTQ0MWRrcTNfLXdpZGcwZzVwUVpOZk5EdlZpMVZ0UnAxeTRJdFFEdnU3RGw1bkpweDlzRmp2eTFZTVQ3c25oR2M0d1lQaVQ5XzJFZmJJOVNkdE54Zk5wUTZjcV9OVHpvSlkzTC11a25UTFdnLXQ4bnlHRlJGNGRhVlBoRDROcXRxblRjSFhxa0gzRTRBaE0yRjhON2gzSWQxdjYwemg1bnNobDItYXZNcGNGTFRaX2cwdHVNdw?oc=5",
+      "concepts": [
+        "redistricting",
+        "direct-democracy"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Maryland Question 3 Passes: What Comes Next For Congressional Redistricting",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Patch",
+      "published": "2026-11-04T01:00:00Z",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWUg2aS1sRkR4R3I5Rm1jaTBBTS1YTzU1Y2F1bWhFVElQOE9Bb3lwSFhYWjlWb2tsNzMtX2FLLTB2bjlnbFlBWDZORmQ0UWRpR0JvZEpwc1FWb1Fia003NGdpU1dtYlBaZXBPZzlzN2ZORXFteVM3aHBSS0xyYi1INkx0MW9Gc0FQaTdJYUN2MFhpYlVTZGFnVnkwZmkwbXRTMXlRR1hxRS11Z3JOb2w2ODl4UnQ0Z9IBwgFBVV95cUxPVzJHRVU4WXMyTzRDOUE1SUU5UnhVM0FqMFUzWl9xMlNHaDRuVm1qWW14cTV3ODhCS3RTaGxlanRjak9yOFg3VGw4aFF5ZXNVTmEwZUZaNHUxeVpNa1k3N1dQVWxXT3NldUFDdVJsNHNKSHlNZEF5T0RNSTJhT08tZkJoX0prUVBOVmRBZkRkYUVycjVnQ2RxRjZ0OXByTWl2ZXBpRDZDLTNNZTlXUEdpVmtoeVBVbUROWTVPMGt1TGM3UQ?oc=5",
+      "concepts": [
+        "redistricting",
+        "direct-democracy"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Results: States decide on voter ID and redistricting ballot measures",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "NPR",
+      "published": "2026-11-03T22:53:23Z",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdUtRMDgwWTV1cW9KWDFyVjA4VHMteVdWSWxuQ3JBU2t3MF9RVjdDdnpPUHEweTBNcW9ORG1jTU16ckNGNmQ0UWhoY1ZDV1V6b3M4WEEtMUc5b2M3dHRVbVpxZmRodkhkTUVsWE5DOGFSNmIzTEZPd0pRaHBCVTJjWnNiMm1TWUpIRTZmbjdfRmVFa1U?oc=5",
+      "concepts": [
+        "redistricting",
+        "direct-democracy"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Virginia Supreme Court overturns Democrats' redistricting measure",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-03T22:03:29Z",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMm1XQmNtWWJMMjRWdXhhNG4wcWhjM1FXbW04RGRRWklOZzRBSWNKWnFhb0VaMmc0QmZfLWtRT2JndjNfdjdlRjdpUlVwQkxLTTFESDM3MzN2N0Y3cWpVNmF0SW01dGRQUTEtY09nN3FoQkVUczFKdWprWnpEbkk5M0VRVDNHX0RxUTYtemx3NUs0ck90SWMtZlN0c2F2Ri1ZN2ZURkZwcmRlNlZ0WERoWE1R0gG3AUFVX3lxTE1WZ3p4WE1QdllUdWlyNE01ckhmOHNwQk5iTHJldkhsV0pTUUs5aGJmdUdGX25Wazh4MHhfaXBhWW53Y3BYS25jcmpUVXJQT0VGYkp4bXc5bGw3ZHpZWFF1Q2NwYk85azliU1dHbjkwUlVyQnRmVzlJNG5mRUg4cXg2dFFocEFEYWJLWUhvYXhFOU4ycGtRb3VUR2ZIQnRFa2ZTTTRFQWUxaFZHdi1CYUN6MG52OTJuWQ?oc=5",
+      "concepts": [
+        "redistricting",
+        "federalism"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
       "category": "Senate",
@@ -78,74 +152,6 @@
       "signal": 2,
       "mechanism": "Midterm penalty",
       "watch": "Paxton’s margin against Abbott’s, county by county."
-    },
-    {
-      "category": "Senate",
-      "title": "WATCH: Democrat Troy Jackson speaks after Maine Sen. Susan Collins concedes",
-      "summary": "Jackson won election Wednesday to the U.S. Senate representing Maine, defeating Republican incumbent Sen. Susan Collins.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "PBS News",
-      "published": "2026-11-04T06:55:51Z",
-      "url": "https://www.pbs.org/newshour/politics/watch-democrat-troy-jackson-speaks-after-maine-sen-susan-collins-concedes",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "maine"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "Collins’s margin against the Republican candidate for governor, town by town."
-    },
-    {
-      "category": "Senate",
-      "title": "Adam Hamilton wins Kansas Senate race in another Democratic upset",
-      "summary": "Democratic Reverend Adam Hamilton defeated GOP Sen. Roger Marshall in the Kansas Senate race, CBS News projects, unseating the incumbent in a major upset.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "CBS News",
-      "published": "2026-11-04T05:03:00Z",
-      "url": "https://www.cbsnews.com/news/kansas-2026-senate-hamilton-marshall/",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "reach"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
-    },
-    {
-      "category": "Senate",
-      "title": "Adam Hamilton is the first Democrat since 1932 to win a U.S. Senate seat in Kansas",
-      "summary": "NPR's Steve Inskeep speaks with Adam Hamilton, a pastor who became the first Democrat in nearly a century to win a U.S. Senate seat in Kansas.",
-      "why": "",
-      "source": "NPR",
-      "published": "2026-11-04T16:08:41Z",
-      "url": "https://www.npr.org/2026/11/04/nx-s1-6028587/adam-hamilton-is-the-first-democrat-since-1932-to-win-a-u-s-senate-seat-in-kansas",
-      "concepts": [],
-      "cases": [
-        "reach"
-      ],
-      "signal": 2,
-      "mechanism": "",
-      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
-    },
-    {
-      "category": "Senate",
-      "title": "Outcome of Alaska Senate race could take weeks to determine",
-      "summary": "The Senate race in Alaska, which has garnered widespread attention with two candidates named Dan Sullivan, remains in limbo.",
-      "why": "",
-      "source": "CBS News",
-      "published": "2026-11-04T15:32:00Z",
-      "url": "https://www.cbsnews.com/news/senate-race-unresolved-in-alaska-as-candidates-expect-weekslong-process/",
-      "concepts": [],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     }
   ]
 }

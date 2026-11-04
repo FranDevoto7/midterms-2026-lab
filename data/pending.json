@@ -1211,6 +1211,39 @@
       "status": "open",
       "opened": "2026-11-04T16:51:50Z",
       "seen": "2026-11-04T16:51:50Z"
+    },
+    "governors:MI": {
+      "office": "governors",
+      "state": "MI",
+      "winner": "D",
+      "title": "Jocelyn Benson makes history with victory in Michigan governor's race",
+      "source": "WKAR",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd2ZHSERJOERNRGUxRWdtTS0zNnY0em8tVkVWOHcyc1A5cktwbjB3R0k5WFRUMUVoRGhBQ1VubjJVaEZZZWVYUGlEU2Z4SFdmODAyUTBpWTF3OV9VWkRwMTZ3OFY4SWRvQ1p4eElxQ1R5eU1qY241TzJSdnRuSm41UThYSEVGQTNXdVQ3VXhORDJUTkRXMlBwY2wyZGplQ0hqS3V6el9ZdG1tTlFZOE9tb3NUMUNvLWV4a2JsNld3?oc=5",
+      "issue": 76,
+      "status": "open",
+      "opened": "2026-11-04T17:04:32Z"
+    },
+    "governors:TN": {
+      "office": "governors",
+      "state": "TN",
+      "winner": "R",
+      "title": "Marsha Blackburn becomes first woman elected to Tennessee governor’s office, per secretary of state",
+      "source": "WSMV",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR3VhZkd1VzdnRVExUWtqRDBpTjhqUXp2SUVTNjhuTVVCNkhITDF5YTRKdi0tLXE4SVQ1ZjhRRUtIRDctUEwzYkR0T2YxMUNiYWh1SEFSQ0ltVElkYlZpV1ZOMlN1amtLdVJZMTlyVmtnbUFPNzBJMkU2Sjl5LUhMc2wyREktalc5c2h0MFNGWlFqcHpKWmtPWlFjZEFrQ3IzeFRCNHU1QVJVLW9odGZKSng3dkZ0T3I3MG9jUHdJUFNodw?oc=5",
+      "issue": 77,
+      "status": "open",
+      "opened": "2026-11-04T17:04:32Z"
+    },
+    "governors:MN": {
+      "office": "governors",
+      "state": "MN",
+      "winner": "D",
+      "title": "Amy Klobuchar elected Minnesota’s first woman governor",
+      "source": "Minnesota Reformer",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY0ZteDZ3ek5YNGZ2cjI5dmN4cVRQaG15Sm9JR19FeUZRWG1kOXktcXlSYjNuOXktZm1MQmdqTGRraU5XazlvTzdUcHVZcmtEMTlyc2xWMGVFSnVCNzBKQkJMT1RVdzE3UlFzMGhUQkh5QWduZ0syZ2l0aVlySGtPSlhwVW1tVmViWnVIMTREdm9abmcwbUkxTnpNUQ?oc=5",
+      "issue": 78,
+      "status": "open",
+      "opened": "2026-11-04T17:04:33Z"
     }
   }
 }
