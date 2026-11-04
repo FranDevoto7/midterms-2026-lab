@@ -1,26 +1,9 @@
 {
-  "updated_at": "2026-11-04T07:23:03Z",
+  "updated_at": "2026-11-04T07:53:05Z",
   "mode": "automatic-rss",
   "feeds_ok": 16,
   "feeds_failed": [],
   "stories": [
-    {
-      "category": "Senate",
-      "title": "Live updates: Michigan's El-Sayed, Maine's Jackson win, boosting Democrats’ congressional majorities",
-      "summary": "Democrat Abdul El-Sayed has defeated GOP Rep. Mike Rogers to Michigan’s seat in the Senate, according to Decision Desk HQ’s (DDHQ) projection, dealing another blow to Republicans after they lost both congressional chambers.",
-      "why": "",
-      "source": "The Hill",
-      "published": "2026-11-04T06:21:41Z",
-      "url": "https://thehill.com/homenews/campaign/6190941-live-updates-trump-midterm-elections-2026/",
-      "concepts": [],
-      "cases": [
-        "michigan",
-        "maine"
-      ],
-      "signal": 2,
-      "mechanism": "",
-      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
-    },
     {
       "category": "Redistricting",
       "title": "Marylanders approve redistricting ballot question, Democrat-leaning 2028 congressional map possible",
@@ -51,6 +34,43 @@
       "concepts": [
         "redistricting",
         "direct-democracy"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Virginia Supreme Court overturns Democrats' redistricting measure",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-03T22:03:29Z",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMm1XQmNtWWJMMjRWdXhhNG4wcWhjM1FXbW04RGRRWklOZzRBSWNKWnFhb0VaMmc0QmZfLWtRT2JndjNfdjdlRjdpUlVwQkxLTTFESDM3MzN2N0Y3cWpVNmF0SW01dGRQUTEtY09nN3FoQkVUczFKdWprWnpEbkk5M0VRVDNHX0RxUTYtemx3NUs0ck90SWMtZlN0c2F2Ri1ZN2ZURkZwcmRlNlZ0WERoWE1R0gG3AUFVX3lxTE1WZ3p4WE1QdllUdWlyNE01ckhmOHNwQk5iTHJldkhsV0pTUUs5aGJmdUdGX25Wazh4MHhfaXBhWW53Y3BYS25jcmpUVXJQT0VGYkp4bXc5bGw3ZHpZWFF1Q2NwYk85azliU1dHbjkwUlVyQnRmVzlJNG5mRUg4cXg2dFFocEFEYWJLWUhvYXhFOU4ycGtRb3VUR2ZIQnRFa2ZTTTRFQWUxaFZHdi1CYUN6MG52OTJuWQ?oc=5",
+      "concepts": [
+        "redistricting",
+        "federalism"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Republicans tried to gerrymander their way out of big congressional losses. It didn't work",
+      "summary": "Among the sweeping victories by Democrats on Tuesday were wins in several congressional districts that Republicans had redrawn explicitly to boost their party ahead of the midterms.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "NPR",
+      "published": "2026-11-04T07:23:28Z",
+      "url": "https://www.npr.org/2026/11/04/nx-s1-6028588/redistricting-efforts-failed-republicans",
+      "concepts": [
+        "redistricting"
       ],
       "cases": [
         "redistricting"
@@ -93,24 +113,6 @@
       ],
       "signal": 2,
       "mechanism": "Party coalitions, primaries and nominations",
-      "watch": "Collins’s margin against the Republican candidate for governor, town by town."
-    },
-    {
-      "category": "Senate",
-      "title": "Troy Jackson wins Maine Senate seat, NBC News projects",
-      "summary": "Democrat Troy Jackson has defeated five-term incumbent Republican Sen. Susan Collins in the race for Senate in Maine, NBC News projects. NBC News' Steve Kornacki breaks down how the results in Bangor, Maine, benefited Jackson.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "NBC News",
-      "published": "2026-11-04T06:02:04Z",
-      "url": "https://www.nbcnews.com/video/troy-jackson-wins-maine-senate-seat-nbc-news-projects-272824389727",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "maine"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
       "watch": "Collins’s margin against the Republican candidate for governor, town by town."
     },
     {
