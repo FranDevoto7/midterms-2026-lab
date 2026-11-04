@@ -108,8 +108,9 @@
       "source": "The Hill",
       "date": "2026-11-04T02:34:44Z",
       "issue": 8,
-      "status": "open",
-      "opened": "2026-11-04T02:35:52Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T02:35:52Z",
+      "closed": "2026-11-04T03:00:30Z"
     },
     "senate:SC:D": {
       "office": "senate",
