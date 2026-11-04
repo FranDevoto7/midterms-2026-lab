@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T13:55:53Z",
+  "updated_at": "2026-11-04T13:56:39Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -161,6 +161,13 @@
       "source": "The Hill",
       "url": "https://thehill.com/homenews/campaign/6182199-alme-wins-montana-senate-race/",
       "at": "2026-11-04T13:52:24Z"
+    },
+    "ID": {
+      "winner": "R",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6165643-risch-wins-idaho-senate/",
+      "note": "A Democrat has not won a Senate race since 1974.",
+      "at": "2026-11-04T13:55:59Z"
     }
   },
   "governors": {
