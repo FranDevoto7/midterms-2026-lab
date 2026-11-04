@@ -678,8 +678,9 @@
       ],
       "ap": false,
       "issue": 43,
-      "status": "open",
-      "opened": "2026-11-04T05:07:24Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T05:07:24Z",
+      "closed": "2026-11-04T05:31:43Z"
     },
     "governors:VT:R": {
       "office": "governors",

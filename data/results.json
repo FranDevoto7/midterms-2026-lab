@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T04:50:32Z",
+  "updated_at": "2026-11-04T05:31:44Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -236,6 +236,12 @@
       "auto": true,
       "at": "2026-11-04T04:48:56Z",
       "url": "https://www.pbs.org/newshour/politics/democrat-xavier-becerra-wins-california-governors-race-defeating-republican-steve-hilton"
+    },
+    "MA": {
+      "winner": "D",
+      "source": "MultiState",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5hcU9Pc0FhaTBBM2FBZVIyWEFNckt0ZFNHU2pVSGM1TjlHa2Noc3o0YmNqeFl2YkNSaURDS05NZVRnTmVVUTdTdm9qOFZuYktGVjR2eVItSlJ0Z21rYzB4UFlaTElrS3o4NTljMkV5Q2J6ekpNOGtz?oc=5",
+      "at": "2026-11-04T05:31:18Z"
     }
   }
 }
