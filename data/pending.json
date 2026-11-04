@@ -840,8 +840,9 @@
       ],
       "ap": false,
       "issue": 53,
-      "status": "open",
-      "opened": "2026-11-04T06:53:08Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T06:53:08Z",
+      "closed": "2026-11-04T13:46:45Z"
     },
     "senate:VA:D": {
       "office": "senate",
