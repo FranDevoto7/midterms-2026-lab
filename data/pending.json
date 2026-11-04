@@ -857,8 +857,9 @@
       ],
       "ap": false,
       "issue": 54,
-      "status": "open",
-      "opened": "2026-11-04T08:53:11Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T08:53:11Z",
+      "closed": "2026-11-04T13:45:56Z"
     },
     "governors:AL:R": {
       "office": "governors",
@@ -893,7 +894,7 @@
       ],
       "ap": false,
       "issue": 56,
-      "status": "auto",
+      "status": "confirmed",
       "opened": "2026-11-04T10:23:22Z"
     }
   }

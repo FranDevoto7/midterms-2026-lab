@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T13:45:12Z",
+  "updated_at": "2026-11-04T13:45:57Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -110,6 +110,12 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQi1VZk5NQUhfdGVCTjJ4MGZvcmFRQ1lDa0FCSGEyZ3ZSUXJEak9SQXNtUUJ5bDZXcC0xSHl3SWJEWGtnR25tYlg4N2NLQXBNRTNnNUxMUXNPUnF4SDliN2ZMSzFCU0RINUVJQTZveVV0MVBnMmxDRHcyQzV6VjYtZVVpUGtUazJhTGNwa294NjU3d0prQjYyREUzRUVaMVRM?oc=5",
       "note": "HISTORIA.",
       "at": "2026-11-04T13:43:09Z"
+    },
+    "VA": {
+      "winner": "D",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSk96TFhod3d4MTNraHUyc1k3T3FuaUZfdktXNlRLbk4tSG5FN0x3dWdVYnVmNEtUdVh6ejd0WWxDNWF2QVdWSlJodDhKc3VxUm05ZXVTMWdYaTMyQ0RpMWw1RXVTLXdHZXBrRldKQmpPb0lkX01mVHZ6OHl1VU9vOHdlU3RqSHFxM3Qzd1VHNEdDVGowaEHSAZsBQVVfeXFMUFFKQVJMVjlwZWFOU25WRXNDdmRjem1xT3FaTUJmZ1ZqM1IwdEFPdWhBSk51dHVKRjJzbU5TNWJMWkUxTTgzbnI4TC1vNGh2NnN0RU15R3otTXBIUk9zV3ZTUVlJWkxGaU03WjV2bXN3cU05R1ZMa3lkVzl5dnFDUWxweXJmbkRVbWp0RnhCckxfZ3NGTGpYQ0JuMUE?oc=5",
+      "at": "2026-11-04T13:45:49Z"
     }
   },
   "governors": {
@@ -258,9 +264,9 @@
     "NV": {
       "winner": "D",
       "source": "NPR, NBC News",
-      "auto": true,
       "at": "2026-11-04T10:23:22Z",
-      "url": "https://www.npr.org/2026/11/04/g-s1-151138/midterms-ford-nevada-governor-lombardo"
+      "url": "https://www.npr.org/2026/11/04/g-s1-151138/midterms-ford-nevada-governor-lombardo",
+      "note": "The Democrat will be the first Black governor of a state west of the Mississippi River"
     },
     "AL": {
       "winner": "R",
