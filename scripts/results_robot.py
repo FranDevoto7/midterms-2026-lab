@@ -421,13 +421,22 @@ def suggest_milestones(items, results, pending):
             if not win:
                 continue
             nm, sname = name_pattern(win), names.get(st, st)
+            full, last = norm(win), surname(norm(win))
+            # Other candidates who share the winner's surname (Troy Jackson in Maine, Rick Jackson in Georgia).
+            namesakes = [norm(n) for o in ("senate", "governors") for cs in CANDS[o].values() for n, _ in cs
+                         if surname(norm(n)) == last and norm(n) != full]
+            cue = r"\bsenat" if office == "senate" else r"\b(?:governor|gubernatorial)"
             for it in items:
                 title = norm(it.get("title", ""))
                 if not MILESTONE.search(title) or not re.search(rf"\b{nm}\b", title):
                     continue
+                if full not in title and any(n in title for n in namesakes):
+                    continue  # the surname belongs to someone else in this headline
                 text = norm(title + " " + (it.get("summary") or ""))
-                if not (re.search(r"\b" + re.escape(sname) + r"\b", text) or re.search(r"\b(?:senat|governor|gubernatorial)", text, re.I)):
-                    continue
+                if not re.search(cue, text, re.I):
+                    continue  # the headline must be about this office
+                if full not in title and not re.search(r"\b" + re.escape(sname) + r"\b", text):
+                    continue  # with only the surname, it must also name the state
                 meta = {"office": office, "state": st, "winner": w, "title": it.get("title", ""), "source": it.get("source", ""), "url": it.get("link", "")}
                 race = f"el Senado por {sname}" if office == "senate" else f"la gobernación de {sname}"
                 title_i = f"Posible hito: {win} ({race})"
