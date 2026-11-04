@@ -874,8 +874,9 @@
       ],
       "ap": false,
       "issue": 55,
-      "status": "open",
-      "opened": "2026-11-04T09:23:21Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T09:23:21Z",
+      "closed": "2026-11-04T13:45:11Z"
     },
     "governors:NV:D": {
       "office": "governors",

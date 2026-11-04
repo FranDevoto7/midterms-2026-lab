@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T13:44:26Z",
+  "updated_at": "2026-11-04T13:45:12Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -261,6 +261,13 @@
       "auto": true,
       "at": "2026-11-04T10:23:22Z",
       "url": "https://www.npr.org/2026/11/04/g-s1-151138/midterms-ford-nevada-governor-lombardo"
+    },
+    "AL": {
+      "winner": "R",
+      "source": "Alabama Reflector",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONkUtUWgtSVh5MWk3a2ZLcmVJU1ZhTHFBOHlac2xSdmtUWkgydm1paGxMcFhYcVhJZEd6eEQ5Wkpwc01rdnJ1bVBfTEU2MXVvaG1zdUFMLW9aLTBCblN4bWNPYWRBNkdhUU5lV3NfY2l6LS05TF9sMUpncjNZeVVXckVkRlE1RjNoZjRuQjdnT25qUlM3XzR3dUUwdVFSMVVVRVRqZ29BdHJxYnA3UkdHVDdFUkxSRXVBdm1wa1ZheVE1TWJsUEpR?oc=5",
+      "note": "Bastión republicano.",
+      "at": "2026-11-04T13:44:43Z"
     }
   }
 }
