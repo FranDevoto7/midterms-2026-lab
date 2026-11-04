@@ -1,0 +1,219 @@
+{
+ "about": "Correcciones de la revisión del 4 de noviembre, verificadas con llamados de AP. El robot las aplica una sola vez y después borra este archivo.",
+ "fixes": [
+  {
+   "office": "senate",
+   "state": "GA",
+   "winner": "D",
+   "milestone": null
+  },
+  {
+   "office": "senate",
+   "state": "OH",
+   "winner": "D",
+   "milestone": null
+  },
+  {
+   "office": "governors",
+   "state": "OH",
+   "winner": "D",
+   "milestone": "Amy Acton es la primera mujer elegida gobernadora de Ohio."
+  },
+  {
+   "office": "senate",
+   "state": "MN",
+   "winner": "D",
+   "milestone": "Peggy Flanagan es la primera mujer indígena elegida al Senado de EE. UU.",
+   "note": null
+  },
+  {
+   "office": "governors",
+   "state": "MN",
+   "winner": "D",
+   "milestone": "Amy Klobuchar es la primera mujer elegida gobernadora de Minnesota.",
+   "note": null
+  },
+  {
+   "office": "governors",
+   "state": "TN",
+   "winner": "R",
+   "milestone": "Marsha Blackburn es la primera mujer elegida gobernadora de Tennessee.",
+   "note": null
+  },
+  {
+   "office": "governors",
+   "state": "NV",
+   "winner": "D",
+   "milestone": "Aaron Ford es el primer gobernador negro de un estado al oeste del río Misisipi.",
+   "note": null
+  },
+  {
+   "office": "governors",
+   "state": "WI",
+   "winner": "D",
+   "milestone": "David Crowley es el primer gobernador negro de Wisconsin.",
+   "note": null
+  },
+  {
+   "office": "senate",
+   "state": "NH",
+   "winner": "D",
+   "milestone": "Chris Pappas es el primer hombre abiertamente gay elegido al Senado de EE. UU."
+  },
+  {
+   "office": "senate",
+   "state": "TX",
+   "winner": "D",
+   "milestone": "James Talarico es el primer demócrata que gana una banca de Texas en el Senado desde 1988.",
+   "note": null
+  },
+  {
+   "office": "senate",
+   "state": "KS",
+   "winner": "D",
+   "milestone": "Adam Hamilton es el primer demócrata elegido al Senado por Kansas en 94 años."
+  },
+  {
+   "office": "governors",
+   "state": "FL",
+   "winner": "R",
+   "milestone": "Byron Donalds es el primer gobernador negro de Florida."
+  },
+  {
+   "office": "senate",
+   "state": "IL",
+   "winner": "D",
+   "milestone": "Juliana Stratton es la segunda mujer negra elegida senadora por Illinois.",
+   "note": null
+  },
+  {
+   "office": "senate",
+   "state": "LA",
+   "winner": "R",
+   "milestone": "Julia Letlow es la primera mujer republicana elegida al Senado por Luisiana.",
+   "note": null
+  },
+  {
+   "office": "senate",
+   "state": "WY",
+   "winner": "R",
+   "note": "Republican aligned with Trump wins."
+  },
+  {
+   "office": "governors",
+   "state": "CT",
+   "winner": "D",
+   "note": "Reelección"
+  },
+  {
+   "office": "governors",
+   "state": "GA",
+   "winner": "D",
+   "source": "NBC News"
+  },
+  {
+   "office": "senate",
+   "state": "CO",
+   "winner": "D",
+   "create": true,
+   "source": "AP",
+   "url": "https://gvwire.com/2026/11/03/ap-calls-senate-races-in-colorado-new-mexico-and-wyoming/"
+  },
+  {
+   "office": "senate",
+   "state": "MA",
+   "winner": "D",
+   "create": true,
+   "source": "AP",
+   "url": "https://www.statehousenews.com/news/politics/elections/election-2026-ap-calls-races-for-healey-and-markey/article_768eb886-6b12-48d1-a055-baef69b98280.html",
+   "at": "2026-11-04T01:01:00Z"
+  },
+  {
+   "office": "senate",
+   "state": "OR",
+   "winner": "D",
+   "create": true,
+   "source": "AP",
+   "url": "https://www.bankspost.com/election-2026-ap-calls-races-for-merkley-bonamici/",
+   "at": "2026-11-04T04:00:00Z"
+  },
+  {
+   "office": "senate",
+   "state": "RI",
+   "winner": "D",
+   "create": true,
+   "source": "AP",
+   "url": "https://www.abc10.com/article/news/politics/elections/live-2026-election-results-house-and-senate-maps-by-state-and-district/507-edcc4ab7-82ab-433b-a713-fd75de9f82f9"
+  },
+  {
+   "office": "senate",
+   "state": "OK",
+   "winner": "R",
+   "create": true,
+   "source": "AP",
+   "url": "https://www.abc10.com/article/news/politics/elections/live-2026-election-results-house-and-senate-maps-by-state-and-district/507-edcc4ab7-82ab-433b-a713-fd75de9f82f9"
+  },
+  {
+   "office": "senate",
+   "state": "TN",
+   "winner": "R",
+   "create": true,
+   "source": "AP",
+   "url": "https://www.ksdk.com/article/news/politics/elections/live-2026-election-results-house-and-senate-maps-by-state-and-district/507-edcc4ab7-82ab-433b-a713-fd75de9f82f9"
+  },
+  {
+   "office": "senate",
+   "state": "WV",
+   "winner": "R",
+   "create": true,
+   "source": "AP",
+   "url": "https://www.ksdk.com/article/news/politics/elections/live-2026-election-results-house-and-senate-maps-by-state-and-district/507-edcc4ab7-82ab-433b-a713-fd75de9f82f9"
+  },
+  {
+   "office": "governors",
+   "state": "HI",
+   "winner": "D",
+   "create": true,
+   "source": "AP",
+   "url": "https://pollstergraph.com/results/us/2026?lang=en"
+  },
+  {
+   "office": "governors",
+   "state": "ID",
+   "winner": "R",
+   "create": true,
+   "source": "AP",
+   "url": "https://multistate.us/elections/governor-race/idaho-2026"
+  },
+  {
+   "office": "governors",
+   "state": "NE",
+   "winner": "R",
+   "create": true,
+   "source": "AP",
+   "url": "https://pollstergraph.com/results/us/2026?lang=en"
+  },
+  {
+   "office": "governors",
+   "state": "SD",
+   "winner": "R",
+   "create": true,
+   "source": "AP",
+   "url": "https://www.keloland.com/keloland-com-original/governors-race-ahlers-vs-rhoden/",
+   "at": "2026-11-04T04:45:00Z"
+  },
+  {
+   "office": "governors",
+   "state": "SC",
+   "winner": "R",
+   "note": "El GOP retiene la gobernación con Alan Wilson, aunque por unos 5 puntos frente a los 17 que ganó McMaster en 2022. Eso sugiere que incluso en South Carolina el entorno de 2026 está reduciendo ventajas republicanas tradicionales."
+  },
+  {
+   "office": "governors",
+   "state": "GA",
+   "winner": "D",
+   "milestone": "Keisha Lance Bottoms es la primera mujer negra elegida gobernadora de un estado en la historia de EE. UU., y la primera mujer elegida gobernadora de Georgia.",
+   "milestone_url": "https://www.ajc.com/politics/2026/11/keisha-lance-bottoms-elected-georgia-governor/"
+  }
+ ]
+}

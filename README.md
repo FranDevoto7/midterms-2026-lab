@@ -114,3 +114,9 @@ En el sitio, los hitos aparecen en **Hoy** («Hitos de esta elección»), con un
 ## Notas
 
 Los títulos, extractos y nombres de los medios del canal automático quedan en inglés, que es como los publican las fuentes. En español, el análisis de cada nota (por qué importa, mecanismo y qué mirar) se traduce solo, porque sale del contenido del laboratorio. Algunas fuentes ofrecen sus feeds para uso personal y no comercial; este proyecto muestra sólo extractos breves con enlace al original.
+
+
+## La Cámara, automática
+
+- **Control:** cuando AP o al menos dos medios titulan que un partido ganó o conservó el control de la Cámara, el robot lo carga solo y abre un aviso «Cargado: …». Si está mal, cerralo como *not planned*.
+- **Bancas:** en cada pasada el robot revisa Wikipedia y la tabla de Ballotpedia, y usa la que tenga más bancas definidas. Mientras ninguna publique el recuento, el sitio muestra sólo el control.
