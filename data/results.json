@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T04:12:17Z",
+  "updated_at": "2026-11-04T04:12:49Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -100,6 +100,12 @@
       "url": "https://thehill.com/homenews/campaign/6177468-hobbs-wins-arizona-governor/",
       "note": "An Arizona governor has not lost reelection since 1967.",
       "at": "2026-11-04T04:12:04Z"
+    },
+    "NM": {
+      "winner": "D",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6185035-deb-haaland-wins-new-mexico-governors-race-2026/",
+      "at": "2026-11-04T04:12:27Z"
     }
   }
 }

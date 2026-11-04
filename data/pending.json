@@ -364,8 +364,9 @@
       "source": "The Hill",
       "date": "2026-11-04T03:38:19Z",
       "issue": 27,
-      "status": "open",
-      "opened": "2026-11-04T03:44:42Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T03:44:42Z",
+      "closed": "2026-11-04T04:12:48Z"
     },
     "governors:OH:D": {
       "office": "governors",
