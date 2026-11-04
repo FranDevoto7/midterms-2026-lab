@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T02:55:53Z",
+  "updated_at": "2026-11-04T02:57:17Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -29,6 +29,11 @@
       "winner": "D",
       "source": "NBC News",
       "url": "https://www.nbcnews.com/video/democrat-keisha-lance-bottoms-projected-to-win-georgia-governor-s-race-272815173913"
+    },
+    "IL": {
+      "winner": "D",
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/politics/2026-election/jb-pritzker-wins-governor-race-illinois-third-term-darren-bailey-rcna603363"
     }
   }
 }

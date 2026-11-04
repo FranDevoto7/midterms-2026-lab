@@ -80,8 +80,9 @@
       "source": "NBC News",
       "date": "2026-11-04T01:00:40Z",
       "issue": 6,
-      "status": "open",
-      "opened": "2026-11-04T02:35:51Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T02:35:51Z",
+      "closed": "2026-11-04T02:57:16Z"
     },
     "senate:NM:D": {
       "office": "senate",
