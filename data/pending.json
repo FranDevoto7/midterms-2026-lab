@@ -993,6 +993,23 @@
       "status": "confirmed",
       "adopted": "2026-11-04T15:11:21Z",
       "closed": "2026-11-04T15:11:45Z"
+    },
+    "senate:CO:D": {
+      "office": "senate",
+      "state": "CO",
+      "winner": "D",
+      "candidate": "John Hickenlooper",
+      "title": "Hickenlooper Wins Colorado Senate Race by Wide Margin",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9OYnRyVmhNUGM0Y1F3R3AwOElMWlZ0ZGtUbTA0eGozMVBFMkdrYzFEZjlaQlM1UTBWdzFNQUloVXpVZUpMbnNYV0ZQTTdjWWJob2tnb1BTU1lDOVRUQXpOZXBjY3RBZGZ0c3c?oc=5",
+      "source": "Legis1",
+      "date": "2026-11-04T17:49:56Z",
+      "outlets": [
+        "Legis1"
+      ],
+      "ap": false,
+      "issue": 79,
+      "status": "open",
+      "opened": "2026-11-04T18:38:22Z"
     }
   },
   "milestones": {
