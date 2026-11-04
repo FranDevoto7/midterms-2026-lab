@@ -218,7 +218,8 @@ def suggest(items_path):
     if loaded:
         results["updated_at"] = now_iso()
         save(RESULTS, results)
-    if opened:
+    m_opened = suggest_milestones(items, results, pending)
+    if opened or m_opened:
         save(PENDING, pending)
     update_house()
 
@@ -321,19 +322,6 @@ def clean_note(text, limit=1500):
     return t
 
 
-def latest_note(number):
-    """The last comment a person (not a bot) left on the issue, used as the description on the site."""
-    try:
-        comments = gh("GET", f"/repos/{REPO}/issues/{number}/comments?per_page=100") or []
-    except urllib.error.URLError:
-        return None
-    # Only the repository's owner and collaborators can write the description shown on the site.
-    trusted = ("OWNER", "MEMBER", "COLLABORATOR")
-    people = [c for c in comments if (c.get("user") or {}).get("type") != "Bot" and c.get("author_association") in trusted
-              and (c.get("body") or "").strip()]
-    return clean_note(people[-1]["body"]) if people else ""
-
-
 def event_issue_number():
     """The issue behind this run, when an issue was closed or commented on."""
     path = os.environ.get("GITHUB_EVENT_PATH")
@@ -344,8 +332,51 @@ def event_issue_number():
     return (ev.get("issue") or {}).get("number")
 
 
+def comment(number, text):
+    try:
+        gh("POST", f"/repos/{REPO}/issues/{number}/comments", {"body": text})
+    except (urllib.error.URLError, OSError):
+        pass
+
+
+HITO = re.compile(r"^[ \t]*hito[ \t]*[:\-–—][ \t]*(.+?)[ \t]*$", re.I | re.M)
+MARK_H = re.compile(r"<!--\s*midterms-milestone\s+(\{.*?\})\s*-->", re.S)
+# Headlines that describe a winner as a first or as history-making.
+MILESTONE = re.compile(
+    r"\b(?:first|1st)\b(?:\W+\w+){0,6}?\W+(?:woman|women|female|Black|African[- ]American|Latina|Latino|Hispanic|"
+    r"Asian[- ]American|Native American|Indigenous|openly (?:gay|lesbian|bisexual)|LGBTQ|transgender|Muslim)\b"
+    r"|\bmakes? history\b|\bhistory[- ]making\b|\bhistoric (?:first|win|victory)\b", re.I)
+MAX_MILESTONES = 6
+
+
+def owner_texts(number):
+    """(description, milestone) from your comments on a notice. A line that starts with "Hito:" is the milestone."""
+    try:
+        comments = gh("GET", f"/repos/{REPO}/issues/{number}/comments?per_page=100") or []
+    except (urllib.error.URLError, OSError):
+        return None
+    trusted = ("OWNER", "MEMBER", "COLLABORATOR")
+    note, milestone = "", ""
+    for c in comments:
+        if (c.get("user") or {}).get("type") == "Bot" or c.get("author_association") not in trusted:
+            continue
+        body = c.get("body") or ""
+        found = HITO.findall(body)
+        if found:
+            milestone = clean_note(found[-1], 300)
+        rest = HITO.sub("", body).strip()
+        if rest:
+            note = clean_note(rest)
+    return note, milestone
+
+
+def latest_note(number):
+    got = owner_texts(number)
+    return None if got is None else got[0]
+
+
 def robot_issues():
-    """Every notice the robot opened, read straight from GitHub, open and closed."""
+    """Every notice the robot opened, read straight from GitHub, open and closed: results and milestones."""
     out = []
     for page in range(1, 8):
         try:
@@ -356,34 +387,126 @@ def robot_issues():
         for it in batch:
             if "pull_request" in it:
                 continue
-            m = MARK.search(it.get("body") or "")
-            if not m:
-                continue
-            try:
-                meta = json.loads(m.group(1))
-            except ValueError:
-                continue
-            if meta.get("office") in ("senate", "governors") and meta.get("state") and meta.get("winner") in ("D", "R", "I"):
-                out.append((it, meta))
+            body = it.get("body") or ""
+            for rx, kind in ((MARK, "result"), (MARK_H, "milestone")):
+                m = rx.search(body)
+                if not m:
+                    continue
+                try:
+                    meta = json.loads(m.group(1))
+                except ValueError:
+                    break
+                if meta.get("office") in ("senate", "governors") and meta.get("state") and meta.get("winner") in ("D", "R", "I"):
+                    out.append((it, meta, kind))
+                break
         if len(batch) < 100:
             break
     return out
 
 
-def comment(number, text):
-    try:
-        gh("POST", f"/repos/{REPO}/issues/{number}/comments", {"body": text})
-    except (urllib.error.URLError, OSError):
-        pass
+def suggest_milestones(items, results, pending):
+    """Open a "Posible hito" notice when a headline calls a confirmed winner a first or history-making."""
+    mil = pending.setdefault("milestones", {})
+    names = CANDS["state_names"]
+    opened = 0
+    for office in ("senate", "governors"):
+        for st, e in (results.get(office) or {}).items():
+            if opened >= MAX_MILESTONES:
+                return opened
+            key = f"{office}:{st}"
+            if not isinstance(e, dict) or e.get("milestone") or key in mil:
+                continue
+            w = e.get("winner")
+            win = next((n for n, p in CANDS[office].get(st, []) if p == w), None)
+            if not win:
+                continue
+            nm, sname = name_pattern(win), names.get(st, st)
+            for it in items:
+                title = norm(it.get("title", ""))
+                if not MILESTONE.search(title) or not re.search(rf"\b{nm}\b", title):
+                    continue
+                text = norm(title + " " + (it.get("summary") or ""))
+                if not (re.search(r"\b" + re.escape(sname) + r"\b", text) or re.search(r"\b(?:senat|governor|gubernatorial)", text, re.I)):
+                    continue
+                meta = {"office": office, "state": st, "winner": w, "title": it.get("title", ""), "source": it.get("source", ""), "url": it.get("link", "")}
+                race = f"el Senado por {sname}" if office == "senate" else f"la gobernación de {sname}"
+                title_i = f"Posible hito: {win} ({race})"
+                body = ("Un titular sobre el ganador de esta carrera habla de un posible hito:\n\n"
+                        f"**{meta['title']}**\n{meta['source']}, {it.get('date', '')}\n{meta['url']}\n\n"
+                        "- Si es un hito, escribí un comentario que empiece con **Hito:** y tu texto (por ejemplo: «Hito: primera mujer negra elegida gobernadora del país») y cerrá el aviso. Si lo cerrás sin escribir nada, el sitio muestra este titular como hito.\n"
+                        "- Si no lo es, tocá la flechita al lado de **Close issue** y elegí **Close as not planned**.\n\n"
+                        f"<!-- midterms-milestone {json.dumps(meta, ensure_ascii=False)} -->\n")
+                if not (TOKEN and REPO):
+                    print(f"(dry run, no GitHub token) would open: {title_i}")
+                    break
+                try:
+                    issue = gh("POST", f"/repos/{REPO}/issues", {"title": title_i, "body": body})
+                except (urllib.error.URLError, OSError) as exc:
+                    warn(f"Could not open a milestone notice for {key}: {exc}")
+                    break
+                mil[key] = dict(meta, issue=issue.get("number"), status="open", opened=now_iso())
+                opened += 1
+                print(f"Possible milestone #{issue.get('number')}: {title_i}")
+                break
+    return opened
 
+
+def sync_milestones(m_issues, pending, results):
+    """Apply what you did with each "Posible hito" notice. Returns (pending changed, results changed)."""
+    mil = pending.setdefault("milestones", {})
+    p_changed = r_changed = False
+    known = {v.get("issue") for v in mil.values()}
+    for it, meta in m_issues:
+        if it["number"] in known:
+            continue
+        key = f"{meta['office']}:{meta['state']}"
+        if key in mil:
+            key = f"{key}#{it['number']}"
+        mil[key] = dict(meta, issue=it["number"], status="open", adopted=now_iso())
+        p_changed = True
+    by_num = {it["number"]: it for it, _ in m_issues}
+    for key, m in mil.items():
+        it = by_num.get(m.get("issue"))
+        if not it or m.get("status") not in ("open", "confirmed"):
+            continue
+        closed = it.get("state") == "closed"
+        rejected = closed and it.get("state_reason") not in ("completed", None)
+        if rejected:
+            if m["status"] == "open":
+                m["status"], p_changed = "rejected", True
+            continue
+        entry = (results.get(m["office"]) or {}).get(m["state"])
+        if not isinstance(entry, dict) or entry.get("winner") != m.get("winner"):
+            continue
+        stamp = it.get("updated_at") or ""
+        newly = closed and m["status"] == "open"
+        if m.get("seen") == stamp and not newly:
+            continue
+        got = owner_texts(it["number"])
+        m["seen"], p_changed = stamp, True
+        text = got[1] if got else ""
+        if not text and newly and m.get("title"):
+            text = f"{m.get('source') or 'Según la prensa'}: “{m['title']}”"
+        if text and entry.get("milestone") != text:
+            entry["milestone"] = text
+            if m.get("url"):
+                entry["milestone_url"] = m["url"]
+            r_changed = True
+            print(f"Milestone for {key}: {text}")
+        if newly:
+            m["status"] = "confirmed"
+            comment(it["number"], "Listo: el hito ya aparece en el sitio. Si escribís otro comentario con «Hito: …», el texto se actualiza.")
+    return p_changed, r_changed
 
 def sync():
     if not (TOKEN and REPO):
         print("No GitHub token; skipping the sync.")
         return
-    issues = robot_issues()
-    if issues is None:
+    every = robot_issues()
+    if every is None:
         return
+    issues = [(it, meta) for it, meta, kind in every if kind == "result"]
+    m_issues = [(it, meta) for it, meta, kind in every if kind == "milestone"]
     pending = load(PENDING, {"suggestions": {}})
     sugg = pending.setdefault("suggestions", {})
     results = load(RESULTS, {})
@@ -489,17 +612,25 @@ def sync():
                 continue
             if focus is None and s.get("seen") == stamp:
                 continue
-        note = latest_note(it["number"])
+        got = owner_texts(it["number"])
         s["seen"], p_changed = stamp, True
-        if note is None or note == entry.get("note", ""):
+        if got is None:
             continue
-        if note:
-            entry["note"] = note
-        else:
-            entry.pop("note", None)
-        r_changed = True
-        print(f"Updated the description of {key} from notice #{it['number']}")
+        note, milestone = got
+        if note != entry.get("note", ""):
+            if note:
+                entry["note"] = note
+            else:
+                entry.pop("note", None)
+            r_changed = True
+            print(f"Updated the description of {key} from notice #{it['number']}")
+        if milestone and milestone != entry.get("milestone"):
+            entry["milestone"] = milestone
+            r_changed = True
+            print(f"Marked a milestone for {key} from notice #{it['number']}")
 
+    mp, mr = sync_milestones(m_issues, pending, results)
+    p_changed, r_changed = p_changed or mp, r_changed or mr
     if r_changed:
         results["updated_at"] = now_iso()
         save(RESULTS, results)

@@ -8,6 +8,7 @@ Examples:
   python scripts/record_result.py --kind house_net_change --value -12
 """
 import argparse
+import re
 import datetime as dt
 import json
 import sys
@@ -40,6 +41,12 @@ def main():
     data.setdefault("house_net_change_presidents_party", None)
     key, value = a.key.strip(), a.value.strip()
     source, url, note = a.source.strip(), a.url.strip(), a.note.strip()[:600]
+    # "Hito: texto | descripción" — the part after "Hito:" is the milestone, the rest the description.
+    milestone = ""
+    m = re.match(r"^\s*hito\s*[:\-–—]\s*(.*)$", note, re.I | re.S)
+    if m:
+        head, _, tail = m.group(1).partition(" | ")
+        milestone, note = head.strip()[:300], tail.strip()
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     if url and not url.startswith(("http://", "https://")):
         fail("The url must start with http:// or https://.")
@@ -68,6 +75,12 @@ def main():
                 entry["note"] = old["note"]
                 if old.get("note_from"):
                     entry["note_from"] = old["note_from"]
+            if milestone:
+                entry["milestone"] = milestone
+            elif same and old.get("milestone"):
+                entry["milestone"] = old["milestone"]
+                if old.get("milestone_url"):
+                    entry["milestone_url"] = old["milestone_url"]
             entry["at"] = old.get("at") if same and old.get("at") else now
             data[a.kind][key] = entry
             (data.get("cleared") or {}).pop(f"{a.kind}:{key}", None)
