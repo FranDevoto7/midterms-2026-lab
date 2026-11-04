@@ -664,8 +664,9 @@
       ],
       "ap": false,
       "issue": 42,
-      "status": "open",
-      "opened": "2026-11-04T05:07:24Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T05:07:24Z",
+      "closed": "2026-11-04T13:50:56Z"
     },
     "governors:MA:D": {
       "office": "governors",

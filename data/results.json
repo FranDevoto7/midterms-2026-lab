@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T13:48:40Z",
+  "updated_at": "2026-11-04T13:51:02Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -135,6 +135,13 @@
       "source": "KATV",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSeUZZTkhmRU4zUjRYemJDdjhVeTlGOTdFaVdWWFlTSVBTeXRheHl4TlhHRTMteVEwOGQtUmpZbmtEZ09ob3VVbjU1R2Z3dm5pQ0FKVFByRC1SbkhHZzFMZkZLQ3hMMU1ibnFxUEhvRy1kS3hfeXc?oc=5",
       "at": "2026-11-04T13:48:28Z"
+    },
+    "MN": {
+      "winner": "D",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6175415-peggy-flanagan-minnesota-senate/",
+      "note": "Uphill battle with corruption accusations.",
+      "at": "2026-11-04T13:49:33Z"
     }
   },
   "governors": {
