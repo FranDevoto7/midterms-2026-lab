@@ -76,7 +76,7 @@ Con el sitio abierto, los resultados nuevos y las noticias aparecen solos en men
 
 Cuando AP, o dos medios distintos, anuncian el mismo ganador, el robot lo **carga solo** y abre un aviso «Cargado: …» para avisarte; si está mal, cerralo como **Close as not planned** y se borra. Si hay un único titular de otro medio, o titulares que se contradicen, te pide confirmación como siempre. Cada resultado cargado así lleva la marca «Carga automática» en el sitio.
 
-**Cámara:** cada hora el robot lee el recuento de la página de Wikipedia de las elecciones a la Cámara y carga el cambio neto del partido del presidente, marcado como provisorio con la cantidad de bancas definidas. Si cargás un número a mano con *Run workflow*, el robot lo respeta; para volver al modo automático, cargá `clear`.
+**Cámara:** cada hora el robot lee el recuento de la página de Wikipedia de las elecciones a la Cámara y carga el cambio neto del partido del presidente, marcado como provisorio con la cantidad de bancas definidas. Si cargás un número a mano con *Run workflow*, el robot lo respeta; para volver al modo automático, cargá `clear`. En **value** podés escribir el cambio neto (`-27`), el cambio neto y las bancas definidas (`-27 de 425`) o las bancas de cada partido como las muestra una página de resultados (`R 180 D 240`): el sitio calcula el cambio frente a las 220 bancas republicanas de 2024.
 
 Los resultados de los casos siguen cargándose con el formulario de **Run workflow**.
 
