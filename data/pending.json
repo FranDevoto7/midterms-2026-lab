@@ -776,8 +776,9 @@
       ],
       "ap": false,
       "issue": 49,
-      "status": "open",
-      "opened": "2026-11-04T06:23:02Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T06:23:02Z",
+      "closed": "2026-11-04T13:53:18Z"
     },
     "senate:MT:R": {
       "office": "senate",
@@ -793,8 +794,9 @@
       ],
       "ap": false,
       "issue": 50,
-      "status": "open",
-      "opened": "2026-11-04T06:23:03Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T06:23:03Z",
+      "closed": "2026-11-04T13:53:20Z"
     },
     "governors:OR:D": {
       "office": "governors",

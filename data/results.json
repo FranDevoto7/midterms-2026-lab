@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T13:52:18Z",
+  "updated_at": "2026-11-04T13:53:22Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -155,6 +155,12 @@
       "source": "The Hill",
       "url": "https://thehill.com/homenews/campaign/6182241-ricketts-wins-nebraska-senate-race/",
       "at": "2026-11-04T13:51:51Z"
+    },
+    "MT": {
+      "winner": "R",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6182199-alme-wins-montana-senate-race/",
+      "at": "2026-11-04T13:52:24Z"
     }
   },
   "governors": {
@@ -320,6 +326,12 @@
       "url": "https://www.cbsnews.com/news/orgeon-governors-race-tina-kotek/",
       "note": "Kotek, first elected in 2022, is one of the most unpopular governors in the country as the state struggles with a large homeless population. Tough reelection.",
       "at": "2026-11-04T13:46:58Z"
+    },
+    "MI": {
+      "winner": "D",
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/politics/2026-election/jocelyn-benson-michigan-governor-win-election-democrat-control-james-rcna603344",
+      "at": "2026-11-04T13:53:07Z"
     }
   }
 }
