@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T13:58:24Z",
+  "updated_at": "2026-11-04T14:00:16Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -352,6 +352,13 @@
       "source": "VTDigger",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZl9EaTJPWmxZejJxUmJtdG5DVlBPVWNPb0Jfb1dkVVo4ejJfWmdja2ZoWURhY0JiU2cxd0tqVnhJZFNaWld0Z1NOclFnT0x5R1U5d01rMDI5ZFZPZDNNd1d1M2hKS1lmRjVZRi1LM3ZpSG56cGd6M3JYUzhUTTVHV1g1bml5aDQtUEdZWDZxcnNrZklSVFZoVUdpLTY?oc=5",
       "at": "2026-11-04T13:58:11Z"
+    },
+    "MN": {
+      "winner": "D",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6190374-amy-klobuchar-wins-minnesota-gubernatorial-race-2026/",
+      "note": "the first woman elected to lead the state.",
+      "at": "2026-11-04T13:59:00Z"
     }
   }
 }
