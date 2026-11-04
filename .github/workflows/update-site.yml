@@ -28,6 +28,10 @@ on:
         description: "Enlace a la fuente (opcional)"
         required: false
         default: ""
+      note:
+        description: "Descripción breve para el sitio (opcional)"
+        required: false
+        default: ""
   issues:
     types: [closed]
 
@@ -74,7 +78,8 @@ jobs:
           VALUE: ${{ inputs.value }}
           SOURCE: ${{ inputs.source }}
           URL: ${{ inputs.url }}
-        run: python scripts/record_result.py --kind "$KIND" --key "$KEY" --value "$VALUE" --source "$SOURCE" --url "$URL"
+          NOTE: ${{ inputs.note }}
+        run: python scripts/record_result.py --kind "$KIND" --key "$KEY" --value "$VALUE" --source "$SOURCE" --url "$URL" --note "$NOTE"
 
       - name: Fetch news
         if: github.event_name != 'issues'
