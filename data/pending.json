@@ -287,8 +287,9 @@
       "source": "NEWS10 ABC",
       "date": "2026-11-04T02:05:40Z",
       "issue": 21,
-      "status": "open",
-      "opened": "2026-11-04T03:21:12Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T03:21:12Z",
+      "closed": "2026-11-04T04:28:34Z"
     },
     "governors:CT:D": {
       "office": "governors",
