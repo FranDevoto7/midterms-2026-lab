@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T04:09:20Z",
+  "updated_at": "2026-11-04T04:12:17Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -93,6 +93,13 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX3hDaXVfdnR1QnpuR3R0RUdOTTQtYU8xVjVKdUVyQmFXR2toS3hIeXR1N1ZTNnVmMFR6SG9HS2RzYU1sNWdzeWZ4T0Q4aFVsbDZrd2J2bDg1T0c0OTVUVjAtM0xHdHB0LUwzSXVFTUYtTE9WY1IyalpVbW53Mm5DamQwMA?oc=5",
       "note": "The Pennsylvania Governor race has shifted 23.72 points toward Democrats compared with the 2024 presidential election.",
       "at": "2026-11-04T04:09:08Z"
+    },
+    "AZ": {
+      "winner": "D",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6177468-hobbs-wins-arizona-governor/",
+      "note": "An Arizona governor has not lost reelection since 1967.",
+      "at": "2026-11-04T04:12:04Z"
     }
   }
 }
