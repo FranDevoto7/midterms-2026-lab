@@ -80,6 +80,16 @@ Cuando AP, o dos medios distintos, anuncian el mismo ganador, el robot lo **carg
 
 Los resultados de los casos siguen cargándose con el formulario de **Run workflow**.
 
+## Hitos históricos
+
+Un hito es, por ejemplo, la primera mujer negra elegida gobernadora o la primera senadora indígena.
+
+- **Con un comentario:** en el aviso de un resultado (aunque ya esté cerrado), escribí una línea que empiece con `Hito:` y tu texto. El resto del comentario sigue siendo la descripción.
+- **Con el formulario:** volvé a correr *Run workflow* con el mismo ganador y en **note** escribí `Hito: tu texto`. Si además querés una descripción, separala con ` | `: `Hito: primera mujer negra gobernadora | Bottoms ganó en un estado que Trump había ganado`.
+- **El robot te los sugiere:** cuando un titular dice que un ganador es «the first woman», «the first Black…» o que «makes history», abre un aviso «Posible hito: …». Escribí `Hito: …` y cerralo; si lo cerrás sin escribir nada, se usa el titular; si no corresponde, cerralo como *not planned*.
+
+En el sitio, los hitos aparecen en **Hoy** («Hitos de esta elección»), con una marca en cada tarjeta y con el filtro **Hitos** de **Resultados**.
+
 ## Ajustes frecuentes
 
 - **Frecuencia de las noticias.** En `.github/workflows/update-site.yml`, la línea `cron: "17 * * * *"` significa «cada hora, en el minuto 17». Para cada 2 horas: `"17 */2 * * *"`. Para cada 6 horas: `"17 */6 * * *"`.
