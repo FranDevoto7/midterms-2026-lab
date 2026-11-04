@@ -178,8 +178,9 @@
       "source": "WPLG Local 10",
       "date": "2026-11-04T02:12:37Z",
       "issue": 13,
-      "status": "open",
-      "opened": "2026-11-04T02:59:57Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T02:59:57Z",
+      "closed": "2026-11-04T13:43:23Z"
     },
     "governors:CO:D": {
       "office": "governors",
