@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T05:07:17Z",
+  "updated_at": "2026-11-04T05:12:56Z",
   "mode": "automatic-rss",
   "feeds_ok": 16,
   "feeds_failed": [],
@@ -100,6 +100,25 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
+      "category": "Redistricting",
+      "title": "Maryland Question 3 explained: Could congressional maps change?",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "WBFF",
+      "published": "2026-11-03T20:14:24Z",
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNVnY0TzVkS3UzendoWFBaQXN4WFZMWkhJYUxrdFJkai1vS3BTTHQyVDlpY2UyNGVEbExFMzAyTnpEYXZPZXNSbWp2eDFCWmlyU3d0YXFRNm5qQldpX0FLU05oR1Y4OTY1bU9qcWU5elpjMV9YX041NXJHV3pvd1RYOXp0NTFtYzJwR2lpTE9Wem1jNmlRRWFJV0xhZlpKLTNTSS1xOFFPSHpKdjJXUmx5NDVqckZ1UUdFa0xMX2tEOFh2OHliaDBWTUpjNGROZHBmdE5WT0pDTUxUTmdjMDFhT3NWMUZpS1JaZjlRRFNGQ3hyS2tCUVYyTnFTbHZFbWpuWE1WQkZyUmRTYURhR1ZYTVhkZFByOUs5NWdIdFoxQTBBUEZWODBhN0Y0OHY?oc=5",
+      "concepts": [
+        "redistricting",
+        "direct-democracy"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
       "category": "Senate",
       "title": "Adam Hamilton wins Kansas Senate race in another Democratic upset",
       "summary": "Democratic Reverend Adam Hamilton defeated GOP Sen. Roger Marshall in the Kansas Senate race, CBS News projects, unseating the incumbent in a major upset.",
@@ -116,25 +135,6 @@
       "signal": 2,
       "mechanism": "Incumbency and the personal vote",
       "watch": "The gap between each Senate margin and Trump’s 2024 margin."
-    },
-    {
-      "category": "Redistricting",
-      "title": "Maryland Question 3 explained: Could congressional maps change?",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "WJLA",
-      "published": "2026-11-03T13:45:48Z",
-      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNR0lsVXhuLUlxYkRsd21XQ3F0Y2tyTUFOajNhR2hrdmNCMEUzcEZMT0RiVGNBbmRFSFNvMHVlTmRES3JCbGhwdld0RFROcFpEUFg5d0pKbVlIdTNGWGZFcGRNaWtUbmZubTlHTDlHWV82Q1M0Z044OWFIOXFMd0xoT0ZSNURfV0FvWDFkU2RQdWExbDhhdUJlNi1NUWU3OWZSbmJEVXB2d3pCeEN2MWhqQk5EUGdXMWQ4aHlEZm84eGFqM2JjTmVCX1U0Zno1RGZkRWk3QXdobzJ5VXM2MVViSW5BRFd4THVFNXZKc0x6ZjhZcVg1QmRkbXM0WEZaMHVaOU40c195SE5MSFRNT3gzWkdNRmR2NEdCZmJKcTdnM1F4VDR0UlYwd2x4NmZJd3N0VDJrdzdCek93Y0xMcGpr?oc=5",
-      "concepts": [
-        "redistricting",
-        "direct-democracy"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
       "category": "Redistricting",
