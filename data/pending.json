@@ -52,8 +52,9 @@
       "source": "Fox News",
       "date": "2026-11-04T00:23:36Z",
       "issue": 4,
-      "status": "open",
-      "opened": "2026-11-04T02:35:50Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T02:35:50Z",
+      "closed": "2026-11-04T02:51:11Z"
     },
     "governors:GA:D": {
       "office": "governors",
