@@ -378,8 +378,9 @@
       "source": "The Hill",
       "date": "2026-11-04T03:35:16Z",
       "issue": 28,
-      "status": "open",
-      "opened": "2026-11-04T03:44:43Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T03:44:43Z",
+      "closed": "2026-11-04T04:19:27Z"
     },
     "governors:ME:D": {
       "office": "governors",

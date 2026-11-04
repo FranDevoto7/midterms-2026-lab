@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T04:12:49Z",
+  "updated_at": "2026-11-04T04:19:28Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -106,6 +106,13 @@
       "source": "The Hill",
       "url": "https://thehill.com/homenews/campaign/6185035-deb-haaland-wins-new-mexico-governors-race-2026/",
       "at": "2026-11-04T04:12:27Z"
+    },
+    "OH": {
+      "winner": "D",
+      "source": "The Hill",
+      "url": "https://thehill.com/homenews/campaign/6173284-acton-wins-ohio-governor-election/",
+      "note": "La victoria demócrata en Ohio muestra que incluso un estado claramente corrido hacia los republicanos puede volver a ser competitivo cuando pesan los candidatos, el contexto nacional y los errores de campaña. SWING clave.",
+      "at": "2026-11-04T04:19:16Z"
     }
   }
 }
