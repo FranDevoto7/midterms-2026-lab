@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T07:53:05Z",
+  "updated_at": "2026-11-04T08:53:06Z",
   "mode": "automatic-rss",
   "feeds_ok": 16,
   "feeds_failed": [],
@@ -63,6 +63,24 @@
     },
     {
       "category": "Redistricting",
+      "title": "Dem wins Trump-targeted Texas district in rebuke of Republican redistricting shakeup",
+      "summary": "Johnny Garcia defeated Republican Carlos De La Cruz in Texas' redrawn 35th Congressional District, defying a Trump-backed redistricting map.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Fox News",
+      "published": "2026-11-04T07:36:03Z",
+      "url": "https://www.foxnews.com/politics/dem-wins-trump-targeted-texas-district-rebuke-republican-redistricting-shakeup",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
       "title": "Republicans tried to gerrymander their way out of big congressional losses. It didn't work",
       "summary": "Among the sweeping victories by Democrats on Tuesday were wins in several congressional districts that Republicans had redrawn explicitly to boost their party ahead of the midterms.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
@@ -98,6 +116,24 @@
       "watch": "Collins’s margin against the Republican candidate for governor, town by town."
     },
     {
+      "category": "Redistricting",
+      "title": "Yarbrough wins Texas House election for redistricted Julie Johnson seat",
+      "summary": "Texas Republican House candidate Jace Yarbrough is projected to win the open seat to lead the state's redistricted 32nd District and replace Rep. Julie Johnson (D-Texas), per Decision Desk HQ's.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "The Hill",
+      "published": "2026-11-04T08:50:39Z",
+      "url": "https://thehill.com/homenews/campaign/6134970-yarbrough-wins-texas-house-election/",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
       "category": "Senate",
       "title": "Democrat Troy Jackson wins election to U.S. Senate from Maine",
       "summary": "Jackson, 58, a fifth-generation logger and former president of the state Senate, had a little more than 100 days to sell himself to Maine voters after he replaced Graham Platner as the party's nominee in July.",
@@ -114,42 +150,6 @@
       "signal": 2,
       "mechanism": "Party coalitions, primaries and nominations",
       "watch": "Collins’s margin against the Republican candidate for governor, town by town."
-    },
-    {
-      "category": "Senate",
-      "title": "Troy Jackson defeats GOP Sen. Susan Collins in Maine, padding Democrats’ majority",
-      "summary": "NBC News projects that Jackson, who became the Democratic nominee after an embattled Graham Platner dropped out, flipped control of the Senate seat.",
-      "why": "Nominations reveal bargaining among a party’s factions.",
-      "source": "NBC News",
-      "published": "2026-11-04T05:49:24Z",
-      "url": "https://www.nbcnews.com/politics/2026-election/troy-jackson-maine-senator-win-democrat-senate-majority-susan-collins-rcna603312",
-      "concepts": [
-        "party-coalitions"
-      ],
-      "cases": [
-        "maine"
-      ],
-      "signal": 2,
-      "mechanism": "Party coalitions, primaries and nominations",
-      "watch": "Collins’s margin against the Republican candidate for governor, town by town."
-    },
-    {
-      "category": "Redistricting",
-      "title": "Democrat Bobby Pulido flips crucial South Texas district, defeating Rep. Monica De La Cruz",
-      "summary": "Democrats had heavily targeted the South Texas district, which had been redrawn in last year's redistricting.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "CBS News",
-      "published": "2026-11-04T05:35:00Z",
-      "url": "https://www.cbsnews.com/news/texas-15-district-pulido-de-la-cruz/",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
 }

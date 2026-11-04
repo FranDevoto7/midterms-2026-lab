@@ -841,6 +841,23 @@
       "issue": 53,
       "status": "open",
       "opened": "2026-11-04T06:53:08Z"
+    },
+    "senate:VA:D": {
+      "office": "senate",
+      "state": "VA",
+      "winner": "D",
+      "candidate": "Mark Warner",
+      "title": "Virginia 2026 live midterm results: Democrat Mark Warner projected winner of Senate race",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSk96TFhod3d4MTNraHUyc1k3T3FuaUZfdktXNlRLbk4tSG5FN0x3dWdVYnVmNEtUdVh6ejd0WWxDNWF2QVdWSlJodDhKc3VxUm05ZXVTMWdYaTMyQ0RpMWw1RXVTLXdHZXBrRldKQmpPb0lkX01mVHZ6OHl1VU9vOHdlU3RqSHFxM3Qzd1VHNEdDVGowaEHSAZsBQVVfeXFMUFFKQVJMVjlwZWFOU25WRXNDdmRjem1xT3FaTUJmZ1ZqM1IwdEFPdWhBSk51dHVKRjJzbU5TNWJMWkUxTTgzbnI4TC1vNGh2NnN0RU15R3otTXBIUk9zV3ZTUVlJWkxGaU03WjV2bXN3cU05R1ZMa3lkVzl5dnFDUWxweXJmbkRVbWp0RnhCckxfZ3NGTGpYQ0JuMUE?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "date": "2026-11-04T04:45:40Z",
+      "outlets": [
+        "ABC News - Breaking News, Latest News and Videos"
+      ],
+      "ap": false,
+      "issue": 54,
+      "status": "open",
+      "opened": "2026-11-04T08:53:11Z"
     }
   }
 }
