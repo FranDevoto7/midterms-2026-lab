@@ -349,6 +349,19 @@ MILESTONE = re.compile(
 MAX_MILESTONES = 6
 
 
+def milestone_office(title):
+    """The office the milestone phrase refers to: the office word closest to it ("first Black governor")."""
+    m = MILESTONE.search(title)
+    if not m:
+        return None
+    spots = []
+    for rx, office in ((r"\bsenat", "senate"), (r"\b(?:governor|gubernatorial)", "governors")):
+        for x in re.finditer(rx, title, re.I):
+            d = 0 if m.start() <= x.start() <= m.end() + 12 else min(abs(x.start() - m.start()), abs(x.start() - m.end()))
+            spots.append((d, office))
+    return min(spots)[1] if spots else None
+
+
 def owner_texts(number):
     """(description, milestone) from your comments on a notice. A line that starts with "Hito:" is the milestone."""
     try:
@@ -432,6 +445,9 @@ def suggest_milestones(items, results, pending):
                     continue
                 if full not in title and any(n in title for n in namesakes):
                     continue  # the surname belongs to someone else in this headline
+                said = milestone_office(title)
+                if said and said != office:
+                    continue  # "first Black governor" is about the governorship, not about a senator in the same headline
                 text = norm(title + " " + (it.get("summary") or ""))
                 if not re.search(cue, text, re.I):
                     continue  # the headline must be about this office
@@ -481,7 +497,15 @@ def sync_milestones(m_issues, pending, results):
         closed = it.get("state") == "closed"
         rejected = closed and it.get("state_reason") not in ("completed", None)
         if rejected:
-            if m["status"] == "open":
+            if m["status"] == "confirmed":
+                entry = (results.get(m["office"]) or {}).get(m["state"])
+                if isinstance(entry, dict) and entry.get("milestone_issue") == it["number"]:
+                    for k in ("milestone", "milestone_url", "milestone_issue"):
+                        entry.pop(k, None)
+                    r_changed = True
+                    comment(it["number"], "Quitado: el hito ya no aparece en el sitio.")
+                    print(f"Milestone removed for {key} (notice #{it['number']})")
+            if m["status"] in ("open", "confirmed"):
                 m["status"], p_changed = "rejected", True
             continue
         entry = (results.get(m["office"]) or {}).get(m["state"])
@@ -498,6 +522,7 @@ def sync_milestones(m_issues, pending, results):
             text = f"{m.get('source') or 'Según la prensa'}: “{m['title']}”"
         if text and entry.get("milestone") != text:
             entry["milestone"] = text
+            entry["milestone_issue"] = it["number"]
             if m.get("url"):
                 entry["milestone_url"] = m["url"]
             r_changed = True

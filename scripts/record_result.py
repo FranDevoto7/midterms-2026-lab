@@ -75,7 +75,9 @@ def main():
                 entry["note"] = old["note"]
                 if old.get("note_from"):
                     entry["note_from"] = old["note_from"]
-            if milestone:
+            if milestone.lower() in ("borrar", "quitar", "clear", "-"):
+                pass  # "Hito: borrar" removes the milestone
+            elif milestone:
                 entry["milestone"] = milestone
             elif same and old.get("milestone"):
                 entry["milestone"] = old["milestone"]

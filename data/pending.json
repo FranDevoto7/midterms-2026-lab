@@ -1090,7 +1090,7 @@
       "issue": 65,
       "status": "confirmed",
       "opened": "2026-11-04T16:38:56Z",
-      "seen": "2026-11-04T16:42:56Z"
+      "seen": "2026-11-04T16:45:11Z"
     },
     "senate:LA": {
       "office": "senate",
@@ -1102,7 +1102,7 @@
       "issue": 66,
       "status": "confirmed",
       "opened": "2026-11-04T16:38:57Z",
-      "seen": "2026-11-04T16:42:09Z"
+      "seen": "2026-11-04T16:45:12Z"
     },
     "senate:MN": {
       "office": "senate",
@@ -1114,7 +1114,7 @@
       "issue": 67,
       "status": "confirmed",
       "opened": "2026-11-04T16:38:57Z",
-      "seen": "2026-11-04T16:43:28Z"
+      "seen": "2026-11-04T16:45:13Z"
     },
     "governors:FL": {
       "office": "governors",
@@ -1138,7 +1138,73 @@
       "issue": 69,
       "status": "confirmed",
       "opened": "2026-11-04T16:38:58Z",
-      "seen": "2026-11-04T16:44:46Z"
+      "seen": "2026-11-04T16:45:14Z"
+    },
+    "governors:NM": {
+      "office": "governors",
+      "state": "NM",
+      "winner": "D",
+      "title": "Deb Haaland wins in New Mexico and will become first female Native American governor | US midterm elections 2026",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRlU4M1dLbjdpbkxpZDl1TGdGZU50YWd2QjBFZ0puelU5QTJ3cWFGVWMzZ0NNYkpoVDNNNDF6U2Ewc2dUZUZuZ24xM004N1lzZUVwZDEyejVQUF9xVjZrMTR0TGNGZ2dDakJMMGk4N2Qzd3lHYzM1bzhmSHNwazJ4VFNMcnJRdw?oc=5",
+      "issue": 70,
+      "status": "open",
+      "opened": "2026-11-04T16:51:48Z"
+    },
+    "governors:OH": {
+      "office": "governors",
+      "state": "OH",
+      "winner": "D",
+      "title": "Ohio backs Democrat Amy Acton as first elected woman governor",
+      "source": "The 19th News",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGOE0tekFKdUpCUEhSNkgxR0FKUTRkZnRtX2VscHJ2NUZVR0w5M3JMQXlLQ19sdFBwM3l3Q1VZSFpHajA2elNUT2taZTY2WF9uS1ZGX1FZSFpYYjlSbWMwcnpZOTA1U1Zpd0JrSA?oc=5",
+      "issue": 71,
+      "status": "open",
+      "opened": "2026-11-04T16:51:49Z"
+    },
+    "governors:WI": {
+      "office": "governors",
+      "state": "WI",
+      "winner": "D",
+      "title": "Democrat David Crowley makes history, defeats Tom Tiffany in Wisconsin governor’s race",
+      "source": "WPR",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSjdfYkt5bS1DOEdTRDZwTHowUVFsTnJ1Zk5Qb2c0ZVZBMFppS3QwQkRKckc3SlMza29rcXcxMFlvZjAybVBzMWN3TFhvTnZFXzhLa0F2S29CV1d0enB4MTNsdlhhblRzSk5qdVdFRy1mMzZiMVJDTWgweU9zeUsweUdOamtJVVBDdEZQYlI3U1kyTUNVei1CVWY1U0UzcmxGNjBhRg?oc=5",
+      "issue": 72,
+      "status": "open",
+      "opened": "2026-11-04T16:51:49Z"
+    },
+    "governors:TX": {
+      "office": "governors",
+      "state": "TX",
+      "winner": "D",
+      "title": "“The Earth Shook Last Night”: Talarico Wins Senate, Hinojosa Becomes First Latina Governor in Texas",
+      "source": "Democracy Now!",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mU1M5MjZ6a2ZORFAyeUY3RV95eUs3SjVGQnd1ckRQM080Z2NuOTFEQXAzMFIwbTVYeU1jQVozTmM1dDczVTZ4WTY5SzR3ajNYZXN0OFJXTUV5OEFtZTZMTV8wRGFHdkxfMFlHdXJfTHJ4QUphZmc?oc=5",
+      "issue": 73,
+      "status": "open",
+      "opened": "2026-11-04T16:51:49Z"
+    },
+    "governors:CA": {
+      "office": "governors",
+      "state": "CA",
+      "winner": "D",
+      "title": "Xavier Becerra makes history as first Latino elected governor of California",
+      "source": "San Francisco Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMG02TnAzUG96YklJZm9HRE1OazByY19Icm52T2lPNmhLLWJ3ajNmY1Y3dmw3Q3RpQk5icXNQZnZabG9kcGtTcmx5MnpFYjdMdU9CRG5HSDJFSFZSRVdQSHNMTkp4T2VtbUR1VHFpS3FSc21QZ1Y3cklvSjdSTHRMbXZUR04taVAxLXJ6M2NB?oc=5",
+      "issue": 74,
+      "status": "open",
+      "opened": "2026-11-04T16:51:50Z"
+    },
+    "governors:NV": {
+      "office": "governors",
+      "state": "NV",
+      "winner": "D",
+      "title": "Democrat Aaron Ford defeats Republican incumbent to become Nevada’s first Black governor",
+      "source": "FOX 8 Live WVUE",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSVVGcVY3N2tGcjVmc1RLcHJVcS1hUFNVM21US0NaOGVMZHVZTGJieHpIYU5zZU5MN1JxcmNqa0FQM2JFaHljQlB6R1hvTmhBZ3RlNjBpNTJ5QUdYa2lPX3VBTXJLeVRPOXdlQjRPUTJxMXlCemZULUpUMkc4bFBvODN5UnZPWXJhRXVMX09PaTVseTZ6X2x6NWRGUXQtbWFCVlV6XzBEWWR0bDZwYUh1bTNVbHNiMzBtWG1PS1R3?oc=5",
+      "issue": 75,
+      "status": "open",
+      "opened": "2026-11-04T16:51:50Z"
     }
   }
 }
