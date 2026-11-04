@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T16:41:53Z",
+  "updated_at": "2026-11-04T16:45:14Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -133,14 +133,18 @@
       "winner": "D",
       "source": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQnFlWkk3R1lCeEFkR2xPVzBCVUt6Wk9fc3hMeF9LTWlMWnVlSTNkZWxjYjRqTVI5dnhMdFVOdHRMeHFyNDE3ekJ1N0lEbFJ2SjJWUnJ2eTBTMnNkSl9mUTNGUTJCRHRoZFFJMXNrQ0l6cGs3THZ4Y0NRWHlsWnJzNHZLbGxUaUgyVjJ1Sjc3Y0VnUVc3MHcxZXlDQkFfNGFWZ1c3Z0R6dkg4a0dP?oc=5",
-      "at": "2026-11-04T13:45:57Z"
+      "at": "2026-11-04T13:45:57Z",
+      "milestone": "Abdul El-Sayed becomes first Muslim senator in the U.S History.",
+      "milestone_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE43VVVTWUNRS21LVzV5eF9XYTZLdC1JdF9EVFprTWFVbURCOVltbDhlcGtxOHFDVmVyTUFJMFpvLXJGOV90bUNCVjBGZTBma0szZ24tVlpPNm1SRE0?oc=5"
     },
     "LA": {
       "winner": "R",
       "source": "KSLA",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcXdrdFRCd3Z6ejJXSjczdzBUYmdfTlg5Y19ZX0VUTVFVenF4NU1vcElUdGNLUGdfVjd1cEIzNlc5dEJuVWstNHFXTV9maVJwRHBtTzZObHR5bmFhdjltT3B2NVNUY3EzcXpab1pVczVtMnVQcTBvX21jZ0dqNmxMZm9XMzU2MkRr0gGcAUFVX3lxTE1vWTRHZm5pNkljT1Jyem41Z1pzdWxwZm1JbVZwYk1kMEZWRFkyRGpFOExzZUpyYzFCR0steVRVMDZ2bGdtaXhXckF4UF9xZ1V4Wm5VVGItaHZCWV82ZlNCYkM1RVBsbXZYQVdubVBJS18zQzdCVEVYYndJQkwycGNCTllmaV9tZm5QdXp3bXkzaG92N25GRnVIV0k3cQ?oc=5",
       "note": "Louisiana’s first Republican woman elected to U.S. Senate.",
-      "at": "2026-11-04T13:47:35Z"
+      "at": "2026-11-04T13:47:35Z",
+      "milestone": "Louisiana’s first Republican woman elected to U.S. Senate",
+      "milestone_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMXA5M192OFZHQUg5TE02bUQzNDBMSmVQUUZTY19yVjMyMU9ZaUVKWElDZHJEWVRxdUxfSU1lemRaRkJOSlktTTViRmRMZElya3lwTDBLdmxQemJFTjkxYVB3aVZabjFHNWt3MXBKWVd1VUZCTWpia3Zqbms5YXkxYlRzd2pGVGlB0gGcAUFVX3lxTE80WDRmNWp6eHdqbUNnM0I1anBDZl9jNnhJcHgyM2lacVMxWjRsVmxISUtpZTlIdFk4c24tZDNkQjFWZmE0QUlPQlVqU0Q3LV9PNUhVdjVqNDRXVXdjamZYTnZueFRoZlpTSFRYU0EzTlk0OTJ4S1FsOVdiQUp2WFZDRDNMTDlUaFFqbjNuQ1I3R2VyTmxfUlRBUVkyeA?oc=5"
     },
     "AR": {
       "winner": "R",
@@ -153,7 +157,9 @@
       "source": "The Hill",
       "url": "https://thehill.com/homenews/campaign/6175415-peggy-flanagan-minnesota-senate/",
       "note": "Uphill battle with corruption accusations.",
-      "at": "2026-11-04T13:49:33Z"
+      "at": "2026-11-04T13:49:33Z",
+      "milestone": "the first Native American woman elected to serve in the Senator chamber.",
+      "milestone_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVnU4UU9WcXZKcW1xUjQ0NE5NdTl4S3RzZW56aHdCelNyNXdMV1FTcGFoamZVUnV2WkVkbVNzV2w3ZHhsakUydnNIdmNISG9MYWRFeEo5WFo4R05xWGYzZTFBWXdZNmFaR3RIN21lLVN1MUl4TTNLVDlFSXg1dmRzdHhoVHotUjl1V2tIU21CR3BsZVNJdURpUkd3dkE?oc=5"
     },
     "WY": {
       "winner": "R",
@@ -193,7 +199,9 @@
     "GA": {
       "winner": "D",
       "source": "NBC News",
-      "url": "https://www.nbcnews.com/video/democrat-keisha-lance-bottoms-projected-to-win-georgia-governor-s-race-272815173913"
+      "url": "https://www.nbcnews.com/video/democrat-keisha-lance-bottoms-projected-to-win-georgia-governor-s-race-272815173913",
+      "milestone": "Democrat Keisha Lance Bottoms becomes 1st Black woman elected US governor.",
+      "milestone_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUFdzV2pCVndyXzZvYmlCUEZkTlV1QjNCWkRscXpjaW5zWUl2dTV3WmtnS2RpNk1TZTZCOEU0Yl9ncXBTalBnWmJyNnplZjhYbi1NaVRaZml4dDNDS0JXSmcwcUo0MmtoZXFibVl6aUtpSGdMVUpxV2ZMTHNnaWloakFLNmtXcEVUUnFNYXg1VTJzSDZ60gGaAUFVX3lxTE14NlhxNGtKVTQtUnNfcTNMVDRuaG9ORXUwWnhKcjEyYmRKY1RPT1A1SFQ0YnFFcGk2OVAwS0I3LU5MT25fYnhiSGlua0dxbzFhZFpFODdvWGJCU0J6b2NTVXVHNTNGeDhDaGgxQ2ZwaEVJdnZsQzZqZGxJTHJzbW1IamFyT3lwVk1MRFlYakN3RW1VWXlUUnRjckE?oc=5"
     },
     "IL": {
       "winner": "D",
