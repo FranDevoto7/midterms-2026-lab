@@ -1,8 +1,10 @@
 {
-  "updated_at": "2026-11-04T04:50:24Z",
+  "updated_at": "2026-11-04T05:02:56Z",
   "mode": "automatic-rss",
-  "feeds_ok": 16,
-  "feeds_failed": [],
+  "feeds_ok": 15,
+  "feeds_failed": [
+    "The Hill"
+  ],
   "stories": [
     {
       "category": "Redistricting",
@@ -25,12 +27,12 @@
     },
     {
       "category": "Redistricting",
-      "title": "LA County Supervisor Hilda Solis wins open California House seat",
-      "summary": "Los Angeles County Supervisor Hilda Solis (D) is projected to win the seat to lead California's 38th Congressional District, drawn up after Golden State voters passed the state's redistricting ballot measure last year, according to…",
+      "title": "Marylanders approve redistricting ballot question, Democrat-leaning 2028 congressional map possible",
+      "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "The Hill",
-      "published": "2026-11-04T04:37:54Z",
-      "url": "https://thehill.com/homenews/campaign/6158993-hilda-solis-california-38th-congressional-district/",
+      "source": "WYPR",
+      "published": "2026-11-04T04:11:00Z",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORll4bVRCQzR4TmpzZWw0UEJHQjJCRFRPRnVTNTQ0MWRrcTNfLXdpZGcwZzVwUVpOZk5EdlZpMVZ0UnAxeTRJdFFEdnU3RGw1bkpweDlzRmp2eTFZTVQ3c25oR2M0d1lQaVQ5XzJFZmJJOVNkdE54Zk5wUTZjcV9OVHpvSlkzTC11a25UTFdnLXQ4bnlHRlJGNGRhVlBoRDROcXRxblRjSFhxa0gzRTRBaE0yRjhON2gzSWQxdjYwemg1bnNobDItYXZNcGNGTFRaX2cwdHVNdw?oc=5",
       "concepts": [
         "redistricting",
         "direct-democracy"
@@ -44,12 +46,12 @@
     },
     {
       "category": "Redistricting",
-      "title": "Marylanders approve redistricting ballot question, Democrat-leaning 2028 congressional map possible",
+      "title": "Results: States decide on voter ID and redistricting ballot measures",
       "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "WYPR",
-      "published": "2026-11-04T04:11:00Z",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORll4bVRCQzR4TmpzZWw0UEJHQjJCRFRPRnVTNTQ0MWRrcTNfLXdpZGcwZzVwUVpOZk5EdlZpMVZ0UnAxeTRJdFFEdnU3RGw1bkpweDlzRmp2eTFZTVQ3c25oR2M0d1lQaVQ5XzJFZmJJOVNkdE54Zk5wUTZjcV9OVHpvSlkzTC11a25UTFdnLXQ4bnlHRlJGNGRhVlBoRDROcXRxblRjSFhxa0gzRTRBaE0yRjhON2gzSWQxdjYwemg1bnNobDItYXZNcGNGTFRaX2cwdHVNdw?oc=5",
+      "source": "NPR",
+      "published": "2026-11-03T22:53:23Z",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdUtRMDgwWTV1cW9KWDFyVjA4VHMteVdWSWxuQ3JBU2t3MF9RVjdDdnpPUHEweTBNcW9ORG1jTU16ckNGNmQ0UWhoY1ZDV1V6b3M4WEEtMUc5b2M3dHRVbVpxZmRodkhkTUVsWE5DOGFSNmIzTEZPd0pRaHBCVTJjWnNiMm1TWUpIRTZmbjdfRmVFa1U?oc=5",
       "concepts": [
         "redistricting",
         "direct-democracy"
@@ -118,24 +120,6 @@
     },
     {
       "category": "Senate",
-      "title": "Democrat Sherrod Brown wins Ohio Senate race",
-      "summary": "Democratic former U.S. Sen. Sherrod Brown has won back a seat on Capitol Hill, defeating incumbent Republican Sen. Jon Husted after a close and expensive battle, according to a race call by the Associated Press.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "NPR",
-      "published": "2026-11-04T04:10:28Z",
-      "url": "https://www.npr.org/2026/11/03/g-s1-148948/ohio-senate-race-sherrod-brown-jon-husted",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "reach"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
-    },
-    {
-      "category": "Senate",
       "title": "Democrat Sherrod Brown unseats Sen. Jon Husted in Ohio, completing comeback bid",
       "summary": "NBC News projects that Brown, who lost a re-election bid in 2024, will return to the Senate after he defeated Husted, a Republican who was appointed to succeed JD Vance.",
       "why": "Officeholders can build support that outlasts party tides.",
@@ -151,6 +135,24 @@
       "signal": 2,
       "mechanism": "Incumbency and the personal vote",
       "watch": "The gap between each Senate margin and Trump’s 2024 margin."
+    },
+    {
+      "category": "House",
+      "title": "Democrat Janelle Stelson wins election to U.S. House in Pennsylvania's 10th Congressional District",
+      "summary": "Democrat Janelle Stelson won election Tuesday to the U.S. House of Representatives representing Pennsylvania's 10th Congressional District, defeating Republican incumbent Scott Perry.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "PBS News",
+      "published": "2026-11-04T03:54:26Z",
+      "url": "https://www.pbs.org/newshour/politics/democrat-janelle-stelson-wins-election-to-u-s-house-in-pennsylvanias-10th-congressional-district",
+      "concepts": [
+        "incumbency"
+      ],
+      "cases": [
+        "pennsylvania"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Whether the four districts swing by similar amounts."
     }
   ]
 }
