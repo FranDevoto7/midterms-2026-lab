@@ -66,8 +66,9 @@
       "source": "NBC News",
       "date": "2026-11-04T02:13:47Z",
       "issue": 5,
-      "status": "open",
-      "opened": "2026-11-04T02:35:51Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T02:35:51Z",
+      "closed": "2026-11-04T02:55:51Z"
     },
     "governors:IL:D": {
       "office": "governors",

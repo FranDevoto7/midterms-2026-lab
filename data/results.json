@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T02:51:12Z",
+  "updated_at": "2026-11-04T02:55:53Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -24,6 +24,11 @@
       "winner": "R",
       "source": "NPR",
       "url": "https://www.npr.org/2026/11/03/g-s1-151260/florida-governor-donalds-jolly"
+    },
+    "GA": {
+      "winner": "D",
+      "source": "NBC News",
+      "url": "https://www.nbcnews.com/video/democrat-keisha-lance-bottoms-projected-to-win-georgia-governor-s-race-272815173913"
     }
   }
 }
