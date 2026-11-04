@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T04:04:31Z",
+  "updated_at": "2026-11-04T04:07:46Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -79,6 +79,13 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaUVwN1VLT1dHbVNrUEhQbTB1dHFOMTY2Y0h3ZnFrUDlHd3Job0kxQVd0WTA5ampDUFJSSXhYMVlGNXFJUkcwWmpLa3RiRVBhMmJXZk5taDJyQ2M1ODNZblZWQWZZTkhOYUdvOEJoLWZCNUxVdUtVY2ctbjdqRnRGSnRaR1NpUzVXWWZUM3dwcngyMTNhcVNwS3JoTkd4ci0tMUx1RXN1N2RKUQ?oc=5",
       "note": "Weiser's victory means Democrats will have held the governorship for 20 consecutive years and counting.",
       "at": "2026-11-04T04:04:18Z"
+    },
+    "WY": {
+      "winner": "R",
+      "source": "WyoFile",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9QcXY5MWRmd1BqcmFsZFJIVURYRlZfV1BjbnkyTWU3WWk4eS00N1dnVktqemk4ZG13VHNzbHlxdjNqSmRiVTJBdW1fRXlCX0V3Yk5yYXJMZlEzMlVWb1h0V21xTUVjM2JTbFR1ZGtONHZtYmd5NnpObmZyWQ?oc=5",
+      "note": "Wyoming voters overwhelmingly supported the president in 2024, but have indicated more recently [a considerable disapproval](https://wyofile.com/trump-and-freedom-caucus-approval-election-confidence-three-takeaways-from-a-wyoming-survey-ahead-of-the-general-election/) of the way he is handling the job. That’s according to the Wyoming Survey and Analysis Center’s 2026 election survey released last week. Gana un republicano, pero no uno endorsed por Trump.",
+      "at": "2026-11-04T04:07:34Z"
     }
   }
 }
