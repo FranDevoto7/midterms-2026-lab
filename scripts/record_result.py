@@ -30,6 +30,7 @@ def main():
     ap.add_argument("--value", default="")
     ap.add_argument("--source", default="")
     ap.add_argument("--url", default="")
+    ap.add_argument("--note", default="", help="short description shown with the result on the site")
     a = ap.parse_args()
 
     data = json.loads(RESULTS.read_text(encoding="utf-8")) if RESULTS.exists() else {}
@@ -38,7 +39,8 @@ def main():
             data[k] = dict(empty)
     data.setdefault("house_net_change_presidents_party", None)
     key, value = a.key.strip(), a.value.strip()
-    source, url = a.source.strip(), a.url.strip()
+    source, url, note = a.source.strip(), a.url.strip(), a.note.strip()[:600]
+    now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     if url and not url.startswith(("http://", "https://")):
         fail("The url must start with http:// or https://.")
 
@@ -57,6 +59,9 @@ def main():
                 entry["source"] = source
             if url:
                 entry["url"] = url
+            if note:
+                entry["note"] = note
+            entry["at"] = now
             data[a.kind][key] = entry
             print(f"{a.kind} {key}: {winner}")
         else:
@@ -73,6 +78,9 @@ def main():
                 entry["source"] = source
             if url:
                 entry["url"] = url
+            if note:
+                entry["note"] = note
+            entry["at"] = now
             data["cases"][key] = entry
             print(f"case {key}: {value}")
         else:

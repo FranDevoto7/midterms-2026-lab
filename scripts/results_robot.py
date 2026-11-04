@@ -154,6 +154,7 @@ def issue_text(s):
         f"**{s['title']}**\n{s['source']}, {s['date']}\n{s['url']}\n\n"
         "Abrí el enlace y fijate que la noticia diga eso.\n\n"
         "- Si es correcto, tocá **Close issue**: el resultado se carga solo en el sitio en un par de minutos.\n"
+        "- Si querés sumar una descripción para el sitio, escribila en un comentario antes de cerrar: el botón pasa a decir **Close with comment**.\n"
         "- Si no, tocá la flechita al lado de **Close issue** y elegí **Close as not planned**: el robot no lo vuelve a sugerir.\n\n"
         f"<!-- midterms-result {json.dumps(meta, ensure_ascii=False)} -->\n")
     return title, body
@@ -190,6 +191,16 @@ def suggest(items_path):
         save(PENDING, pending)
 
 
+def latest_note(number):
+    """The last comment a person (not a bot) left on the issue, used as the description on the site."""
+    try:
+        comments = gh("GET", f"/repos/{REPO}/issues/{number}/comments?per_page=100") or []
+    except urllib.error.URLError:
+        return ""
+    people = [c for c in comments if (c.get("user") or {}).get("type") != "Bot" and (c.get("body") or "").strip()]
+    return people[-1]["body"].strip()[:600] if people else ""
+
+
 def sync():
     pending = load(PENDING, {"suggestions": {}})
     waiting = {k: v for k, v in pending.get("suggestions", {}).items() if v.get("status") == "open" and v.get("issue")}
@@ -220,6 +231,10 @@ def sync():
                 entry["source"] = meta["source"]
             if meta.get("url"):
                 entry["url"] = meta["url"]
+            note = latest_note(s["issue"])
+            if note:
+                entry["note"] = note
+            entry["at"] = issue.get("closed_at") or now_iso()
             results[meta["office"]][meta["state"]] = entry
             s["status"] = "confirmed"
             note = "Listo: el resultado ya está cargado en el sitio. Para deshacerlo, usá Run workflow con kind senate o governors, el estado en key y clear en value."
