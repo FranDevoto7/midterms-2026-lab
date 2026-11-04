@@ -1,47 +1,9 @@
 {
-  "updated_at": "2026-11-04T05:29:47Z",
+  "updated_at": "2026-11-04T05:52:59Z",
   "mode": "automatic-rss",
   "feeds_ok": 16,
   "feeds_failed": [],
   "stories": [
-    {
-      "category": "Redistricting",
-      "title": "Missouri voters block Republican-drawn congressional map",
-      "summary": "Missouri voters blocked a GOP-drawn congressional map from going into effect for future elections via a ballot measure, NBC News projects.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "NBC News",
-      "published": "2026-11-04T04:19:05Z",
-      "url": "https://www.nbcnews.com/politics/2026-election/missouri-voters-block-republican-drawn-congressional-map-rcna603390",
-      "concepts": [
-        "redistricting",
-        "direct-democracy"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Maryland approves amendment making it easier to redistrict House map",
-      "summary": "A ballot measure that would make it easier for Maryland Democrats to pass a more favorable House map is projected to pass, according to Decision Desk HQ.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "The Hill",
-      "published": "2026-11-04T05:01:36Z",
-      "url": "https://thehill.com/homenews/campaign/6191193-maryland-approves-redistricting-amendment-house-map-2026-midterms/",
-      "concepts": [
-        "redistricting",
-        "direct-democracy"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
     {
       "category": "Redistricting",
       "title": "Marylanders approve redistricting ballot question, Democrat-leaning 2028 congressional map possible",
@@ -82,15 +44,14 @@
     },
     {
       "category": "Redistricting",
-      "title": "Virginia Supreme Court overturns Democrats' redistricting measure",
-      "summary": "Open the source for the full story.",
+      "title": "Democrat Bobby Pulido flips crucial South Texas district, defeating Rep. Monica De La Cruz",
+      "summary": "Democrats had heavily targeted the South Texas district, which had been redrawn in last year's redistricting.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-03T22:03:29Z",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMm1XQmNtWWJMMjRWdXhhNG4wcWhjM1FXbW04RGRRWklOZzRBSWNKWnFhb0VaMmc0QmZfLWtRT2JndjNfdjdlRjdpUlVwQkxLTTFESDM3MzN2N0Y3cWpVNmF0SW01dGRQUTEtY09nN3FoQkVUczFKdWprWnpEbkk5M0VRVDNHX0RxUTYtemx3NUs0ck90SWMtZlN0c2F2Ri1ZN2ZURkZwcmRlNlZ0WERoWE1R0gG3AUFVX3lxTE1WZ3p4WE1QdllUdWlyNE01ckhmOHNwQk5iTHJldkhsV0pTUUs5aGJmdUdGX25Wazh4MHhfaXBhWW53Y3BYS25jcmpUVXJQT0VGYkp4bXc5bGw3ZHpZWFF1Q2NwYk85azliU1dHbjkwUlVyQnRmVzlJNG5mRUg4cXg2dFFocEFEYWJLWUhvYXhFOU4ycGtRb3VUR2ZIQnRFa2ZTTTRFQWUxaFZHdi1CYUN6MG52OTJuWQ?oc=5",
+      "source": "CBS News",
+      "published": "2026-11-04T05:35:35Z",
+      "url": "https://www.cbsnews.com/news/texas-15-district-pulido-de-la-cruz/",
       "concepts": [
-        "redistricting",
-        "federalism"
+        "redistricting"
       ],
       "cases": [
         "redistricting"
@@ -116,6 +77,25 @@
       "signal": 2,
       "mechanism": "Incumbency and the personal vote",
       "watch": "The gap between each Senate margin and Trump’s 2024 margin."
+    },
+    {
+      "category": "Redistricting",
+      "title": "Maryland Question 3 explained: Could congressional maps change?",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "WJLA",
+      "published": "2026-11-03T13:45:48Z",
+      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNR0lsVXhuLUlxYkRsd21XQ3F0Y2tyTUFOajNhR2hrdmNCMEUzcEZMT0RiVGNBbmRFSFNvMHVlTmRES3JCbGhwdld0RFROcFpEUFg5d0pKbVlIdTNGWGZFcGRNaWtUbmZubTlHTDlHWV82Q1M0Z044OWFIOXFMd0xoT0ZSNURfV0FvWDFkU2RQdWExbDhhdUJlNi1NUWU3OWZSbmJEVXB2d3pCeEN2MWhqQk5EUGdXMWQ4aHlEZm84eGFqM2JjTmVCX1U0Zno1RGZkRWk3QXdobzJ5VXM2MVViSW5BRFd4THVFNXZKc0x6ZjhZcVg1QmRkbXM0WEZaMHVaOU40c195SE5MSFRNT3gzWkdNRmR2NEdCZmJKcTdnM1F4VDR0UlYwd2x4NmZJd3N0VDJrdzdCek93Y0xMcGpr?oc=5",
+      "concepts": [
+        "redistricting",
+        "direct-democracy"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
       "category": "Redistricting",
@@ -152,6 +132,24 @@
       "signal": 2,
       "mechanism": "Incumbency and the personal vote",
       "watch": "Whether the four districts swing by similar amounts."
+    },
+    {
+      "category": "Senate",
+      "title": "Trump's gamble on Ken Paxton backfires as Democrat pulls off historic Texas Senate upset",
+      "summary": "James Talarico flipped Texas' Senate seat for Democrats after Trump's backing of Ken Paxton backfired amid corruption allegations and a GOP schism.",
+      "why": "Experienced, scandal-free candidates tend to beat what partisanship predicts.",
+      "source": "Fox News",
+      "published": "2026-11-04T03:14:31Z",
+      "url": "https://www.foxnews.com/politics/trumps-gamble-ken-paxton-backfires-democrat-pulls-off-historic-texas-senate-upset",
+      "concepts": [
+        "candidate-quality"
+      ],
+      "cases": [
+        "texas"
+      ],
+      "signal": 2,
+      "mechanism": "Candidate quality",
+      "watch": "Paxton’s margin against Abbott’s, county by county."
     }
   ]
 }

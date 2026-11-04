@@ -698,6 +698,64 @@
       "issue": 45,
       "status": "open",
       "opened": "2026-11-04T05:29:52Z"
+    },
+    "senate:ME:D": {
+      "office": "senate",
+      "state": "ME",
+      "winner": "D",
+      "candidate": "Troy Jackson",
+      "title": "Troy Jackson defeats longtime Maine Sen. Susan Collins",
+      "url": "https://www.cbsnews.com/news/maine-2026-senate-collins-jackson/",
+      "source": "CBS News",
+      "date": "2026-11-04T05:50:53Z",
+      "outlets": [
+        "CBS News",
+        "NBC News",
+        "Maine Public",
+        "Maine Morning Star",
+        "Axios",
+        "WMTW",
+        "WGME",
+        "Bloomberg.com"
+      ],
+      "ap": false,
+      "issue": 46,
+      "status": "auto",
+      "opened": "2026-11-04T05:53:04Z"
+    },
+    "senate:ID:R": {
+      "office": "senate",
+      "state": "ID",
+      "winner": "R",
+      "candidate": "Jim Risch",
+      "title": "Jim Risch wins fourth term in Idaho Senate race",
+      "url": "https://thehill.com/homenews/campaign/6165643-risch-wins-idaho-senate/",
+      "source": "The Hill",
+      "date": "2026-11-04T05:34:23Z",
+      "outlets": [
+        "The Hill"
+      ],
+      "ap": false,
+      "issue": 47,
+      "status": "open",
+      "opened": "2026-11-04T05:53:05Z"
+    },
+    "governors:TN:R": {
+      "office": "governors",
+      "state": "TN",
+      "winner": "R",
+      "candidate": "Marsha Blackburn",
+      "title": "Marsha Blackburn becomes first woman elected to Tennessee governor’s office, per secretary of state",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR3VhZkd1VzdnRVExUWtqRDBpTjhqUXp2SUVTNjhuTVVCNkhITDF5YTRKdi0tLXE4SVQ1ZjhRRUtIRDctUEwzYkR0T2YxMUNiYWh1SEFSQ0ltVElkYlZpV1ZOMlN1amtLdVJZMTlyVmtnbUFPNzBJMkU2Sjl5LUhMc2wyREktalc5c2h0MFNGWlFqcHpKWmtPWlFjZEFrQ3IzeFRCNHU1QVJVLW9odGZKSng3dkZ0T3I3MG9jUHdJUFNodw?oc=5",
+      "source": "WSMV",
+      "date": "2026-11-04T05:27:00Z",
+      "outlets": [
+        "WSMV"
+      ],
+      "ap": false,
+      "issue": 48,
+      "status": "open",
+      "opened": "2026-11-04T05:53:05Z"
     }
   }
 }

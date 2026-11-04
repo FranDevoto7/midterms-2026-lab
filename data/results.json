@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T05:31:44Z",
+  "updated_at": "2026-11-04T05:53:05Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -98,6 +98,13 @@
       "auto": true,
       "at": "2026-11-04T04:50:31Z",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUEsxcUNVbUlQWWVyMm1vd0F5WTdjd3dmNnI0cXNVZ3JseThuYnlmYkxZTVo3ZkxkS3lXUWY4VGxCN1B5bjlVT3ZBTWpLU0lqWHZkZ2llaE9oZ1BPQlhfVVlnVDRyN241cjI5ZUJtWnV2VkRCYU1wUW5IUk1oT3o5MEVBZHVvcUoyNnpXNDdFTFJYcFZPa2F1RFQwVUFMZURvUnBMQlJfYw?oc=5"
+    },
+    "ME": {
+      "winner": "D",
+      "source": "CBS News, NBC News, Maine Public",
+      "auto": true,
+      "at": "2026-11-04T05:53:04Z",
+      "url": "https://www.cbsnews.com/news/maine-2026-senate-collins-jackson/"
     }
   },
   "governors": {
