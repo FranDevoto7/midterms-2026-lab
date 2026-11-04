@@ -1008,8 +1008,10 @@
       ],
       "ap": false,
       "issue": 79,
-      "status": "open",
-      "opened": "2026-11-04T18:38:22Z"
+      "status": "confirmed",
+      "opened": "2026-11-04T18:38:22Z",
+      "closed": "2026-11-04T19:04:44Z",
+      "seen": "2026-11-04T19:04:33Z"
     }
   },
   "milestones": {

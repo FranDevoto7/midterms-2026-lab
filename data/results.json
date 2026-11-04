@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T17:15:05Z",
+  "updated_at": "2026-11-04T19:04:45Z",
   "house_net_change_presidents_party": null,
   "cases": {},
   "senate": {
@@ -191,6 +191,13 @@
       "url": "https://thehill.com/homenews/campaign/6165643-risch-wins-idaho-senate/",
       "note": "A Democrat has not won a Senate race since 1974.",
       "at": "2026-11-04T13:55:59Z"
+    },
+    "CO": {
+      "winner": "D",
+      "source": "Legis1",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9OYnRyVmhNUGM0Y1F3R3AwOElMWlZ0ZGtUbTA0eGozMVBFMkdrYzFEZjlaQlM1UTBWdzFNQUloVXpVZUpMbnNYV0ZQTTdjWWJob2tnb1BTU1lDOVRUQXpOZXBjY3RBZGZ0c3c?oc=5",
+      "at": "2026-11-04T19:04:33Z",
+      "issue": 79
     }
   },
   "governors": {
