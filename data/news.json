@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-11-04T20:47:28Z",
+  "updated_at": "2026-11-05T00:22:23Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
+    {
+      "category": "Redistricting",
+      "title": "Where voters stand on state ballot measures, from abortion to LGBTQ rights to guns",
+      "summary": "Voters in dozens of states considered 146 statewide ballot measures this midterm cycle, on topics spanning LGBTQ rights, wealth taxes, abortion, redistricting, guns and more.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "NPR",
+      "published": "2026-11-04T21:49:17Z",
+      "url": "https://www.npr.org/2026/11/04/nx-s1-6028833/midterms-ballot-measures-abortion-lgbtq-guns",
+      "concepts": [
+        "redistricting",
+        "direct-democracy"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
     {
       "category": "Redistricting",
       "title": "Trump-backed redistricting sought a midterm edge for Republicans. It didn't work",
@@ -25,22 +44,40 @@
     },
     {
       "category": "Redistricting",
-      "title": "Kiley loses House reelection bid in California",
-      "summary": "Rep.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "The Hill",
-      "published": "2026-11-04T18:42:20Z",
-      "url": "https://thehill.com/homenews/campaign/6198722-kiley-loses-ca-district-6/",
+      "title": "GOP redistricting strategy crumbles as blue wave sweeps across the map",
+      "summary": "Open the source for the full story.",
+      "why": "The president’s party usually loses House seats in midterms.",
+      "source": "Washington Examiner",
+      "published": "2026-11-04T20:52:29Z",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVnRpR1FPSXVDR3N6U2pBaEktc1VqZUhmXzhJWkdWcHJHSGNMQ1EwbHNJd29vTkFtM0tacEc3X1J3cVdNaDNGTnpHQTM1WEt1S1NRbFlHVUwxY2c2V3Nwd3N1UXBaOTQxTy0yTEtSMUhmRDhJMzliRzFXMDJOUXlodlNFeF9CRTBrWGZhS2Y2SDVWY0MxWmFZYTU2MFFWWm9wYjlUN1R0TUljUUdmVDVRWG94TzVXSTVCUUlDYTdNY2dYY0U?oc=5",
       "concepts": [
-        "incumbency",
+        "midterm-penalty",
         "redistricting"
       ],
       "cases": [
         "redistricting"
       ],
       "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
+      "mechanism": "Midterm penalty",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Senate",
+      "title": "Haley Stevens triples down on Rogers endorsement after El-Sayed's victory",
+      "summary": "Rep. Haley Stevens (D-Mich.) on Wednesday tripled down on her endorsement of Republican Mike Rogers in Michigan’s Senate race, where Democrat Abdul El-Sayed took victory after a bitter midterm battle on the campaign trail.",
+      "why": "Trusted figures help voters infer which choice fits their values.",
+      "source": "The Hill",
+      "published": "2026-11-04T21:58:53Z",
+      "url": "https://thehill.com/homenews/campaign/6199228-stevens-doubles-down-rogers-endorsement/",
+      "concepts": [
+        "elite-cues"
+      ],
+      "cases": [
+        "michigan"
+      ],
+      "signal": 2,
+      "mechanism": "Elite cues and endorsements",
+      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
     },
     {
       "category": "Redistricting",
@@ -99,15 +136,14 @@
     },
     {
       "category": "Redistricting",
-      "title": "Results: States decide on voter ID and redistricting ballot measures",
+      "title": "California Prop 50 redistricting targeted 5 seats in Congress. See the midterm election race results",
       "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "NPR",
-      "published": "2026-11-03T22:53:23Z",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdUtRMDgwWTV1cW9KWDFyVjA4VHMteVdWSWxuQ3JBU2t3MF9RVjdDdnpPUHEweTBNcW9ORG1jTU16ckNGNmQ0UWhoY1ZDV1V6b3M4WEEtMUc5b2M3dHRVbVpxZmRodkhkTUVsWE5DOGFSNmIzTEZPd0pRaHBCVTJjWnNiMm1TWUpIRTZmbjdfRmVFa1U?oc=5",
+      "source": "KCRA",
+      "published": "2026-11-04T21:38:00Z",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZGhUNTlxa1ZocWJwa09LWTZSMWZBUE4zZVR6eWVTZE1tQk1IN01ZRmZycWEyUmI0cEVvZUxHZ0NRa05ZZE1kajA5TGktQ0duU2l3UEVINFRjbzB1UkNFdlRORmZJbkFKRXBzM25GLWNkdEw2SGdPUi1CVUI2bmJJX1BlUGJCOG5UV0NCLUlmX01hRWdEcDRXZDFPRmwtNE0?oc=5",
       "concepts": [
-        "redistricting",
-        "direct-democracy"
+        "redistricting"
       ],
       "cases": [
         "redistricting"
@@ -115,43 +151,6 @@
       "signal": 2,
       "mechanism": "Gerrymandering and the seats–votes link",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Virginia Supreme Court overturns Democrats' redistricting measure",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-03T22:03:29Z",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMm1XQmNtWWJMMjRWdXhhNG4wcWhjM1FXbW04RGRRWklOZzRBSWNKWnFhb0VaMmc0QmZfLWtRT2JndjNfdjdlRjdpUlVwQkxLTTFESDM3MzN2N0Y3cWpVNmF0SW01dGRQUTEtY09nN3FoQkVUczFKdWprWnpEbkk5M0VRVDNHX0RxUTYtemx3NUs0ck90SWMtZlN0c2F2Ri1ZN2ZURkZwcmRlNlZ0WERoWE1R0gG3AUFVX3lxTE1WZ3p4WE1QdllUdWlyNE01ckhmOHNwQk5iTHJldkhsV0pTUUs5aGJmdUdGX25Wazh4MHhfaXBhWW53Y3BYS25jcmpUVXJQT0VGYkp4bXc5bGw3ZHpZWFF1Q2NwYk85azliU1dHbjkwUlVyQnRmVzlJNG5mRUg4cXg2dFFocEFEYWJLWUhvYXhFOU4ycGtRb3VUR2ZIQnRFa2ZTTTRFQWUxaFZHdi1CYUN6MG52OTJuWQ?oc=5",
-      "concepts": [
-        "redistricting",
-        "federalism"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Democrat Abdul El-Sayed wins election to U.S. Senate from Michigan",
-      "summary": "Progressive Democrat Abdul El-Sayed will become first Muslim U.S. senator.",
-      "why": "Nominations reveal bargaining among a party’s factions.",
-      "source": "PBS News",
-      "published": "2026-11-04T12:22:33Z",
-      "url": "https://www.pbs.org/newshour/politics/democrat-abdul-el-sayed-wins-election-to-u-s-senate-from-michigan",
-      "concepts": [
-        "party-coalitions"
-      ],
-      "cases": [
-        "michigan"
-      ],
-      "signal": 2,
-      "mechanism": "Party coalitions, primaries and nominations",
-      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
     }
   ]
 }
