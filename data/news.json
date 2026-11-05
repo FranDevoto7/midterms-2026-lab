@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T00:22:23Z",
+  "updated_at": "2026-11-05T07:54:14Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -62,6 +62,24 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
+      "category": "Redistricting",
+      "title": "Did Republican efforts to redistrict the House turn into a dummymander?",
+      "summary": "Republicans undertook a historic effort to redraw several states' Congressional districts mid-decade in an attempt to maintain control of the House.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "CBS News",
+      "published": "2026-11-05T06:04:54Z",
+      "url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
       "category": "Senate",
       "title": "Haley Stevens triples down on Rogers endorsement after El-Sayed's victory",
       "summary": "Rep. Haley Stevens (D-Mich.) on Wednesday tripled down on her endorsement of Republican Mike Rogers in Michigan’s Senate race, where Democrat Abdul El-Sayed took victory after a bitter midterm battle on the campaign trail.",
@@ -100,48 +118,30 @@
     },
     {
       "category": "Redistricting",
-      "title": "Redistricting efforts blow up in Republicans' faces amid historic House losses",
-      "summary": "Texas, Florida, Ohio and Alabama redistricting efforts all backfired as Democrats swept battleground and safe GOP seats in the midterm elections.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Fox News",
-      "published": "2026-11-04T17:00:20Z",
-      "url": "https://www.foxnews.com/politics/redistricting-efforts-blow-up-republicans-faces-amid-historic-house-losses",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Who won redistricted House seats?",
-      "summary": "One of the biggest stories of the 2026 midterms came before any votes were cast: the mid-decade redistricting wars.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "The Hill",
-      "published": "2026-11-04T19:09:42Z",
-      "url": "https://thehill.com/homenews/campaign/6198650-election-day-2026-gop-democrat-redistricting-war-outcomes/",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "California Prop 50 redistricting targeted 5 seats in Congress. See the midterm election race results",
+      "title": "How Trump’s redistricting push backfired on Republicans",
       "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "KCRA",
-      "published": "2026-11-04T21:38:00Z",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZGhUNTlxa1ZocWJwa09LWTZSMWZBUE4zZVR6eWVTZE1tQk1IN01ZRmZycWEyUmI0cEVvZUxHZ0NRa05ZZE1kajA5TGktQ0duU2l3UEVINFRjbzB1UkNFdlRORmZJbkFKRXBzM25GLWNkdEw2SGdPUi1CVUI2bmJJX1BlUGJCOG5UV0NCLUlmX01hRWdEcDRXZDFPRmwtNE0?oc=5",
+      "source": "Straight Arrow",
+      "published": "2026-11-04T23:42:20Z",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1bVZtUzVacTRnUWtRcGNidzFRcm9Td01MR1ZVYnR4S1AxMHpORFllRFhEek4weVVHTmNnaTJJY2lUd2NxSjQtb1cyWC1qd3ZOclJHeUhIdHo1TVVpZjE1a2ZfVFpoUXNBRENOTkowcnI3dU5ZSXRuaUhmYWlPR1k?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Politicians, activist react to rejection of Proposition A, keeping 2022 congressional map in place",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "KSHB 41 Kansas City",
+      "published": "2026-11-04T23:40:00Z",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTzRnUzFOYWpoNG00ZHltblB5LVVBdzd2cnJtUVZyZ1JIUjdjVzdMUkdCdWZ3TWpDUWwweno1TW9NZ2UtNGpVa0lGcVJHQUZBeEktclFzcHpfcl9SZjFrZUV3ajdvY0p3UzBSXzgzUHZ2MmJSUnhaUWFUX3BxYVFfWVhDV1JiWUVXNUdUc2dsZi05Z2RQZjVfTjFqdGxPRGZRYjg3cGQwaWVBNERfMkJSaWtFZ3pHaGtfbmlxczFFQzdkU0tXQnprMU9oMlNCYUhraW1Ycm9EaHgxaDlfSERCQjRmZHVSVm9NbEE?oc=5",
       "concepts": [
         "redistricting"
       ],
