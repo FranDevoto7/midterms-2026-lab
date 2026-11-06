@@ -1023,6 +1023,23 @@
       "status": "auto",
       "opened": "2026-11-04T20:47:37Z",
       "seen": "2026-11-04T20:47:36Z"
+    },
+    "senate:MS:D": {
+      "office": "senate",
+      "state": "MS",
+      "winner": "D",
+      "candidate": "Scott Colom",
+      "title": "Mississippi GOP chair says party will accept Colom victory should he win",
+      "url": "https://thehill.com/homenews/campaign/6202551-mississippi-gop-accepts-possible-colom-senate-win/",
+      "source": "The Hill",
+      "date": "2026-11-05T22:47:01Z",
+      "outlets": [
+        "The Hill"
+      ],
+      "ap": false,
+      "issue": 81,
+      "status": "open",
+      "opened": "2026-11-06T03:25:25Z"
     }
   },
   "milestones": {

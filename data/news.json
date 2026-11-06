@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-11-05T22:40:09Z",
+  "updated_at": "2026-11-06T03:25:18Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
     {
       "category": "Redistricting",
-      "title": "Colorado rejects ballot measure adding new restrictions on mid-decade redistricting",
-      "summary": "A ballot measure that would add new restrictions on any efforts to redraw Colorado’s congressional map mid-decade is projected to fail, according to Decision Desk HQ.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "The Hill",
-      "published": "2026-11-05T18:23:10Z",
-      "url": "https://thehill.com/homenews/state-watch/6186493-colorado-ballot-measure-redistricting-limits-2026/",
+      "title": "Rep. Kathy Castor defeated Mike Beltran and three other candidates in the general election for Florida's 14th Congressional District",
+      "summary": "Incumbent Rep. Kathy Castor (D) defeated Mike Beltran (R) and three other candidates in the general election for Florida's 14th Congressional District on Nov. 3, 2026. Click here for detailed results.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "Ballotpedia News",
+      "published": "2026-11-06T00:22:55Z",
+      "url": "https://news.ballotpedia.org/2026/11/05/rep-kathy-castor-defeated-mike-beltran-and-three-other-candidates-in-the-general-election-for-floridas-14th-congressional-district/",
       "concepts": [
-        "redistricting",
-        "direct-democracy"
+        "incumbency",
+        "redistricting"
       ],
       "cases": [
         "redistricting"
       ],
       "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
+      "mechanism": "Incumbency and the personal vote",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
@@ -29,7 +29,7 @@
       "summary": "Open the source for the full story.",
       "why": "Voters reward or punish the party in power for conditions they experience.",
       "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-05T10:32:07Z",
+      "published": "2026-11-05T23:21:01Z",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNT2pXNHZ6bVlpalZrcTRGTF9zM0lEanlSWEpxX1E1VF84OFkzZ3lEbURkdVY5V0ZxNlF6SnhZNVRacTZLSU5rR1JwRlY0MVVXM2FJQjJMVE9OTkhobHVaTGQtSVRRRzdvam40Q21yVFdNWkFFSXhFbEpualRQY1FMaEg1dWk0d9IBiwFBVV95cUxNdGxHR2Z2T000cFlEVDBvRTN1emRXNUdjdE1tT3Y2SzFxSGVvaWVoTkNCcDlPTFpMdTZtV2laYUlqTFpoMmZIR0NVSlV2anlGd0Znd1BkSTFZMFNIOXVQOXBrYUNWVHhmdW5QSjZCNGJ4Q25OYWtQdkdNVG5STURlbTlIVTJhVERDVHJN?oc=5",
       "concepts": [
         "referendum",
@@ -63,30 +63,11 @@
     },
     {
       "category": "Redistricting",
-      "title": "Where voters stand on state ballot measures, from abortion to LGBTQ rights to guns",
-      "summary": "Voters in dozens of states considered 146 statewide ballot measures this midterm cycle, on topics spanning LGBTQ rights, wealth taxes, abortion, redistricting, guns and more.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "NPR",
-      "published": "2026-11-04T21:49:17Z",
-      "url": "https://www.npr.org/2026/11/04/nx-s1-6028833/midterms-ballot-measures-abortion-lgbtq-guns",
-      "concepts": [
-        "redistricting",
-        "direct-democracy"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Did Republican efforts to redistrict the House turn into a dummymander?",
+      "title": "Did GOP efforts to redistrict the House turn into a dummymander?",
       "summary": "Republicans undertook a historic effort to redraw several states' Congressional districts mid-decade in an attempt to maintain control of the House.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
       "source": "CBS News",
-      "published": "2026-11-05T21:16:49Z",
+      "published": "2026-11-05T23:56:15Z",
       "url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
       "concepts": [
         "redistricting"
@@ -100,40 +81,57 @@
     },
     {
       "category": "Redistricting",
-      "title": "Trump-backed redistricting sought a midterm edge for Republicans. It didn't work",
-      "summary": "Republicans lost most of the Democratic-held seats they had targeted to flip, lost others they had banked on retaining and got swept out of power by a Democratic surge fueled by voter dissatisfaction with Trump, the economy and the war…",
-      "why": "Voters reward or punish the party in power for conditions they experience.",
-      "source": "PBS News",
-      "published": "2026-11-04T20:00:33Z",
-      "url": "https://www.pbs.org/newshour/politics/trump-backed-redistricting-sought-a-midterm-edge-for-republicans-it-didnt-work",
+      "title": "Failed GOP redistricting in South Carolina, Indiana would have backfired: DDHQ",
+      "summary": "Republicans across the country redrew congressional maps for their benefit ahead of the 2026 midterms, but it failed to yield them gains in most places. An analysis shared Thursday shows it could have been worse.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "The Hill",
+      "published": "2026-11-06T00:23:47Z",
+      "url": "https://thehill.com/homenews/campaign/6202901-midterm-congressional-gop-redistricting-analysis/",
       "concepts": [
-        "referendum",
         "redistricting"
       ],
       "cases": [
         "redistricting"
       ],
       "signal": 2,
-      "mechanism": "Referendum and retrospective voting",
+      "mechanism": "Gerrymandering and the seats–votes link",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
-      "category": "Senate",
-      "title": "Stevens pulls out of election analysis event at DC university",
-      "summary": "Rep.",
-      "why": "Trusted figures help voters infer which choice fits their values.",
-      "source": "The Hill",
-      "published": "2026-11-05T18:36:55Z",
-      "url": "https://thehill.com/homenews/campaign/6201679-haley-stevens-gwu-panel-canceled/",
+      "category": "House",
+      "title": "Paige Cognetti defeated Rep. Rob Bresnahan Jr. in the general election for Pennsylvania's 8th Congressional District",
+      "summary": "Paige Cognetti (D) defeated incumbent Rep. Rob Bresnahan Jr. (R) in the general election for Pennsylvania's 8th Congressional District on Nov. 3, 2026. Click here for detailed results.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "Ballotpedia News",
+      "published": "2026-11-06T00:32:28Z",
+      "url": "https://news.ballotpedia.org/2026/11/05/paige-cognetti-defeated-rep-rob-bresnahan-jr-in-the-general-election-for-pennsylvanias-8th-congressional-district/",
       "concepts": [
-        "elite-cues"
+        "incumbency"
       ],
       "cases": [
-        "michigan"
+        "pennsylvania"
       ],
       "signal": 2,
-      "mechanism": "Elite cues and endorsements",
-      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Whether the four districts swing by similar amounts."
+    },
+    {
+      "category": "Senate",
+      "title": "Charles Perry projected to win reelection to Texas Senate District 28",
+      "summary": "Open the source for the full story.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "KTXS",
+      "published": "2026-11-06T02:44:13Z",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTWVFNlpkQmxvRTZnNmZXOGtHTUZLV25DVUdVaHhfWldsZDBXTTJOemo2eFZZTU5xMGFOSDYzX01WUTQ2VVNpWHBKRF9QYjhTb09QSDQtLWVNS1NZa2EwQWN3bDV6OEdJRVctSFpyRy1TbXFDZkxNRjRJUUhYeEJuTEk2RWYxRXMzV0dQc3lTeFE4M1JMcHpEZDZKaUNWQQ?oc=5",
+      "concepts": [
+        "incumbency"
+      ],
+      "cases": [
+        "texas"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Paxton’s margin against Abbott’s, county by county."
     },
     {
       "category": "Redistricting",
