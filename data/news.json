@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T03:25:18Z",
+  "updated_at": "2026-11-06T12:04:30Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -41,6 +41,60 @@
       "signal": 2,
       "mechanism": "Referendum and retrospective voting",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Senate",
+      "title": "Dearborn, Michigan, mayor on city's record turnout and the election of Abdul El-Sayed",
+      "summary": "NPR host Leila Fadel speaks with Abdullah Hammoud, the mayor of Dearborn, Michigan, about why his city turned out in record numbers to elect Abdul El-Sayed to the U.S. Senate.",
+      "why": "Margins change when voters switch, or when a different electorate shows up.",
+      "source": "NPR",
+      "published": "2026-11-06T09:47:31Z",
+      "url": "https://www.npr.org/2026/11/06/nx-s1-6029424/dearborn-michigan-mayor-on-citys-record-turnout-and-the-election-of-abdul-el-sayed",
+      "concepts": [
+        "turnout"
+      ],
+      "cases": [
+        "michigan"
+      ],
+      "signal": 2,
+      "mechanism": "Turnout versus persuasion",
+      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+    },
+    {
+      "category": "Redistricting",
+      "title": "Republican redistricting failed to flip most targeted districts",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "WBAL-TV",
+      "published": "2026-11-06T11:32:06Z",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSWgyTVNCMUNWd1ZYUzZaUUFScW5QLXNRSWV5RWNXN3Vwb3JXcTRGd0dQV3pqQUMyQzZUVUF6Y0Z3S3pDQXBIeF9waWJuMzVwOWhhcEZnajBhN1FUUUMyZURoYmNzZjZIdWk4dnVtU1RwNXNPdVFaUndnREJ2X2FJVQ?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Senate",
+      "title": "Progressive Democrat Abdul El-Sayed wins Michigan Senate race, will become first Muslim senator",
+      "summary": "Open the source for the full story.",
+      "why": "Nominations reveal bargaining among a party’s factions.",
+      "source": "The Day",
+      "published": "2026-11-06T11:09:52Z",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUUlSR2k0RUx2ZWhSSFh6SWlPVVFDbmR4S21Pa25BQ3pQMXRZbTRQbVdtMUtLRDNwb0J3T1FFVjZmTE90RFRnYlloa1ZJZktzRkg3M2tmQ3VBNDRQM3JTWENrX2hOSTUxMmxDc3BwdFlYTkFDYWNUQkJZUlphTklLVXdYLUZjaUlSenRDNFRkWFB6TVJEVFFjMEoxOG5famFZbnNkN1hONjlOa1ZteGx2MUd2eVV0TzFxRWRlYWFFUnRrU1Nz?oc=5",
+      "concepts": [
+        "party-coalitions"
+      ],
+      "cases": [
+        "michigan"
+      ],
+      "signal": 2,
+      "mechanism": "Party coalitions, primaries and nominations",
+      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
     },
     {
       "category": "Redistricting",
@@ -89,61 +143,6 @@
       "url": "https://thehill.com/homenews/campaign/6202901-midterm-congressional-gop-redistricting-analysis/",
       "concepts": [
         "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "House",
-      "title": "Paige Cognetti defeated Rep. Rob Bresnahan Jr. in the general election for Pennsylvania's 8th Congressional District",
-      "summary": "Paige Cognetti (D) defeated incumbent Rep. Rob Bresnahan Jr. (R) in the general election for Pennsylvania's 8th Congressional District on Nov. 3, 2026. Click here for detailed results.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "Ballotpedia News",
-      "published": "2026-11-06T00:32:28Z",
-      "url": "https://news.ballotpedia.org/2026/11/05/paige-cognetti-defeated-rep-rob-bresnahan-jr-in-the-general-election-for-pennsylvanias-8th-congressional-district/",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "pennsylvania"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "Whether the four districts swing by similar amounts."
-    },
-    {
-      "category": "Senate",
-      "title": "Charles Perry projected to win reelection to Texas Senate District 28",
-      "summary": "Open the source for the full story.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "KTXS",
-      "published": "2026-11-06T02:44:13Z",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTWVFNlpkQmxvRTZnNmZXOGtHTUZLV25DVUdVaHhfWldsZDBXTTJOemo2eFZZTU5xMGFOSDYzX01WUTQ2VVNpWHBKRF9QYjhTb09QSDQtLWVNS1NZa2EwQWN3bDV6OEdJRVctSFpyRy1TbXFDZkxNRjRJUUhYeEJuTEk2RWYxRXMzV0dQc3lTeFE4M1JMcHpEZDZKaUNWQQ?oc=5",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "texas"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "Paxton’s margin against Abbott’s, county by county."
-    },
-    {
-      "category": "Redistricting",
-      "title": "Moore wants new congressional maps for Maryland after Question 3 victory",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Maryland Matters",
-      "published": "2026-11-05T00:35:33Z",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBjQ3ZFLVJRTUpRYS1WSnZFU1NRakdoRkd2V05WeXZ4d0NySnpGSi1fbmtOQUVGa2NIalFZZFlhNldvdkFyZ1FBT0JuQ2xDM0FabUZaOTFxdHh1RjZ0aENmSFdmWlB5aHNhZmlrS2FNd2FuZnc?oc=5",
-      "concepts": [
-        "redistricting",
-        "direct-democracy"
       ],
       "cases": [
         "redistricting"
