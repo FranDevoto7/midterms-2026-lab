@@ -1040,6 +1040,23 @@
       "issue": 81,
       "status": "open",
       "opened": "2026-11-06T03:25:25Z"
+    },
+    "senate:AK:D": {
+      "office": "senate",
+      "state": "AK",
+      "winner": "D",
+      "candidate": "Mary Peltola",
+      "title": "Mary Peltola Appears Likely To Defeat Both Dan Sullivans in Alaska's Senate Race",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMlg5cXNhOGo4anI0bWZaUDFuaVd5cEl4ZENRRzhBeFdYN0Y2VHJMUW5nd1Jtd3d5MmRtQ3l6Wl9HUzQyU25uWkcxQ0cxUlZabTk1MllIb1VxMkZBNVdwbDRTdlpnRU9VYUQ1WG85a2h6aVp3UTBWQUd1RURkRUhIeDdxbjF3YTQyVHVBUWhnYWpzUGhTcHRSdVVyaFpsZnpOdVFvVmFlRTJ2MTBjRld3?oc=5",
+      "source": "Reason Magazine",
+      "date": "2026-11-06T18:17:51Z",
+      "outlets": [
+        "Reason Magazine"
+      ],
+      "ap": false,
+      "issue": 82,
+      "status": "open",
+      "opened": "2026-11-06T19:22:15Z"
     }
   },
   "milestones": {

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04T20:47:37Z",
-  "house_net_change_presidents_party": null,
+  "updated_at": "2026-11-06T19:22:16Z",
+  "house_net_change_presidents_party": -38,
   "cases": {},
   "senate": {
     "GA": {
@@ -491,5 +491,11 @@
       "at": "2026-11-04T20:47:36Z",
       "issue": 80
     }
+  },
+  "house_auto": {
+    "source": "Wikipedia",
+    "called": 413,
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
+    "at": "2026-11-06T19:22:16Z"
   }
 }

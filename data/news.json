@@ -1,17 +1,36 @@
 {
-  "updated_at": "2026-11-06T12:04:30Z",
+  "updated_at": "2026-11-06T19:22:09Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
     {
-      "category": "Redistricting",
-      "title": "Rep. Kathy Castor defeated Mike Beltran and three other candidates in the general election for Florida's 14th Congressional District",
-      "summary": "Incumbent Rep. Kathy Castor (D) defeated Mike Beltran (R) and three other candidates in the general election for Florida's 14th Congressional District on Nov. 3, 2026. Click here for detailed results.",
+      "category": "Senate",
+      "title": "James Talarico (D) defeated Ken Paxton (R) and five other candidates to win the general election for U.S. Senate in Texas",
+      "summary": "Open the source for the full story.",
       "why": "Officeholders can build support that outlasts party tides.",
       "source": "Ballotpedia News",
-      "published": "2026-11-06T00:22:55Z",
-      "url": "https://news.ballotpedia.org/2026/11/05/rep-kathy-castor-defeated-mike-beltran-and-three-other-candidates-in-the-general-election-for-floridas-14th-congressional-district/",
+      "published": "2026-11-06T18:15:17Z",
+      "url": "https://news.ballotpedia.org/2026/11/06/james-talarico-d-defeated-ken-paxton-r-and-five-other-candidates-to-win-the-general-election-for-u-s-senate-in-texas/",
+      "concepts": [
+        "incumbency",
+        "party-coalitions"
+      ],
+      "cases": [
+        "texas"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Paxton’s margin against Abbott’s, county by county."
+    },
+    {
+      "category": "Redistricting",
+      "title": "Incumbent Derek Tran (D) defeated Chuong Vo (R) in the general election for California's 45th Congressional District",
+      "summary": "Open the source for the full story.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "Ballotpedia News",
+      "published": "2026-11-06T12:00:21Z",
+      "url": "https://news.ballotpedia.org/2026/11/06/incumbent-derek-tran-d-defeated-chuong-vo-r-in-the-general-election-for-californias-45th-congressional-district/",
       "concepts": [
         "incumbency",
         "redistricting"
@@ -44,6 +63,24 @@
     },
     {
       "category": "Senate",
+      "title": "What's the future for Republicans as the Trump era starts to wind down?",
+      "summary": "As the era of President Trump starts to wind down, potential 2028 presidential candidates are emerging as Republicans consider the party’s future.",
+      "why": "The president’s party usually loses House seats in midterms.",
+      "source": "The Hill",
+      "published": "2026-11-06T13:20:28Z",
+      "url": "https://thehill.com/newsletters/whole-hog-politics/whole-hog-politics-live-briefing/6203333-gop-future-post-donald-trump-2026-midterm-results-live-discussion/",
+      "concepts": [
+        "midterm-penalty"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Midterm penalty",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
       "title": "Dearborn, Michigan, mayor on city's record turnout and the election of Abdul El-Sayed",
       "summary": "NPR host Leila Fadel speaks with Abdullah Hammoud, the mayor of Dearborn, Michigan, about why his city turned out in record numbers to elect Abdul El-Sayed to the U.S. Senate.",
       "why": "Margins change when voters switch, or when a different electorate shows up.",
@@ -62,12 +99,12 @@
     },
     {
       "category": "Redistricting",
-      "title": "Republican redistricting failed to flip most targeted districts",
+      "title": "Colorado voters reject Amendment 86 to clarify congressional redistricting process",
       "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "WBAL-TV",
-      "published": "2026-11-06T11:32:06Z",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSWgyTVNCMUNWd1ZYUzZaUUFScW5QLXNRSWV5RWNXN3Vwb3JXcTRGd0dQV3pqQUMyQzZUVUF6Y0Z3S3pDQXBIeF9waWJuMzVwOWhhcEZnajBhN1FUUUMyZURoYmNzZjZIdWk4dnVtU1RwNXNPdVFaUndnREJ2X2FJVQ?oc=5",
+      "source": "CBS News",
+      "published": "2026-11-06T17:49:19Z",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbzNOOFF4MjFQb1F2ZlVGelFOeHhwTUswRVlmcUlyNkU4MmtuQ1Nwa2sxT09MRWtUb0wtZU9vZzFmQk5aT2dUcnQ3WWhTUE1ZVE1iOE43akJua28yekRYYVNKdS1vM3RmTVMyTDNQa1NSYXdMdXNzRW5TRzJkeFNmYnpXdnhtNzl2MVRMRnYzYnBONU1oLTVza1lEWFE1Szg?oc=5",
       "concepts": [
         "redistricting"
       ],
@@ -80,21 +117,21 @@
     },
     {
       "category": "Senate",
-      "title": "Progressive Democrat Abdul El-Sayed wins Michigan Senate race, will become first Muslim senator",
+      "title": "Brown wins Ohio Senate seat, calls on Democrats to focus on war, tariffs and costs",
       "summary": "Open the source for the full story.",
-      "why": "Nominations reveal bargaining among a party’s factions.",
-      "source": "The Day",
-      "published": "2026-11-06T11:09:52Z",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUUlSR2k0RUx2ZWhSSFh6SWlPVVFDbmR4S21Pa25BQ3pQMXRZbTRQbVdtMUtLRDNwb0J3T1FFVjZmTE90RFRnYlloa1ZJZktzRkg3M2tmQ3VBNDRQM3JTWENrX2hOSTUxMmxDc3BwdFlYTkFDYWNUQkJZUlphTklLVXdYLUZjaUlSenRDNFRkWFB6TVJEVFFjMEoxOG5famFZbnNkN1hONjlOa1ZteGx2MUd2eVV0TzFxRWRlYWFFUnRrU1Nz?oc=5",
+      "why": "Voters reward or punish the party in power for conditions they experience.",
+      "source": "WCPO 9 Cincinnati",
+      "published": "2026-11-06T14:19:30Z",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYmJ6c3FCSGNONGNEdGdEQms0UUtnLXpDVUZCWlNqWU8zRllJWEdEbXFPZGVIMGE2eDk5WVlpc2pOZEZ3d2xYU1J0RWJmOUFyUzNPUW1IOGZ1OVNiWHJkQXliajNTQTVTcGk2WE5pWFl1TnlHTjZ6N3NVTUVDd1NHWjAyQVBZSll5R1Voc3d1MndRRFhkQjlpRXFmbTZlaXdJY0pZTjFFV2h1MHhCYXFLdDJvNlE3UQ?oc=5",
       "concepts": [
-        "party-coalitions"
+        "referendum"
       ],
       "cases": [
-        "michigan"
+        "reach"
       ],
       "signal": 2,
-      "mechanism": "Party coalitions, primaries and nominations",
-      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+      "mechanism": "Referendum and retrospective voting",
+      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
     },
     {
       "category": "Redistricting",
@@ -113,42 +150,6 @@
       ],
       "signal": 2,
       "mechanism": "Midterm penalty",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Did GOP efforts to redistrict the House turn into a dummymander?",
-      "summary": "Republicans undertook a historic effort to redraw several states' Congressional districts mid-decade in an attempt to maintain control of the House.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "CBS News",
-      "published": "2026-11-05T23:56:15Z",
-      "url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Failed GOP redistricting in South Carolina, Indiana would have backfired: DDHQ",
-      "summary": "Republicans across the country redrew congressional maps for their benefit ahead of the 2026 midterms, but it failed to yield them gains in most places. An analysis shared Thursday shows it could have been worse.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "The Hill",
-      "published": "2026-11-06T00:23:47Z",
-      "url": "https://thehill.com/homenews/campaign/6202901-midterm-congressional-gop-redistricting-analysis/",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
