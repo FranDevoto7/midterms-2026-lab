@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T05:54:48Z",
+  "updated_at": "2026-11-07T12:56:13Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -40,6 +40,42 @@
       ],
       "signal": 2,
       "mechanism": "Incumbency and the personal vote",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Trump’s failed gerrymandering strategy showed Republicans could not rig 2026 midterms to keep power",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Milwaukee Independent",
+      "published": "2026-11-07T11:00:27Z",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNM0N2cGZNVGIxOWUzM3QtRUl1ajJ5Y2JIUVlqanRrdXRveWs2ZEIxc0JGVDRmQWZXdkFrSF9NMldZc2QxWHBKQlVpUlZRT0lWNUhkeXdVSkR3cnpmUmg0WVYwMU9BY3NQaWpMWmo1M29iQmF6MnlRMjhmLVR6eVRjTDk2dDJ2RXBnTGpZdElXWVVCb3lmU21yal8weEJOT0stVjRpUkJDb2FhZ3BhSnpXUWd6YXl6RFhqOUhxeVpwWUFhQTZRTkJTd1hQcVR2SjRv?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "'It's a good thing they failed': Did Indiana GOP avoid a redistricting backfire?",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "IndyStar",
+      "published": "2026-11-07T10:05:00Z",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVGc3aGc1WHN2V3JKdDlhVHBiQ21hRFZodG9sdmlsLUwtdUFoUVFmbkRuTmFTNXJLS0QyVWN2VklfTU5NZlNGNlRkdlcwZmlJNTg3VmJVdlI3TjN4OTYyczYyOTQ4aWNQM0RaUGhQZUhFTENpVUVVNFhzcG9hSzdlSEVnVFVYbGNoZnV0cmMxVWZyQi05WmZFSnVMWFh5c1ZSbGxTWmZRdlVteGprMjNiakJZSVBKS0d3bjR6MjBKWFNrYTRHMnMtaGRTa1BEREN3?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
@@ -85,7 +121,7 @@
       "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
       "source": "News 5 Cleveland WEWS",
-      "published": "2026-11-06T23:15:45Z",
+      "published": "2026-11-06T23:36:45Z",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSFlNblBaUVdabWc3a1JIdU95VXlTeGpCNG1RUU5LU244Q21CZTY5dGVpdEZRMXJlT2JhOXpGTWxwaEJxT05hM0s4eHZiQVdOZVZhVFFEa2YyOWtyQWpWWnJHSlFqT0NNRmMzUFVVVXkxWF81YTBCYkZ4ZHNjZXdmOTJMNEJtTVNLWXFyOEhkaF83LXI3VGJWZW9SbXJ1aDhBMkl4d0oxdmUtcDdIODJvNU1nd2xFZGlucDl2RHdKc2hfS3ZMaHBkWGltWHJ3T181Nnk3NUhqRUxkNXhPRU94M0hMbS1kYzQ?oc=5",
       "concepts": [
         "redistricting"
@@ -114,42 +150,6 @@
       "signal": 2,
       "mechanism": "Gerrymandering and the seats–votes link",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Colorado voters reject Amendment 86 to clarify congressional redistricting process",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "CBS News",
-      "published": "2026-11-06T17:49:19Z",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbzNOOFF4MjFQb1F2ZlVGelFOeHhwTUswRVlmcUlyNkU4MmtuQ1Nwa2sxT09MRWtUb0wtZU9vZzFmQk5aT2dUcnQ3WWhTUE1ZVE1iOE43akJua28yekRYYVNKdS1vM3RmTVMyTDNQa1NSYXdMdXNzRW5TRzJkeFNmYnpXdnhtNzl2MVRMRnYzYnBONU1oLTVza1lEWFE1Szg?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Brown wins Ohio Senate seat, calls on Democrats to focus on war, tariffs and costs",
-      "summary": "Open the source for the full story.",
-      "why": "Voters reward or punish the party in power for conditions they experience.",
-      "source": "WCPO 9 Cincinnati",
-      "published": "2026-11-06T13:41:20Z",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYmJ6c3FCSGNONGNEdGdEQms0UUtnLXpDVUZCWlNqWU8zRllJWEdEbXFPZGVIMGE2eDk5WVlpc2pOZEZ3d2xYU1J0RWJmOUFyUzNPUW1IOGZ1OVNiWHJkQXliajNTQTVTcGk2WE5pWFl1TnlHTjZ6N3NVTUVDd1NHWjAyQVBZSll5R1Voc3d1MndRRFhkQjlpRXFmbTZlaXdJY0pZTjFFV2h1MHhCYXFLdDJvNlE3UQ?oc=5",
-      "concepts": [
-        "referendum"
-      ],
-      "cases": [
-        "reach"
-      ],
-      "signal": 2,
-      "mechanism": "Referendum and retrospective voting",
-      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
     }
   ]
 }
