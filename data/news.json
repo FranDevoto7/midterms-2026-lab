@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-11-07T12:56:13Z",
+  "updated_at": "2026-11-07T18:01:46Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
+    {
+      "category": "Redistricting",
+      "title": "Black voter turnout surges in US south despite Republican redistricting drive: ‘They could not stop the momentum’",
+      "summary": "Open the source for the full story.",
+      "why": "Margins change when voters switch, or when a different electorate shows up.",
+      "source": "The Guardian",
+      "published": "2026-11-07T11:00:00Z",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMDFEeHBkdzhGYnA4eWcwbjR5Ym5ZZ01sdEtYSEltdXFqLVd1aHFpZVd1aFhDZ2JKTVUyUWdvUEtkakt2NWhvY3JvOUppSDNpNDJHSlpCVTkwSTNZcy00eVg2bC1XQm9WMUlSbllKNEdvRnExZ2tLMGd0Vy1RWm80Ui1ONTROSi02NEE?oc=5",
+      "concepts": [
+        "turnout",
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Turnout versus persuasion",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
     {
       "category": "Senate",
       "title": "James Talarico (D) defeated Ken Paxton (R) and five other candidates to win the general election for U.S. Senate in Texas",
@@ -40,6 +59,42 @@
       ],
       "signal": 2,
       "mechanism": "Incumbency and the personal vote",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "How Ohio Democrats say they ‘tricked’ Republicans into giving them a winnable congressional map",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "News 5 Cleveland WEWS",
+      "published": "2026-11-07T14:32:25Z",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSFlNblBaUVdabWc3a1JIdU95VXlTeGpCNG1RUU5LU244Q21CZTY5dGVpdEZRMXJlT2JhOXpGTWxwaEJxT05hM0s4eHZiQVdOZVZhVFFEa2YyOWtyQWpWWnJHSlFqT0NNRmMzUFVVVXkxWF81YTBCYkZ4ZHNjZXdmOTJMNEJtTVNLWXFyOEhkaF83LXI3VGJWZW9SbXJ1aDhBMkl4d0oxdmUtcDdIODJvNU1nd2xFZGlucDl2RHdKc2hfS3ZMaHBkWGltWHJ3T181Nnk3NUhqRUxkNXhPRU94M0hMbS1kYzQ?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "DeSantis’ GOP congressional map was swamped. These South Florida races did it",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Sun Sentinel",
+      "published": "2026-11-07T13:34:02Z",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbUozX1pzeDJvVUZxVkpaSm1GU1dERnlwcHNUck5HX2JCREFFMnppSFJmQ05wdE40SkNoLXhPcG9ERlZYQ25TRkh0akxFVkpIM2RoZ1JsZzFRVkw0RWdSRWJUS3NWTEdYOHBWUzVucGFtQkZpMTkyWlBlYU10Wno5dGgxYnVGTk1ndlhtYTQ3ZVQ2dExNWEdDcGh0ZU02RE5QalFsdDBlOTN2WU8xLTZldnBJektHVkE?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
@@ -95,61 +150,6 @@
       "signal": 2,
       "mechanism": "Incumbency and the personal vote",
       "watch": "The gap between each Senate margin and Trump’s 2024 margin."
-    },
-    {
-      "category": "Redistricting",
-      "title": "Who won the redistricting war? So far, it looks like Democrats",
-      "summary": "Open the source for the full story.",
-      "why": "Voters reward or punish the party in power for conditions they experience.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-05T23:21:01Z",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNT2pXNHZ6bVlpalZrcTRGTF9zM0lEanlSWEpxX1E1VF84OFkzZ3lEbURkdVY5V0ZxNlF6SnhZNVRacTZLSU5rR1JwRlY0MVVXM2FJQjJMVE9OTkhobHVaTGQtSVRRRzdvam40Q21yVFdNWkFFSXhFbEpualRQY1FMaEg1dWk0d9IBiwFBVV95cUxNdGxHR2Z2T000cFlEVDBvRTN1emRXNUdjdE1tT3Y2SzFxSGVvaWVoTkNCcDlPTFpMdTZtV2laYUlqTFpoMmZIR0NVSlV2anlGd0Znd1BkSTFZMFNIOXVQOXBrYUNWVHhmdW5QSjZCNGJ4Q25OYWtQdkdNVG5STURlbTlIVTJhVERDVHJN?oc=5",
-      "concepts": [
-        "referendum",
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Referendum and retrospective voting",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "How Ohio Democrats say they ‘tricked’ Republicans into giving them a winnable congressional map",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "News 5 Cleveland WEWS",
-      "published": "2026-11-06T23:36:45Z",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSFlNblBaUVdabWc3a1JIdU95VXlTeGpCNG1RUU5LU244Q21CZTY5dGVpdEZRMXJlT2JhOXpGTWxwaEJxT05hM0s4eHZiQVdOZVZhVFFEa2YyOWtyQWpWWnJHSlFqT0NNRmMzUFVVVXkxWF81YTBCYkZ4ZHNjZXdmOTJMNEJtTVNLWXFyOEhkaF83LXI3VGJWZW9SbXJ1aDhBMkl4d0oxdmUtcDdIODJvNU1nd2xFZGlucDl2RHdKc2hfS3ZMaHBkWGltWHJ3T181Nnk3NUhqRUxkNXhPRU94M0hMbS1kYzQ?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "GOP 'Got Mauled' After Redistricting Push",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Newser",
-      "published": "2026-11-06T17:50:00Z",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVFlyRzhidFVzbjZ0TWpsb181VE52cTRwSlY1S2FfbjAyS1FfUUw0S2R6LWs0QTVpMndVeXpWSUtaMFgyOVBudEZ4Vm1aaWRzR1VPWENfNkQ4dTlwRWNZNFo0YTVNN0lNWXNuRzJzRXQ5QzU3NlVSbDQ0WmhWb1lrZlNn?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
 }
