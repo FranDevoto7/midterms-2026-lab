@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T18:01:46Z",
+  "updated_at": "2026-11-07T21:46:53Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -63,24 +63,6 @@
     },
     {
       "category": "Redistricting",
-      "title": "How Ohio Democrats say they ‘tricked’ Republicans into giving them a winnable congressional map",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "News 5 Cleveland WEWS",
-      "published": "2026-11-07T14:32:25Z",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSFlNblBaUVdabWc3a1JIdU95VXlTeGpCNG1RUU5LU244Q21CZTY5dGVpdEZRMXJlT2JhOXpGTWxwaEJxT05hM0s4eHZiQVdOZVZhVFFEa2YyOWtyQWpWWnJHSlFqT0NNRmMzUFVVVXkxWF81YTBCYkZ4ZHNjZXdmOTJMNEJtTVNLWXFyOEhkaF83LXI3VGJWZW9SbXJ1aDhBMkl4d0oxdmUtcDdIODJvNU1nd2xFZGlucDl2RHdKc2hfS3ZMaHBkWGltWHJ3T181Nnk3NUhqRUxkNXhPRU94M0hMbS1kYzQ?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
       "title": "DeSantis’ GOP congressional map was swamped. These South Florida races did it",
       "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
@@ -99,12 +81,12 @@
     },
     {
       "category": "Redistricting",
-      "title": "Trump’s failed gerrymandering strategy showed Republicans could not rig 2026 midterms to keep power",
+      "title": "GOP redistricting efforts fall flat against blue tsunami",
       "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Milwaukee Independent",
-      "published": "2026-11-07T11:00:27Z",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNM0N2cGZNVGIxOWUzM3QtRUl1ajJ5Y2JIUVlqanRrdXRveWs2ZEIxc0JGVDRmQWZXdkFrSF9NMldZc2QxWHBKQlVpUlZRT0lWNUhkeXdVSkR3cnpmUmg0WVYwMU9BY3NQaWpMWmo1M29iQmF6MnlRMjhmLVR6eVRjTDk2dDJ2RXBnTGpZdElXWVVCb3lmU21yal8weEJOT0stVjRpUkJDb2FhZ3BhSnpXUWd6YXl6RFhqOUhxeVpwWUFhQTZRTkJTd1hQcVR2SjRv?oc=5",
+      "source": "Yahoo",
+      "published": "2026-11-07T12:02:39Z",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORHBHcTRoc1BiZ08tQkZ2Vk16cjZibG05a3lxRnlvX085MUdIdTc5VUUtRWdHN3pUNThRYjhReVNyYzRJRFhRXzNtSlFOT0ZkWDNsdDhXQTdsSXRfd3hMaVVGUm9xRkxvRlRCbHExem1YWEJZOUU3NmpIRzRMNDNpZk5tS3FyVzA1SFgxWFRqM2RWbVkyM1VINzJuOA?oc=5",
       "concepts": [
         "redistricting"
       ],
@@ -150,6 +132,25 @@
       "signal": 2,
       "mechanism": "Incumbency and the personal vote",
       "watch": "The gap between each Senate margin and Trump’s 2024 margin."
+    },
+    {
+      "category": "Redistricting",
+      "title": "Who won the redistricting war? So far, it looks like Democrats",
+      "summary": "Open the source for the full story.",
+      "why": "Voters reward or punish the party in power for conditions they experience.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-05T23:21:01Z",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNT2pXNHZ6bVlpalZrcTRGTF9zM0lEanlSWEpxX1E1VF84OFkzZ3lEbURkdVY5V0ZxNlF6SnhZNVRacTZLSU5rR1JwRlY0MVVXM2FJQjJMVE9OTkhobHVaTGQtSVRRRzdvam40Q21yVFdNWkFFSXhFbEpualRQY1FMaEg1dWk0d9IBiwFBVV95cUxNdGxHR2Z2T000cFlEVDBvRTN1emRXNUdjdE1tT3Y2SzFxSGVvaWVoTkNCcDlPTFpMdTZtV2laYUlqTFpoMmZIR0NVSlV2anlGd0Znd1BkSTFZMFNIOXVQOXBrYUNWVHhmdW5QSjZCNGJ4Q25OYWtQdkdNVG5STURlbTlIVTJhVERDVHJN?oc=5",
+      "concepts": [
+        "referendum",
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Referendum and retrospective voting",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
 }
