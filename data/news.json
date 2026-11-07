@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T00:06:26Z",
+  "updated_at": "2026-11-07T05:54:48Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -81,6 +81,42 @@
     },
     {
       "category": "Redistricting",
+      "title": "How Ohio Democrats say they ‘tricked’ Republicans into giving them a winnable congressional map",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "News 5 Cleveland WEWS",
+      "published": "2026-11-06T23:15:45Z",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSFlNblBaUVdabWc3a1JIdU95VXlTeGpCNG1RUU5LU244Q21CZTY5dGVpdEZRMXJlT2JhOXpGTWxwaEJxT05hM0s4eHZiQVdOZVZhVFFEa2YyOWtyQWpWWnJHSlFqT0NNRmMzUFVVVXkxWF81YTBCYkZ4ZHNjZXdmOTJMNEJtTVNLWXFyOEhkaF83LXI3VGJWZW9SbXJ1aDhBMkl4d0oxdmUtcDdIODJvNU1nd2xFZGlucDl2RHdKc2hfS3ZMaHBkWGltWHJ3T181Nnk3NUhqRUxkNXhPRU94M0hMbS1kYzQ?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "GOP 'Got Mauled' After Redistricting Push",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Newser",
+      "published": "2026-11-06T17:50:00Z",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVFlyRzhidFVzbjZ0TWpsb181VE52cTRwSlY1S2FfbjAyS1FfUUw0S2R6LWs0QTVpMndVeXpWSUtaMFgyOVBudEZ4Vm1aaWRzR1VPWENfNkQ4dTlwRWNZNFo0YTVNN0lNWXNuRzJzRXQ5QzU3NlVSbDQ0WmhWb1lrZlNn?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
       "title": "Colorado voters reject Amendment 86 to clarify congressional redistricting process",
       "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
@@ -103,7 +139,7 @@
       "summary": "Open the source for the full story.",
       "why": "Voters reward or punish the party in power for conditions they experience.",
       "source": "WCPO 9 Cincinnati",
-      "published": "2026-11-06T11:31:00Z",
+      "published": "2026-11-06T13:41:20Z",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYmJ6c3FCSGNONGNEdGdEQms0UUtnLXpDVUZCWlNqWU8zRllJWEdEbXFPZGVIMGE2eDk5WVlpc2pOZEZ3d2xYU1J0RWJmOUFyUzNPUW1IOGZ1OVNiWHJkQXliajNTQTVTcGk2WE5pWFl1TnlHTjZ6N3NVTUVDd1NHWjAyQVBZSll5R1Voc3d1MndRRFhkQjlpRXFmbTZlaXdJY0pZTjFFV2h1MHhCYXFLdDJvNlE3UQ?oc=5",
       "concepts": [
         "referendum"
@@ -114,43 +150,6 @@
       "signal": 2,
       "mechanism": "Referendum and retrospective voting",
       "watch": "The gap between each Senate margin and Trump’s 2024 margin."
-    },
-    {
-      "category": "Redistricting",
-      "title": "The blue wave swamped Trump’s redistricting wall",
-      "summary": "Open the source for the full story.",
-      "why": "The president’s party usually loses House seats in midterms.",
-      "source": "Politico",
-      "published": "2026-11-05T10:00:00Z",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR2pQMVYtRm5Tb1UtUEtDR0c3a1NGcTBVWjN5UFlBbUo2TldKdFZmelV5LXZUVjRmQzFad19YSXJIZzJtcTdqOThScjF2VFRsd3RqT0FWSVVycEpCQkZVY1lzRThKbFotR2tSZHdKWTQtY2JJdWt6T2lCUnA4LTBKcGpfaTJyVkFOUkViVkR1bnRzYmI1Q0RoOGZVc2RpZw?oc=5",
-      "concepts": [
-        "midterm-penalty",
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Midterm penalty",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Did GOP efforts to redistrict the House turn into a dummymander?",
-      "summary": "Republicans undertook a historic effort to redraw several states' Congressional districts mid-decade in an attempt to maintain control of the House.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "CBS News",
-      "published": "2026-11-05T23:56:15Z",
-      "url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
 }
