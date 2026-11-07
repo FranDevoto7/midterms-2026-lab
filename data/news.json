@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T19:22:09Z",
+  "updated_at": "2026-11-07T00:06:26Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -43,6 +43,24 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
+      "category": "Senate",
+      "title": "Sen.-elect Hamilton reflects on why Kansas voters chose a Democrat for U.S. Senate",
+      "summary": "Democrats' midterm wins have reached red states across the country, including Kansas, which has not sent a Democrat to the U.S. Senate since 1932. That will soon change after Rev.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "PBS News",
+      "published": "2026-11-06T23:40:45Z",
+      "url": "https://www.pbs.org/newshour/show/sen-elect-hamilton-reflects-on-why-kansas-voters-chose-a-democrat-for-u-s-senate",
+      "concepts": [
+        "incumbency"
+      ],
+      "cases": [
+        "reach"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
+    },
+    {
       "category": "Redistricting",
       "title": "Who won the redistricting war? So far, it looks like Democrats",
       "summary": "Open the source for the full story.",
@@ -60,42 +78,6 @@
       "signal": 2,
       "mechanism": "Referendum and retrospective voting",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "What's the future for Republicans as the Trump era starts to wind down?",
-      "summary": "As the era of President Trump starts to wind down, potential 2028 presidential candidates are emerging as Republicans consider the party’s future.",
-      "why": "The president’s party usually loses House seats in midterms.",
-      "source": "The Hill",
-      "published": "2026-11-06T13:20:28Z",
-      "url": "https://thehill.com/newsletters/whole-hog-politics/whole-hog-politics-live-briefing/6203333-gop-future-post-donald-trump-2026-midterm-results-live-discussion/",
-      "concepts": [
-        "midterm-penalty"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Midterm penalty",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Senate",
-      "title": "Dearborn, Michigan, mayor on city's record turnout and the election of Abdul El-Sayed",
-      "summary": "NPR host Leila Fadel speaks with Abdullah Hammoud, the mayor of Dearborn, Michigan, about why his city turned out in record numbers to elect Abdul El-Sayed to the U.S. Senate.",
-      "why": "Margins change when voters switch, or when a different electorate shows up.",
-      "source": "NPR",
-      "published": "2026-11-06T09:47:31Z",
-      "url": "https://www.npr.org/2026/11/06/nx-s1-6029424/dearborn-michigan-mayor-on-citys-record-turnout-and-the-election-of-abdul-el-sayed",
-      "concepts": [
-        "turnout"
-      ],
-      "cases": [
-        "michigan"
-      ],
-      "signal": 2,
-      "mechanism": "Turnout versus persuasion",
-      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
     },
     {
       "category": "Redistricting",
@@ -121,7 +103,7 @@
       "summary": "Open the source for the full story.",
       "why": "Voters reward or punish the party in power for conditions they experience.",
       "source": "WCPO 9 Cincinnati",
-      "published": "2026-11-06T14:19:30Z",
+      "published": "2026-11-06T11:31:00Z",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYmJ6c3FCSGNONGNEdGdEQms0UUtnLXpDVUZCWlNqWU8zRllJWEdEbXFPZGVIMGE2eDk5WVlpc2pOZEZ3d2xYU1J0RWJmOUFyUzNPUW1IOGZ1OVNiWHJkQXliajNTQTVTcGk2WE5pWFl1TnlHTjZ6N3NVTUVDd1NHWjAyQVBZSll5R1Voc3d1MndRRFhkQjlpRXFmbTZlaXdJY0pZTjFFV2h1MHhCYXFLdDJvNlE3UQ?oc=5",
       "concepts": [
         "referendum"
@@ -150,6 +132,24 @@
       ],
       "signal": 2,
       "mechanism": "Midterm penalty",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Did GOP efforts to redistrict the House turn into a dummymander?",
+      "summary": "Republicans undertook a historic effort to redraw several states' Congressional districts mid-decade in an attempt to maintain control of the House.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "CBS News",
+      "published": "2026-11-05T23:56:15Z",
+      "url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
