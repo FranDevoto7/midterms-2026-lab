@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T15:57:03Z",
+  "updated_at": "2026-11-08T20:27:40Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -26,6 +26,99 @@
     },
     {
       "category": "Redistricting",
+      "title": "Why Did Republican Redistricting Fail to Stop the Blue Wave?",
+      "summary": "Open the source for the full story.",
+      "why": "The president’s party usually loses House seats in midterms.",
+      "source": "Time Magazine",
+      "published": "2026-11-08T12:00:04Z",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM2QxdWYtOE1uaWgxTE5iWEI3b0lSTEs2WWVNOFZzTlR2TFVVMjVnZ0s3SHhJU3Bxc29CWEJ0bmZaSzFEZ1dMS1dnS01ITzFTZnRaNXkwNEdjV1ByRFBoYWVYRm5Udy14NkYyeEE2bk1ST0xKdDJpelk0Mi1Uald6bFNldThzYzEzNjMwcw?oc=5",
+      "concepts": [
+        "midterm-penalty",
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Midterm penalty",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "South Carolina Senate effectively kills proposed congressional map backed by Trump",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-06T08:00:00Z",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNmdidEdSck5aWUpvUHJ1ZnVSMktGSVZ6dkNmVHdVM2tOa0phQ0JkMjktYUZwUmxwZktqSUVrcnJPTnVqenlIOHFIdXF6SE04ZDBfS1podW9YZVV5dTdiVjRrX1JTazdoeXdXMTBid05xU3IyQTlJOHpoSFlMX1RmWTQ4dDRBUXJ5elQ0QV9RUjN4bjBLT3VDUTYzS1pTc05GdkNFc1RvbzNmZG55aEtnQnhvMDfSAboBQVVfeXFMT1h3ekRQOWpRak5GTy1tMDA0RVF4VDU4cDlfWTJVR1lONk1rVGxhTFFEMWFGZnpZb0kxNHFfMnJxa1FwMWpEV00wdGNLbW9ralJWVEdoZUtIdXI3WU1KOVNxRnd3Z2tOZ0N0M2IwbUZoMzRINjgxb01hUjZCdkVOMzhwTVlkdHpWcXVrTEczdzZLMzB1eTJLcHEtT3p6azdpTE1RRUdTMXlnQWxJaVZxVFRaWGY0c1BNbmVn?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting",
+        "reach"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Senate",
+      "title": "Dunleavy calls Alaska voting system ‘very confusing’ as razor-thin Senate race frozen in time",
+      "summary": "Republican Alaska Gov. Mike Dunleavy calls ranked-choice voting \"very confusing\" as Mary Peltola leads Dan Sullivan by just 637 votes in Senate race.",
+      "why": "Ranked ballots, primary systems and ballot layout shape incentives and outcomes.",
+      "source": "Fox News",
+      "published": "2026-11-08T18:41:53Z",
+      "url": "https://www.foxnews.com/politics/dunleavy-calls-alaska-voting-system-very-confusing-razor-thin-senate-race-frozen-time",
+      "concepts": [
+        "electoral-rules"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Electoral rules and ballot design",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Redistricting",
+      "title": "The Verdict Is In On Republicans’ Redistricting Gambit",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "The Daily Wire",
+      "published": "2026-11-08T19:13:28Z",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYWYwNVdDRjc4MU01Rl9MMUVRY3pLbkdXakk0OWVSQmZNMDZBVUxUNFU5MnNvUENQSlhkV3ZrUmJQWjAzQ0xYdlctWTFwUFpzeEg1ZnUtTkdHYTZlay05S3Npak5uclBTaXFNSmdVT25GU3FXbGcxYmEzUFctc2xiTS1lOTVvNWtoY1VWWg?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Virginia approves referendum to redraw its congressional map to favor Democrats, AP projects",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-07T17:24:27Z",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPME80aURQTWhIck9BRU0wMzBXZVRQay1zeEFiajJqOFlvUTBlYkg0dlA4ZXFVUjQ4OHFDQ1g4V25kX05wYi1xbF8wSkxUUWcyUmFDMXdNQUhpUFJwbG5yekFoOWFvY2FCbTNlanZXTUNHaXpLaGhCelI0QnVTc1dwOG85WDh3ZVVEOHRWa0tnS09ZWF9KRlVZcmlMT2U1Y1ljRkhRVjQ0VXZBUdIBrwFBVV95cUxObmNsWE1vOGJPc3RqbkhRdkRYbTU1X28wTV9YcDZYcmNUYUVpcEI2eDZrQjU5dnM5ZnhkM2Yzc0hnUWZsbkI2ZkIyREhaU3RyUW1LMXJnSjRHT2RnNXVCLXBOWkhSZHRmcmZ3MGVZMVl2XzJiTWpQTl9YeWxLenhFMHBFblgwVEdaLTlqMjI5bnZHeG5UNno5UTBxbE9IUFpvYkt6bW9QUXU1WFhlTFNB?oc=5",
+      "concepts": [
+        "redistricting",
+        "direct-democracy"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
       "title": "Black voter turnout surges in US south despite Republican redistricting drive: ‘They could not stop the momentum’",
       "summary": "Open the source for the full story.",
       "why": "Margins change when voters switch, or when a different electorate shows up.",
@@ -41,44 +134,6 @@
       ],
       "signal": 2,
       "mechanism": "Turnout versus persuasion",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Who won the redistricting war? So far, it looks like Democrats",
-      "summary": "Open the source for the full story.",
-      "why": "Voters reward or punish the party in power for conditions they experience.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-07T10:29:36Z",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNT2pXNHZ6bVlpalZrcTRGTF9zM0lEanlSWEpxX1E1VF84OFkzZ3lEbURkdVY5V0ZxNlF6SnhZNVRacTZLSU5rR1JwRlY0MVVXM2FJQjJMVE9OTkhobHVaTGQtSVRRRzdvam40Q21yVFdNWkFFSXhFbEpualRQY1FMaEg1dWk0d9IBiwFBVV95cUxNdGxHR2Z2T000cFlEVDBvRTN1emRXNUdjdE1tT3Y2SzFxSGVvaWVoTkNCcDlPTFpMdTZtV2laYUlqTFpoMmZIR0NVSlV2anlGd0Znd1BkSTFZMFNIOXVQOXBrYUNWVHhmdW5QSjZCNGJ4Q25OYWtQdkdNVG5STURlbTlIVTJhVERDVHJN?oc=5",
-      "concepts": [
-        "referendum",
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Referendum and retrospective voting",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Latino vote helped thwart Texas Republicans' redistricting effort",
-      "summary": "Open the source for the full story.",
-      "why": "Durable coalition change is not the same as one unusual election.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-07T00:49:09Z",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdDY2VlREUlEyS3BRbE53RUliNVowX09BMHRBNzcyc1ZpNEIwYm9oWnBlTXlwd2lya0YyMHp5NWlweGZjUmhKbnBQa3FiT1o3MUp3ZlNfaDV1cnN1NUF1czh2LXAwcks3X29JVk1EbmpKTGdMWVRHZ2lDNjM4cmVPMy1Xc09KN25FMksxWWVzN1Z2RjdNWGpwVlo2bFZoSVFfTVA1N1hsVWZaTWhLXzQxdkxB0gG3AUFVX3lxTE1sSVdnZ05JbWFZQXIxR3g3LUFRejhGbVQzWDdHNjQ5YUQ5V1kzMlk5RlIxYlhpZXlNTUZKRGdtSXhqc3hLMmFkaXMyYmYxVG5hQTZ5aEtHaFptakNLVExQcmVZQTZoQlNJaWRYVlNNUVphcUIzMDUtTm9RYVVQdlNOOGx0b0JYa1lqS1FEVUtqR1pmbFJhQjJqSEg1Z2Faa2dqanE0VnctTld0Q0tBTklQV2FFLXB2NA?oc=5",
-      "concepts": [
-        "realignment",
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Realignment versus short-term swing",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
@@ -98,60 +153,6 @@
       "signal": 2,
       "mechanism": "Candidate quality",
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Senate",
-      "title": "James Talarico (D) defeated Ken Paxton (R) and five other candidates to win the general election for U.S. Senate in Texas",
-      "summary": "Open the source for the full story.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "Ballotpedia News",
-      "published": "2026-11-06T18:15:17Z",
-      "url": "https://news.ballotpedia.org/2026/11/06/james-talarico-d-defeated-ken-paxton-r-and-five-other-candidates-to-win-the-general-election-for-u-s-senate-in-texas/",
-      "concepts": [
-        "incumbency",
-        "party-coalitions"
-      ],
-      "cases": [
-        "texas"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "Paxton’s margin against Abbott’s, county by county."
-    },
-    {
-      "category": "Redistricting",
-      "title": "Incumbent Derek Tran (D) defeated Chuong Vo (R) in the general election for California's 45th Congressional District",
-      "summary": "Open the source for the full story.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "Ballotpedia News",
-      "published": "2026-11-06T12:00:21Z",
-      "url": "https://news.ballotpedia.org/2026/11/06/incumbent-derek-tran-d-defeated-chuong-vo-r-in-the-general-election-for-californias-45th-congressional-district/",
-      "concepts": [
-        "incumbency",
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "James Talarico kicks off ‘SNL’ days after historic Texas Senate win",
-      "summary": "James Talarico, a Democrat whose U.S. Senate victory this week was once thought improbable in the Republican stronghold of Texas, made a surprise appearance to help kick off the latest episode of “Saturday Night Live.”",
-      "why": "",
-      "source": "NBC News",
-      "published": "2026-11-08T06:09:45Z",
-      "url": "https://www.nbcnews.com/pop-culture/tv/james-talarico-kicks-off-snl-rcna608071",
-      "concepts": [],
-      "cases": [
-        "texas"
-      ],
-      "signal": 2,
-      "mechanism": "",
-      "watch": "Paxton’s margin against Abbott’s, county by county."
     }
   ]
 }
