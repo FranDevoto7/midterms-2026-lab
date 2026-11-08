@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-11-08T08:57:40Z",
+  "updated_at": "2026-11-08T15:57:03Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
+    {
+      "category": "Senate",
+      "title": "Midterm results deliver ‘youth quake’ to American politics",
+      "summary": "The 2026 midterm elections delivered a solid blue wave for Democrats along with a new class of noticeably younger candidates across the board, beating out both new and incumbent senior opponents.",
+      "why": "The president’s party usually loses House seats in midterms.",
+      "source": "The Hill",
+      "published": "2026-11-08T11:00:00Z",
+      "url": "https://thehill.com/policy/healthcare/6205511-younger-candidates-win-midterm-wave/",
+      "concepts": [
+        "midterm-penalty",
+        "incumbency"
+      ],
+      "cases": [
+        "michigan",
+        "texas"
+      ],
+      "signal": 2,
+      "mechanism": "Midterm penalty",
+      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+    },
     {
       "category": "Redistricting",
       "title": "Black voter turnout surges in US south despite Republican redistricting drive: ‘They could not stop the momentum’",
@@ -119,7 +139,7 @@
     },
     {
       "category": "Senate",
-      "title": "Sen.-elect James Talarico kicks off ‘SNL’ days after historic win in Texas",
+      "title": "James Talarico kicks off ‘SNL’ days after historic Texas Senate win",
       "summary": "James Talarico, a Democrat whose U.S. Senate victory this week was once thought improbable in the Republican stronghold of Texas, made a surprise appearance to help kick off the latest episode of “Saturday Night Live.”",
       "why": "",
       "source": "NBC News",
@@ -132,24 +152,6 @@
       "signal": 2,
       "mechanism": "",
       "watch": "Paxton’s margin against Abbott’s, county by county."
-    },
-    {
-      "category": "Redistricting",
-      "title": "DeSantis’ GOP congressional map was swamped. These South Florida races did it",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Sun Sentinel",
-      "published": "2026-11-07T13:34:02Z",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbUozX1pzeDJvVUZxVkpaSm1GU1dERnlwcHNUck5HX2JCREFFMnppSFJmQ05wdE40SkNoLXhPcG9ERlZYQ25TRkh0akxFVkpIM2RoZ1JsZzFRVkw0RWdSRWJUS3NWTEdYOHBWUzVucGFtQkZpMTkyWlBlYU10Wno5dGgxYnVGTk1ndlhtYTQ3ZVQ2dExNWEdDcGh0ZU02RE5QalFsdDBlOTN2WU8xLTZldnBJektHVkE?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
 }
