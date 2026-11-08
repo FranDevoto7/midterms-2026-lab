@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T01:25:32Z",
+  "updated_at": "2026-11-08T08:57:40Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -21,6 +21,44 @@
       ],
       "signal": 2,
       "mechanism": "Turnout versus persuasion",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Who won the redistricting war? So far, it looks like Democrats",
+      "summary": "Open the source for the full story.",
+      "why": "Voters reward or punish the party in power for conditions they experience.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-07T10:29:36Z",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNT2pXNHZ6bVlpalZrcTRGTF9zM0lEanlSWEpxX1E1VF84OFkzZ3lEbURkdVY5V0ZxNlF6SnhZNVRacTZLSU5rR1JwRlY0MVVXM2FJQjJMVE9OTkhobHVaTGQtSVRRRzdvam40Q21yVFdNWkFFSXhFbEpualRQY1FMaEg1dWk0d9IBiwFBVV95cUxNdGxHR2Z2T000cFlEVDBvRTN1emRXNUdjdE1tT3Y2SzFxSGVvaWVoTkNCcDlPTFpMdTZtV2laYUlqTFpoMmZIR0NVSlV2anlGd0Znd1BkSTFZMFNIOXVQOXBrYUNWVHhmdW5QSjZCNGJ4Q25OYWtQdkdNVG5STURlbTlIVTJhVERDVHJN?oc=5",
+      "concepts": [
+        "referendum",
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Referendum and retrospective voting",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Latino vote helped thwart Texas Republicans' redistricting effort",
+      "summary": "Open the source for the full story.",
+      "why": "Durable coalition change is not the same as one unusual election.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-07T00:49:09Z",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdDY2VlREUlEyS3BRbE53RUliNVowX09BMHRBNzcyc1ZpNEIwYm9oWnBlTXlwd2lya0YyMHp5NWlweGZjUmhKbnBQa3FiT1o3MUp3ZlNfaDV1cnN1NUF1czh2LXAwcks3X29JVk1EbmpKTGdMWVRHZ2lDNjM4cmVPMy1Xc09KN25FMksxWWVzN1Z2RjdNWGpwVlo2bFZoSVFfTVA1N1hsVWZaTWhLXzQxdkxB0gG3AUFVX3lxTE1sSVdnZ05JbWFZQXIxR3g3LUFRejhGbVQzWDdHNjQ5YUQ5V1kzMlk5RlIxYlhpZXlNTUZKRGdtSXhqc3hLMmFkaXMyYmYxVG5hQTZ5aEtHaFptakNLVExQcmVZQTZoQlNJaWRYVlNNUVphcUIzMDUtTm9RYVVQdlNOOGx0b0JYa1lqS1FEVUtqR1pmbFJhQjJqSEg1Z2Faa2dqanE0VnctTld0Q0tBTklQV2FFLXB2NA?oc=5",
+      "concepts": [
+        "realignment",
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Realignment versus short-term swing",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
@@ -80,6 +118,22 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
+      "category": "Senate",
+      "title": "Sen.-elect James Talarico kicks off ‘SNL’ days after historic win in Texas",
+      "summary": "James Talarico, a Democrat whose U.S. Senate victory this week was once thought improbable in the Republican stronghold of Texas, made a surprise appearance to help kick off the latest episode of “Saturday Night Live.”",
+      "why": "",
+      "source": "NBC News",
+      "published": "2026-11-08T06:09:45Z",
+      "url": "https://www.nbcnews.com/pop-culture/tv/james-talarico-kicks-off-snl-rcna608071",
+      "concepts": [],
+      "cases": [
+        "texas"
+      ],
+      "signal": 2,
+      "mechanism": "",
+      "watch": "Paxton’s margin against Abbott’s, county by county."
+    },
+    {
       "category": "Redistricting",
       "title": "DeSantis’ GOP congressional map was swamped. These South Florida races did it",
       "summary": "Open the source for the full story.",
@@ -96,60 +150,6 @@
       "signal": 2,
       "mechanism": "Gerrymandering and the seats–votes link",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "GOP redistricting efforts fall flat against blue tsunami",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Yahoo",
-      "published": "2026-11-07T12:02:39Z",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORHBHcTRoc1BiZ08tQkZ2Vk16cjZibG05a3lxRnlvX085MUdIdTc5VUUtRWdHN3pUNThRYjhReVNyYzRJRFhRXzNtSlFOT0ZkWDNsdDhXQTdsSXRfd3hMaVVGUm9xRkxvRlRCbHExem1YWEJZOUU3NmpIRzRMNDNpZk5tS3FyVzA1SFgxWFRqM2RWbVkyM1VINzJuOA?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "'It's a good thing they failed': Did Indiana GOP avoid a redistricting backfire?",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "IndyStar",
-      "published": "2026-11-07T10:05:00Z",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVGc3aGc1WHN2V3JKdDlhVHBiQ21hRFZodG9sdmlsLUwtdUFoUVFmbkRuTmFTNXJLS0QyVWN2VklfTU5NZlNGNlRkdlcwZmlJNTg3VmJVdlI3TjN4OTYyczYyOTQ4aWNQM0RaUGhQZUhFTENpVUVVNFhzcG9hSzdlSEVnVFVYbGNoZnV0cmMxVWZyQi05WmZFSnVMWFh5c1ZSbGxTWmZRdlVteGprMjNiakJZSVBKS0d3bjR6MjBKWFNrYTRHMnMtaGRTa1BEREN3?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Sen.-elect Hamilton reflects on why Kansas voters chose a Democrat for U.S. Senate",
-      "summary": "Democrats' midterm wins have reached red states across the country, including Kansas, which has not sent a Democrat to the U.S. Senate since 1932. That will soon change after Rev.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "PBS News",
-      "published": "2026-11-06T23:40:45Z",
-      "url": "https://www.pbs.org/newshour/show/sen-elect-hamilton-reflects-on-why-kansas-voters-chose-a-democrat-for-u-s-senate",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "reach"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
     }
   ]
 }
