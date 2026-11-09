@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T07:55:53Z",
+  "updated_at": "2026-11-09T18:45:02Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -65,6 +65,60 @@
     },
     {
       "category": "Redistricting",
+      "title": "Four States May Redraw Their Congressional Maps After Midterm Blue Tsunami",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Newsweek",
+      "published": "2026-11-09T18:03:00Z",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTkxUV1BMejFYWk40S1ZUTG8wVy1maGJoOUNhaE53d3ZMTHdjbERmT2R3T1dJd21KdzI2MHpld3Y5a0pTV292YXNMNWNkSU9wMGxOWktiY3BueHBmX1kydTNNekhiQnR5X05qZEpYbUhNYldCeG9jNmI5MUJJUG92YzB3YVA0NTQ0MzZyRV9vbzJrVnliR2FmazVUNDMxVWVzSTVYeDU2M3NOS0g4?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Gov.-elect David Crowley pledges to sign a new congressional map",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Milwaukee Journal Sentinel",
+      "published": "2026-11-09T17:18:00Z",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNd3RuUm9kQ3hwUXFDenVxeFhnV0x4N2huYWk2RU93MWFwbDFYRDFCX2pBN1ZBeEpiQmctZUFQWUhMWDF3NHpxazlRQlVlUzI4Q1RZcWoydXUybzNFeURibFBFX3VxaDZkUTlhMjVLOGljck02cW5aamZLU1RDUktiV3NaLWxwQkwteF9RbGgtaVNyTmctaG1ZRWhuOFFDeS1UalBhQ3NXOTZqdEhiZW50bFdlYTRLakVhcWR1YnljMnVzYkVPMGJ0bnhzSFM?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Senate",
+      "title": "Alaska Senate Race 2026 Midterm Results | Peltola vs Sullivan Polls: Live Kalshi & Polymarket Alaska Senate Race Prices (Nov 9)",
+      "summary": "Open the source for the full story.",
+      "why": "Voters reward or punish the party in power for conditions they experience.",
+      "source": "Action Network",
+      "published": "2026-11-09T14:12:00Z",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUHV2ODRFbjhtZnN3Qzl4aktMYmRJajZrQkdockE1X1BaelVNeFo3SkVsdXdqUWtvNEJRd1o4bzR0S2xXSlRpRURZV1lLX0FWOEpkZE44S1BtV2djZWJfWTFFQjdCWHZJY0twbENfVGRqVDNMamo5a1dCNG9SeGpnalEwdUtYNTZiWXRaRUMwSlFDTlZjSDEzTVlLaHBxQWgtNlNQZlQzeWotQ3pHYy1NWFcyUHMzdlU4S0hxdGpiSUctT29nc3g5WjZXN0Y4blZJaV9ZWUM3aVc4aTlPa3pDbUw0QUlVUWJEVmw0?oc=5",
+      "concepts": [
+        "referendum"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Referendum and retrospective voting",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Redistricting",
       "title": "Why Did Republican Redistricting Fail to Stop the Blue Wave?",
       "summary": "Open the source for the full story.",
       "why": "The president’s party usually loses House seats in midterms.",
@@ -84,67 +138,12 @@
     },
     {
       "category": "Redistricting",
-      "title": "South Carolina Senate effectively kills proposed congressional map backed by Trump",
+      "title": "Missouri Republicans mulling future of congressional redistricting after Prop A failure",
       "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-06T08:00:00Z",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNmdidEdSck5aWUpvUHJ1ZnVSMktGSVZ6dkNmVHdVM2tOa0phQ0JkMjktYUZwUmxwZktqSUVrcnJPTnVqenlIOHFIdXF6SE04ZDBfS1podW9YZVV5dTdiVjRrX1JTazdoeXdXMTBid05xU3IyQTlJOHpoSFlMX1RmWTQ4dDRBUXJ5elQ0QV9RUjN4bjBLT3VDUTYzS1pTc05GdkNFc1RvbzNmZG55aEtnQnhvMDfSAboBQVVfeXFMT1h3ekRQOWpRak5GTy1tMDA0RVF4VDU4cDlfWTJVR1lONk1rVGxhTFFEMWFGZnpZb0kxNHFfMnJxa1FwMWpEV00wdGNLbW9ralJWVEdoZUtIdXI3WU1KOVNxRnd3Z2tOZ0N0M2IwbUZoMzRINjgxb01hUjZCdkVOMzhwTVlkdHpWcXVrTEczdzZLMzB1eTJLcHEtT3p6azdpTE1RRUdTMXlnQWxJaVZxVFRaWGY0c1BNbmVn?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting",
-        "reach"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Dunleavy calls Alaska voting system ‘very confusing’ as razor-thin Senate race frozen in time",
-      "summary": "Republican Alaska Gov. Mike Dunleavy calls ranked-choice voting \"very confusing\" as Mary Peltola leads Dan Sullivan by just 637 votes in Senate race.",
-      "why": "Ranked ballots, primary systems and ballot layout shape incentives and outcomes.",
-      "source": "Fox News",
-      "published": "2026-11-08T18:41:53Z",
-      "url": "https://www.foxnews.com/politics/dunleavy-calls-alaska-voting-system-very-confusing-razor-thin-senate-race-frozen-time",
-      "concepts": [
-        "electoral-rules"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Electoral rules and ballot design",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Senate",
-      "title": "Sen.-elect Adam Hamilton says he’d be disappointed if Democrats focus on investigating Trump",
-      "summary": "Hamilton said Congress should focus on clawing back Trump’s tariffs and ending the war with Iran.",
-      "why": "Voters reward or punish the party in power for conditions they experience.",
-      "source": "NBC News",
-      "published": "2026-11-08T13:55:10Z",
-      "url": "https://www.nbcnews.com/politics/congress/sen-adam-hamilton-disappointed-democrats-trump-investigations-schumer-rcna608088",
-      "concepts": [
-        "referendum"
-      ],
-      "cases": [
-        "reach"
-      ],
-      "signal": 2,
-      "mechanism": "Referendum and retrospective voting",
-      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
-    },
-    {
-      "category": "Redistricting",
-      "title": "The Verdict Is In On Republicans’ Redistricting Gambit",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "The Daily Wire",
-      "published": "2026-11-08T19:13:28Z",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYWYwNVdDRjc4MU01Rl9MMUVRY3pLbkdXakk0OWVSQmZNMDZBVUxUNFU5MnNvUENQSlhkV3ZrUmJQWjAzQ0xYdlctWTFwUFpzeEg1ZnUtTkdHYTZlay05S3Npak5uclBTaXFNSmdVT25GU3FXbGcxYmEzUFctc2xiTS1lOTVvNWtoY1VWWg?oc=5",
+      "source": "STLPR",
+      "published": "2026-11-09T11:03:51Z",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRzczTHNHb3FYOWJWY3NUQVRjS2ZWeXVjd1lqVjk0eWN6OW0ydXhpd2l5LVVtRFUzTWNMZDloNFJkbWdwVmxacU9TakstNVM3QVk1UU9NeFpwZlNxeDdrRHhMaFphRVhRTTd6dDhSS1YxSkVKZUVJRmlFSGlIdUdQbnNkX2VROUNKUjczSXhIV0JMVU1zdHppWXNqY2R6LXN0WEp3b3FfY3poM1owc2RQTnhNZHpRRFlBZy1rY0tfYlhiVmlKVllWS3Y2MzVJdk1aUFJiRGFpMmlhNURJWWtXTQ?oc=5",
       "concepts": [
         "redistricting"
       ],
