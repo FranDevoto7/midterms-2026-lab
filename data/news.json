@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T20:27:40Z",
+  "updated_at": "2026-11-09T00:52:05Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -7,7 +7,7 @@
     {
       "category": "Senate",
       "title": "Midterm results deliver ‘youth quake’ to American politics",
-      "summary": "The 2026 midterm elections delivered a solid blue wave for Democrats along with a new class of noticeably younger candidates across the board, beating out both new and incumbent senior opponents.",
+      "summary": "The 2026 midterm elections delivered a solid blue wave for Democrats on Tuesday, along with a new class of noticeably younger candidates across the board, beating out both new and incumbent senior opponents.",
       "why": "The president’s party usually loses House seats in midterms.",
       "source": "The Hill",
       "published": "2026-11-08T11:00:00Z",
@@ -23,6 +23,25 @@
       "signal": 2,
       "mechanism": "Midterm penalty",
       "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+    },
+    {
+      "category": "Redistricting",
+      "title": "Incumbent Henry Cuellar (D) defeated Tano Tijerina (R) and Marlon Duran (G) to win the general election to represent Texas' 28th Congressional District",
+      "summary": "Open the source for the full story.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "Ballotpedia News",
+      "published": "2026-11-08T19:54:09Z",
+      "url": "https://news.ballotpedia.org/2026/11/08/incumbent-henry-cuellar-d-defeated-tano-tijerina-r-and-marlon-duran-g-to-win-the-general-election-to-represent-texas-28th-congressional-district/",
+      "concepts": [
+        "incumbency",
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
       "category": "Redistricting",
@@ -81,6 +100,42 @@
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
+      "category": "Senate",
+      "title": "Adam Hamilton (D) defeated incumbent Roger Marshall (R) and David Graham (L) to win the general election for U.S. Senate in Kansas",
+      "summary": "Open the source for the full story.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "Ballotpedia News",
+      "published": "2026-11-08T20:04:49Z",
+      "url": "https://news.ballotpedia.org/2026/11/08/adam-hamilton-d-defeated-incumbent-roger-marshall-r-and-david-graham-l-to-win-the-general-election-for-u-s-senate-in-kansas/",
+      "concepts": [
+        "incumbency"
+      ],
+      "cases": [
+        "reach"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
+    },
+    {
+      "category": "Senate",
+      "title": "Sen.-elect Adam Hamilton says he’d be disappointed if Democrats focus on investigating Trump",
+      "summary": "Hamilton said Congress should focus on clawing back Trump’s tariffs and ending the war with Iran.",
+      "why": "Voters reward or punish the party in power for conditions they experience.",
+      "source": "NBC News",
+      "published": "2026-11-08T13:55:10Z",
+      "url": "https://www.nbcnews.com/politics/congress/sen-adam-hamilton-disappointed-democrats-trump-investigations-schumer-rcna608088",
+      "concepts": [
+        "referendum"
+      ],
+      "cases": [
+        "reach"
+      ],
+      "signal": 2,
+      "mechanism": "Referendum and retrospective voting",
+      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
+    },
+    {
       "category": "Redistricting",
       "title": "The Verdict Is In On Republicans’ Redistricting Gambit",
       "summary": "Open the source for the full story.",
@@ -97,62 +152,6 @@
       "signal": 2,
       "mechanism": "Gerrymandering and the seats–votes link",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Virginia approves referendum to redraw its congressional map to favor Democrats, AP projects",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-07T17:24:27Z",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPME80aURQTWhIck9BRU0wMzBXZVRQay1zeEFiajJqOFlvUTBlYkg0dlA4ZXFVUjQ4OHFDQ1g4V25kX05wYi1xbF8wSkxUUWcyUmFDMXdNQUhpUFJwbG5yekFoOWFvY2FCbTNlanZXTUNHaXpLaGhCelI0QnVTc1dwOG85WDh3ZVVEOHRWa0tnS09ZWF9KRlVZcmlMT2U1Y1ljRkhRVjQ0VXZBUdIBrwFBVV95cUxObmNsWE1vOGJPc3RqbkhRdkRYbTU1X28wTV9YcDZYcmNUYUVpcEI2eDZrQjU5dnM5ZnhkM2Yzc0hnUWZsbkI2ZkIyREhaU3RyUW1LMXJnSjRHT2RnNXVCLXBOWkhSZHRmcmZ3MGVZMVl2XzJiTWpQTl9YeWxLenhFMHBFblgwVEdaLTlqMjI5bnZHeG5UNno5UTBxbE9IUFpvYkt6bW9QUXU1WFhlTFNB?oc=5",
-      "concepts": [
-        "redistricting",
-        "direct-democracy"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Black voter turnout surges in US south despite Republican redistricting drive: ‘They could not stop the momentum’",
-      "summary": "Open the source for the full story.",
-      "why": "Margins change when voters switch, or when a different electorate shows up.",
-      "source": "The Guardian",
-      "published": "2026-11-07T11:00:00Z",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMDFEeHBkdzhGYnA4eWcwbjR5Ym5ZZ01sdEtYSEltdXFqLVd1aHFpZVd1aFhDZ2JKTVUyUWdvUEtkakt2NWhvY3JvOUppSDNpNDJHSlpCVTkwSTNZcy00eVg2bC1XQm9WMUlSbllKNEdvRnExZ2tLMGd0Vy1RWm80Ui1ONTROSi02NEE?oc=5",
-      "concepts": [
-        "turnout",
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Turnout versus persuasion",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Trump declares Alaska Senate race ‘over’ in favor of GOP candidate following ‘Decoy Dan’ scandal",
-      "summary": "Open the source for the full story.",
-      "why": "Experienced, scandal-free candidates tend to beat what partisanship predicts.",
-      "source": "New York Post",
-      "published": "2026-11-07T23:16:00Z",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcVdtOTlRVEVDMzFCQUhHREt4UkF1UHF3VElMUExxa0Z3NDJVZE9NYlNVbmp1cXdLeGRzZGhJdEhXTXZzdjRacElfRU9Kc1E3OVpBVUJyUVB5R0VPYWYydlBUbnRKSG9xMFQxbDdTYjBhYy1QdmNDWFBrNEtWTmh5MGlWQQ?oc=5",
-      "concepts": [
-        "candidate-quality"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Candidate quality",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     }
   ]
 }
