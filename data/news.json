@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T02:04:10Z",
+  "updated_at": "2026-11-10T09:45:39Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -82,6 +82,24 @@
     },
     {
       "category": "Senate",
+      "title": "Troy Jackson defeated incumbent Sen. Susan Collins and six other candidates in the general election for the U.S. Senate in Maine",
+      "summary": "Troy Jackson (D) defeated incumbent Sen. Susan Collins (R) and six other candidates in the general election for the U.S. Senate in Maine on November 3, 2026. Click here for detailed results. Collins' defeat made her the first U.S.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "Ballotpedia News",
+      "published": "2026-11-10T00:31:31Z",
+      "url": "https://news.ballotpedia.org/2026/11/09/troy-jackson-defeated-incumbent-sen-susan-collins-and-six-other-candidates-in-the-general-election-for-the-u-s-senate-in-maine/",
+      "concepts": [
+        "incumbency"
+      ],
+      "cases": [
+        "maine"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Collins’s margin against the Republican candidate for governor, town by town."
+    },
+    {
+      "category": "Senate",
       "title": "Sullivan campaign files motion against Peltola over rejected absentee ballot lawsuit",
       "summary": "Sen. Dan Sullivan's (R-Alaska) campaign on Monday filed a motion against Alaska Senate candidate Mary Peltola's campaign to intervene in its rejected absentee ballot lawsuit.",
       "why": "States run elections; federal actors and courts contest the edges.",
@@ -132,25 +150,6 @@
       ],
       "signal": 2,
       "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Incumbent Henry Cuellar (D) defeated Tano Tijerina (R) and Marlon Duran (G) to win the general election to represent Texas' 28th Congressional District",
-      "summary": "Open the source for the full story.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "Ballotpedia News",
-      "published": "2026-11-08T19:54:09Z",
-      "url": "https://news.ballotpedia.org/2026/11/08/incumbent-henry-cuellar-d-defeated-tano-tijerina-r-and-marlon-duran-g-to-win-the-general-election-to-represent-texas-28th-congressional-district/",
-      "concepts": [
-        "incumbency",
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
