@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T09:45:39Z",
+  "updated_at": "2026-11-10T17:47:19Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -45,6 +45,24 @@
     },
     {
       "category": "Redistricting",
+      "title": "GOP wipeout goes from bad to worse as Dems quietly score another major win with big ramifications",
+      "summary": "Democrats flipped legislative chambers in Wisconsin, Michigan, Arizona and other battleground states, creating trifectas that could reshape redistricting.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Fox News",
+      "published": "2026-11-10T14:45:47Z",
+      "url": "https://www.foxnews.com/politics/gop-wipeout-goes-bad-worse-dems-quietly-score-another-major-win-big-ramifications",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
       "title": "Who won the redistricting war? So far, it looks like Democrats",
       "summary": "Open the source for the full story.",
       "why": "Voters reward or punish the party in power for conditions they experience.",
@@ -60,6 +78,24 @@
       ],
       "signal": 2,
       "mechanism": "Referendum and retrospective voting",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Politics & Power: GOP redistricting backfires in Florida midterms; Amendment 3 reshapes state’s financial future",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "News4JAX",
+      "published": "2026-11-10T14:08:11Z",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQcmg5VWV0bUVCNkMzNEdEeEc4bktuc1BMcDBoVV85OC04elBjYVpoeEIwT0RKMkl4RDZOaXlnRlVXRU10UTZPTmxpcDk1X2dpMG9ObUFIT2dMUnA1RllMVzhRWlJXdS1BSzFWS25DZE9rNElDT0Vmd3hQSjA1Zmlmb2xRRFV4Q3UxZVo3WDlGTkc4ZENxUUIxX1RwUGdtVUZjS3lLdW5sVkJmUVppSDZtc2xwUkpYVWZuaFY0dThVMjBWenZBTjBhbVkwWVg4ZnhfYTNobjRVMGFET01ZeHFtcFZuM2ZvN2NwdTA2TjB4MA?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
@@ -81,6 +117,24 @@
       "watch": "The gap between each Senate margin and Trump’s 2024 margin."
     },
     {
+      "category": "Redistricting",
+      "title": "GOP's redistricting losses unlikely to end fight over congressional maps",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "WZTV",
+      "published": "2026-11-10T05:44:51Z",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbzk4czIyWElGbFN2X0ZKMTRJbjN1QXZLN3FWNjBJdFhIMWJqa2Z2Q016Z1hnZXM5dUxEaG5MX0ltRFYxMlo5TEhjeXJFbkh0LTdfY0FQaVVRZjRNS0psWlFwOTVfWnZlMUswWk9TWnJWN05YNVB4Z2Rib3RMMUZHYVREeHU4T1hQUjZJbm15YnpWeVRKb3dTVDBEaEc3YjRZWmJZM0VWeVpLSDk2aVgtNHlEQm8?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
       "category": "Senate",
       "title": "Troy Jackson defeated incumbent Sen. Susan Collins and six other candidates in the general election for the U.S. Senate in Maine",
       "summary": "Troy Jackson (D) defeated incumbent Sen. Susan Collins (R) and six other candidates in the general election for the U.S. Senate in Maine on November 3, 2026. Click here for detailed results. Collins' defeat made her the first U.S.",
@@ -97,60 +151,6 @@
       "signal": 2,
       "mechanism": "Incumbency and the personal vote",
       "watch": "Collins’s margin against the Republican candidate for governor, town by town."
-    },
-    {
-      "category": "Senate",
-      "title": "Sullivan campaign files motion against Peltola over rejected absentee ballot lawsuit",
-      "summary": "Sen. Dan Sullivan's (R-Alaska) campaign on Monday filed a motion against Alaska Senate candidate Mary Peltola's campaign to intervene in its rejected absentee ballot lawsuit.",
-      "why": "States run elections; federal actors and courts contest the edges.",
-      "source": "The Hill",
-      "published": "2026-11-09T21:56:43Z",
-      "url": "https://thehill.com/regulation/court-battles/6209007-sullivan-campaign-intervenes-peltola-lawsuit/",
-      "concepts": [
-        "federalism"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Federalism and election administration",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Senate",
-      "title": "Alaska Senate fight heats up as Sullivan moves to block Peltola lawsuit over rejected absentee ballot records",
-      "summary": "Dan Sullivan's campaign accuses Mary Peltola of trying to \"rig the system\" by suing Alaska's Division of Elections amid a razor-thin Senate race.",
-      "why": "States run elections; federal actors and courts contest the edges.",
-      "source": "Fox News",
-      "published": "2026-11-09T19:19:30Z",
-      "url": "https://www.foxnews.com/politics/alaska-senate-fight-heats-sullivan-moves-block-peltola-lawsuit-rejected-absentee-ballot-records",
-      "concepts": [
-        "federalism"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Federalism and election administration",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Redistricting",
-      "title": "Soto defends redistricted Florida House seat from GOP",
-      "summary": "Democratic Rep. Darren Soto (Fl.) is projected to survive a tough midterm challenge on Tuesday, defeating Republican Dan Green, a military veteran, to secure his sixth term on Capitol Hill, according to Decision Desk HQ.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "The Hill",
-      "published": "2026-11-09T20:44:47Z",
-      "url": "https://thehill.com/homenews/campaign/6184559-soto-wins-florida-house-reelection-redistricting/",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
 }
