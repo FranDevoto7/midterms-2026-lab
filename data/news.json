@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T10:52:17Z",
+  "updated_at": "2026-11-11T18:40:40Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -43,6 +43,24 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
+      "category": "Senate",
+      "title": "Judge weighs lawsuit brought by Peltola campaign over absentee ballots in Alaska's Senate race",
+      "summary": "The campaign of Alaska Democratic U.S. Senate candidate Mary Peltola is seeking a list of absentee voters whose ballots have been rejected in one of the most closely watched races of the midterm elections.",
+      "why": "States run elections; federal actors and courts contest the edges.",
+      "source": "PBS News",
+      "published": "2026-11-11T16:01:25Z",
+      "url": "https://www.pbs.org/newshour/politics/judge-weighs-lawsuit-brought-by-peltola-campaign-over-absentee-ballots-in-alaskas-us-senate-race",
+      "concepts": [
+        "federalism"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Federalism and election administration",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
       "category": "Redistricting",
       "title": "Redistricting wars largely backfire on Republicans as Democrats ride blue wave",
       "summary": "Open the source for the full story.",
@@ -67,8 +85,44 @@
       "summary": "Republicans undertook a historic effort to redraw several states' congressional districts mid-decade in an attempt to maintain control of the House.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
       "source": "CBS News",
-      "published": "2026-11-10T23:35:34Z",
+      "published": "2026-11-11T12:13:20Z",
       "url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "How Republican efforts to redraw congressional maps ‘failed epically’",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "The Guardian",
+      "published": "2026-11-11T14:38:00Z",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOFM3cFo1MWN3ZklUSkdFb3U3R29kZXNjaHo5VlZJN2pBd1JEZ2dKMjJFSUpBYTdqUWFBQURHSm1BVUlQX3llb0o5SDJwam5UV0VabENDOVZQckRMQ2U5bW1EajRzckUxZ29wV1RZQ25oN3dnYzU3S2hqWUZvV2FGMDFZZ2lCTjNORVJ5a0JZbw?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "After GOP flop, Dems torn on redistricting",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Arizona Capitol Times",
+      "published": "2026-11-11T16:14:52Z",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcF9URmpTOXNfSHl3S0dtdkNKZElDZGF1WFFySE9PNG5ZdmNEZTdaSVFjOUNPb3JhRmJkY0h5bWZHVjFuNFVOcmlYRHpFYkdhWV8xRjZscTE1WGRZeGNMd2hSVzh0OEl3S19sRjdjV2NvaFY2Q0xYM1NsSUNpYVNrT3ppTlF4WnVKNG94WWR3?oc=5",
       "concepts": [
         "redistricting"
       ],
@@ -96,60 +150,6 @@
       "signal": 2,
       "mechanism": "Direct democracy and policy design",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Mary Peltola’s campaign files lawsuit over Alaska Senate race absentee ballots — but judge predicts quick decision",
-      "summary": "Open the source for the full story.",
-      "why": "States run elections; federal actors and courts contest the edges.",
-      "source": "New York Post",
-      "published": "2026-11-11T03:48:00Z",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVnV0NGlkYkNtQ2wzdC1JY0FPUFJmRWRqTGxKdHg4Ym1CeURUT2l6X1BmVFdBZXlXbThQNWlzQ1hVNjRTYVc3cnVsLWpRcnp4Qk1IUFhuSnd2c2hFV3NKLThEU2VOQjh3cktrVU85RzFPcllVdXBIdFVpNEFxTy1yU3RXMEpWWUVVdlo1eDlfNHVtN0V4TW1tSTQ1ZlJlTFpqMG5PQUgzSlVwcmIwVmlXZ0RjdS1zRUlhOFlCazlRMW4zSHB4QlM1OXZCWXBGaGtaZkZ5RG1BdTFRaXdTYWNwdQ?oc=5",
-      "concepts": [
-        "federalism"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Federalism and election administration",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Redistricting",
-      "title": "Gov. Hochul keeps the door open to redrawing New York’s congressional map",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Gothamist",
-      "published": "2026-11-10T21:29:00Z",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNa2Q3eVNYSTQwNTRZdm9HMW9pbXlrdEV4WnVESHJwUlNzN1Zlb1JyTEZEeGUtelFUU3NzdHI5T1hTbXpDb0JVcVRRc05hdkNWU2tJcS1fVnhLbFM2Tmx3SUZGanFuYlo3TTg2X1hDQW9DamdRSUVJbGZwTVN0ekEzajhHTTU1VUpqdllzRFhUUjdYak9vdlc5MmZhMUYxU28?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Trump demands every Alaska vote against Peltola be awarded to Republican incumbent in latest assault on Senate race",
-      "summary": "Open the source for the full story.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "Democracy Docket",
-      "published": "2026-11-10T17:52:25Z",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPOXpfdFk0OGRONnhLTVkzc05NcWEtTHUzR1huOUl1T1VMNm9GZ1FrLW1JaXBZaUxvNjAtUGlLaTk4VHgxQjRKaGxHeVp0c3llWnZqXy1rOVZiUko5bzh6RjVUYUF5aExxX1NnVDBXNktSRk85aTJjcUlUUlh0aTRDS25NTmpvNmdwTjJSdVp6TTdtMmxydXBQbTN5ZDJ4eDFVeGR4Wi1FaTI3WVJiQnJQUzlzMDVPRnMtUHhLNEZOWndTdXg4RzdjTllCbWFiRS1telYwVWREUUtZZ1pZdlM1LUc4ZmtUemNzUzU3bXlINWxWUQ?oc=5",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     }
   ]
 }
