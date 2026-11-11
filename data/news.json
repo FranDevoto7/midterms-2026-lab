@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T23:16:21Z",
+  "updated_at": "2026-11-11T02:50:33Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -44,29 +44,11 @@
     },
     {
       "category": "Redistricting",
-      "title": "Kornacki: How Republicans’ redistricting gamble ended up ‘firing up’ Democrats in North Carolina",
-      "summary": "Republicans redrew more than a dozen Congressional districts before the midterm elections, yet their efforts seem to have backfired after the Democrats’ sweeping historic wins nationwide.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "NBC News",
-      "published": "2026-11-10T22:06:39Z",
-      "url": "https://www.nbcnews.com/meet-the-press/video/kornacki-how-republicans-redistricting-gamble-ended-up-firing-up-democrats-in-north-carolina-273235013706",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
       "title": "Did GOP efforts to redistrict the House turn into a dummymander?",
       "summary": "Republicans undertook a historic effort to redraw several states' congressional districts mid-decade in an attempt to maintain control of the House.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
       "source": "CBS News",
-      "published": "2026-11-10T20:45:37Z",
+      "published": "2026-11-10T23:35:34Z",
       "url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
       "concepts": [
         "redistricting"
@@ -80,21 +62,39 @@
     },
     {
       "category": "Redistricting",
-      "title": "GOP wipeout goes from bad to worse as Dems quietly score another major win with big ramifications",
-      "summary": "Democrats flipped legislative chambers in Wisconsin, Michigan, Arizona and other battleground states, creating trifectas that could reshape redistricting.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Fox News",
-      "published": "2026-11-10T14:45:47Z",
-      "url": "https://www.foxnews.com/politics/gop-wipeout-goes-bad-worse-dems-quietly-score-another-major-win-big-ramifications",
+      "title": "California GOP Rep. Ken Calvert defeats Rep. Young Kim in race for merged 40th District",
+      "summary": "Rep. Ken Calvert (R-Calif.) is projected to win the race for California's 40th Congressional District against fellow California Republican Rep.",
+      "why": "When voters legislate, drafting and implementation become the policy.",
+      "source": "The Hill",
+      "published": "2026-11-11T01:19:22Z",
+      "url": "https://thehill.com/homenews/campaign/6194420-calvert-wins-ca-40th-district/",
       "concepts": [
-        "redistricting"
+        "direct-democracy"
       ],
       "cases": [
         "redistricting"
       ],
       "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
+      "mechanism": "Direct democracy and policy design",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Senate",
+      "title": "Judge weighs lawsuit brought by Peltola campaign over absentee ballots in Alaska's US Senate race",
+      "summary": "Open the source for the full story.",
+      "why": "States run elections; federal actors and courts contest the edges.",
+      "source": "AP News",
+      "published": "2026-11-11T01:07:00Z",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcmJCX19oeTRWOEpPbDFlaGtEa2dvQVZIZWJQcTMzRnEybnlTcDFmMC1Qc1NUZDVLU2JOdDNuRF8wQ0NWdG1hNUtRLU5Xc3h5VmdIWnVQd01NTVQyb1lOS096M1VTU1VNcm90UmVKcTh2X3FpbWNtbFdrSzRPZHFsblVOSXNlU0lybG9oelJucndXUnFDWXhXLTFWeXFzRWpzem1jUENPRVhiUjg?oc=5",
+      "concepts": [
+        "federalism"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Federalism and election administration",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
       "category": "Redistricting",
@@ -116,6 +116,24 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
+      "category": "Redistricting",
+      "title": "Gov. Hochul keeps the door open to redrawing New York’s congressional map",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Gothamist",
+      "published": "2026-11-10T21:29:00Z",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNa2Q3eVNYSTQwNTRZdm9HMW9pbXlrdEV4WnVESHJwUlNzN1Zlb1JyTEZEeGUtelFUU3NzdHI5T1hTbXpDb0JVcVRRc05hdkNWU2tJcS1fVnhLbFM2Tmx3SUZGanFuYlo3TTg2X1hDQW9DamdRSUVJbGZwTVN0ekEzajhHTTU1VUpqdllzRFhUUjdYak9vdlc5MmZhMUYxU28?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
       "category": "Senate",
       "title": "Trump demands every Alaska vote against Peltola be awarded to Republican incumbent in latest assault on Senate race",
       "summary": "Open the source for the full story.",
@@ -132,24 +150,6 @@
       "signal": 2,
       "mechanism": "Incumbency and the personal vote",
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Redistricting",
-      "title": "David Crowley Keeps Flip-Flopping on Redistricting Wisconsin's Congressional Maps",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Townhall",
-      "published": "2026-11-10T19:30:43Z",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT0lwMGVuTWFNY00wSTgzX3ZQanFESTJTRUtqbm5JSEJXRS0tWmUyR2t3VkJjRE1JWXZXUEFuVkZtZkh4ZHJ0YXFZSHJ0UzlhOWlZOExiMGJmT1lPcklmYmhSeUIzUlNPa1dPLU9Zb1drQzNidVdGSUhkcGVBQm9WOW51YmNDbWpnd19TempyWllyZw?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
 }
