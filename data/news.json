@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-11-11T02:50:33Z",
+  "updated_at": "2026-11-11T10:52:17Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
+    {
+      "category": "Redistricting",
+      "title": "Who won the redistricting war? So far, it looks like Democrats",
+      "summary": "Open the source for the full story.",
+      "why": "Voters reward or punish the party in power for conditions they experience.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-11T10:24:33Z",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNT2pXNHZ6bVlpalZrcTRGTF9zM0lEanlSWEpxX1E1VF84OFkzZ3lEbURkdVY5V0ZxNlF6SnhZNVRacTZLSU5rR1JwRlY0MVVXM2FJQjJMVE9OTkhobHVaTGQtSVRRRzdvam40Q21yVFdNWkFFSXhFbEpualRQY1FMaEg1dWk0d9IBiwFBVV95cUxNdGxHR2Z2T000cFlEVDBvRTN1emRXNUdjdE1tT3Y2SzFxSGVvaWVoTkNCcDlPTFpMdTZtV2laYUlqTFpoMmZIR0NVSlV2anlGd0Znd1BkSTFZMFNIOXVQOXBrYUNWVHhmdW5QSjZCNGJ4Q25OYWtQdkdNVG5STURlbTlIVTJhVERDVHJN?oc=5",
+      "concepts": [
+        "referendum",
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Referendum and retrospective voting",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
     {
       "category": "Redistricting",
       "title": "Incumbent Vicente Gonzalez Jr. (D) defeated Eric Flores (R), Eddie Espinoza (G), and Chris Royal (L) to win the general election for Texas' 34th Congressional District",
@@ -28,9 +47,9 @@
       "title": "Redistricting wars largely backfire on Republicans as Democrats ride blue wave",
       "summary": "Open the source for the full story.",
       "why": "The president’s party usually loses House seats in midterms.",
-      "source": "WKEF",
-      "published": "2026-11-10T21:26:09Z",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUFl6M2lWeDl4dmJhZV9fcXM0eUpqak5iZngxMG9RMXlGaFFVak85blBmc05vaVVaY3JZUkN2ZDY5UWF1d2N5UjA0bDU2UG9PMl9sc1ZoOUMtanVjZHRsN3NvVGp2Vm01NEhIMjlFakVyTW1aRTh3RGdXRnlTNk5YUEhvdWZNM3ZVNmF0S1dlel82Zzg3ZmNGZm1tdnlTUmEyb2VvSGtlVkRHeUlJY1ZlM3BHWWVXV1BKYXhfMXI1VnZ6bjJJNUMyQ0xvR1B4eFBJODBJV1JYeHI?oc=5",
+      "source": "WBFF",
+      "published": "2026-11-10T21:29:44Z",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeF9FVnBpRGt5NmUzM0VZTUFhLWpnZW5MaHF0bDV4WHVuZEV3ZFhYWEtrZl9nem91WS13eXRxLUZ2cVF0eFZ4UVpwbWRKeHRmSFVpX25fMGVEWTVwNkNuTE03R2pvUnpYRlhYVnpvMmxORTNVZkZiaE1xQlk5ZjV6RkNXeFM5bzJUSjdMM2licHUtVTZZbVlBb044SjFuTnVOV2tES2gwMF91NXR3ZEVMbE1nN2xVVlM4RDEwM2NvR254Vm9DRGFaLXNyVFBnRjBmRDdZaG92Rlc?oc=5",
       "concepts": [
         "midterm-penalty",
         "redistricting"
@@ -80,12 +99,12 @@
     },
     {
       "category": "Senate",
-      "title": "Judge weighs lawsuit brought by Peltola campaign over absentee ballots in Alaska's US Senate race",
+      "title": "Mary Peltola’s campaign files lawsuit over Alaska Senate race absentee ballots — but judge predicts quick decision",
       "summary": "Open the source for the full story.",
       "why": "States run elections; federal actors and courts contest the edges.",
-      "source": "AP News",
-      "published": "2026-11-11T01:07:00Z",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcmJCX19oeTRWOEpPbDFlaGtEa2dvQVZIZWJQcTMzRnEybnlTcDFmMC1Qc1NUZDVLU2JOdDNuRF8wQ0NWdG1hNUtRLU5Xc3h5VmdIWnVQd01NTVQyb1lOS096M1VTU1VNcm90UmVKcTh2X3FpbWNtbFdrSzRPZHFsblVOSXNlU0lybG9oelJucndXUnFDWXhXLTFWeXFzRWpzem1jUENPRVhiUjg?oc=5",
+      "source": "New York Post",
+      "published": "2026-11-11T03:48:00Z",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVnV0NGlkYkNtQ2wzdC1JY0FPUFJmRWRqTGxKdHg4Ym1CeURUT2l6X1BmVFdBZXlXbThQNWlzQ1hVNjRTYVc3cnVsLWpRcnp4Qk1IUFhuSnd2c2hFV3NKLThEU2VOQjh3cktrVU85RzFPcllVdXBIdFVpNEFxTy1yU3RXMEpWWUVVdlo1eDlfNHVtN0V4TW1tSTQ1ZlJlTFpqMG5PQUgzSlVwcmIwVmlXZ0RjdS1zRUlhOFlCazlRMW4zSHB4QlM1OXZCWXBGaGtaZkZ5RG1BdTFRaXdTYWNwdQ?oc=5",
       "concepts": [
         "federalism"
       ],
@@ -95,25 +114,6 @@
       "signal": 2,
       "mechanism": "Federalism and election administration",
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Redistricting",
-      "title": "Who won the redistricting war? So far, it looks like Democrats",
-      "summary": "Open the source for the full story.",
-      "why": "Voters reward or punish the party in power for conditions they experience.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-09T20:29:28Z",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNT2pXNHZ6bVlpalZrcTRGTF9zM0lEanlSWEpxX1E1VF84OFkzZ3lEbURkdVY5V0ZxNlF6SnhZNVRacTZLSU5rR1JwRlY0MVVXM2FJQjJMVE9OTkhobHVaTGQtSVRRRzdvam40Q21yVFdNWkFFSXhFbEpualRQY1FMaEg1dWk0d9IBiwFBVV95cUxNdGxHR2Z2T000cFlEVDBvRTN1emRXNUdjdE1tT3Y2SzFxSGVvaWVoTkNCcDlPTFpMdTZtV2laYUlqTFpoMmZIR0NVSlV2anlGd0Znd1BkSTFZMFNIOXVQOXBrYUNWVHhmdW5QSjZCNGJ4Q25OYWtQdkdNVG5STURlbTlIVTJhVERDVHJN?oc=5",
-      "concepts": [
-        "referendum",
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Referendum and retrospective voting",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
       "category": "Redistricting",
