@@ -1,9 +1,63 @@
 {
-  "updated_at": "2026-11-12T09:46:57Z",
+  "updated_at": "2026-11-12T18:17:00Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
+    {
+      "category": "Senate",
+      "title": "Peltola campaign loses in court on rejected absentee ballots as she maintains narrow lead",
+      "summary": "Democratic Senate nominee Mary Peltola lost her court bid for ballot records and saw her narrow Alaska lead over Dan Sullivan shrink Wednesday.",
+      "why": "Nominations reveal bargaining among a party’s factions.",
+      "source": "Fox News",
+      "published": "2026-11-12T12:19:50Z",
+      "url": "https://www.foxnews.com/politics/peltola-campaign-loses-court-rejected-absentee-ballots-maintains-narrow-lead",
+      "concepts": [
+        "party-coalitions"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Party coalitions, primaries and nominations",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
+      "title": "Peltola holds lead, but Sullivan gains after latest Alaska Senate vote drop",
+      "summary": "Former Rep. Mary Peltola’s (D-Alaska) campaign said Wednesday that Sen. Dan Sullivan (R-Alaska) is running out of opportunities to overcome her lead in the state’s closely contested Senate race.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "The Hill",
+      "published": "2026-11-12T13:11:18Z",
+      "url": "https://thehill.com/homenews/campaign/6215353-mary-peltola-dan-sullivan-alaska-senate-race-update/",
+      "concepts": [
+        "incumbency"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Redistricting",
+      "title": "States consider redrawing their congressional maps",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Knewz",
+      "published": "2026-11-12T16:32:55Z",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPci1OWTFXMnlUOGRQRnhXbWNNeGltc0tXdjVETEZhTmtzbnh0ekRWdWd2TzlSR2pPd08tRVFGR01yRXNXQnMwOEhCakZtdHhtSzZOZXdHZ2wzY2ktbUVZZy0wRkNxQ0diUjByOEk4QVZfazZxTU1NX0dBWkJweE14OUdRYmpoZmFEMlc3UnBoUTRYQnRHdHpTRktFTnJ1WkhicUhDMTVacllXTnl4eDVrdXFKLWFSUQ?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
     {
       "category": "Redistricting",
       "title": "Kiley calls for 'reasonable' bipartisan response to redistricting 'plague'",
@@ -86,58 +140,6 @@
       "source": "CBS News",
       "published": "2026-11-11T12:13:20Z",
       "url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Michigan Senator-elect El Sayed discusses Democrats' ambitions",
-      "summary": "NPR's Leila Fadel speaks with U.S. Senator-elect Abdul El-Sayed (D-Mich.) about his win in the midterms and what's at the top of his agenda once he begins his first term in Congress.",
-      "why": "",
-      "source": "NPR",
-      "published": "2026-11-12T09:27:07Z",
-      "url": "https://www.npr.org/2026/11/12/nx-s1-6034464/michigan-senator-elect-el-sayed-discusses-democrats-ambitions",
-      "concepts": [],
-      "cases": [
-        "michigan"
-      ],
-      "signal": 2,
-      "mechanism": "",
-      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
-    },
-    {
-      "category": "Redistricting",
-      "title": "How Republican efforts to redraw congressional maps ‘failed epically’",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "The Guardian",
-      "published": "2026-11-11T14:38:00Z",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOFM3cFo1MWN3ZklUSkdFb3U3R29kZXNjaHo5VlZJN2pBd1JEZ2dKMjJFSUpBYTdqUWFBQURHSm1BVUlQX3llb0o5SDJwam5UV0VabENDOVZQckRMQ2U5bW1EajRzckUxZ29wV1RZQ25oN3dnYzU3S2hqWUZvV2FGMDFZZ2lCTjNORVJ5a0JZbw?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "After GOP flop, Dems torn on redistricting",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Arizona Capitol Times",
-      "published": "2026-11-11T16:14:52Z",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcF9URmpTOXNfSHl3S0dtdkNKZElDZGF1WFFySE9PNG5ZdmNEZTdaSVFjOUNPb3JhRmJkY0h5bWZHVjFuNFVOcmlYRHpFYkdhWV8xRjZscTE1WGRZeGNMd2hSVzh0OEl3S19sRjdjV2NvaFY2Q0xYM1NsSUNpYVNrT3ppTlF4WnVKNG94WWR3?oc=5",
       "concepts": [
         "redistricting"
       ],
