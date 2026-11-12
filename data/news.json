@@ -1,9 +1,45 @@
 {
-  "updated_at": "2026-11-12T18:17:00Z",
+  "updated_at": "2026-11-12T23:41:04Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
+    {
+      "category": "Senate",
+      "title": "Alaska judge rules a request by Peltola campaign for ballot data in Senate race is 'not reasonable'",
+      "summary": "An Alaska judge ruled Wednesday that a request by Democratic U.S.",
+      "why": "States run elections; federal actors and courts contest the edges.",
+      "source": "PBS News",
+      "published": "2026-11-12T20:24:30Z",
+      "url": "https://www.pbs.org/newshour/politics/alaska-judge-rules-a-request-by-peltola-campaign-for-ballot-data-in-senate-race-is-not-reasonable",
+      "concepts": [
+        "federalism"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Federalism and election administration",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
+      "title": "Cindy Holscher wins Kansas governor's mansion, keeping it in Democrats' hands",
+      "summary": "Kansas state Sen. Cindy Holscher (D) was projected to win the state's gubernatorial race, according to Decision Desk HQ (DDHQ), keeping the office in Democratic hands and denying Republicans one of their best pickup opportunities this year.",
+      "why": "Trusted figures help voters infer which choice fits their values.",
+      "source": "The Hill",
+      "published": "2026-11-12T20:04:59Z",
+      "url": "https://thehill.com/homenews/campaign/6190120-cindy-holscher-kansas-governor-race/",
+      "concepts": [
+        "elite-cues"
+      ],
+      "cases": [
+        "reach"
+      ],
+      "signal": 2,
+      "mechanism": "Elite cues and endorsements",
+      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
+    },
     {
       "category": "Senate",
       "title": "Peltola campaign loses in court on rejected absentee ballots as she maintains narrow lead",
@@ -42,30 +78,12 @@
     },
     {
       "category": "Redistricting",
-      "title": "States consider redrawing their congressional maps",
+      "title": "‘The redistricting arms race is not going to come to an end any time soon,' expert says as several states consider redrawing their congressional maps before the 2028 presidential election",
       "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
       "source": "Knewz",
       "published": "2026-11-12T16:32:55Z",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPci1OWTFXMnlUOGRQRnhXbWNNeGltc0tXdjVETEZhTmtzbnh0ekRWdWd2TzlSR2pPd08tRVFGR01yRXNXQnMwOEhCakZtdHhtSzZOZXdHZ2wzY2ktbUVZZy0wRkNxQ0diUjByOEk4QVZfazZxTU1NX0dBWkJweE14OUdRYmpoZmFEMlc3UnBoUTRYQnRHdHpTRktFTnJ1WkhicUhDMTVacllXTnl4eDVrdXFKLWFSUQ?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Kiley calls for 'reasonable' bipartisan response to redistricting 'plague'",
-      "summary": "Outgoing Rep.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "The Hill",
-      "published": "2026-11-11T21:55:54Z",
-      "url": "https://thehill.com/homenews/campaign/6214433-kiley-calls-partisan-redistricting-plague/",
       "concepts": [
         "redistricting"
       ],
@@ -96,31 +114,13 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
-      "category": "Senate",
-      "title": "Judge weighs lawsuit brought by Peltola campaign over absentee ballots in Alaska's Senate race",
-      "summary": "The campaign of Alaska Democratic U.S. Senate candidate Mary Peltola is seeking a list of absentee voters whose ballots have been rejected in one of the most closely watched races of the midterm elections.",
-      "why": "States run elections; federal actors and courts contest the edges.",
-      "source": "PBS News",
-      "published": "2026-11-11T16:01:25Z",
-      "url": "https://www.pbs.org/newshour/politics/judge-weighs-lawsuit-brought-by-peltola-campaign-over-absentee-ballots-in-alaskas-us-senate-race",
-      "concepts": [
-        "federalism"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Federalism and election administration",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
       "category": "Redistricting",
       "title": "Redistricting wars largely backfire on Republicans as Democrats ride blue wave",
       "summary": "Open the source for the full story.",
       "why": "The president’s party usually loses House seats in midterms.",
-      "source": "WBFF",
-      "published": "2026-11-10T21:29:44Z",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeF9FVnBpRGt5NmUzM0VZTUFhLWpnZW5MaHF0bDV4WHVuZEV3ZFhYWEtrZl9nem91WS13eXRxLUZ2cVF0eFZ4UVpwbWRKeHRmSFVpX25fMGVEWTVwNkNuTE03R2pvUnpYRlhYVnpvMmxORTNVZkZiaE1xQlk5ZjV6RkNXeFM5bzJUSjdMM2licHUtVTZZbVlBb044SjFuTnVOV2tES2gwMF91NXR3ZEVMbE1nN2xVVlM4RDEwM2NvR254Vm9DRGFaLXNyVFBnRjBmRDdZaG92Rlc?oc=5",
+      "source": "WLOS",
+      "published": "2026-11-10T21:56:15Z",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQLXhQSEJFVGJaUjlMWXRSTXJBc1FBQlFYNnBhdklEdFRNQkFnSmxEeklCRG5QcDdsSzVoX0RTNXBYc0MweUJvaEROaG82Nnp0aFRuZm1fTHNZOUxRNVNuSXI2eXZqR015MmVQUzhJbVlxWWNGV2FFZTh4ejRDNXhyX2hURlpZano1U0FHUmNyc09fb1dlVVdSMzNETEZCUFUzV2M1ZzZHcFBYYkFGWGs0bFgyTU1mdzkyU1lmR1h5R1Rvc2VZdnJ3X3d3NkxJOVVjZ0NIUkI1OEVrWkJMTXdEeGFITUlIeEtJaWpB?oc=5",
       "concepts": [
         "midterm-penalty",
         "redistricting"
@@ -138,7 +138,7 @@
       "summary": "Republicans undertook a historic effort to redraw several states' congressional districts mid-decade in an attempt to maintain control of the House.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
       "source": "CBS News",
-      "published": "2026-11-11T12:13:20Z",
+      "published": "2026-11-11T12:13:00Z",
       "url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
       "concepts": [
         "redistricting"

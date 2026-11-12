@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T18:40:47Z",
+  "updated_at": "2026-11-12T23:41:12Z",
   "house_net_change_presidents_party": -40,
   "cases": {},
   "senate": {
@@ -480,6 +480,14 @@
       "source": "AP",
       "url": "https://www.keloland.com/keloland-com-original/governors-race-ahlers-vs-rhoden/",
       "at": "2026-11-04T04:45:00Z"
+    },
+    "KS": {
+      "winner": "D",
+      "source": "NPR, PBS News, Fox News",
+      "auto": true,
+      "at": "2026-11-12T23:41:11Z",
+      "issue": 85,
+      "url": "https://www.npr.org/2026/11/12/g-s1-151187/holscher-kansas-masterson-governor-midterms"
     }
   },
   "house": {
@@ -494,8 +502,8 @@
   },
   "house_auto": {
     "source": "Wikipedia",
-    "called": 423,
+    "called": 424,
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
-    "at": "2026-11-11T18:40:47Z"
+    "at": "2026-11-12T23:41:12Z"
   }
 }
