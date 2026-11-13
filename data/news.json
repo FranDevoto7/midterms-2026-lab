@@ -1,9 +1,27 @@
 {
-  "updated_at": "2026-11-12T23:41:04Z",
+  "updated_at": "2026-11-13T06:39:36Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
+    {
+      "category": "Senate",
+      "title": "Abdul El-Sayed on Democratic leadership, health care access and inspiring a new generation",
+      "summary": "The new Democratic senators are in Washington for orientation and are already facing tough questions about how they plan to govern. One is Abdul El-Sayed of Michigan, the first Muslim elected to the Senate.",
+      "why": "Money buys communication and organization, but it follows competitiveness.",
+      "source": "PBS News",
+      "published": "2026-11-12T23:35:14Z",
+      "url": "https://www.pbs.org/newshour/show/abdul-el-sayed-on-democratic-leadership-health-care-access-and-inspiring-a-new-generation",
+      "concepts": [
+        "campaign-finance"
+      ],
+      "cases": [
+        "michigan"
+      ],
+      "signal": 2,
+      "mechanism": "Campaign finance and outside spending",
+      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+    },
     {
       "category": "Senate",
       "title": "Alaska judge rules a request by Peltola campaign for ballot data in Senate race is 'not reasonable'",
@@ -95,60 +113,36 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
-      "category": "Redistricting",
-      "title": "Incumbent Vicente Gonzalez Jr. (D) defeated Eric Flores (R), Eddie Espinoza (G), and Chris Royal (L) to win the general election for Texas' 34th Congressional District",
-      "summary": "Open the source for the full story.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "Ballotpedia News",
-      "published": "2026-11-10T21:31:13Z",
-      "url": "https://news.ballotpedia.org/2026/11/10/incumbent-vicente-gonzalez-jr-d-defeated-eric-flores-r-eddie-espinoza-g-and-chris-royal-l-to-win-the-general-election-for-texas-34th-congressional-district/",
-      "concepts": [
-        "incumbency",
-        "redistricting"
-      ],
+      "category": "Senate",
+      "title": "Democrats can’t wait until after Trump to produce results, James Talarico says",
+      "summary": "DENVER — Texas Sen.-elect James Talarico told a gathering of Democrats Thursday that voters are expecting them to immediately deliver, and that means making President Donald Trump’s last two years in office the “most productive of any…",
+      "why": "",
+      "source": "NBC News",
+      "published": "2026-11-13T01:28:48Z",
+      "url": "https://www.nbcnews.com/politics/2026-election/democrats-cant-wait-trump-produce-results-james-talarico-says-rcna609096",
+      "concepts": [],
       "cases": [
-        "redistricting"
+        "texas"
       ],
       "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+      "mechanism": "",
+      "watch": "Paxton’s margin against Abbott’s, county by county."
     },
     {
-      "category": "Redistricting",
-      "title": "Redistricting wars largely backfire on Republicans as Democrats ride blue wave",
+      "category": "Senate",
+      "title": "JKT tops 50% in Alaska governor’s race as Peltola extends Senate lead",
       "summary": "Open the source for the full story.",
-      "why": "The president’s party usually loses House seats in midterms.",
-      "source": "WLOS",
-      "published": "2026-11-10T21:56:15Z",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQLXhQSEJFVGJaUjlMWXRSTXJBc1FBQlFYNnBhdklEdFRNQkFnSmxEeklCRG5QcDdsSzVoX0RTNXBYc0MweUJvaEROaG82Nnp0aFRuZm1fTHNZOUxRNVNuSXI2eXZqR015MmVQUzhJbVlxWWNGV2FFZTh4ejRDNXhyX2hURlpZano1U0FHUmNyc09fb1dlVVdSMzNETEZCUFUzV2M1ZzZHcFBYYkFGWGs0bFgyTU1mdzkyU1lmR1h5R1Rvc2VZdnJ3X3d3NkxJOVVjZ0NIUkI1OEVrWkJMTXdEeGFITUlIeEtJaWpB?oc=5",
-      "concepts": [
-        "midterm-penalty",
-        "redistricting"
-      ],
+      "why": "",
+      "source": "Alaska Public Media",
+      "published": "2026-11-13T04:21:00Z",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdEVQWklvTk9YZHdxMTF2eUdBSnpCNzk4MENqenFLWXRQREpub2tnZXI0M1VsS1luM24zTERRQzVjd1k3dno2dWZMMkhyWEkzbFpJdmg0ZWI1eEo0TzZ6UXduVG1nb2djY3huZmFycmhkWWwxMzFhbE1tUVZHdEJkY1NYNV8zRUNCZlc4RW1zZGpOMnJCUVZoRFZWeDNqeHBjcFBMT25PSTJlSExmYXlYTTJVbjBPUU51cXZzZEYwb2FFYmh6aUE?oc=5",
+      "concepts": [],
       "cases": [
-        "redistricting"
+        "alaska"
       ],
       "signal": 2,
-      "mechanism": "Midterm penalty",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Did GOP efforts to redistrict the House turn into a dummymander?",
-      "summary": "Republicans undertook a historic effort to redraw several states' congressional districts mid-decade in an attempt to maintain control of the House.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "CBS News",
-      "published": "2026-11-11T12:13:00Z",
-      "url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+      "mechanism": "",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     }
   ]
 }

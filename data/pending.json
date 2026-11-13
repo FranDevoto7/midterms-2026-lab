@@ -1087,7 +1087,8 @@
       "ap": true,
       "issue": 85,
       "status": "auto",
-      "opened": "2026-11-12T23:41:11Z"
+      "opened": "2026-11-12T23:41:11Z",
+      "seen": "2026-11-12T23:41:11Z"
     }
   },
   "milestones": {
@@ -1374,7 +1375,8 @@
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNemtNZi1aWk9UdUtlNmxXV1dKeFE5SldQNXZLQ0h6U2NTb0syTUxmTDNsN3BMQ3RYNktZRXFwbkYxcF8taU5oNmFCOVFNUTNuOEFublpONV8xZlAwU2otS19Ba2daVWd5ai1SekxTdW1SQnBVOExXckNmYUhlWFBTaDNBUF92T0VYRE1QRmVSQVJWTFltOVNjTGxYZmFoaTNiU0xPTnprc09xSHplUzFmZTJkbFJXeUkxSmpSUk9jR0YyV1ZGUVZGS2VvX0U3LU5MWU9nYWtR?oc=5",
       "issue": 86,
       "status": "open",
-      "opened": "2026-11-12T23:41:11Z"
+      "opened": "2026-11-12T23:41:11Z",
+      "seen": "2026-11-12T23:41:11Z"
     }
   }
 }
