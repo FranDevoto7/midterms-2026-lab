@@ -1,26 +1,83 @@
 {
-  "updated_at": "2026-11-13T15:22:36Z",
+  "updated_at": "2026-11-13T21:58:10Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
     {
       "category": "Senate",
-      "title": "Alaska Senate Race 2026 Midterm Results | Peltola vs Sullivan Polls: Live Kalshi & Polymarket Alaska Senate Race Prices (Nov 13)",
-      "summary": "Open the source for the full story.",
+      "title": "Trump and Zohran sitting in a tree…",
+      "summary": "FRIENDS WITH (SNAP) BENEFITS: New York City Mayor Zohran Mamdani unveiled the latest perk of his chummy relationship with President Donald Trump, announcing a deal today that will give stores across the country more time to comply with…",
       "why": "Voters reward or punish the party in power for conditions they experience.",
-      "source": "Action Network",
-      "published": "2026-11-13T14:19:00Z",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPNUJ3amRJaVNEcTNjaFlzR1gtU3ZsMjB1SGZYVU8taFN3ZThKcFdiVzBRYTRUaVZxQzdkRHJZZFBrTEVEMTdWVWgtWUJXTFh4SEJFN1k0R2liOW4xSDBTMFhWWTROUlhtakJoZDNocXV2OUlHdC05ZzNvbkhPN3pFaVIzVVhiYVF5OXVDakVyekRCWFVWcG8weVJ4R2lOZ0RWU2pBQUh4VGhqQW5GdEQzZ0pwbFp3MkRPS0VNejQxa1RGSzZpX1pDWVQyNUpxSDNoN0ZWV05kRV9JczBhNnp0a0w5VVRCTlZJOGhoRQ?oc=5",
+      "source": "Politico",
+      "published": "2026-11-13T21:55:50Z",
+      "url": "https://www.politico.com/newsletters/new-york-playbook-pm/2026/11/13/trump-and-zohran-sitting-in-a-tree-01166061",
       "concepts": [
-        "referendum"
+        "referendum",
+        "candidate-quality",
+        "campaign-finance"
       ],
       "cases": [
-        "alaska"
+        "michigan",
+        "redistricting"
       ],
       "signal": 2,
       "mechanism": "Referendum and retrospective voting",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+    },
+    {
+      "category": "Senate",
+      "title": "Ocasio-Cortez: Stevens has 'been with the Republicans' since Congress returned",
+      "summary": "Rep. Alexandria Ocasio-Cortez (D-N.Y.) said Rep. Haley Stevens (D-Mich.) has “been with the Republicans” since Congress returned, after the Michigan Democrat endorsed former Rep. Mike Rogers (R-Mich.) in the midterms.",
+      "why": "Trusted figures help voters infer which choice fits their values.",
+      "source": "The Hill",
+      "published": "2026-11-13T20:58:47Z",
+      "url": "https://thehill.com/homenews/campaign/6219619-ocasio-cortez-stevens-republicans/",
+      "concepts": [
+        "elite-cues"
+      ],
+      "cases": [
+        "michigan"
+      ],
+      "signal": 2,
+      "mechanism": "Elite cues and endorsements",
+      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+    },
+    {
+      "category": "Redistricting",
+      "title": "Did the Redistricting Wars Backfire on Republicans? In a Word, No.",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "The New York Times",
+      "published": "2026-11-13T21:22:23Z",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdDB5emdHREx4VHlzT3BVYlhYcGZ6OExpR01SVzFlWHRaeWxTMHp1UTZyUHF2bFpQbWZMMHZUeTVwZWMwYmNXSS01XzVlSkZyNDM1TW9PTksxNmZySWVGc2Z5RDJoeHBHczlmZ2F6ZUZEQXJRWUpvSF9VTGpLcW1NYWo3WHluMHM4NFlZX3BkaG9TNTA?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Senate",
+      "title": "Karl Rove: Texas midterms ‘would have been different’ if Cornyn received Senate nomination over Paxton",
+      "summary": "Open the source for the full story.",
+      "why": "Nominations reveal bargaining among a party’s factions.",
+      "source": "Houston Public Media",
+      "published": "2026-11-13T14:18:47Z",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbVkwVXpMSnFGMkRPbVh0dEdUN0U1bU1mMWV5cG9lUUdsSzNRZzFLcWFScXBsUDZzLVhuNV9MSXN4Vk9KS1RYYm5IT3Y0Rk9TM0VzanVVb0R4d3FjUGV6M0V5eVJJSWRtU3FzcUN0MkE2ZnJEQmh1V0Q2a1paNEUzZ29fd0xONTJNcEVv0gGTAUFVX3lxTE0ydk1RaHBubFlKYUpzdHVoRlBHT1lRMzhHbWstNlBhTXI0di1reVQ1d2hCbXJIb2pqNTYxVWZYQ3NpLVE0NEVpUk9ET0ozWlNvX1pBZ3Y4WFlPQW5weHFDMXB1MnhaY2l3RzNRZ19xMzItTUhDTmJ4c3ZoREhBMHAtcUVnbTRKWmlZbTAyalQtWjAwRQ?oc=5",
+      "concepts": [
+        "party-coalitions"
+      ],
+      "cases": [
+        "texas"
+      ],
+      "signal": 2,
+      "mechanism": "Party coalitions, primaries and nominations",
+      "watch": "Paxton’s margin against Abbott’s, county by county."
     },
     {
       "category": "Redistricting",
@@ -78,66 +135,12 @@
     },
     {
       "category": "Senate",
-      "title": "Cindy Holscher wins Kansas governor's mansion, keeping it in Democrats' hands",
-      "summary": "Kansas state Sen. Cindy Holscher (D) was projected to win the state's gubernatorial race, according to Decision Desk HQ (DDHQ), keeping the office in Democratic hands and denying Republicans one of their best pickup opportunities this year.",
-      "why": "Trusted figures help voters infer which choice fits their values.",
-      "source": "The Hill",
-      "published": "2026-11-12T20:04:59Z",
-      "url": "https://thehill.com/homenews/campaign/6190120-cindy-holscher-kansas-governor-race/",
-      "concepts": [
-        "elite-cues"
-      ],
-      "cases": [
-        "reach"
-      ],
-      "signal": 2,
-      "mechanism": "Elite cues and endorsements",
-      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
-    },
-    {
-      "category": "Economy and war",
-      "title": "These swing voters have low expectations for divided government",
-      "summary": "Key voters in North Carolina are pessimistic the blue wave flipping control of Congress will solve their economic woes. Many say President Trump will be the chief obstacle.",
-      "why": "The president’s party usually loses House seats in midterms.",
-      "source": "NPR",
-      "published": "2026-11-13T10:00:00Z",
-      "url": "https://www.npr.org/2026/11/13/nx-s1-6035826/north-carolina-swing-voters-congress-trump",
-      "concepts": [
-        "midterm-penalty",
-        "referendum",
-        "veto-players"
-      ],
-      "cases": [],
-      "signal": 1,
-      "mechanism": "Midterm penalty",
-      "watch": "Net House seat change, the national House vote, and whether losses concentrate in seats the president’s party won narrowly in 2024."
-    },
-    {
-      "category": "Redistricting",
-      "title": "‘The redistricting arms race is not going to come to an end any time soon,' expert says as several states consider redrawing their congressional maps before the 2028 presidential election",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Knewz",
-      "published": "2026-11-12T16:32:55Z",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPci1OWTFXMnlUOGRQRnhXbWNNeGltc0tXdjVETEZhTmtzbnh0ekRWdWd2TzlSR2pPd08tRVFGR01yRXNXQnMwOEhCakZtdHhtSzZOZXdHZ2wzY2ktbUVZZy0wRkNxQ0diUjByOEk4QVZfazZxTU1NX0dBWkJweE14OUdRYmpoZmFEMlc3UnBoUTRYQnRHdHpTRktFTnJ1WkhicUhDMTVacllXTnl4eDVrdXFKLWFSUQ?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Mary Peltola’s Path to Winning Alaska Senate Race Outright",
-      "summary": "Open the source for the full story.",
+      "title": "Peltola vs. Sullivan not alone: 24 Alaska races still too close to call",
+      "summary": "Twenty-four races for federal and state office in Alaska remain uncalled more than a week after Election Day, including the closely watched U.S. Senate contest, as votes from across the expansive state trickle in.",
       "why": "",
-      "source": "Newsweek",
-      "published": "2026-11-13T13:56:00Z",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNHZnT3ZhaGJLakJmbC0xa2szVjhVYXk1RU54QWNvbWxjTjlfLW9wQUtTN1F1b2ZCVVk4dnk5aG9qUE14eWdZMVducmtUOHUyR3JnRGZvUXBicGxZSlZWZy1hckhGakxOTlhSckM2OHh3SkVvSUE0MUV1Z0VtZWkyano5bkw2d0o1VTd0NHd0bHc?oc=5",
+      "source": "The Hill",
+      "published": "2026-11-13T21:11:08Z",
+      "url": "https://thehill.com/homenews/campaign/6219645-peltola-sullivan-alaska-races-ranked-choice/",
       "concepts": [],
       "cases": [
         "alaska"
