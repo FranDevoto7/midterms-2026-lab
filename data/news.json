@@ -1,9 +1,45 @@
 {
-  "updated_at": "2026-11-13T06:39:36Z",
+  "updated_at": "2026-11-13T15:22:36Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
+    {
+      "category": "Senate",
+      "title": "Alaska Senate Race 2026 Midterm Results | Peltola vs Sullivan Polls: Live Kalshi & Polymarket Alaska Senate Race Prices (Nov 13)",
+      "summary": "Open the source for the full story.",
+      "why": "Voters reward or punish the party in power for conditions they experience.",
+      "source": "Action Network",
+      "published": "2026-11-13T14:19:00Z",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPNUJ3amRJaVNEcTNjaFlzR1gtU3ZsMjB1SGZYVU8taFN3ZThKcFdiVzBRYTRUaVZxQzdkRHJZZFBrTEVEMTdWVWgtWUJXTFh4SEJFN1k0R2liOW4xSDBTMFhWWTROUlhtakJoZDNocXV2OUlHdC05ZzNvbkhPN3pFaVIzVVhiYVF5OXVDakVyekRCWFVWcG8weVJ4R2lOZ0RWU2pBQUh4VGhqQW5GdEQzZ0pwbFp3MkRPS0VNejQxa1RGSzZpX1pDWVQyNUpxSDNoN0ZWV05kRV9JczBhNnp0a0w5VVRCTlZJOGhoRQ?oc=5",
+      "concepts": [
+        "referendum"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Referendum and retrospective voting",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Redistricting",
+      "title": "‘Dodged a bullet’: Republican redistricting would likely have backfired in Indiana",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Purdue Exponent",
+      "published": "2026-11-13T13:00:00Z",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbHZSM0N5cXp2aTRxLVo0TF9ZTjJIM3kybkFuckNnMjRLZlA5SFQxbWowVUVVbUZNZE94bzVDaTZlTWJ5dEZCbk9zcHl6UjUyUGtxQTM2bWxlODJMRktLM1E0MlQtNHNZbXZKYzc1SHJGWHY1TEF1SWkydmN3Z2F3U2p2U0hveXBZRnZUUU5ha0dOcGg1RGxEb3pIWEI3eWJsLVROMWl5TTNpamJncm1xa2Q3UXVSdk04bjBOZWNVdnRKWEJndFlBOWxtN1E3QTh1TzJ0aWRRWno?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
     {
       "category": "Senate",
       "title": "Abdul El-Sayed on Democratic leadership, health care access and inspiring a new generation",
@@ -59,40 +95,22 @@
       "watch": "The gap between each Senate margin and Trump’s 2024 margin."
     },
     {
-      "category": "Senate",
-      "title": "Peltola campaign loses in court on rejected absentee ballots as she maintains narrow lead",
-      "summary": "Democratic Senate nominee Mary Peltola lost her court bid for ballot records and saw her narrow Alaska lead over Dan Sullivan shrink Wednesday.",
-      "why": "Nominations reveal bargaining among a party’s factions.",
-      "source": "Fox News",
-      "published": "2026-11-12T12:19:50Z",
-      "url": "https://www.foxnews.com/politics/peltola-campaign-loses-court-rejected-absentee-ballots-maintains-narrow-lead",
+      "category": "Economy and war",
+      "title": "These swing voters have low expectations for divided government",
+      "summary": "Key voters in North Carolina are pessimistic the blue wave flipping control of Congress will solve their economic woes. Many say President Trump will be the chief obstacle.",
+      "why": "The president’s party usually loses House seats in midterms.",
+      "source": "NPR",
+      "published": "2026-11-13T10:00:00Z",
+      "url": "https://www.npr.org/2026/11/13/nx-s1-6035826/north-carolina-swing-voters-congress-trump",
       "concepts": [
-        "party-coalitions"
+        "midterm-penalty",
+        "referendum",
+        "veto-players"
       ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Party coalitions, primaries and nominations",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Senate",
-      "title": "Peltola holds lead, but Sullivan gains after latest Alaska Senate vote drop",
-      "summary": "Former Rep. Mary Peltola’s (D-Alaska) campaign said Wednesday that Sen. Dan Sullivan (R-Alaska) is running out of opportunities to overcome her lead in the state’s closely contested Senate race.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "The Hill",
-      "published": "2026-11-12T13:11:18Z",
-      "url": "https://thehill.com/homenews/campaign/6215353-mary-peltola-dan-sullivan-alaska-senate-race-update/",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+      "cases": [],
+      "signal": 1,
+      "mechanism": "Midterm penalty",
+      "watch": "Net House seat change, the national House vote, and whether losses concentrate in seats the president’s party won narrowly in 2024."
     },
     {
       "category": "Redistricting",
@@ -114,28 +132,12 @@
     },
     {
       "category": "Senate",
-      "title": "Democrats can’t wait until after Trump to produce results, James Talarico says",
-      "summary": "DENVER — Texas Sen.-elect James Talarico told a gathering of Democrats Thursday that voters are expecting them to immediately deliver, and that means making President Donald Trump’s last two years in office the “most productive of any…",
-      "why": "",
-      "source": "NBC News",
-      "published": "2026-11-13T01:28:48Z",
-      "url": "https://www.nbcnews.com/politics/2026-election/democrats-cant-wait-trump-produce-results-james-talarico-says-rcna609096",
-      "concepts": [],
-      "cases": [
-        "texas"
-      ],
-      "signal": 2,
-      "mechanism": "",
-      "watch": "Paxton’s margin against Abbott’s, county by county."
-    },
-    {
-      "category": "Senate",
-      "title": "JKT tops 50% in Alaska governor’s race as Peltola extends Senate lead",
+      "title": "Mary Peltola’s Path to Winning Alaska Senate Race Outright",
       "summary": "Open the source for the full story.",
       "why": "",
-      "source": "Alaska Public Media",
-      "published": "2026-11-13T04:21:00Z",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdEVQWklvTk9YZHdxMTF2eUdBSnpCNzk4MENqenFLWXRQREpub2tnZXI0M1VsS1luM24zTERRQzVjd1k3dno2dWZMMkhyWEkzbFpJdmg0ZWI1eEo0TzZ6UXduVG1nb2djY3huZmFycmhkWWwxMzFhbE1tUVZHdEJkY1NYNV8zRUNCZlc4RW1zZGpOMnJCUVZoRFZWeDNqeHBjcFBMT25PSTJlSExmYXlYTTJVbjBPUU51cXZzZEYwb2FFYmh6aUE?oc=5",
+      "source": "Newsweek",
+      "published": "2026-11-13T13:56:00Z",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNHZnT3ZhaGJLakJmbC0xa2szVjhVYXk1RU54QWNvbWxjTjlfLW9wQUtTN1F1b2ZCVVk4dnk5aG9qUE14eWdZMVducmtUOHUyR3JnRGZvUXBicGxZSlZWZy1hckhGakxOTlhSckM2OHh3SkVvSUE0MUV1Z0VtZWkyano5bkw2d0o1VTd0NHd0bHc?oc=5",
       "concepts": [],
       "cases": [
         "alaska"
