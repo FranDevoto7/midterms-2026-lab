@@ -1111,7 +1111,8 @@
       "ap": false,
       "issue": 87,
       "status": "auto",
-      "opened": "2026-11-14T10:20:12Z"
+      "opened": "2026-11-14T10:20:12Z",
+      "seen": "2026-11-14T10:20:12Z"
     }
   },
   "milestones": {
