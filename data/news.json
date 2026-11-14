@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T17:03:54Z",
+  "updated_at": "2026-11-14T21:28:00Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -48,9 +48,9 @@
       "title": "Alaska Senate race places spotlight on ranked choice voting",
       "summary": "Open the source for the full story.",
       "why": "Ranked ballots, primary systems and ballot layout shape incentives and outcomes.",
-      "source": "Yahoo",
-      "published": "2026-11-14T15:06:02Z",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPalZHNXM3U01YM1hkcmVobDF5TGVwYk9aZkNjMjdjWVRrNE9Rd2pyYlNjRVNQV2JXeWRyNmpleWxrcnB0NTJMa2tmRGcxSC1QQ3VkbkRfOFVHeXl4cGRoTmhtWXN4SHBzWFZGZXZBeFV2UVcwY25iVXFER0FsbEZ0dk5mMk9tUS1nb29DVQ?oc=5",
+      "source": "Modern Ghana",
+      "published": "2026-11-14T17:10:00Z",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XaThrb2xiVlZSZ28zaW5EUzdKUmFUdHlodG1BQVN6Nm1PaEFXelB0LTEwb2plUlh1MTJPa2FQQ0dfWHhBNjVxMi1kenBFN3E5Zm1NREdqeXV0Q1Vnd1VF0gFcQVVfeXFMTnVJWlo5NUdyS1FlclZuNTd5YV9tUFhuOTNjbVk0QzFobkhMeVkwQjlSSVlRNmUzSEVpY0NuclBYSVlDdWxSbTQxQS1ibUNuSTU1Z1IwWE5BN0RybUY?oc=5",
       "concepts": [
         "electoral-rules"
       ],
@@ -99,6 +99,22 @@
     },
     {
       "category": "Senate",
+      "title": "Democrat Mary Peltola is likely to win Alaska’s Senate race, as vote counting continues",
+      "summary": "Former Democratic Rep. Mary Peltola is likely to win Alaska’s Senate race, according to an NBC News Decision Desk analysis, as vote-counting continues in the state.",
+      "why": "",
+      "source": "NBC News",
+      "published": "2026-11-14T20:52:49Z",
+      "url": "https://www.nbcnews.com/politics/2026-election/democrat-mary-peltola-likely-win-alaska-senate-race-rcna608673",
+      "concepts": [],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
       "title": "Ocasio-Cortez: Stevens has 'been with the Republicans' since Congress returned",
       "summary": "Rep. Alexandria Ocasio-Cortez (D-N.Y.) said Rep. Haley Stevens (D-Mich.) has “been with the Republicans” since Congress returned, after the Michigan Democrat endorsed former Rep. Mike Rogers (R-Mich.) in the midterms.",
       "why": "Trusted figures help voters infer which choice fits their values.",
@@ -123,24 +139,6 @@
       "source": "SSBCrack",
       "published": "2026-11-14T02:01:20Z",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNnk5aW4yNno5Y1I0SGtMbW5nOTEtaTh1M1JyUm0zNmlRRFpnT01PRWo2aDBQRFhrOGtHTi1PWmRtRkRadGY3UlFmY041OXZlRkkzY1lwa1VheXZKa2d4YXJ6MFpEU2tqVHdxVi15M0dSTFBXSkpFTjN1b1RKdVY4alFlWUFjTEw1bWNCanBVOWhZbm9F?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Florida Gov. DeSantis unveils proposed congressional map that could let GOP flip up to 4 seats",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-13T23:46:54Z",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRF9xYVBSeVYtQVJ6Z0RxVWxmcElDcldTTVYzQTRnUGY3ZV9LWGpzOUVvbEkwOE02Q1ZDZWFIRU5xZmp2djh5M3F5OVM3YjhVeXlSazl1VzREWmN3MzExUVBqa21yNHUtNUpWTmtmUGU3NXh1Y2RqV0J4anQwdEtpWjFHRlZ3V1c2dTNudVRvUmRTdWZxcnFXamJtYmVmZ0RGN2RfUUlEM3Q1emPSAbABQVVfeXFMTlVBUGluWUkzRGtvQm45NEhMRTZYU2xDaUVYNVZrR0ZvNE9VdzVtX3dzWjhnZW9HRGNraHZNbUFOSnRjQXZNNVNwWUhBQk8wWWxCV1lObXUzTnYzQkdaTUF4ODJxZWl1UTBDZVhKOW5hMWZEay1HY1F4N0NSc2EzcGJVZjNKalF6ci1zbDR1UVJuR3BET2xTd2hiSEFEZTRWV2FHU1hQXzlvOFdCVWRlaUE?oc=5",
       "concepts": [
         "redistricting"
       ],
