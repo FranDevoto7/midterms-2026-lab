@@ -1089,6 +1089,29 @@
       "status": "auto",
       "opened": "2026-11-12T23:41:11Z",
       "seen": "2026-11-12T23:41:11Z"
+    },
+    "governors:AK:D": {
+      "office": "governors",
+      "state": "AK",
+      "winner": "D",
+      "candidate": "Jonathan Kreiss-Tomkins",
+      "title": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican",
+      "url": "https://www.npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins",
+      "source": "NPR",
+      "date": "2026-11-14T05:12:43Z",
+      "outlets": [
+        "NPR",
+        "NBC News",
+        "Politico",
+        "The Washington Post",
+        "Mezha.net",
+        "Nacionale",
+        "SSBCrack"
+      ],
+      "ap": false,
+      "issue": 87,
+      "status": "auto",
+      "opened": "2026-11-14T10:20:12Z"
     }
   },
   "milestones": {

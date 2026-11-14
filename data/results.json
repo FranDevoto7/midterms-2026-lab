@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T06:39:42Z",
+  "updated_at": "2026-11-14T10:20:12Z",
   "house_net_change_presidents_party": -42,
   "cases": {},
   "senate": {
@@ -488,6 +488,14 @@
       "at": "2026-11-12T23:41:11Z",
       "issue": 85,
       "url": "https://www.npr.org/2026/11/12/g-s1-151187/holscher-kansas-masterson-governor-midterms"
+    },
+    "AK": {
+      "winner": "D",
+      "source": "NPR, NBC News, Politico",
+      "auto": true,
+      "at": "2026-11-14T10:20:12Z",
+      "issue": 87,
+      "url": "https://www.npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins"
     }
   },
   "house": {

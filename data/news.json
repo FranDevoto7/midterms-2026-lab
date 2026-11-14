@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T02:25:37Z",
+  "updated_at": "2026-11-14T10:20:07Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -24,6 +24,24 @@
       "signal": 2,
       "mechanism": "Referendum and retrospective voting",
       "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+    },
+    {
+      "category": "Redistricting",
+      "title": "Did the Redistricting Wars Backfire on Republicans? In a Word, No.",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "The New York Times",
+      "published": "2026-11-14T05:14:00Z",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdDB5emdHREx4VHlzT3BVYlhYcGZ6OExpR01SVzFlWHRaeWxTMHp1UTZyUHF2bFpQbWZMMHZUeTVwZWMwYmNXSS01XzVlSkZyNDM1TW9PTksxNmZySWVGc2Z5RDJoeHBHczlmZ2F6ZUZEQXJRWUpvSF9VTGpLcW1NYWo3WHluMHM4NFlZX3BkaG9TNTA?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
       "category": "Senate",
@@ -63,12 +81,12 @@
     },
     {
       "category": "Redistricting",
-      "title": "Did the Redistricting Wars Backfire on Republicans? In a Word, No.",
+      "title": "Florida Gov. DeSantis unveils proposed congressional map that could let GOP flip up to 4 seats",
       "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "The New York Times",
-      "published": "2026-11-14T01:18:52Z",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdDB5emdHREx4VHlzT3BVYlhYcGZ6OExpR01SVzFlWHRaeWxTMHp1UTZyUHF2bFpQbWZMMHZUeTVwZWMwYmNXSS01XzVlSkZyNDM1TW9PTksxNmZySWVGc2Z5RDJoeHBHczlmZ2F6ZUZEQXJRWUpvSF9VTGpLcW1NYWo3WHluMHM4NFlZX3BkaG9TNTA?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-13T23:46:54Z",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRF9xYVBSeVYtQVJ6Z0RxVWxmcElDcldTTVYzQTRnUGY3ZV9LWGpzOUVvbEkwOE02Q1ZDZWFIRU5xZmp2djh5M3F5OVM3YjhVeXlSazl1VzREWmN3MzExUVBqa21yNHUtNUpWTmtmUGU3NXh1Y2RqV0J4anQwdEtpWjFHRlZ3V1c2dTNudVRvUmRTdWZxcnFXamJtYmVmZ0RGN2RfUUlEM3Q1emPSAbABQVVfeXFMTlVBUGluWUkzRGtvQm45NEhMRTZYU2xDaUVYNVZrR0ZvNE9VdzVtX3dzWjhnZW9HRGNraHZNbUFOSnRjQXZNNVNwWUhBQk8wWWxCV1lObXUzTnYzQkdaTUF4ODJxZWl1UTBDZVhKOW5hMWZEay1HY1F4N0NSc2EzcGJVZjNKalF6ci1zbDR1UVJuR3BET2xTd2hiSEFEZTRWV2FHU1hQXzlvOFdCVWRlaUE?oc=5",
       "concepts": [
         "redistricting"
       ],
@@ -117,30 +135,12 @@
     },
     {
       "category": "Senate",
-      "title": "Abdul El-Sayed on Democratic leadership, health care access and inspiring a new generation",
-      "summary": "The new Democratic senators are in Washington for orientation and are already facing tough questions about how they plan to govern. One is Abdul El-Sayed of Michigan, the first Muslim elected to the Senate.",
-      "why": "Money buys communication and organization, but it follows competitiveness.",
-      "source": "PBS News",
-      "published": "2026-11-12T23:35:14Z",
-      "url": "https://www.pbs.org/newshour/show/abdul-el-sayed-on-democratic-leadership-health-care-access-and-inspiring-a-new-generation",
-      "concepts": [
-        "campaign-finance"
-      ],
-      "cases": [
-        "michigan"
-      ],
-      "signal": 2,
-      "mechanism": "Campaign finance and outside spending",
-      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
-    },
-    {
-      "category": "Senate",
-      "title": "Peltola vs. Sullivan not alone: 24 Alaska races still too close to call",
-      "summary": "Twenty-four races for federal and state office in Alaska remain uncalled more than a week after Election Day, including the closely watched U.S. Senate contest, as votes from across the expansive state trickle in.",
+      "title": "Peltola grows lead in Alaska’s U.S. Senate race after thousands more ballots are counted",
+      "summary": "Open the source for the full story.",
       "why": "",
-      "source": "The Hill",
-      "published": "2026-11-13T21:11:08Z",
-      "url": "https://thehill.com/homenews/campaign/6219645-peltola-sullivan-alaska-races-ranked-choice/",
+      "source": "Anchorage Daily News",
+      "published": "2026-11-14T08:37:30Z",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQVhNMi1nYlFQV0Z1ajB6UU5RNzBKLXNqUWtNZkYtRUNEeGFKZFFwcHdsV3BGTDBaQVhCSUVtcTZPVU8teVI2WmlBblJrV0FfdkVfVHpZWW9XcWh2cHAwekE2RHhZMWlpbXgtd2pyLW9rV0hBQzhTU2FpaVpodFVtdGVuZ2lHMDR1R2dSc0sya0RveEdEZlh6b3EzNUFsMXdrOG1ZQ0p6OUQ4OGN1MGNTa0YtZ2Flc2Q5UUVudWk2SVJMY3Nz?oc=5",
       "concepts": [],
       "cases": [
         "alaska"
