@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T09:20:12Z",
+  "updated_at": "2026-11-15T17:05:44Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -44,6 +44,22 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
+      "category": "Senate",
+      "title": "Outcome of Alaska Senate race could take weeks to determine",
+      "summary": "The Senate race in Alaska, which has garnered widespread attention with two candidates named Dan Sullivan, remains in limbo.",
+      "why": "",
+      "source": "CBS News",
+      "published": "2026-11-15T14:39:00Z",
+      "url": "https://www.cbsnews.com/news/senate-race-unresolved-in-alaska-as-candidates-expect-weekslong-process/",
+      "concepts": [],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
       "category": "Redistricting",
       "title": "States consider redrawing their congressional maps",
       "summary": "Open the source for the full story.",
@@ -80,24 +96,6 @@
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
-      "category": "Senate",
-      "title": "Trump-backed Paxton will beat incumbent Cornyn in Texas GOP Senate runoff, AP projects",
-      "summary": "Open the source for the full story.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-14T16:49:48Z",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbmNCQVBFclB5WnZlaks4UnZiUWVkenNZdTdkYlZKOEZRZFhYcGMxNDEyemhBYUt1bV9QaEFHdzBWcW1XMDZENFdZRkVSamZuWXFDa1dQX3VnTXF6ci1MdHptZVlkb2VRd05QamF3akJDVFJGdktUeWhXOGZ2OEVRNGY5QWtJVU45dHd5QUVodDdIb2Q00gGaAUFVX3lxTFA5Q0ZVS01wSmplbWVESnVkdTJWdDRBZHlDU0ZmRWlXS2dSa2VrZFdkay1PZ21sU2FGT0xwMmszQ0xBWkhXbU1NQ2RfVWNxU1lFb09hcE9PVVY1M0tIcE9ZZ2hoZmwtUEhHaVFhSG5Na09lMW5ubUVOZ0FSYXhFYzZYUUtIczdka05UalVjOGxxaEZyRU1nb1VtM1E?oc=5",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "texas"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "Paxton’s margin against Abbott’s, county by county."
-    },
-    {
       "category": "Redistricting",
       "title": "Redistricting Wars Didn’t Really Backfire on Republicans",
       "summary": "Open the source for the full story.",
@@ -117,12 +115,12 @@
     },
     {
       "category": "Senate",
-      "title": "Democrat Mary Peltola is likely to win Alaska’s Senate race, as vote counting continues",
-      "summary": "Former Democratic Rep. Mary Peltola is likely to win Alaska’s Senate race, according to an NBC News Decision Desk analysis, as vote-counting continues in the state.",
+      "title": "Who is Mary Peltola? Former Democratic Rep. will likely defeat Dan Sullivan in Alaska's Senate race to bec",
+      "summary": "Open the source for the full story.",
       "why": "",
-      "source": "NBC News",
-      "published": "2026-11-14T20:52:49Z",
-      "url": "https://www.nbcnews.com/politics/2026-election/democrat-mary-peltola-likely-win-alaska-senate-race-rcna608673",
+      "source": "The Economic Times",
+      "published": "2026-11-15T11:26:20Z",
+      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxQOFN5VkJFOGpfSWQ3blkxRUk2OG5tVGs0UzhCSlhMcmN6U2tCazRYU2tLaUtUNk9haWZOYVpyWkdBUndmVThaRnpjOTc1XzlZdzZyWVg4QWctOGUwdkozV2lXdnh2S1R2RlZwZzlReEVpZDFwTVFrU1gxeVlYNGh4aHJybTBrWDFBcFhsY25zR3pjWFFhQ1drelJpU29nbUVMQ19yeEtwMjdORlE5amtScnpfU0pqZVh2M0FRblVLeFA3STFBWEdId05LZkdiRmROZWNpMGRuUm9tSGYwalZHMmVYb3dlN0JlLTZMbnhkTnVsLWZYdG9HRGlIelAwUzlZdmU1RnZWSElNb1dzd055aXg4WUNSMUlhVDhabzh2b2xmR2xjbkxMLWJDZ1NnVF8zVldVQ2JjTkpra01fTkdSTG81X2MxVkVkVklfX1pTRTdMNEVTdXhn0gHcAkFVX3lxTE9Jb1ZDVW1UNGVKbi1xbS15ZGlwN0ktTTZiNnVnOTdDSGt1VzZDWW80VlkyV2hoemcyY3JFMkJlWlNmRWRtTEp1WjJfcGtsRzlQWWkzTDdDYmplSnpfV2QxYlNhbm5adTRHblQxcHlEcDF1MHBWSDlSa2pFaExybzVvLWQzRTZNWUtram93QnpJYnNYb0ZfczI0eE1WNUNWTVBJUXl6alNVbHpWVGFFcFVVUEF6ejdSbGpLbENiQ2NueVpfamxGNEpyV0ZaUzlQeUl2NzdXbTA1eDZHTTU1bzZIYUM4WmxHV1RvOWp5X0p1NW5NWG9uYzQ5QlJjR1FNWWZlVUExdkVRaXd4NThfeUgwSnhhdWZEMUVWWnAwVnZnMkVXV0p6M2RXdU1Eb3BaOVE1NWZfVXg3aktnVEVhVjlpOElobmZpQjMySF8tYmhwNHFMUFJselM1a1BNdw?oc=5",
       "concepts": [],
       "cases": [
         "alaska"
@@ -132,22 +130,22 @@
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
-      "category": "Senate",
-      "title": "Ocasio-Cortez: Stevens has 'been with the Republicans' since Congress returned",
-      "summary": "Rep. Alexandria Ocasio-Cortez (D-N.Y.) said Rep. Haley Stevens (D-Mich.) has “been with the Republicans” since Congress returned, after the Michigan Democrat endorsed former Rep. Mike Rogers (R-Mich.) in the midterms.",
-      "why": "Trusted figures help voters infer which choice fits their values.",
-      "source": "The Hill",
-      "published": "2026-11-13T20:58:47Z",
-      "url": "https://thehill.com/homenews/campaign/6219619-ocasio-cortez-stevens-republicans/",
+      "category": "Redistricting",
+      "title": "Did the Redistricting Wars Backfire on Republicans? In a Word, No.",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "The New York Times",
+      "published": "2026-11-14T05:14:00Z",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdDB5emdHREx4VHlzT3BVYlhYcGZ6OExpR01SVzFlWHRaeWxTMHp1UTZyUHF2bFpQbWZMMHZUeTVwZWMwYmNXSS01XzVlSkZyNDM1TW9PTksxNmZySWVGc2Z5RDJoeHBHczlmZ2F6ZUZEQXJRWUpvSF9VTGpLcW1NYWo3WHluMHM4NFlZX3BkaG9TNTA?oc=5",
       "concepts": [
-        "elite-cues"
+        "redistricting"
       ],
       "cases": [
-        "michigan"
+        "redistricting"
       ],
       "signal": 2,
-      "mechanism": "Elite cues and endorsements",
-      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
 }
