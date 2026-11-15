@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T01:53:01Z",
+  "updated_at": "2026-11-15T09:20:12Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -24,25 +24,6 @@
       "signal": 2,
       "mechanism": "Referendum and retrospective voting",
       "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
-    },
-    {
-      "category": "Senate",
-      "title": "Primaries: Trump-endorsed Mills of Florida loses, as candidates vie for final 2 spots in Alaska Senate race",
-      "summary": "Open the source for the full story.",
-      "why": "Trusted figures help voters infer which choice fits their values.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-14T17:03:39Z",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbXh2Tkt2RGlzQTRQekdYVU1GMXd2MXotbTVraC1hNEVtX0huelhpRTRadHY4SDdhUlR5b19lVGsyZHZYdVRZUTZFcW1TZDU2czAyMDFjcW5tZ2ZDbGxFYk9IYWxTNmwta1ZGbGEyXzE4UGlEbmNSVjRCZDFMNkNndmxlX29PVm9LMlN2dHJIZ0VNYzlPNmlxS1JoallHSUXSAaQBQVVfeXFMT2pLdkhjMjI3UnZxZmNEU3hvTDdXLXRLUVZURF93QnRVYkpYMWp1SXV2eElDcXhHZFBEVko4NzluSWYwbThTWktILTl4U2g0Mmo0QUpneW91Tm9MT2NUWkNJMDNXa2k5QkNfUGlWbkFTRzNBTndhSDJRYnJLTTRadjlPUFZFSnA5bmIwSndhMlZsU3pHcTJrZ0tTdVZhTWVmVTFzYng?oc=5",
-      "concepts": [
-        "elite-cues",
-        "party-coalitions"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Elite cues and endorsements",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
       "category": "Redistricting",
@@ -100,21 +81,21 @@
     },
     {
       "category": "Senate",
-      "title": "El-Sayed projected to win high-stakes Michigan Senate Democratic primary, as 5 states hold elections",
+      "title": "Trump-backed Paxton will beat incumbent Cornyn in Texas GOP Senate runoff, AP projects",
       "summary": "Open the source for the full story.",
-      "why": "Nominations reveal bargaining among a party’s factions.",
+      "why": "Officeholders can build support that outlasts party tides.",
       "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-14T16:07:35Z",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWDNwTTJ3aXpjYXlBQTRNLUlxUW9fZndfOS03VEN2RzBseV9nc0Z3NkQtOHA0SHZxYVU0OC1uaVFFLVd1UWNReFRpSVpvNllQdTkxYVpMY3E3V3JkVktrbkRUa3NTWmJZVl9zVDNRQ2VsSndxMHZfY3ZUcllyVGtJSTNHVjltZHNoMktjNlhDVEJ2TnJ3MXE0Sk16SENIX0p20gGmAUFVX3lxTE1mbFVabnVWb3BvTEphWUpRUDRRaUp3dkhfLS1PSDA0UFVlNWxXZ25NLTdfRFdfMXdqX2JxWVZvWXZCakQ2Q0dGZlJhN2JFblQ0T0hmM3BFU2NtdEFFNXJQN0VhMUo2aEhBeTEtaUVlaHJOODBXc0tNUy0zU2w3WDZVT2hmQlptUFBQdFpMNjFiOEMtOXNCZ3ZzbjVNQndCQTQxZ3pxbWc?oc=5",
+      "published": "2026-11-14T16:49:48Z",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbmNCQVBFclB5WnZlaks4UnZiUWVkenNZdTdkYlZKOEZRZFhYcGMxNDEyemhBYUt1bV9QaEFHdzBWcW1XMDZENFdZRkVSamZuWXFDa1dQX3VnTXF6ci1MdHptZVlkb2VRd05QamF3akJDVFJGdktUeWhXOGZ2OEVRNGY5QWtJVU45dHd5QUVodDdIb2Q00gGaAUFVX3lxTFA5Q0ZVS01wSmplbWVESnVkdTJWdDRBZHlDU0ZmRWlXS2dSa2VrZFdkay1PZ21sU2FGT0xwMmszQ0xBWkhXbU1NQ2RfVWNxU1lFb09hcE9PVVY1M0tIcE9ZZ2hoZmwtUEhHaVFhSG5Na09lMW5ubUVOZ0FSYXhFYzZYUUtIczdka05UalVjOGxxaEZyRU1nb1VtM1E?oc=5",
       "concepts": [
-        "party-coalitions"
+        "incumbency"
       ],
       "cases": [
-        "michigan"
+        "texas"
       ],
       "signal": 2,
-      "mechanism": "Party coalitions, primaries and nominations",
-      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Paxton’s margin against Abbott’s, county by county."
     },
     {
       "category": "Redistricting",
@@ -135,22 +116,38 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
-      "category": "Redistricting",
-      "title": "Did the Redistricting Wars Backfire on Republicans? In a Word, No.",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "The New York Times",
-      "published": "2026-11-14T05:14:00Z",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdDB5emdHREx4VHlzT3BVYlhYcGZ6OExpR01SVzFlWHRaeWxTMHp1UTZyUHF2bFpQbWZMMHZUeTVwZWMwYmNXSS01XzVlSkZyNDM1TW9PTksxNmZySWVGc2Z5RDJoeHBHczlmZ2F6ZUZEQXJRWUpvSF9VTGpLcW1NYWo3WHluMHM4NFlZX3BkaG9TNTA?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
+      "category": "Senate",
+      "title": "Democrat Mary Peltola is likely to win Alaska’s Senate race, as vote counting continues",
+      "summary": "Former Democratic Rep. Mary Peltola is likely to win Alaska’s Senate race, according to an NBC News Decision Desk analysis, as vote-counting continues in the state.",
+      "why": "",
+      "source": "NBC News",
+      "published": "2026-11-14T20:52:49Z",
+      "url": "https://www.nbcnews.com/politics/2026-election/democrat-mary-peltola-likely-win-alaska-senate-race-rcna608673",
+      "concepts": [],
       "cases": [
-        "redistricting"
+        "alaska"
       ],
       "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+      "mechanism": "",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
+      "title": "Ocasio-Cortez: Stevens has 'been with the Republicans' since Congress returned",
+      "summary": "Rep. Alexandria Ocasio-Cortez (D-N.Y.) said Rep. Haley Stevens (D-Mich.) has “been with the Republicans” since Congress returned, after the Michigan Democrat endorsed former Rep. Mike Rogers (R-Mich.) in the midterms.",
+      "why": "Trusted figures help voters infer which choice fits their values.",
+      "source": "The Hill",
+      "published": "2026-11-13T20:58:47Z",
+      "url": "https://thehill.com/homenews/campaign/6219619-ocasio-cortez-stevens-republicans/",
+      "concepts": [
+        "elite-cues"
+      ],
+      "cases": [
+        "michigan"
+      ],
+      "signal": 2,
+      "mechanism": "Elite cues and endorsements",
+      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
     }
   ]
 }
