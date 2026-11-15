@@ -1,8 +1,10 @@
 {
-  "updated_at": "2026-11-15T17:05:44Z",
+  "updated_at": "2026-11-15T21:46:27Z",
   "mode": "automatic-rss",
-  "feeds_ok": 19,
-  "feeds_failed": [],
+  "feeds_ok": 9,
+  "feeds_failed": [
+    "Google News"
+  ],
   "stories": [
     {
       "category": "Senate",
@@ -60,67 +62,13 @@
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
-      "category": "Redistricting",
-      "title": "States consider redrawing their congressional maps",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Wonderwall",
-      "published": "2026-11-14T22:02:00Z",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdTZ5RDMzS2xyTldaTjhQbmV1R01zUEx6a0VkTk1nUHZ5UmNKbTR2MTN5clZZWkVtYVhOTjZheGlQWUl0ZlhCeVk5dEFvTVVlYmM3VWdvZnpvRFBqNjhUdHJLVGJ1c3ZsTWlYQlllOWlzTmRBa3UyTkJHYUh2UENIR19XVGY5OEcwS21RT3c2N0NvMDhSd0pxcld0SUFScURlZ2o0YnRxREJrdkZjeC12UVRpdUhqUQ?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
       "category": "Senate",
-      "title": "Alaska Senate race places spotlight on ranked choice voting",
-      "summary": "Open the source for the full story.",
-      "why": "Ranked ballots, primary systems and ballot layout shape incentives and outcomes.",
-      "source": "Modern Ghana",
-      "published": "2026-11-14T17:10:00Z",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XaThrb2xiVlZSZ28zaW5EUzdKUmFUdHlodG1BQVN6Nm1PaEFXelB0LTEwb2plUlh1MTJPa2FQQ0dfWHhBNjVxMi1kenBFN3E5Zm1NREdqeXV0Q1Vnd1VF0gFcQVVfeXFMTnVJWlo5NUdyS1FlclZuNTd5YV9tUFhuOTNjbVk0QzFobkhMeVkwQjlSSVlRNmUzSEVpY0NuclBYSVlDdWxSbTQxQS1ibUNuSTU1Z1IwWE5BN0RybUY?oc=5",
-      "concepts": [
-        "electoral-rules"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Electoral rules and ballot design",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Redistricting",
-      "title": "Redistricting Wars Didn’t Really Backfire on Republicans",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Political Wire",
-      "published": "2026-11-14T10:49:50Z",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZjI2T0p3SzRVaHNXdGV3bDA0ZkRiVlBsaHBUTmliY2diREZTWXQ3LUFad0ZUOWNraERiM3JpSWVkMWdpQTdWYk0wdkNpMkdOV2RrM1pJYzgxMWFBbFFoWUVlaHNRNGJ6YkdYcHZpRlFnX3ZQZWkzNTJDeGlQODR0R0xHam16S1NEbmlFTkd1MlA1M2taREU2SA?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Who is Mary Peltola? Former Democratic Rep. will likely defeat Dan Sullivan in Alaska's Senate race to bec",
-      "summary": "Open the source for the full story.",
+      "title": "Democrat Mary Peltola is likely to win Alaska’s Senate race, as vote counting continues",
+      "summary": "Former Democratic Rep. Mary Peltola is likely to win Alaska’s Senate race, according to an NBC News Decision Desk analysis, as vote-counting continues in the state.",
       "why": "",
-      "source": "The Economic Times",
-      "published": "2026-11-15T11:26:20Z",
-      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxQOFN5VkJFOGpfSWQ3blkxRUk2OG5tVGs0UzhCSlhMcmN6U2tCazRYU2tLaUtUNk9haWZOYVpyWkdBUndmVThaRnpjOTc1XzlZdzZyWVg4QWctOGUwdkozV2lXdnh2S1R2RlZwZzlReEVpZDFwTVFrU1gxeVlYNGh4aHJybTBrWDFBcFhsY25zR3pjWFFhQ1drelJpU29nbUVMQ19yeEtwMjdORlE5amtScnpfU0pqZVh2M0FRblVLeFA3STFBWEdId05LZkdiRmROZWNpMGRuUm9tSGYwalZHMmVYb3dlN0JlLTZMbnhkTnVsLWZYdG9HRGlIelAwUzlZdmU1RnZWSElNb1dzd055aXg4WUNSMUlhVDhabzh2b2xmR2xjbkxMLWJDZ1NnVF8zVldVQ2JjTkpra01fTkdSTG81X2MxVkVkVklfX1pTRTdMNEVTdXhn0gHcAkFVX3lxTE9Jb1ZDVW1UNGVKbi1xbS15ZGlwN0ktTTZiNnVnOTdDSGt1VzZDWW80VlkyV2hoemcyY3JFMkJlWlNmRWRtTEp1WjJfcGtsRzlQWWkzTDdDYmplSnpfV2QxYlNhbm5adTRHblQxcHlEcDF1MHBWSDlSa2pFaExybzVvLWQzRTZNWUtram93QnpJYnNYb0ZfczI0eE1WNUNWTVBJUXl6alNVbHpWVGFFcFVVUEF6ejdSbGpLbENiQ2NueVpfamxGNEpyV0ZaUzlQeUl2NzdXbTA1eDZHTTU1bzZIYUM4WmxHV1RvOWp5X0p1NW5NWG9uYzQ5QlJjR1FNWWZlVUExdkVRaXd4NThfeUgwSnhhdWZEMUVWWnAwVnZnMkVXV0p6M2RXdU1Eb3BaOVE1NWZfVXg3aktnVEVhVjlpOElobmZpQjMySF8tYmhwNHFMUFJselM1a1BNdw?oc=5",
+      "source": "NBC News",
+      "published": "2026-11-14T20:52:49Z",
+      "url": "https://www.nbcnews.com/politics/2026-election/democrat-mary-peltola-likely-win-alaska-senate-race-rcna608673",
       "concepts": [],
       "cases": [
         "alaska"
@@ -130,22 +78,71 @@
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
-      "category": "Redistricting",
-      "title": "Did the Redistricting Wars Backfire on Republicans? In a Word, No.",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "The New York Times",
-      "published": "2026-11-14T05:14:00Z",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdDB5emdHREx4VHlzT3BVYlhYcGZ6OExpR01SVzFlWHRaeWxTMHp1UTZyUHF2bFpQbWZMMHZUeTVwZWMwYmNXSS01XzVlSkZyNDM1TW9PTksxNmZySWVGc2Z5RDJoeHBHczlmZ2F6ZUZEQXJRWUpvSF9VTGpLcW1NYWo3WHluMHM4NFlZX3BkaG9TNTA?oc=5",
+      "category": "Senate",
+      "title": "Ocasio-Cortez: Stevens has 'been with the Republicans' since Congress returned",
+      "summary": "Rep. Alexandria Ocasio-Cortez (D-N.Y.) said Rep. Haley Stevens (D-Mich.) has “been with the Republicans” since Congress returned, after the Michigan Democrat endorsed former Rep. Mike Rogers (R-Mich.) in the midterms.",
+      "why": "Trusted figures help voters infer which choice fits their values.",
+      "source": "The Hill",
+      "published": "2026-11-13T20:58:47Z",
+      "url": "https://thehill.com/homenews/campaign/6219619-ocasio-cortez-stevens-republicans/",
       "concepts": [
-        "redistricting"
+        "elite-cues"
       ],
       "cases": [
-        "redistricting"
+        "michigan"
       ],
       "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+      "mechanism": "Elite cues and endorsements",
+      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+    },
+    {
+      "category": "Senate",
+      "title": "Peltola holds nearly 4-point lead on Sullivan in latest ballot drop",
+      "summary": "Democrat Mary Peltola has again expanded her lead in Alaska’s U.S. Senate race with more votes counted, now ahead of Sen. Dan Sullivan (R) by nearly 4 points, or more than 10,000 votes, according to Decision Desk HQ (DDHQ).",
+      "why": "",
+      "source": "The Hill",
+      "published": "2026-11-14T13:02:13Z",
+      "url": "https://thehill.com/homenews/campaign/6220605-peltola-leads-alaska-senate/",
+      "concepts": [],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Economy and war",
+      "title": "Justice Alito warns America must preserve 3 core principles regardless of country’s ‘atmosphere’",
+      "summary": "Supreme Court Justice Samuel Alito outlined three principles he says Americans must always prioritize amid the 2026 midterms and the Iran War.",
+      "why": "Voters reward or punish the party in power for conditions they experience.",
+      "source": "Fox News",
+      "published": "2026-11-14T19:29:34Z",
+      "url": "https://www.foxnews.com/politics/justice-alito-warns-america-preserve-3-core-principles-regardless-countrys-atmosphere",
+      "concepts": [
+        "referendum",
+        "federalism"
+      ],
+      "cases": [],
+      "signal": 1,
+      "mechanism": "Referendum and retrospective voting",
+      "watch": "Whether vote choice tracks evaluations of the economy and the Iran war in exit polls and AP VoteCast, and whether places more exposed to fuel prices move differently."
+    },
+    {
+      "category": "U.S. politics",
+      "title": "Mike Pence: If GOP doesn’t return to traditional values, ‘it won’t matter who we nominate in 2028’",
+      "summary": "Former Vice President Mike Pence joins Meet the Press to discuss if he believes Vice President JD Vance has what it takes to secure the 2028 Republican presidential nomination, and how the party moves forward after historic losses in the…",
+      "why": "Nominations reveal bargaining among a party’s factions.",
+      "source": "NBC News",
+      "published": "2026-11-15T15:11:27Z",
+      "url": "https://www.nbcnews.com/meet-the-press/video/mike-pence-if-gop-doesn-t-return-to-traditional-values-it-won-t-matter-who-we-nominate-in-2028-273551429689",
+      "concepts": [
+        "party-coalitions"
+      ],
+      "cases": [],
+      "signal": 1,
+      "mechanism": "Party coalitions, primaries and nominations",
+      "watch": "Whether primary losers’ supporters return in November, and how replacement nominees perform."
     }
   ]
 }
