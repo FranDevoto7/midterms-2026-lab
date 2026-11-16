@@ -1,10 +1,8 @@
 {
-  "updated_at": "2026-11-15T21:46:27Z",
+  "updated_at": "2026-11-16T02:01:46Z",
   "mode": "automatic-rss",
-  "feeds_ok": 9,
-  "feeds_failed": [
-    "Google News"
-  ],
+  "feeds_ok": 19,
+  "feeds_failed": [],
   "stories": [
     {
       "category": "Senate",
@@ -26,6 +24,58 @@
       "signal": 2,
       "mechanism": "Referendum and retrospective voting",
       "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+    },
+    {
+      "category": "Senate",
+      "title": "Alaska Senate Race Nears Ranked-Choice Showdown as Peltola Edges Toward 50%",
+      "summary": "Open the source for the full story.",
+      "why": "Ranked ballots, primary systems and ballot layout shape incentives and outcomes.",
+      "source": "Hoodline",
+      "published": "2026-11-15T20:29:10Z",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOODVFdEFCVjdIeUJpT0djMVhWUlBYejh3R253c1V1dEk1Zm9oM0xQTkxjZEZyOUdicm4yRnlWNWsyU2drM3pkOHQ5VUhieklYbDU2OVhsYnp6aXlLSElSR3Vaek55dHlnSWlZWllkUWxFcTdrV293Rmt2UjI5cWZxSU5wc2RkdE0wZ2tMUm1VeW1hdzA2U1ByNGFEMnVKUGl4N1dBYUZvWQ?oc=5",
+      "concepts": [
+        "electoral-rules"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Electoral rules and ballot design",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
+      "title": "Why Mary Peltola is on track to win in Alaska, even if ranked choice ballots come into play",
+      "summary": "As Alaska continues to count and report votes weeks after Election Day, it is increasingly unlikely that Republican Sen.",
+      "why": "Ranked ballots, primary systems and ballot layout shape incentives and outcomes.",
+      "source": "NBC News",
+      "published": "2026-11-14T21:22:15Z",
+      "url": "https://www.nbcnews.com/politics/2026-election/mary-peltola-track-win-alaska-even-ranked-choice-ballots-come-play-rcna609299",
+      "concepts": [
+        "electoral-rules"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Electoral rules and ballot design",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
+      "title": "Peltola's lead increases in uncalled Alaska Senate race",
+      "summary": "Open the source for the full story.",
+      "why": "",
+      "source": "USA Today",
+      "published": "2026-11-16T01:29:00Z",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMThuSnFVZXZCV2JnWnBza3NjVUxFeTNvUDJNZzUwcWhDWTV3d1Nrcm9Cb3Y1a3pSQkx1SjB1WHdraHg1WDYxUFg1b3BJYXoxbGQ4X2JjNXpaakMwTDBLNW1Gb3F3bmxDVnl2bnQwRUVYdnVMZUJfTm1pd3BUVnd2bjFyZEtHekVDeWM5SlJxM1dkMDRiaEV4UFRDb2VBaFFXV1JGZkxsQ1FaZ2Y5ZjN5ODk5QkVWdTQ?oc=5",
+      "concepts": [],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
       "category": "Redistricting",
@@ -63,12 +113,12 @@
     },
     {
       "category": "Senate",
-      "title": "Democrat Mary Peltola is likely to win Alaska’s Senate race, as vote counting continues",
-      "summary": "Former Democratic Rep. Mary Peltola is likely to win Alaska’s Senate race, according to an NBC News Decision Desk analysis, as vote-counting continues in the state.",
+      "title": "As Peltola’s lead widens in Alaska Senate race, Trump’s ‘voter confusion’ argument crumbles",
+      "summary": "Open the source for the full story.",
       "why": "",
-      "source": "NBC News",
-      "published": "2026-11-14T20:52:49Z",
-      "url": "https://www.nbcnews.com/politics/2026-election/democrat-mary-peltola-likely-win-alaska-senate-race-rcna608673",
+      "source": "Democracy Docket",
+      "published": "2026-11-15T21:22:53Z",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWGxFUzNBZ2w1Mi04SGVvYkNsSWNIbTIwREpodzRNSEllWVFhbGg1TjZvWUl3Qzg3U0ZuRzAzUklKd0ZiZUE5VjgwVDRTb25yQzVJdUhyLWNFODZUYzlOMjRwTVIzRlhXekdWOExXWWVUaTRsal82bnVBNXJodTVvZVI2OTZJekFXeEVFWUZ0cF93ai10Q3hWOW1GYlM1amFRS1JIdFotWDFuWmZ0TjNyUk9hX3JtalFNWEh5blUzRUx1UlNqRmVaUGhGZw?oc=5",
       "concepts": [],
       "cases": [
         "alaska"
@@ -78,71 +128,22 @@
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
-      "category": "Senate",
-      "title": "Ocasio-Cortez: Stevens has 'been with the Republicans' since Congress returned",
-      "summary": "Rep. Alexandria Ocasio-Cortez (D-N.Y.) said Rep. Haley Stevens (D-Mich.) has “been with the Republicans” since Congress returned, after the Michigan Democrat endorsed former Rep. Mike Rogers (R-Mich.) in the midterms.",
-      "why": "Trusted figures help voters infer which choice fits their values.",
-      "source": "The Hill",
-      "published": "2026-11-13T20:58:47Z",
-      "url": "https://thehill.com/homenews/campaign/6219619-ocasio-cortez-stevens-republicans/",
+      "category": "Redistricting",
+      "title": "States consider redrawing their congressional maps",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Wonderwall",
+      "published": "2026-11-14T22:02:00Z",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdTZ5RDMzS2xyTldaTjhQbmV1R01zUEx6a0VkTk1nUHZ5UmNKbTR2MTN5clZZWkVtYVhOTjZheGlQWUl0ZlhCeVk5dEFvTVVlYmM3VWdvZnpvRFBqNjhUdHJLVGJ1c3ZsTWlYQlllOWlzTmRBa3UyTkJHYUh2UENIR19XVGY5OEcwS21RT3c2N0NvMDhSd0pxcld0SUFScURlZ2o0YnRxREJrdkZjeC12UVRpdUhqUQ?oc=5",
       "concepts": [
-        "elite-cues"
+        "redistricting"
       ],
       "cases": [
-        "michigan"
+        "redistricting"
       ],
       "signal": 2,
-      "mechanism": "Elite cues and endorsements",
-      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
-    },
-    {
-      "category": "Senate",
-      "title": "Peltola holds nearly 4-point lead on Sullivan in latest ballot drop",
-      "summary": "Democrat Mary Peltola has again expanded her lead in Alaska’s U.S. Senate race with more votes counted, now ahead of Sen. Dan Sullivan (R) by nearly 4 points, or more than 10,000 votes, according to Decision Desk HQ (DDHQ).",
-      "why": "",
-      "source": "The Hill",
-      "published": "2026-11-14T13:02:13Z",
-      "url": "https://thehill.com/homenews/campaign/6220605-peltola-leads-alaska-senate/",
-      "concepts": [],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Economy and war",
-      "title": "Justice Alito warns America must preserve 3 core principles regardless of country’s ‘atmosphere’",
-      "summary": "Supreme Court Justice Samuel Alito outlined three principles he says Americans must always prioritize amid the 2026 midterms and the Iran War.",
-      "why": "Voters reward or punish the party in power for conditions they experience.",
-      "source": "Fox News",
-      "published": "2026-11-14T19:29:34Z",
-      "url": "https://www.foxnews.com/politics/justice-alito-warns-america-preserve-3-core-principles-regardless-countrys-atmosphere",
-      "concepts": [
-        "referendum",
-        "federalism"
-      ],
-      "cases": [],
-      "signal": 1,
-      "mechanism": "Referendum and retrospective voting",
-      "watch": "Whether vote choice tracks evaluations of the economy and the Iran war in exit polls and AP VoteCast, and whether places more exposed to fuel prices move differently."
-    },
-    {
-      "category": "U.S. politics",
-      "title": "Mike Pence: If GOP doesn’t return to traditional values, ‘it won’t matter who we nominate in 2028’",
-      "summary": "Former Vice President Mike Pence joins Meet the Press to discuss if he believes Vice President JD Vance has what it takes to secure the 2028 Republican presidential nomination, and how the party moves forward after historic losses in the…",
-      "why": "Nominations reveal bargaining among a party’s factions.",
-      "source": "NBC News",
-      "published": "2026-11-15T15:11:27Z",
-      "url": "https://www.nbcnews.com/meet-the-press/video/mike-pence-if-gop-doesn-t-return-to-traditional-values-it-won-t-matter-who-we-nominate-in-2028-273551429689",
-      "concepts": [
-        "party-coalitions"
-      ],
-      "cases": [],
-      "signal": 1,
-      "mechanism": "Party coalitions, primaries and nominations",
-      "watch": "Whether primary losers’ supporters return in November, and how replacement nominees perform."
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
 }
