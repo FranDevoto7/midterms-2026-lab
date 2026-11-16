@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T02:01:46Z",
+  "updated_at": "2026-11-16T09:37:06Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -45,6 +45,38 @@
     },
     {
       "category": "Senate",
+      "title": "The blue tsunami is complete: Democrat Mary Peltola wins Senate race in Alaska",
+      "summary": "Open the source for the full story.",
+      "why": "",
+      "source": "Dagens.com",
+      "published": "2026-11-16T09:29:07Z",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS3hjcjM3LWx5QUN5c01EQnRwYlRSeGdKc2Q4QXNFWXRPNEJuRXc5Tk45VnNNSUszcFUyTHlYNlJZcW5tc1NSY2JUMDZObjJRNTY2Ynh5ZlRsZDlaZkNHaDd1U1FCcWVHXzFGbUw0MDNILUdKMzlZcHFDVTUySWhZQzRmdEJwTGpzR05TcmZPSDhtQWFtQnpISWd3MjQxclotckcyVkRvMUpiYUk4QlE?oc=5",
+      "concepts": [],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
+      "title": "Democrat Mary Peltola likely to win Alaska Senate race",
+      "summary": "Open the source for the full story.",
+      "why": "",
+      "source": "NBC News",
+      "published": "2026-11-16T08:24:08Z",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMl92WUV6bkMzcGVfOW1kMEIwbUVUUF9WSFl2dDYyYmhJT2tVR3dVT253X1lkY1RUS1l0QkpHNXE3SWtFVXNhNm5OLWJYZHFKUXBtZzU0Yk1FdUpJNnRnVTlHdFhPZmxxZndWeWpHekdEdnNuVnFweWtWQ3g3S19uUmQ0bnhUamx6MzFoaFU0VWprSlU5SFpmaVpWYkkxZ082bU5QWDRCMA?oc=5",
+      "concepts": [],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
       "title": "Why Mary Peltola is on track to win in Alaska, even if ranked choice ballots come into play",
       "summary": "As Alaska continues to count and report votes weeks after Election Day, it is increasingly unlikely that Republican Sen.",
       "why": "Ranked ballots, primary systems and ballot layout shape incentives and outcomes.",
@@ -63,11 +95,43 @@
     },
     {
       "category": "Senate",
+      "title": "Alaska Senate race: Why Mary Peltola’s 50% vote share has not settled the result",
+      "summary": "Open the source for the full story.",
+      "why": "",
+      "source": "fish4news.co.uk",
+      "published": "2026-11-16T04:40:51Z",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUTB2T2FkNEZVTklObm1vaEkyTkhwR1RaVl9WaTVCdXhTQXAwZzh3QTllOWRiRktHcUtOR3NlTnpDczltdmJrejJ2ZzNMOEcwSmlnMWd5U3lVaEk5VlY0dHRleWhlckxuMTQ3UDc0RXVLdWN3LVZKR3lBeGxGY2hTbm1vQVQ?oc=5",
+      "concepts": [],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
+      "title": "Mary Peltola Closes in on 50% Threshold in Alaska Senate Race",
+      "summary": "Open the source for the full story.",
+      "why": "",
+      "source": "Newsweek",
+      "published": "2026-11-16T03:41:00Z",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaWw5dVlxYnV0N2NrZjZLYWt4ZDF3cHhBbTJBVXUxMEoyUWNuYTdvRkJpZ0VCZVRpTGprVlRVOVJRV1RvOFZQczFiNVVDak8xZk8wcTRxV3N0bjRzRERxQ2FCcG55S3I1ejhkbkhodlEtR1JiSUZWSnNRTGFyeTNwLW9ETmVoaUE1Y3EyN3piQWVwdGc0U0pBbURn?oc=5",
+      "concepts": [],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
       "title": "Peltola's lead increases in uncalled Alaska Senate race",
       "summary": "Open the source for the full story.",
       "why": "",
       "source": "USA Today",
-      "published": "2026-11-16T01:29:00Z",
+      "published": "2026-11-16T02:21:00Z",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMThuSnFVZXZCV2JnWnBza3NjVUxFeTNvUDJNZzUwcWhDWTV3d1Nrcm9Cb3Y1a3pSQkx1SjB1WHdraHg1WDYxUFg1b3BJYXoxbGQ4X2JjNXpaakMwTDBLNW1Gb3F3bmxDVnl2bnQwRUVYdnVMZUJfTm1pd3BUVnd2bjFyZEtHekVDeWM5SlJxM1dkMDRiaEV4UFRDb2VBaFFXV1JGZkxsQ1FaZ2Y5ZjN5ODk5QkVWdTQ?oc=5",
       "concepts": [],
       "cases": [
@@ -76,74 +140,6 @@
       "signal": 2,
       "mechanism": "",
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Redistricting",
-      "title": "Dems' California redistricting mastermind flips script after helping party win 5 GOP seats: 'Kill'",
-      "summary": "Paul Mitchell, architect of California's Prop 50, claims Democrats should establish national standards to end partisan gerrymandering for good.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Fox News",
-      "published": "2026-11-14T15:00:06Z",
-      "url": "https://www.foxnews.com/politics/architect-dems-california-redistricting-win-makes-ironic-call-helping-flip-5-gop-seats-kill",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Outcome of Alaska Senate race could take weeks to determine",
-      "summary": "The Senate race in Alaska, which has garnered widespread attention with two candidates named Dan Sullivan, remains in limbo.",
-      "why": "",
-      "source": "CBS News",
-      "published": "2026-11-15T14:39:00Z",
-      "url": "https://www.cbsnews.com/news/senate-race-unresolved-in-alaska-as-candidates-expect-weekslong-process/",
-      "concepts": [],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Senate",
-      "title": "As Peltola’s lead widens in Alaska Senate race, Trump’s ‘voter confusion’ argument crumbles",
-      "summary": "Open the source for the full story.",
-      "why": "",
-      "source": "Democracy Docket",
-      "published": "2026-11-15T21:22:53Z",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWGxFUzNBZ2w1Mi04SGVvYkNsSWNIbTIwREpodzRNSEllWVFhbGg1TjZvWUl3Qzg3U0ZuRzAzUklKd0ZiZUE5VjgwVDRTb25yQzVJdUhyLWNFODZUYzlOMjRwTVIzRlhXekdWOExXWWVUaTRsal82bnVBNXJodTVvZVI2OTZJekFXeEVFWUZ0cF93ai10Q3hWOW1GYlM1amFRS1JIdFotWDFuWmZ0TjNyUk9hX3JtalFNWEh5blUzRUx1UlNqRmVaUGhGZw?oc=5",
-      "concepts": [],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Redistricting",
-      "title": "States consider redrawing their congressional maps",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Wonderwall",
-      "published": "2026-11-14T22:02:00Z",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdTZ5RDMzS2xyTldaTjhQbmV1R01zUEx6a0VkTk1nUHZ5UmNKbTR2MTN5clZZWkVtYVhOTjZheGlQWUl0ZlhCeVk5dEFvTVVlYmM3VWdvZnpvRFBqNjhUdHJLVGJ1c3ZsTWlYQlllOWlzTmRBa3UyTkJHYUh2UENIR19XVGY5OEcwS21RT3c2N0NvMDhSd0pxcld0SUFScURlZ2o0YnRxREJrdkZjeC12UVRpdUhqUQ?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
 }
