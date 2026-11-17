@@ -1113,6 +1113,23 @@
       "status": "auto",
       "opened": "2026-11-14T10:20:12Z",
       "seen": "2026-11-14T10:20:12Z"
+    },
+    "senate:AK:R": {
+      "office": "senate",
+      "state": "AK",
+      "winner": "R",
+      "candidate": "Dan Sullivan",
+      "title": "Sen. Dan Sullivan campaign says it won’t concede Alaska Senate race until it’s certified",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdFB1Q2V2UXp6YkZfXzJYWWpmaG5TeUhPcF9LUmNfQ3NkNEFlMi1KT0ppYWJhTXAzZDltRFVIVFJfZnBTcml5dXVxVEozNjBaODdxZTY0M3lMbmtHVFBjYjl5ZFZwMGdwbFZRZkNkbDdxUS0yTU9fX1QwWUlYOElDamk1Q0ZTNHhVTm5HX3k2czVUaTgzd2U5LUN0azdRbEVKNTFZVklxcTk0N0habld1QXFVY0txbGdiejM0ekNFa1lyTzBDcW5Ca1pn?oc=5",
+      "source": "Democracy Docket",
+      "date": "2026-11-16T22:19:04Z",
+      "outlets": [
+        "Democracy Docket"
+      ],
+      "ap": false,
+      "issue": 88,
+      "status": "open",
+      "opened": "2026-11-17T03:49:53Z"
     }
   },
   "milestones": {

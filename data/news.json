@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T20:27:07Z",
+  "updated_at": "2026-11-17T03:49:46Z",
   "mode": "automatic-rss",
   "feeds_ok": 17,
   "feeds_failed": [
@@ -7,25 +7,59 @@
   ],
   "stories": [
     {
-      "category": "Senate",
-      "title": "Trump and Zohran sitting in a tree…",
-      "summary": "FRIENDS WITH (SNAP) BENEFITS: New York City Mayor Zohran Mamdani unveiled the latest perk of his chummy relationship with President Donald Trump, announcing a deal today that will give stores across the country more time to comply with…",
-      "why": "Voters reward or punish the party in power for conditions they experience.",
-      "source": "Politico",
-      "published": "2026-11-13T21:55:50Z",
-      "url": "https://www.politico.com/newsletters/new-york-playbook-pm/2026/11/13/trump-and-zohran-sitting-in-a-tree-01166061",
+      "category": "Redistricting",
+      "title": "Virginia approves referendum to redraw its congressional map to favor Democrats, AP projects",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-16T15:19:39Z",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPME80aURQTWhIck9BRU0wMzBXZVRQay1zeEFiajJqOFlvUTBlYkg0dlA4ZXFVUjQ4OHFDQ1g4V25kX05wYi1xbF8wSkxUUWcyUmFDMXdNQUhpUFJwbG5yekFoOWFvY2FCbTNlanZXTUNHaXpLaGhCelI0QnVTc1dwOG85WDh3ZVVEOHRWa0tnS09ZWF9KRlVZcmlMT2U1Y1ljRkhRVjQ0VXZBUdIBrwFBVV95cUxObmNsWE1vOGJPc3RqbkhRdkRYbTU1X28wTV9YcDZYcmNUYUVpcEI2eDZrQjU5dnM5ZnhkM2Yzc0hnUWZsbkI2ZkIyREhaU3RyUW1LMXJnSjRHT2RnNXVCLXBOWkhSZHRmcmZ3MGVZMVl2XzJiTWpQTl9YeWxLenhFMHBFblgwVEdaLTlqMjI5bnZHeG5UNno5UTBxbE9IUFpvYkt6bW9QUXU1WFhlTFNB?oc=5",
       "concepts": [
-        "referendum",
-        "candidate-quality",
-        "campaign-finance"
+        "redistricting",
+        "direct-democracy"
       ],
       "cases": [
-        "michigan",
         "redistricting"
       ],
       "signal": 2,
-      "mechanism": "Referendum and retrospective voting",
-      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Senate",
+      "title": "Peltola expands lead over Sullivan in latest ballot drop",
+      "summary": "Former Rep. Mary Peltola (D-Alaska) continues to pull ahead of incumbent Sen. Dan S. Sullivan (R-Alaska) in the last Senate race to be called from November's midterms.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "The Hill",
+      "published": "2026-11-17T03:49:38Z",
+      "url": "https://thehill.com/homenews/campaign/6224075-peltola-leads-alaska-senate-race/",
+      "concepts": [
+        "incumbency"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
+      "title": "Sen. Dan Sullivan campaign says it won’t concede Alaska Senate race until it’s certified",
+      "summary": "Open the source for the full story.",
+      "why": "States run elections; federal actors and courts contest the edges.",
+      "source": "Democracy Docket",
+      "published": "2026-11-16T22:19:04Z",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdFB1Q2V2UXp6YkZfXzJYWWpmaG5TeUhPcF9LUmNfQ3NkNEFlMi1KT0ppYWJhTXAzZDltRFVIVFJfZnBTcml5dXVxVEozNjBaODdxZTY0M3lMbmtHVFBjYjl5ZFZwMGdwbFZRZkNkbDdxUS0yTU9fX1QwWUlYOElDamk1Q0ZTNHhVTm5HX3k2czVUaTgzd2U5LUN0azdRbEVKNTFZVklxcTk0N0habld1QXFVY0txbGdiejM0ekNFa1lyTzBDcW5Ca1pn?oc=5",
+      "concepts": [
+        "federalism"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Federalism and election administration",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
       "category": "Senate",
@@ -43,24 +77,6 @@
       ],
       "signal": 2,
       "mechanism": "Referendum and retrospective voting",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Senate",
-      "title": "Mary Peltola 157 Votes Short of Majority as Alaska Senate Race Nears Ranked-Choice Count",
-      "summary": "Open the source for the full story.",
-      "why": "Ranked ballots, primary systems and ballot layout shape incentives and outcomes.",
-      "source": "SSBCrack",
-      "published": "2026-11-16T07:44:23Z",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQjVZdGJHTldXU1NWSHNFX0FsOFJ6Y0w3NXU3YURyLW1BNFBEZWh3M09wekNDUFhpb2hTcTFoOERjSFVkLXFCb2xqbGFsd1AtWXJ3enduSW9hOF84ODRpX0RXOTBNM1FuTDl5UHM0dEl0NmFZT0hRSGNhOGNhampyenN1ZFo3Y3hXYlI4UnR4dWxqZGF3ek4yWC0ybDVzamVEM1hWZkQ1RTJDZ09fXy0zWEZtTE5OUQ?oc=5",
-      "concepts": [
-        "electoral-rules"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Electoral rules and ballot design",
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
@@ -82,49 +98,13 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
-      "category": "Redistricting",
-      "title": "Trump Was Wrong About Everything: Maga Hat Speaker Torches Louisiana Republicans Over Redistricting Push",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "theunionstar.com",
-      "published": "2026-11-16T07:16:24Z",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaEt2NV9zaC12WXVXZlN3WGFQM0c5WmNDOWt3eGRNdUVJLW5BcVJfdDU3eFZWeDRwRFVmTjR5TnVHTlBvY2FsUjEyTGU3d1FoQlhSSUhjajRFN0d4SUIxYUJrUXJFRmdjU0g0TDlTSTZTcHM4Z1dmWDRzRFRRak4tekJxUnlzeXgzaVhuVkZDSXRIdGYxS2VPWkhtY09wUUpZTlZCbldMTG5TZUpUeGJmZWlSWnNRaEF6eFB2am5XYmpLTHFGMXh2SU83czhlQQ?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
       "category": "Senate",
-      "title": "Alaska Senate Race Nears Ranked-Choice Showdown as Peltola Edges Toward 50%",
-      "summary": "Open the source for the full story.",
-      "why": "Ranked ballots, primary systems and ballot layout shape incentives and outcomes.",
-      "source": "Hoodline",
-      "published": "2026-11-15T20:29:10Z",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOODVFdEFCVjdIeUJpT0djMVhWUlBYejh3R253c1V1dEk1Zm9oM0xQTkxjZEZyOUdicm4yRnlWNWsyU2drM3pkOHQ5VUhieklYbDU2OVhsYnp6aXlLSElSR3Vaek55dHlnSWlZWllkUWxFcTdrV293Rmt2UjI5cWZxSU5wc2RkdE0wZ2tMUm1VeW1hdzA2U1ByNGFEMnVKUGl4N1dBYUZvWQ?oc=5",
-      "concepts": [
-        "electoral-rules"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Electoral rules and ballot design",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Senate",
-      "title": "Mary Peltola's Lead Grows As Alaska's Senate Race Heads to Its Conclusion",
+      "title": "Peltola approaches victory in Alaska’s U.S. Senate race",
       "summary": "Open the source for the full story.",
       "why": "",
-      "source": "Townhall",
-      "published": "2026-11-16T20:15:00Z",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPclNXeGl1dG5XNlBQOUJMSGRaeHRTZUYtVGozVU5KQ0J3NWhSSXhSWFpVNm5xbjZncmFhUWpVVmMzMmZOeHB0dUtjWS12NmY2RGdSbmxVMU4ydlBJc1dta1BiYXQwM0FQRVBzRzNFTVpwaFQ1VXdwVDAyMUtMWXlWNUZVUkQ1RnhrWmoyZ3V3YlZMZTh5WDZoQWNLMDJoM00ydUY1NVlBbkFRYjJQOHpQcTh2VzdfeHhhTW55OFAyTm5hMTJnc09JbWVR?oc=5",
+      "source": "Anchorage Daily News",
+      "published": "2026-11-17T03:41:23Z",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVm9DQk5NQkhrWDBVQjNFVksxYlo0SGhDVjlTOTljT0l6M2V4ZTZHTTBqQl9YQ25Zclk5R0ZQWnRDUnhzYnN0Ql9sY3RmMG1aV1JucmlUNlB0OWRKaXFocllyNm9EQll1cWJwYmpYZndmejl3UlFlTml2MFZlcUNzNkRTbzRxZndESkc3TVU1X01MSXpJWkw5TQ?oc=5",
       "concepts": [],
       "cases": [
         "alaska"
@@ -135,12 +115,28 @@
     },
     {
       "category": "Senate",
-      "title": "Democrat Mary Peltola likely to win Alaska Senate race",
+      "title": "Trump says Alaska voters chose the wrong Dan Sullivan. What does the data show?",
       "summary": "Open the source for the full story.",
       "why": "",
-      "source": "NBC News",
-      "published": "2026-11-16T18:07:54Z",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMl92WUV6bkMzcGVfOW1kMEIwbUVUUF9WSFl2dDYyYmhJT2tVR3dVT253X1lkY1RUS1l0QkpHNXE3SWtFVXNhNm5OLWJYZHFKUXBtZzU0Yk1FdUpJNnRnVTlHdFhPZmxxZndWeWpHekdEdnNuVnFweWtWQ3g3S19uUmQ0bnhUamx6MzFoaFU0VWprSlU5SFpmaVpWYkkxZ082bU5QWDRCMA?oc=5",
+      "source": "BBC",
+      "published": "2026-11-17T02:38:08Z",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vbXFXUWsxanRDclZUbV9abTdzc2VfT0xBSjU1d0JDUGI4bUVRZ0Ryc2dweWRoOVF5b2o0bGlkbkdXXzd1S2sxdFRtWnNQUnIyZktFMzg5dlJCUUk?oc=5",
+      "concepts": [],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
+      "title": "Mary Peltola Is Now About 20 Votes Away from Turning Alaska’s Senate Seat Blue",
+      "summary": "Open the source for the full story.",
+      "why": "",
+      "source": "Jezebel",
+      "published": "2026-11-17T02:26:15Z",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZC00R1I5cjhBR0VFUmlLTmNjSkEyTHdVaUhaNy1yTnZfVmk2cmJnOWFNNXZDZno1allNMWFWNjk1UmJqc0hNNFQ5Yk83OVppVmJONVlwTC05RlBnamwyMlRkcmRtWEY3MnYtZGlpb0NtOThlMEtFZHBxbk5VV19UakFqRUJ4MzZaVmFHMXd2dm84M2toYnQ2VTN4VUI0XzRtYklFOFdScS1FTzBaRlZjSXJ2VFdOd0g3X2RjeDJMWWVmaWsyU1BNVDVn?oc=5",
       "concepts": [],
       "cases": [
         "alaska"
