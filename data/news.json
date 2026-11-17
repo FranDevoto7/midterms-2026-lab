@@ -1,11 +1,28 @@
 {
-  "updated_at": "2026-11-17T03:49:46Z",
+  "updated_at": "2026-11-17T13:19:34Z",
   "mode": "automatic-rss",
-  "feeds_ok": 17,
-  "feeds_failed": [
-    "Google News"
-  ],
+  "feeds_ok": 19,
+  "feeds_failed": [],
   "stories": [
+    {
+      "category": "Redistricting",
+      "title": "Virginia Supreme Court overturns Democrats' redistricting measure",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-16T23:10:14Z",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMm1XQmNtWWJMMjRWdXhhNG4wcWhjM1FXbW04RGRRWklOZzRBSWNKWnFhb0VaMmc0QmZfLWtRT2JndjNfdjdlRjdpUlVwQkxLTTFESDM3MzN2N0Y3cWpVNmF0SW01dGRQUTEtY09nN3FoQkVUczFKdWprWnpEbkk5M0VRVDNHX0RxUTYtemx3NUs0ck90SWMtZlN0c2F2Ri1ZN2ZURkZwcmRlNlZ0WERoWE1R0gG3AUFVX3lxTE1WZ3p4WE1QdllUdWlyNE01ckhmOHNwQk5iTHJldkhsV0pTUUs5aGJmdUdGX25Wazh4MHhfaXBhWW53Y3BYS25jcmpUVXJQT0VGYkp4bXc5bGw3ZHpZWFF1Q2NwYk85azliU1dHbjkwUlVyQnRmVzlJNG5mRUg4cXg2dFFocEFEYWJLWUhvYXhFOU4ycGtRb3VUR2ZIQnRFa2ZTTTRFQWUxaFZHdi1CYUN6MG52OTJuWQ?oc=5",
+      "concepts": [
+        "redistricting",
+        "federalism"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
     {
       "category": "Redistricting",
       "title": "Virginia approves referendum to redraw its congressional map to favor Democrats, AP projects",
@@ -24,6 +41,24 @@
       "signal": 2,
       "mechanism": "Gerrymandering and the seats–votes link",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Senate",
+      "title": "Peltola leads Alaska's Senate race with 49.98% as the final count and any ranked-choice tabulation arrive Wednesday",
+      "summary": "Open the source for the full story.",
+      "why": "Ranked ballots, primary systems and ballot layout shape incentives and outcomes.",
+      "source": "MLQ.ai",
+      "published": "2026-11-17T10:40:47Z",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTWQ4R08wbUpDcFJWVkNDZEVzRnVuYkxFWEtoQlNFN0F6WUZXLUJkZmNGb2J0RmU0QXF4cDhjVTBoSmljdTVuZzRIOV81Z2d3MkY0SGdhY0h2SWxxOUpobllXS3dIX2lYWU91LV9GSXFOUDNxZHVNWTcxVUxUc3pXbFdscnZBZmNUTW5fdUQ0aW5pVXNkaXEtOHpvM2dndUxueVA2Yk5iMUlCbS1kb3NEMWFjTEJfLWY1S29fZ1hIT2RFS1VQcHJOTzBILUNtQQ?oc=5",
+      "concepts": [
+        "electoral-rules"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Electoral rules and ballot design",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
       "category": "Senate",
@@ -63,20 +98,18 @@
     },
     {
       "category": "Senate",
-      "title": "Alaska Senate Race 2026 Midterm Results | Peltola vs Sullivan Polls: Live Kalshi & Polymarket Alaska Senate Race Prices (Nov 16)",
+      "title": "Mary Peltola Leads Alaska Senate Race as Ballot Counting Nears End: how 9 outlets framed it",
       "summary": "Open the source for the full story.",
-      "why": "Voters reward or punish the party in power for conditions they experience.",
-      "source": "Action Network",
-      "published": "2026-11-16T14:20:00Z",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQ045S1R2Z1lTQVRnRElVRi1CWUJjN0RJaXM3ejg0ekR0RUVPbjE1VWlQbG1NTFctXzFnYzlPby1mMjk3dHB2UklRUWYxRExGNnR5S2M1ek54M3JnS2o1SXZ5V1BBNVZrQXRmbU1LMFJrd2VjVFdXNjJyY2VWd1g1UHZBZEFaWk9PNVRyZEoxc0R3Nk9lWkxHMHRwemVreVFDM1ZMclNqNm9Td2kzM3VWbm40QjNhMVlMMnVOczdrMWM4eHMyUktrLXYwZk10VHRndTRUQUFlOUVGWi1ESTZMWDhlSC1oU29TMmZtMQ?oc=5",
-      "concepts": [
-        "referendum"
-      ],
+      "why": "",
+      "source": "NewsCord",
+      "published": "2026-11-17T12:37:21Z",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVTI3TC1DdUsySVVzOTF1NkQycEZTS0pEb0wzZXMtNnZNTC02QkRiSGNtWDZHdzVHVVhfcmtzNjB0MWFSRjV0TEZDVkZPQ1YtcXRlai1iQ0dXM3ZvQ0hpNzBIeHNtNWlUakNrbEFRSWREbUVfa1I1MTBuLVJUdlVqb2VISnFYajhzaTJmbk56dmU1MVQ1UUlPVzB1bmZreE1JNW45YkE3YmoxbTVxV3IwS2lSdXRFbkNWUDREckp0RGNvT2NuMG5uaDJlN0Jta0pZbm9MR0R6OA?oc=5",
+      "concepts": [],
       "cases": [
         "alaska"
       ],
       "signal": 2,
-      "mechanism": "Referendum and retrospective voting",
+      "mechanism": "",
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
@@ -99,44 +132,12 @@
     },
     {
       "category": "Senate",
-      "title": "Peltola approaches victory in Alaska’s U.S. Senate race",
+      "title": "MS NOW UPDATE: Dem Mary Peltola widens lead in Alaska Senate race",
       "summary": "Open the source for the full story.",
       "why": "",
-      "source": "Anchorage Daily News",
-      "published": "2026-11-17T03:41:23Z",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVm9DQk5NQkhrWDBVQjNFVksxYlo0SGhDVjlTOTljT0l6M2V4ZTZHTTBqQl9YQ25Zclk5R0ZQWnRDUnhzYnN0Ql9sY3RmMG1aV1JucmlUNlB0OWRKaXFocllyNm9EQll1cWJwYmpYZndmejl3UlFlTml2MFZlcUNzNkRTbzRxZndESkc3TVU1X01MSXpJWkw5TQ?oc=5",
-      "concepts": [],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Senate",
-      "title": "Trump says Alaska voters chose the wrong Dan Sullivan. What does the data show?",
-      "summary": "Open the source for the full story.",
-      "why": "",
-      "source": "BBC",
-      "published": "2026-11-17T02:38:08Z",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vbXFXUWsxanRDclZUbV9abTdzc2VfT0xBSjU1d0JDUGI4bUVRZ0Ryc2dweWRoOVF5b2o0bGlkbkdXXzd1S2sxdFRtWnNQUnIyZktFMzg5dlJCUUk?oc=5",
-      "concepts": [],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Senate",
-      "title": "Mary Peltola Is Now About 20 Votes Away from Turning Alaska’s Senate Seat Blue",
-      "summary": "Open the source for the full story.",
-      "why": "",
-      "source": "Jezebel",
-      "published": "2026-11-17T02:26:15Z",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZC00R1I5cjhBR0VFUmlLTmNjSkEyTHdVaUhaNy1yTnZfVmk2cmJnOWFNNXZDZno1allNMWFWNjk1UmJqc0hNNFQ5Yk83OVppVmJONVlwTC05RlBnamwyMlRkcmRtWEY3MnYtZGlpb0NtOThlMEtFZHBxbk5VV19UakFqRUJ4MzZaVmFHMXd2dm84M2toYnQ2VTN4VUI0XzRtYklFOFdScS1FTzBaRlZjSXJ2VFdOd0g3X2RjeDJMWWVmaWsyU1BNVDVn?oc=5",
+      "source": "Modern Ghana",
+      "published": "2026-11-17T05:50:00Z",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9TNmJQdXEzbDFMdlQ5NWlWckpGS0JrUE1kOHZRRHdRcTN2WjlCY01QUXZEM0RGSnVJUDJ0cTJZUDlwT1R4elM2TXE0YjZFb1BKYmtqR3EyWGp2d1RBbC1r0gFcQVVfeXFMTktvcVhsMGZENnRyZ3kycEpnM21Qb2d4ZXpuZzJXT1ZyVUNzc1ZaQUdDQ0hUeGNzVk83LTdLaVdxMjRsa244TVZXYk01WmN2Z1FxTzVUcmNJc0x4SWk?oc=5",
       "concepts": [],
       "cases": [
         "alaska"
