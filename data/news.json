@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T03:22:53Z",
+  "updated_at": "2026-11-19T12:59:11Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -25,6 +25,42 @@
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
+      "category": "Redistricting",
+      "title": "How Texas Republicans’ 2025 congressional gerrymander fell short",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "The Texas Tribune",
+      "published": "2026-11-19T11:00:00Z",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeWNka1YxVzlLMnR3VWVTaFNXQ09QMXJUUWRvTzJUak8xS2YxY1dEWDNSY1Z3a1lfNFVIRzUyUS1memdnQU9ZZWVTNEpRN1dMeDZFb29VOVg1VmNhM1NJbG1DNFBqaXlyWEFWTm0zUmN0eC1RSGgwRGRyM2N1dzJfdDFTSUNyZVRaRUgwOE43THpMTlpfVm4tTm9FRE4?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Senate",
+      "title": "Democrat Mary Peltola wins US Senate race in Alaska, beating incumbent Republican Dan Sullivan",
+      "summary": "Open the source for the full story.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "Jackson Hole News&Guide",
+      "published": "2026-11-19T07:00:00Z",
+      "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPRENXekEzd2FNYzRNamZTUklRVlVKSW8yUkF5dm9kdWl6OGxwRDZEblVBQkl2S0VzQVVTbDJwazByaE03VlJNTzJqWUN4bkNaVEppUllOQjZEbm5LdEZiNWdrd2UtdkZsSTNyTFhRSHNxTnZVa3RKNjlFbkkwZ3cyc241aUYydUp3UWlnUS1sc3BraDhaN2lhWjNQemUzcWFFOU1xcXFjcGZRX0RuODZfUnZkRlhOamlDMXFmcXh0MmdWWUpPNzYxM0xzTl9TellsOERvTVJ3N1cxUFJxZnZFNVRYeGNTblYzLUZxX0NOWnR4NWkwV0tjanFOSDZDOVFDcU1nLU5jMm9PTHU3QjVDa2F2ckt5RFBPRU9kc3BkRjFqcUxtLTZlTVNOWExIekZXaXZ5cTVkeVBKWkstVHdXTXln?oc=5",
+      "concepts": [
+        "incumbency"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
       "category": "Senate",
       "title": "Democrats flipped 9 U.S. Senate seats — the most in almost 70 years",
       "summary": "Former Rep. Mary Peltola's victory over Republican incumbent Sen. Dan Sullivan in Alaska's competitive U.S.",
@@ -32,42 +68,6 @@
       "source": "PBS News",
       "published": "2026-11-18T22:11:08Z",
       "url": "https://www.pbs.org/newshour/politics/democrats-flipped-9-us-senate-seats-the-most-in-almost-70-years",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Senate",
-      "title": "Democrat Mary Peltola has defeated Republican incumbent Dan Sullivan in Alaska's closely contested US Senate race. Her victory gives Democrats a 56-44 majority in the chamber, securing the final uncalled Senate race of the midterm elections and deliveri",
-      "summary": "Open the source for the full story.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "Facebook",
-      "published": "2026-11-19T01:35:00Z",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZDU4UE1UMG5FbG9MemR0NzZmNHFFZUY3R3FfaTJZOVY3VFcwUVV2UzQwbVI2aVVOUTVvRHFFTFlPeHJ0bGFiR1JiemN6dGxfdV8wN1d3TmJ5M3VJQzNJRTItRUdDYWFRVnpjOUJTdmRpNTQ1OUtiXzFWV1hyRzYwNXZMR3JHYTcyN0tzdndZMXN1TGJ3a1dIOHZCU1hidTJOdDh2QU1iYjlDa2lKRFA3TTdSU3VDdlpxSFc2bjNadnVfRnJncnlmaTZ2ZS13enJXelczS2tQVVl0LTltUjRQTQ?oc=5",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Senate",
-      "title": "Democrat Mary Peltola wins Alaska Senate seat, beating Republican incumbent Dan Sullivan",
-      "summary": "The Alaska race was the last U.S. Senate contest to be resolved in this year's midterm elections and gave Democrats a 56-44 majority after they flipped nine GOP-held seats to retake the chamber.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "PBS News",
-      "published": "2026-11-18T14:25:22Z",
-      "url": "https://www.pbs.org/newshour/politics/democrat-mary-peltola-wins-alaska-senate-seat-beating-republican-incumbent-dan-sullivan",
       "concepts": [
         "incumbency"
       ],
@@ -116,6 +116,24 @@
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
+      "category": "Redistricting",
+      "title": "Missouri Republicans weigh another redistricting fight after voters reject GOP map",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Missourian | Washington, MO",
+      "published": "2026-11-18T18:30:00Z",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOdnpHeS1qR1Y1aTZlTjFwWGp2aGFRdTZRWkNZRm5lUks4MkV2Q0wxSnk4QlhOb3FJOEd2ZTFDbHgwVUpyaHI3TEUzd1pHdV9nc1VaQjhwYTBxUDRYTTgzZUxjaWZNQlZ1SDRwUlFmNzU3TnduOVhGMXVWTnFtRmo5aW5ZaHdJZndVcmFwb1R5bmR1WS1MVlh4eG1ELVdCOWJRWDQwaFJQdDJPUS1wQW1WRzhxeGE4VkF2MkVEWGZiWU1UMGdLVmdWVm9xeWpWcmp0dnJlek9kREtWNDdhLWkzNFY4b18tbmY0TnZFLVFfNXZ1NWpaN2c4?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
       "category": "Senate",
       "title": "Fish and High Prices: How Mary Peltola Triumphed in Alaska’s Senate Race",
       "summary": "Open the source for the full story.",
@@ -131,24 +149,6 @@
       ],
       "signal": 2,
       "mechanism": "Referendum and retrospective voting",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Senate",
-      "title": "Mary Peltola wins Alaska Senate race, flipping seat for Dems",
-      "summary": "Mary Peltola, 53, defeated incumbent GOP Sen. Dan Sullivan and will be the first Alaska Native to serve in the U.S. Senate.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "CBS News",
-      "published": "2026-11-18T03:47:00Z",
-      "url": "https://www.cbsnews.com/news/alaska-2026-senate-sullivan-peltola/",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     }
   ]
