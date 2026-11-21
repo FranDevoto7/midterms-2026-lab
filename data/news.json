@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T20:10:42Z",
+  "updated_at": "2026-11-21T01:29:15Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -25,30 +25,12 @@
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
-      "category": "Senate",
-      "title": "US Justice Department drops appeal in Alaska Senate suit",
-      "summary": "Open the source for the full story.",
-      "why": "States run elections; federal actors and courts contest the edges.",
-      "source": "Hilton Head Island Packet",
-      "published": "2026-11-20T17:30:07Z",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVlZiVDFOQnJnczVTWFI3NzJxYWFsWEk1SXZxd05UUHVZcFFzSHBpNmRIVUZhbTJrd0lyZDRTQnZiZUZaeXNlR0YyUHlmLUVSNDhRY2dtSXAwQUoxeWJfVElHbVBIbkNRUHo2VExRLWprOE5iQzVzWjc0YjU5bzhxNEVSaw?oc=5",
-      "concepts": [
-        "federalism"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Federalism and election administration",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
       "category": "Redistricting",
       "title": "Redistricting did not help Republicans keep the House – but 2028 could look different",
       "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
       "source": "AP News",
-      "published": "2026-11-20T18:45:00Z",
+      "published": "2026-11-21T01:07:30Z",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9oZVRQbXhaSk1ncFpIcl9zSnJFRUt2Ym5xMXF1bW1yM2FoZVJuTkdYcnFua2RVY2tEakpIYzNLZTZxZVRWcHpiVFlvaTVGRG9pUE82a2xPb09zaTZtTE9OeFhnZTY3aThoOTVmYVh2dzhDZUdSQ2NsX2htZHM?oc=5",
       "concepts": [
         "redistricting"
@@ -62,7 +44,61 @@
     },
     {
       "category": "Senate",
-      "title": "The Latest: Justice Department moves to dismiss lawsuit in challenge to Alaska Senate race",
+      "title": "DOJ drops Alaska Senate race lawsuit",
+      "summary": "Open the source for the full story.",
+      "why": "States run elections; federal actors and courts contest the edges.",
+      "source": "KSDK",
+      "published": "2026-11-20T22:15:43Z",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQnBiTzFLVHU3MDVGRzdTdU90TmpvRHdIT0diaUpzT2Y1djVUVXdlY1pSdU1wczhJbTRBZmlaT19wRjVBdlZBYnJZczRPMWU5bWxaU3liel83RkdacXdjcjJGRFdNNmtURXJBR3F4MUlwSk1pempWX2xJZkNBLXBzOUNseERjWVRnMy1nUm85QVZSVkdOYy1FalFpYkZ4cXFhVGx4eHBCeE1OTDMtY3pTN3k0aExmbTVl?oc=5",
+      "concepts": [
+        "federalism"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Federalism and election administration",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
+      "title": "Justice Department gives up on Alaska Senate lawsuit",
+      "summary": "Open the source for the full story.",
+      "why": "States run elections; federal actors and courts contest the edges.",
+      "source": "Inquirer.com",
+      "published": "2026-11-20T20:44:32Z",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPLUszNGZhZUl2NUVoc0c1RWhPOGZ4aFVqZi1aTFF6NEkwRTMwanYxTlB0ZzBIdVYzOUpidFluSkUyZzYwZXV5cnFSeHdHbmoyRXZxcU5aXzNUZF9fYy1qc1MtZWJfZi1PNF9LaTZ3QWtocy1XbUtnS1JNTmRIWHowTHMxNDRiSUNHVkpIUU9kMm9hU0pPOFR2bWxvU3UwSmUtWmpMc1RGRlMxbE9B?oc=5",
+      "concepts": [
+        "federalism"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Federalism and election administration",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
+      "title": "US Justice Department drops appeal in Alaska Senate suit",
+      "summary": "Open the source for the full story.",
+      "why": "States run elections; federal actors and courts contest the edges.",
+      "source": "WTVB",
+      "published": "2026-11-20T17:43:24Z",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSVcyX0lBUFFTT0R1cmpxM21DMUhsNUoxUjhIcW1VOWhMNXJIRkI1cFlZdi1pS2hONnhSWWFoSUhiV3NoU3VJcHBKRlFVX1RobkV3SFJ3bWl3cjhFY0RWYjVmaGlmbE4zWVdmdDBuUTRxcHBUbndmLU5WWlczWDNxTTYtejY5M2NGV2ZHSE5scjI?oc=5",
+      "concepts": [
+        "federalism"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Federalism and election administration",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
+      "title": "Justice Department moves to dismiss lawsuit in challenge to Alaska Senate race",
       "summary": "Open the source for the full story.",
       "why": "States run elections; federal actors and courts contest the edges.",
       "source": "Chicago Tribune",
@@ -80,12 +116,12 @@
     },
     {
       "category": "Senate",
-      "title": "The Justice Department seeks dismissal of its lawsuit in the Alaska Senate race",
+      "title": "Justice Department Drops Its Bid to Block Peltola's Alaska Senate Win",
       "summary": "Open the source for the full story.",
       "why": "States run elections; federal actors and courts contest the edges.",
-      "source": "Modern Ghana",
-      "published": "2026-11-20T13:50:00Z",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SRWFNMlJtYmdWN01kN1JGYjRWbW00Ykk5d0RLTkpuNDU1VHFLNnBaXzkwYkNZMHIwTmMwc2h6czVRd1lFYVUyeEhNTGNuTzhDS29lQ18tM0NkNkdfSVBV0gFcQVVfeXFMUFNLMENOdlhSV292SHA2anZVSHJQUVRkSmFOLUF2MDB1ZjFzY25LX2FzVXkyZVdVUzdXZTZQelFKSDJScjlJVTlqTHpPV3RXMi1ab3RUbXNZNnJTblU?oc=5",
+      "source": "Around Prague",
+      "published": "2026-11-20T14:31:41Z",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZGkzX3dzcGRidlNHQ2Rral9CQ3lONnBHZDVQSkNfejV1aVJWQlpTSUdkdEZYdm8weS0wRnU5NDBHTTRrODRUbEk1Y2plRnFjQXBPZ0RISmZyUHJpYkRlbVgwMG9meUFUMWFBZksyajBtM3pDa2JGS0ZaTG1GUTRWb3dvR0otS3RlSHZhYU1nZlA5QUxoVkhqUkxwYjZHRXFHUV8zOGJRUQ?oc=5",
       "concepts": [
         "federalism"
       ],
@@ -98,12 +134,12 @@
     },
     {
       "category": "Senate",
-      "title": "DOJ moves to dismiss lawsuit over Alaska Senate race",
-      "summary": "The Trump administration is moving to effectively drop its legal challenge to Democrat Mary Peltola's win in Alaska's Senate race.",
+      "title": "Trump team drops Alaska senate lawsuit after Democrat easily won the race",
+      "summary": "Open the source for the full story.",
       "why": "States run elections; federal actors and courts contest the edges.",
-      "source": "CBS News",
-      "published": "2026-11-20T03:55:45Z",
-      "url": "https://www.cbsnews.com/news/trump-administration-dismiss-alaska-senate-lawsuit/",
+      "source": "The Independent",
+      "published": "2026-11-20T12:48:00Z",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZkhNUzBReWlZWGFuN2ViekNxYnBwU0RIbmJ3bVJFcG5uR1JKYTdENEluWVRiaXh6WkRCYmJfdDViUk1FbVBtNDFUdWNrS09Sa2UxaUlVcG1PN2hvQW1tY2daOTBCRmJxZ1VfeWxFaGtGN014bWwyak1NNWNFVFN3c3BXdTNuUzhTd0IwbHEwdFJMbzJzWTl5YTlIS1lHdVEyM2dMTmtPN1BGV3NGeURKTQ?oc=5",
       "concepts": [
         "federalism"
       ],
@@ -112,42 +148,6 @@
       ],
       "signal": 2,
       "mechanism": "Federalism and election administration",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Redistricting",
-      "title": "Mid-decade redistricting was supposed to help Republicans. Did it actually backfire?",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Votebeat",
-      "published": "2026-11-20T10:00:00Z",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbExfallvUFowZktoN2lBODFzMDA1NTcyWXFYQ204UEZEWEtQWDNHSHpVZjhRQ2VVZTNrN0JzcXF2eml6TDlTcHAtVmkyOUQwR2pWcGE3TXFIRjNRQkpJUWhyLTVKQUZsY1UyeHVUdlRTWlJWelNCaS1CUkw1NGFRMHJZY0FsRGdrMGdjTjRDZGVick8xbm1BT3N1V2N5VXFtNThTMVl0cm5GUQ?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Democrat Mary Peltola Wins US Senate Race in Alaska, Beating Incumbent Republican Dan Sullivan",
-      "summary": "Open the source for the full story.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "The National Herald",
-      "published": "2026-11-20T09:16:44Z",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbVMyZGZNZ3IyRW5yZFhOQkpzbHNDX0FWUnBTNC1LYjR0VXB0OGR4UGJhNkRBMDBkOXJkLTNJRUl0LVJoM1BzLVFMUmVUYl9EcFlFM2ZDWmY5ZDdYYlJXV3ZwRkhtLVo1MHhkRWxJX291MDB2M1gzalVtVnRnX3BNWG0wRkJXWjdCSXBZNy1aSF8tYUo0cXplTTJPRkVYNDBZSjJocXAtZHNJQjUtcHhhdVc2NWZwdFdmaklfQUNLTXpNb0dkdHZV?oc=5",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     }
   ]
