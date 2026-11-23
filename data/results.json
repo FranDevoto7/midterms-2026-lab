@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T03:08:08Z",
+  "updated_at": "2026-11-23T21:17:48Z",
   "house_net_change_presidents_party": -47,
   "cases": {},
   "senate": {
@@ -510,8 +510,8 @@
   },
   "house_auto": {
     "source": "Wikipedia",
-    "called": 432,
+    "called": 433,
     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
-    "at": "2026-11-22T03:08:08Z"
+    "at": "2026-11-23T21:17:48Z"
   }
 }

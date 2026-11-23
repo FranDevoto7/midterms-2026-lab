@@ -1,9 +1,27 @@
 {
-  "updated_at": "2026-11-23T08:58:48Z",
+  "updated_at": "2026-11-23T21:17:42Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
+    {
+      "category": "Redistricting",
+      "title": "Did GOP efforts to redistrict the House turn into a dummymander?",
+      "summary": "Republicans undertook a historic effort to redraw several states' congressional districts mid-decade in an attempt to maintain control of the House.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "CBS News",
+      "published": "2026-11-23T20:38:05Z",
+      "url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
     {
       "category": "Redistricting",
       "title": "Alabama Congressional Map Lawsuit: Full 2026 Case Update",
@@ -15,6 +33,24 @@
       "concepts": [
         "redistricting",
         "federalism"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Research group: Cleaver would have survived GOP redistricting",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "St. Louis American",
+      "published": "2026-11-23T15:01:57Z",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYlZucU1KaG1EVGRjelZOY2xIc2lBTjFjakFsNGtBTDZwQ25ISi10RGZKTDJIczJMS00xZi1iUkRMbTlqMWF4V2EwbU91c2EzRzgtaHhkN29LRFFZOXJ3UkFpQ2NJaGttMDRWdjMxbTFWMmdkdGtJSlZJcjlLVDZLek1EZmlFM0owVWpOZ01OeVdxZUtLT1VoaFZR?oc=5",
+      "concepts": [
+        "redistricting"
       ],
       "cases": [
         "redistricting"
@@ -42,6 +78,23 @@
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
+      "category": "U.S. politics",
+      "title": "Democrats unveil 2028 debate rules with new dark money restrictions — but there's a catch",
+      "summary": "The DNC's 2028 Democratic primary rules require candidates to denounce dark money from super PACs and 501(c)(4) groups to qualify for 12 debate stages.",
+      "why": "Nominations reveal bargaining among a party’s factions.",
+      "source": "Fox News",
+      "published": "2026-11-23T14:48:07Z",
+      "url": "https://www.foxnews.com/politics/democrats-unveil-2028-debate-rules-new-dark-money-restrictions-presidential-hopefuls",
+      "concepts": [
+        "party-coalitions",
+        "campaign-finance"
+      ],
+      "cases": [],
+      "signal": 1,
+      "mechanism": "Party coalitions, primaries and nominations",
+      "watch": "Whether primary losers’ supporters return in November, and how replacement nominees perform."
+    },
+    {
       "category": "Redistricting",
       "title": "How a GOP redistricting 'dummymander' in North Carolina backfired by 2 seats",
       "summary": "In North Carolina, Republican lawmakers redrew voting maps, aiming to gain one seat in Congress. Instead, they lost two seats, in a classic example of what political scientists call a \"dummymander.\"",
@@ -60,6 +113,24 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
+      "category": "Redistricting",
+      "title": "Trump-backed candidates beat at least 5 of 7 Indiana GOP senators who defied him on redistricting, AP projects",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-21T16:33:27Z",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSHBFYlFuTFl1aUF1bEUyQ1dpNVpIUGdyNmtKS0ZwV29BeHZUUG5zbVNFX1p5ZnIza1A3bzV4VnpCMWJNc1hwRm5nV0NlMEJyUldKSS11M1VoZjIySHBVWkNfYlR2dTdrbFctdFl5YTRFUEcxRG9mQ0tucnUtaHBJZkdiR25BR1NHeWNxSjVqdnZLbjRhM3I0SGRxWEtmOFhNOTZxUWRQZnFoQWJQNHNzN19ib9IBuAFBVV95cUxQd0pQcUREZUpUY2dITkp3MUwwSkJUZlEyenVNS3hGSXF4RWRhemk4Ym5zZW42UTR4cTlLc3RJeGZHMEsxeXc3UUFSaGw2M3p5eFNjQ05pa2RnZTVDNjJBTW9tZXdqdDRzbXotSXZvRGdWTmlTNzQwZUZ5aEZaQmU1V05SRkpwams1MUxjOGdueWd5dmRnMHAtUXpRN3VXb09fd3JfSGFaemg5TXprMEo3a2VrNDZ2MG1V?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
       "category": "Senate",
       "title": "Who is Annie Andrews? The pediatrician who is South Carolina's first woman elected to the Senate",
       "summary": "Open the source for the full story.",
@@ -67,78 +138,6 @@
       "source": "Nacionale",
       "published": "2026-11-22T12:32:51Z",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObDQzQnRGaXJnQk1KN1NmbnZaY0RWTUpyQVFibmhMNnFFdWdJcTdtbDlTTUFoRnc0UklmMkVmTlkzX09JbmlSVzNhbVNBdjFHakFmcG5PejdmRzhSLWdCMzhienJyVUlSYTdkaENlUU9XaFVjaWY3cjE4LVB5dWJENS1nd3NvNEs1bThqR0VxUVliSW9OZ1ZwWm4zS01ydWpONmxKWnNMMWRsRTdza1VvVllMWQ?oc=5",
-      "concepts": [],
-      "cases": [
-        "reach"
-      ],
-      "signal": 2,
-      "mechanism": "",
-      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
-    },
-    {
-      "category": "Senate",
-      "title": "Ken Paxton Drops High-Profile Texas Lawsuits After Losing Senate Race",
-      "summary": "Open the source for the full story.",
-      "why": "States run elections; federal actors and courts contest the edges.",
-      "source": "Speaks Media",
-      "published": "2026-11-21T10:54:11Z",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaW0taEp0LXZITDRBV1dwQWtDa3ZuY2dVTWRoSm5GeFI2RUhBb2J5N1NUcWFPTE1ZNjFxY0t3b2VwNGVSSElDS3dFaG1rU21DcE1nTF9GNmhPQjgxS08xbUNkVW5TdDF2cWFqbTlDSVh4dk5fcC1NN2U0MUJHMC1WYjJuRF9FN3dZWTFEQ1p2T2owdnlwNzN4Y0xQcnY?oc=5",
-      "concepts": [
-        "federalism"
-      ],
-      "cases": [
-        "texas"
-      ],
-      "signal": 2,
-      "mechanism": "Federalism and election administration",
-      "watch": "Paxton’s margin against Abbott’s, county by county."
-    },
-    {
-      "category": "Redistricting",
-      "title": "Ask Jordan: What can Congress do about gerrymandering that the Supreme Court would allow?",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Yahoo",
-      "published": "2026-11-20T10:30:00Z",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZmFHdEpDSllubUtoMG1QaWlVcEtOOVBHSUJaUjgyeV9wQkt3ZlFWc3hRSUwtRElxSll0VjcwVXlLQ3l6RXVmaWFHUnNLLU5zS0hxczg0bGFNbVRHOGJDOW9OOEEtdVZxaXAtWV9fMlFKcHhzdHExTlJzQnZpMzJnLVNibWNwQ3Vld1VYV3c4aUVmVkF2LXhRbXRhbW1NS1dxMkxHWA?oc=5",
-      "concepts": [
-        "redistricting",
-        "federalism"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "On Behalf on Memphis Urban League, LDF Joins Lawsuit Challenging Discriminitory Tennessee Congressional Map",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "National Urban League",
-      "published": "2026-11-20T09:00:00Z",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObC10XzFJMzkzc18xTW5Pc0ZQT01YSElKQ3NXcnJfcXdBN2RRa1BCMmUtdEZwYU9lQ0dEeTQ0cWxpTFZiNEJKNG8xdTRYczNWZTBCU0tsNExjOEtMRGZoZWVvR2tneGI4LVUxTWs5cEdYcDM4OS10SFdwbUVJcEZ2RUQ0aWZLOUtsbWxuUTRYZ0JnSXpNcVI0TWd0TFpIWTAyN1BOWTV3?oc=5",
-      "concepts": [
-        "redistricting",
-        "federalism"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Annie Andrews Outlines Senate Priorities as South Carolina Prepares for Historic Democratic Leadership Change",
-      "summary": "Open the source for the full story.",
-      "why": "",
-      "source": "Speaks Media",
-      "published": "2026-11-22T12:38:51Z",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUEwyM3Rjb21YRUNFdnZDekRVR0lpejBxZEl4UGpvRXlXY1dtRjFIVXpMVWpXcFdrMFkyQl9saDgwblRpMHk2Y0VyXzg5VTdoSG5yVGVXenlWUmQxcVpiaVBZQVdIM2YteU4wMk1CM0lnZC1aejhnVlliVk9TUTMtRXdxOUhLWTdlQUFFMllaS0dZa0F4QkRfZm1UMTM3bi1Rbnd2S1JhN2oxVG1ncVA2YzRsSW5KRl9YSDhzQUl5Z0NqTUoybzRkQW9HMXBjMFZZdWc?oc=5",
       "concepts": [],
       "cases": [
         "reach"
