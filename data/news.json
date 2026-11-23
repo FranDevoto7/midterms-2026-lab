@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T00:17:15Z",
+  "updated_at": "2026-11-23T08:58:48Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -24,51 +24,13 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
-      "category": "Redistricting",
-      "title": "Virginia Democrats ask US Supreme Court to override state court on nixing redistricting plan",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-22T08:17:31Z",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWUo0T19MTzdIT1RMQ2V3Y1kxVThIRTRhcXpxa1Q1Yl9CVEw4Y1hWc29aSDZTMUhHenVkQWFFaUpjVFB5ekxQdy1uZ2JMZG1iYlJ1OHJHYzVHZVMwN0FpTUE0YnZCUGRJbnRkQTNTUUwyOUJwS0JYYmFzemtvbGdXUExQcnRaRmVHdTBkWlV0aThjaVBwdF9lY3dQeHJyUFJTN3AxYTB5TkvSAa4BQVVfeXFMUHU1Uzh3eTlMRHl5cG1uWC1rdExSYnp4SXE4azhJVVJERjVHa01qeHVGY2pyLTl4cVV2Umt0d3FlTkxDTmFnbFNDZjVmZ3pHOUpURTl2MUFUN2I0dTBQYzR0WGxrRGdWN3dkMmNPRll5bWhpWUhlN2o3Z3Bid2FmcXh1Skx4Z18weW1VWXQwSlZUUms3cnVBYy1CM095VGhhc19rWVZNWDB6SGpGaWFn?oc=5",
-      "concepts": [
-        "redistricting",
-        "federalism"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Virginia Supreme Court overturns Democrats' redistricting measure",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-21T16:51:14Z",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMm1XQmNtWWJMMjRWdXhhNG4wcWhjM1FXbW04RGRRWklOZzRBSWNKWnFhb0VaMmc0QmZfLWtRT2JndjNfdjdlRjdpUlVwQkxLTTFESDM3MzN2N0Y3cWpVNmF0SW01dGRQUTEtY09nN3FoQkVUczFKdWprWnpEbkk5M0VRVDNHX0RxUTYtemx3NUs0ck90SWMtZlN0c2F2Ri1ZN2ZURkZwcmRlNlZ0WERoWE1R0gG3AUFVX3lxTE1WZ3p4WE1QdllUdWlyNE01ckhmOHNwQk5iTHJldkhsV0pTUUs5aGJmdUdGX25Wazh4MHhfaXBhWW53Y3BYS25jcmpUVXJQT0VGYkp4bXc5bGw3ZHpZWFF1Q2NwYk85azliU1dHbjkwUlVyQnRmVzlJNG5mRUg4cXg2dFFocEFEYWJLWUhvYXhFOU4ycGtRb3VUR2ZIQnRFa2ZTTTRFQWUxaFZHdi1CYUN6MG52OTJuWQ?oc=5",
-      "concepts": [
-        "redistricting",
-        "federalism"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
       "category": "Senate",
       "title": "Democrat Mary Peltola wins US Senate race in Alaska, beating incumbent Republican Dan Sullivan",
       "summary": "Open the source for the full story.",
       "why": "Officeholders can build support that outlasts party tides.",
-      "source": "theparisnews.com",
-      "published": "2026-11-22T08:30:41Z",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQWVlzSlhXTlNDSVBtZ0p2dTlGZWdSeENPcUJ6a0FCNFd5RG5zdlhwck52cnlJQ1NIZFAxdmh6dTR6Y1c2UXFDYnhJTEg3d1FBQUZZR01PdVplYVE5ZkJNWkM0a00ycHVscVB4VTlEOFBnQmhVeFFUbmM5NFVyNWZORHkydGljN0w4eWhETXlRbHlrd3dYVmVNUWdmUTNPYVN4SHo0ZzQzNDlYM09oakxad1h4bkZDb2dVZFEtSERXREwtZXVyTkNENDBEMGJpRXM5MTRDeWc3Mk5YV1dPUzh3TERmMkkzeFV0dU1mR01zMXV5R2RFeFNwT0dEZmNOMjBYOGlZTHMtTDB3MDB1?oc=5",
+      "source": "Washington Times Herald",
+      "published": "2026-11-22T04:20:48Z",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOTlVUVU9yQnJ4YnE5NUNfeDBoSXMyX0hscnE5ZnFKdnhFcG50a0J6YV9vc3l6enJwSEtUdThVY1phd0YxYW52QjJlak5TaVktOG5BekFPclB6WndUU29udjl2Z2pkbXRRcTNKSDdBemJVcFdVQXRYem40ZkdidkROZVRxVFkxTkp2QkNiU1dObFRId1BKSU96Ni1FRjhqSGVhbDZvclN5Uk95d2ZqcS1SazFTMG15eVo5Y1VKbG1VLTlxNzY4V3BNNXJHTFFUM1c0c1p2VVpyekRZZGd0dlZVNFktc2NKaEFsR091RHpRLUVraWh3bnhjSl9DZHhLWTJmYmx0ZWZrN2pwNElzbDhkQ2JXSzBBd0NDSnBQWDFYbw?oc=5",
       "concepts": [
         "incumbency"
       ],
@@ -149,6 +111,41 @@
       "signal": 2,
       "mechanism": "Gerrymandering and the seats–votes link",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "On Behalf on Memphis Urban League, LDF Joins Lawsuit Challenging Discriminitory Tennessee Congressional Map",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "National Urban League",
+      "published": "2026-11-20T09:00:00Z",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObC10XzFJMzkzc18xTW5Pc0ZQT01YSElKQ3NXcnJfcXdBN2RRa1BCMmUtdEZwYU9lQ0dEeTQ0cWxpTFZiNEJKNG8xdTRYczNWZTBCU0tsNExjOEtMRGZoZWVvR2tneGI4LVUxTWs5cEdYcDM4OS10SFdwbUVJcEZ2RUQ0aWZLOUtsbWxuUTRYZ0JnSXpNcVI0TWd0TFpIWTAyN1BOWTV3?oc=5",
+      "concepts": [
+        "redistricting",
+        "federalism"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Senate",
+      "title": "Annie Andrews Outlines Senate Priorities as South Carolina Prepares for Historic Democratic Leadership Change",
+      "summary": "Open the source for the full story.",
+      "why": "",
+      "source": "Speaks Media",
+      "published": "2026-11-22T12:38:51Z",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUEwyM3Rjb21YRUNFdnZDekRVR0lpejBxZEl4UGpvRXlXY1dtRjFIVXpMVWpXcFdrMFkyQl9saDgwblRpMHk2Y0VyXzg5VTdoSG5yVGVXenlWUmQxcVpiaVBZQVdIM2YteU4wMk1CM0lnZC1aejhnVlliVk9TUTMtRXdxOUhLWTdlQUFFMllaS0dZa0F4QkRfZm1UMTM3bi1Rbnd2S1JhN2oxVG1ncVA2YzRsSW5KRl9YSDhzQUl5Z0NqTUoybzRkQW9HMXBjMFZZdWc?oc=5",
+      "concepts": [],
+      "cases": [
+        "reach"
+      ],
+      "signal": 2,
+      "mechanism": "",
+      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
     }
   ]
 }
