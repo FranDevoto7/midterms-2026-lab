@@ -1,8 +1,10 @@
 {
-  "updated_at": "2026-11-23T21:17:42Z",
+  "updated_at": "2026-11-24T05:59:07Z",
   "mode": "automatic-rss",
-  "feeds_ok": 19,
-  "feeds_failed": [],
+  "feeds_ok": 9,
+  "feeds_failed": [
+    "Google News"
+  ],
   "stories": [
     {
       "category": "Redistricting",
@@ -21,61 +23,6 @@
       "signal": 2,
       "mechanism": "Gerrymandering and the seats–votes link",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Alabama Congressional Map Lawsuit: Full 2026 Case Update",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "LawFold.com",
-      "published": "2026-11-22T14:57:01Z",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5pSHRlMkdmMVRkRlE0NG9FR0RtZWk5RllVQ18tMUlCR2xGLTJ4RS05ZHRzYnFTMVNLd2U5dlVjTzJKUTB0UXNUVVBvMkRZMy1wWm9fMk9Bbk9lbFI1ODlUMTZDM3o?oc=5",
-      "concepts": [
-        "redistricting",
-        "federalism"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Research group: Cleaver would have survived GOP redistricting",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "St. Louis American",
-      "published": "2026-11-23T15:01:57Z",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYlZucU1KaG1EVGRjelZOY2xIc2lBTjFjakFsNGtBTDZwQ25ISi10RGZKTDJIczJMS00xZi1iUkRMbTlqMWF4V2EwbU91c2EzRzgtaHhkN29LRFFZOXJ3UkFpQ2NJaGttMDRWdjMxbTFWMmdkdGtJSlZJcjlLVDZLek1EZmlFM0owVWpOZ01OeVdxZUtLT1VoaFZR?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Democrat Mary Peltola wins US Senate race in Alaska, beating incumbent Republican Dan Sullivan",
-      "summary": "Open the source for the full story.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "Washington Times Herald",
-      "published": "2026-11-22T04:20:48Z",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOTlVUVU9yQnJ4YnE5NUNfeDBoSXMyX0hscnE5ZnFKdnhFcG50a0J6YV9vc3l6enJwSEtUdThVY1phd0YxYW52QjJlak5TaVktOG5BekFPclB6WndUU29udjl2Z2pkbXRRcTNKSDdBemJVcFdVQXRYem40ZkdidkROZVRxVFkxTkp2QkNiU1dObFRId1BKSU96Ni1FRjhqSGVhbDZvclN5Uk95d2ZqcS1SazFTMG15eVo5Y1VKbG1VLTlxNzY4V3BNNXJHTFFUM1c0c1p2VVpyekRZZGd0dlZVNFktc2NKaEFsR091RHpRLUVraWh3bnhjSl9DZHhLWTJmYmx0ZWZrN2pwNElzbDhkQ2JXSzBBd0NDSnBQWDFYbw?oc=5",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     },
     {
       "category": "U.S. politics",
@@ -113,38 +60,85 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
-      "category": "Redistricting",
-      "title": "Trump-backed candidates beat at least 5 of 7 Indiana GOP senators who defied him on redistricting, AP projects",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-21T16:33:27Z",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSHBFYlFuTFl1aUF1bEUyQ1dpNVpIUGdyNmtKS0ZwV29BeHZUUG5zbVNFX1p5ZnIza1A3bzV4VnpCMWJNc1hwRm5nV0NlMEJyUldKSS11M1VoZjIySHBVWkNfYlR2dTdrbFctdFl5YTRFUEcxRG9mQ0tucnUtaHBJZkdiR25BR1NHeWNxSjVqdnZLbjRhM3I0SGRxWEtmOFhNOTZxUWRQZnFoQWJQNHNzN19ib9IBuAFBVV95cUxQd0pQcUREZUpUY2dITkp3MUwwSkJUZlEyenVNS3hGSXF4RWRhemk4Ym5zZW42UTR4cTlLc3RJeGZHMEsxeXc3UUFSaGw2M3p5eFNjQ05pa2RnZTVDNjJBTW9tZXdqdDRzbXotSXZvRGdWTmlTNzQwZUZ5aEZaQmU1V05SRkpwams1MUxjOGdueWd5dmRnMHAtUXpRN3VXb09fd3JfSGFaemg5TXprMEo3a2VrNDZ2MG1V?oc=5",
+      "category": "U.S. politics",
+      "title": "Nvidia's Jensen Huang still testifying before Congress next week",
+      "summary": "Jensen Huang is still set to testify before lawmakers next week, congressional panels confirmed, after he was reinstated as Nvidia's CEO Monday, after resigning earlier this month amid allegations of affairs.",
+      "why": "Experienced, scandal-free candidates tend to beat what partisanship predicts.",
+      "source": "CBS News",
+      "published": "2026-11-24T01:18:24Z",
+      "url": "https://www.cbsnews.com/news/jensen-huang-congress-reinstatement-nvidia/",
       "concepts": [
-        "redistricting"
+        "candidate-quality"
       ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+      "cases": [],
+      "signal": 1,
+      "mechanism": "Candidate quality",
+      "watch": "Performance relative to co-partisans on the same ballot."
     },
     {
-      "category": "Senate",
-      "title": "Who is Annie Andrews? The pediatrician who is South Carolina's first woman elected to the Senate",
-      "summary": "Open the source for the full story.",
-      "why": "",
-      "source": "Nacionale",
-      "published": "2026-11-22T12:32:51Z",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObDQzQnRGaXJnQk1KN1NmbnZaY0RWTUpyQVFibmhMNnFFdWdJcTdtbDlTTUFoRnc0UklmMkVmTlkzX09JbmlSVzNhbVNBdjFHakFmcG5PejdmRzhSLWdCMzhienJyVUlSYTdkaENlUU9XaFVjaWY3cjE4LVB5dWJENS1nd3NvNEs1bThqR0VxUVliSW9OZ1ZwWm4zS01ydWpONmxKWnNMMWRsRTdza1VvVllMWQ?oc=5",
-      "concepts": [],
-      "cases": [
-        "reach"
+      "category": "U.S. politics",
+      "title": "Democratic congressman resigns over sexual misconduct allegations",
+      "summary": "Democratic Congressman Jimmy Gomez said he disagreed with a devastating Ethics Committee report but will resign next week. NBC News’ Monica Alba reports.",
+      "why": "Experienced, scandal-free candidates tend to beat what partisanship predicts.",
+      "source": "NBC News",
+      "published": "2026-11-24T00:05:29Z",
+      "url": "https://www.nbcnews.com/nightly-news/video/democratic-congressman-resigns-over-sexual-misconduct-allegations-274051653628",
+      "concepts": [
+        "candidate-quality"
       ],
-      "signal": 2,
-      "mechanism": "",
-      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
+      "cases": [],
+      "signal": 1,
+      "mechanism": "Candidate quality",
+      "watch": "Performance relative to co-partisans on the same ballot."
+    },
+    {
+      "category": "U.S. politics",
+      "title": "California Democrat Rep. Gomez resigns following ethics report on sexual misconduct allegations",
+      "summary": "California Congressman Rep. Jimmy Gomez says he will resign after a House Ethics report concluded Gomez's actions violated House rules by \"making unwelcome sexual advances.\"",
+      "why": "Experienced, scandal-free candidates tend to beat what partisanship predicts.",
+      "source": "NPR",
+      "published": "2026-11-23T22:29:53Z",
+      "url": "https://www.npr.org/2026/11/23/g-s1-155142/california-democrat-rep-gomez-resigns-following-ethics-report-on-sexual-misconduct-allegations",
+      "concepts": [
+        "candidate-quality"
+      ],
+      "cases": [],
+      "signal": 1,
+      "mechanism": "Candidate quality",
+      "watch": "Performance relative to co-partisans on the same ballot."
+    },
+    {
+      "category": "Economy and war",
+      "title": "Huang's reinstatement at Nvidia sparks fury in Congress as lawmakers move forward with hearings",
+      "summary": "Nvidia was already facing sharp scrutiny from Congress after Huang acknowledged a relationship with a Chinese businesswoman whom U.S. officials believed to be a spy.",
+      "why": "Voters reward or punish the party in power for conditions they experience.",
+      "source": "PBS News",
+      "published": "2026-11-23T22:06:38Z",
+      "url": "https://www.pbs.org/newshour/politics/huangs-reinstatement-at-nvidia-sparks-fury-in-congress-as-lawmakers-move-forward-with-hearings",
+      "concepts": [
+        "referendum"
+      ],
+      "cases": [],
+      "signal": 1,
+      "mechanism": "Referendum and retrospective voting",
+      "watch": "Whether vote choice tracks evaluations of the economy and the Iran war in exit polls and AP VoteCast, and whether places more exposed to fuel prices move differently."
+    },
+    {
+      "category": "Economy and war",
+      "title": "Progressives unveil $25 minimum wage push to solve affordability crisis despite economist inflation warning",
+      "summary": "House Democrats push a $25 minimum wage to fight the affordability crisis, but Heritage economist E.J. Antoni warns it could raise costs and unemployment.",
+      "why": "Voters reward or punish the party in power for conditions they experience.",
+      "source": "Fox News",
+      "published": "2026-11-22T15:57:48Z",
+      "url": "https://www.foxnews.com/politics/progressives-unveil-25-minimum-wage-push-solve-affordability-crisis-despite-economist-inflation-warning",
+      "concepts": [
+        "referendum",
+        "party-coalitions"
+      ],
+      "cases": [],
+      "signal": 1,
+      "mechanism": "Referendum and retrospective voting",
+      "watch": "Whether vote choice tracks evaluations of the economy and the Iran war in exit polls and AP VoteCast, and whether places more exposed to fuel prices move differently."
     }
   ]
 }
