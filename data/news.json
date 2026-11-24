@@ -1,11 +1,27 @@
 {
-  "updated_at": "2026-11-24T05:59:07Z",
+  "updated_at": "2026-11-24T17:38:08Z",
   "mode": "automatic-rss",
-  "feeds_ok": 9,
-  "feeds_failed": [
-    "Google News"
-  ],
+  "feeds_ok": 19,
+  "feeds_failed": [],
   "stories": [
+    {
+      "category": "Redistricting",
+      "title": "Democrats on track to net 16 to 18 U.S. House seats in nine states that used new congressional maps this year",
+      "summary": "Welcome to the Tuesday, Nov. 24, 2026, Brew. By: Lara Bonatesta Here’s what’s in store for you as you start your day: Democrats on track to net 16 to 18 U.S.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Ballotpedia News",
+      "published": "2026-11-24T10:30:00Z",
+      "url": "https://news.ballotpedia.org/2026/11/24/democrats-on-track-to-net-16-to-18-u-s-house-seats-in-nine-states-that-used-new-congressional-maps-this-year/",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
     {
       "category": "Redistricting",
       "title": "Did GOP efforts to redistrict the House turn into a dummymander?",
@@ -25,30 +41,13 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
-      "category": "U.S. politics",
-      "title": "Democrats unveil 2028 debate rules with new dark money restrictions — but there's a catch",
-      "summary": "The DNC's 2028 Democratic primary rules require candidates to denounce dark money from super PACs and 501(c)(4) groups to qualify for 12 debate stages.",
-      "why": "Nominations reveal bargaining among a party’s factions.",
-      "source": "Fox News",
-      "published": "2026-11-23T14:48:07Z",
-      "url": "https://www.foxnews.com/politics/democrats-unveil-2028-debate-rules-new-dark-money-restrictions-presidential-hopefuls",
-      "concepts": [
-        "party-coalitions",
-        "campaign-finance"
-      ],
-      "cases": [],
-      "signal": 1,
-      "mechanism": "Party coalitions, primaries and nominations",
-      "watch": "Whether primary losers’ supporters return in November, and how replacement nominees perform."
-    },
-    {
       "category": "Redistricting",
-      "title": "How a GOP redistricting 'dummymander' in North Carolina backfired by 2 seats",
-      "summary": "In North Carolina, Republican lawmakers redrew voting maps, aiming to gain one seat in Congress. Instead, they lost two seats, in a classic example of what political scientists call a \"dummymander.\"",
+      "title": "Republicans Fell Well Short in Early Redistricting",
+      "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "NPR",
-      "published": "2026-11-21T12:40:21Z",
-      "url": "https://www.npr.org/2026/11/21/nx-s1-6044778/how-a-gop-redistricting-dummymander-in-north-carolina-backfired-by-2-seats",
+      "source": "Political Wire",
+      "published": "2026-11-23T23:12:45Z",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOREtQeHhjMkpTV1VBYVZfbDdnMFJwaDZDWFZOYWc2alFlb1Fkdk9KX0h3LTFZNUI1dlpucEwxSlBjMjhKRFBmZk5RT0NmQktXbF9oVlhGdDVHbTlERm5xZERlWEVlX3BmR3paS3pLTG9HeTFENWNrZHBlb2UxTmxGeW9zbGRvS1djeGFDQ1otTEU?oc=5",
       "concepts": [
         "redistricting"
       ],
@@ -60,85 +59,89 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
-      "category": "U.S. politics",
-      "title": "Nvidia's Jensen Huang still testifying before Congress next week",
-      "summary": "Jensen Huang is still set to testify before lawmakers next week, congressional panels confirmed, after he was reinstated as Nvidia's CEO Monday, after resigning earlier this month amid allegations of affairs.",
-      "why": "Experienced, scandal-free candidates tend to beat what partisanship predicts.",
-      "source": "CBS News",
-      "published": "2026-11-24T01:18:24Z",
-      "url": "https://www.cbsnews.com/news/jensen-huang-congress-reinstatement-nvidia/",
+      "category": "Redistricting",
+      "title": "Research group: Cleaver would have survived GOP redistricting",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "St. Louis American",
+      "published": "2026-11-23T15:01:57Z",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYlZucU1KaG1EVGRjelZOY2xIc2lBTjFjakFsNGtBTDZwQ25ISi10RGZKTDJIczJMS00xZi1iUkRMbTlqMWF4V2EwbU91c2EzRzgtaHhkN29LRFFZOXJ3UkFpQ2NJaGttMDRWdjMxbTFWMmdkdGtJSlZJcjlLVDZLek1EZmlFM0owVWpOZ01OeVdxZUtLT1VoaFZR?oc=5",
       "concepts": [
-        "candidate-quality"
+        "redistricting"
       ],
-      "cases": [],
-      "signal": 1,
-      "mechanism": "Candidate quality",
-      "watch": "Performance relative to co-partisans on the same ballot."
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
-      "category": "U.S. politics",
-      "title": "Democratic congressman resigns over sexual misconduct allegations",
-      "summary": "Democratic Congressman Jimmy Gomez said he disagreed with a devastating Ethics Committee report but will resign next week. NBC News’ Monica Alba reports.",
-      "why": "Experienced, scandal-free candidates tend to beat what partisanship predicts.",
-      "source": "NBC News",
-      "published": "2026-11-24T00:05:29Z",
-      "url": "https://www.nbcnews.com/nightly-news/video/democratic-congressman-resigns-over-sexual-misconduct-allegations-274051653628",
-      "concepts": [
-        "candidate-quality"
+      "category": "Senate",
+      "title": "Democrat Adam Hamilton wins tight US Senate race in Kansas",
+      "summary": "Open the source for the full story.",
+      "why": "",
+      "source": "KSHB 41 Kansas City",
+      "published": "2026-11-24T08:59:01Z",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc0d6bTVSSFIwTGpIVFgwZjJaNDc1aWpqWHJLZU9Qc1JFYzdLeDBZY0d2YUVQTW5hN1R3RjFxb1RJeEJLZFl0ZTJpelY0N0I3VGcyVXhZc0l2WUw5TUI3dlR5OGhmek1XdzRpUjd6dUtZa19HcDU1eDNnWk5admltalROMWY1RVNVTV9UNjkycGxTNlg0SzBBSlA0TQ?oc=5",
+      "concepts": [],
+      "cases": [
+        "reach"
       ],
-      "cases": [],
-      "signal": 1,
-      "mechanism": "Candidate quality",
-      "watch": "Performance relative to co-partisans on the same ballot."
+      "signal": 2,
+      "mechanism": "",
+      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
     },
     {
-      "category": "U.S. politics",
-      "title": "California Democrat Rep. Gomez resigns following ethics report on sexual misconduct allegations",
-      "summary": "California Congressman Rep. Jimmy Gomez says he will resign after a House Ethics report concluded Gomez's actions violated House rules by \"making unwelcome sexual advances.\"",
-      "why": "Experienced, scandal-free candidates tend to beat what partisanship predicts.",
-      "source": "NPR",
-      "published": "2026-11-23T22:29:53Z",
-      "url": "https://www.npr.org/2026/11/23/g-s1-155142/california-democrat-rep-gomez-resigns-following-ethics-report-on-sexual-misconduct-allegations",
-      "concepts": [
-        "candidate-quality"
+      "category": "Senate",
+      "title": "Democrat Sherrod Brown defeats Republican Jon Husted in Ohio US Senate race",
+      "summary": "Open the source for the full story.",
+      "why": "",
+      "source": "News From The States",
+      "published": "2026-11-24T06:00:07Z",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNnJ4VWpDNVB5VEFFc0VhWnl4alJreVBUdW5SQ1Q2ZVhPTHMzRmRDSGhER0g0Nno0YVFJWUpDRkhYa3l4ZXgwRVJmYkMtYm9USE5QVE9OdjNUU2dabFRJaDBGbVl1ek1SUmE5LUVpMWlmc1VaRUtMVF8xd21rYVBnXzlFejFnbzRBRVNJMlR0U2dHd2pRd01tQmpBUHdCYzM0am53Nzc1SVR1bzc3LXpuaWdrekY?oc=5",
+      "concepts": [],
+      "cases": [
+        "reach"
       ],
-      "cases": [],
-      "signal": 1,
-      "mechanism": "Candidate quality",
-      "watch": "Performance relative to co-partisans on the same ballot."
+      "signal": 2,
+      "mechanism": "",
+      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
     },
     {
-      "category": "Economy and war",
-      "title": "Huang's reinstatement at Nvidia sparks fury in Congress as lawmakers move forward with hearings",
-      "summary": "Nvidia was already facing sharp scrutiny from Congress after Huang acknowledged a relationship with a Chinese businesswoman whom U.S. officials believed to be a spy.",
-      "why": "Voters reward or punish the party in power for conditions they experience.",
-      "source": "PBS News",
-      "published": "2026-11-23T22:06:38Z",
-      "url": "https://www.pbs.org/newshour/politics/huangs-reinstatement-at-nvidia-sparks-fury-in-congress-as-lawmakers-move-forward-with-hearings",
-      "concepts": [
-        "referendum"
+      "category": "Senate",
+      "title": "Andrews Wins South Carolina Senate Seat",
+      "summary": "Open the source for the full story.",
+      "why": "",
+      "source": "Wisevoter",
+      "published": "2026-11-24T03:43:58Z",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdVhTUENnMm5xR3h0Y2dsUlhudFY4aS1GUlZkVkFTSThlQUZHUTBrWTY4M3lXWVlvelRjM2JwZXZzVmhDM0k2RHNnZzRaTlhRbHRmM3Vyd2Z4aGExMWp0ZzBmLXJBZWU2MjJJRDR2S2t2VlJUWFU1dG1uNVprcFFJcEo4V3RqZE9KMkdMOA?oc=5",
+      "concepts": [],
+      "cases": [
+        "reach"
       ],
-      "cases": [],
-      "signal": 1,
-      "mechanism": "Referendum and retrospective voting",
-      "watch": "Whether vote choice tracks evaluations of the economy and the Iran war in exit polls and AP VoteCast, and whether places more exposed to fuel prices move differently."
+      "signal": 2,
+      "mechanism": "",
+      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
     },
     {
-      "category": "Economy and war",
-      "title": "Progressives unveil $25 minimum wage push to solve affordability crisis despite economist inflation warning",
-      "summary": "House Democrats push a $25 minimum wage to fight the affordability crisis, but Heritage economist E.J. Antoni warns it could raise costs and unemployment.",
-      "why": "Voters reward or punish the party in power for conditions they experience.",
-      "source": "Fox News",
-      "published": "2026-11-22T15:57:48Z",
-      "url": "https://www.foxnews.com/politics/progressives-unveil-25-minimum-wage-push-solve-affordability-crisis-despite-economist-inflation-warning",
+      "category": "Redistricting",
+      "title": "EXPLAINER: Why Trump-backed primary wins could reshape congressional maps",
+      "summary": "Open the source for the full story.",
+      "why": "Nominations reveal bargaining among a party’s factions.",
+      "source": "WCIV",
+      "published": "2026-11-22T03:27:25Z",
+      "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxPV3ZkNmJSeVZiOVBFU1JpbWZ4cmNMTnliWjdEQlQwbXQ4bkNibEhkYk5lV25RQ1F4anVxVkpCejBGdk1fN01LeUJfWlREWGxUNVUxdGtEUnRFNmZwZjhES0dsZ3JRREk4RHladGVORWlGTm00RVdseWlwMlRnTF9fb19Ed1ZueHRhY04tY1kzZEtOV0JUUEN5WDRBcGlMd2xRWVlHSUxvdHBVLWRJby0xb29CYmVzdFp4dGR3ek5jR1dpRTVEelpiaW54cVp6TmRaSjhKeWtrQjBpU0RkYnhnUE94elpOem9TZTdaZ2VnWHhHZXZJZFg0N0lnMUo2VUJicXZsTWprNXdCclVIQi1faHFoTUVRQnpJSkU1MXpacU5zT2ZTNVpVVHlOLWVTLThyS2NjdzlGUVc2c3JWcVhVUlA4TkJQU1dpWm8teGV1ZlBoRnd1blRZbzJtYkNkRTV5TVQxV3BPYXhPMERGZ20wVG9aMkhIbEp4YUdHbl9wZHc0ZmJMUHZVVUFYdWdxNGduYW55WUxqeWgxSFZMNklweGxLNS0xRmxZYzYzd0hvd1cxdw?oc=5",
       "concepts": [
-        "referendum",
-        "party-coalitions"
+        "party-coalitions",
+        "redistricting"
       ],
-      "cases": [],
-      "signal": 1,
-      "mechanism": "Referendum and retrospective voting",
-      "watch": "Whether vote choice tracks evaluations of the economy and the Iran war in exit polls and AP VoteCast, and whether places more exposed to fuel prices move differently."
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Party coalitions, primaries and nominations",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
 }
