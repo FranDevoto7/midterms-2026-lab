@@ -1,27 +1,26 @@
 {
-  "updated_at": "2026-11-25T12:47:14Z",
+  "updated_at": "2026-11-25T22:28:45Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
     {
-      "category": "Redistricting",
-      "title": "Virginia Supreme Court overturns Democrats' redistricting measure",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-25T10:20:02Z",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMm1XQmNtWWJMMjRWdXhhNG4wcWhjM1FXbW04RGRRWklOZzRBSWNKWnFhb0VaMmc0QmZfLWtRT2JndjNfdjdlRjdpUlVwQkxLTTFESDM3MzN2N0Y3cWpVNmF0SW01dGRQUTEtY09nN3FoQkVUczFKdWprWnpEbkk5M0VRVDNHX0RxUTYtemx3NUs0ck90SWMtZlN0c2F2Ri1ZN2ZURkZwcmRlNlZ0WERoWE1R0gG3AUFVX3lxTE1WZ3p4WE1QdllUdWlyNE01ckhmOHNwQk5iTHJldkhsV0pTUUs5aGJmdUdGX25Wazh4MHhfaXBhWW53Y3BYS25jcmpUVXJQT0VGYkp4bXc5bGw3ZHpZWFF1Q2NwYk85azliU1dHbjkwUlVyQnRmVzlJNG5mRUg4cXg2dFFocEFEYWJLWUhvYXhFOU4ycGtRb3VUR2ZIQnRFa2ZTTTRFQWUxaFZHdi1CYUN6MG52OTJuWQ?oc=5",
+      "category": "Senate",
+      "title": "Jackson, progressive Maine senator-elect, backs Van Hollen for leader",
+      "summary": "Troy Jackson, the progressive senator-elect from Maine who defeated Sen. Susan Collins (R-Maine), announced Wednesday that he will support Sen. Chris Van Hollen (D-Md.) to become the next Senate majority leader.",
+      "why": "Nominations reveal bargaining among a party’s factions.",
+      "source": "The Hill",
+      "published": "2026-11-25T18:38:58Z",
+      "url": "https://thehill.com/homenews/senate/6243237-troy-jackson-chris-van-hollen-support-senate-leadership-race/",
       "concepts": [
-        "redistricting",
-        "federalism"
+        "party-coalitions"
       ],
       "cases": [
-        "redistricting"
+        "maine"
       ],
       "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+      "mechanism": "Party coalitions, primaries and nominations",
+      "watch": "Collins’s margin against the Republican candidate for governor, town by town."
     },
     {
       "category": "Redistricting",
@@ -41,6 +40,42 @@
       "signal": 2,
       "mechanism": "Realignment versus short-term swing",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "How will Democrats handle redistricting?",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Punchbowl News",
+      "published": "2026-11-25T12:54:28Z",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0xGalhSWHBldkc1a1FLQXlkTXlVZllIXzJubUxNSDdJM0NROHp6X1U5WmNfV1FoRE51c3FyTnFZUU5QY2JYZmpkRzNVMlUxaDhVRzZGemhCdkh1czE1MUk1dXpoVWwzbDBDdlhiZ2ctTlo3SWYxTDdKOXVsRE1pZ3Zyc0tWRW13V1E?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Senate",
+      "title": "Trump-backed Paxton will beat incumbent Cornyn in Texas GOP Senate runoff, AP projects",
+      "summary": "Open the source for the full story.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-25T11:57:39Z",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbmNCQVBFclB5WnZlaks4UnZiUWVkenNZdTdkYlZKOEZRZFhYcGMxNDEyemhBYUt1bV9QaEFHdzBWcW1XMDZENFdZRkVSamZuWXFDa1dQX3VnTXF6ci1MdHptZVlkb2VRd05QamF3akJDVFJGdktUeWhXOGZ2OEVRNGY5QWtJVU45dHd5QUVodDdIb2Q00gGaAUFVX3lxTFA5Q0ZVS01wSmplbWVESnVkdTJWdDRBZHlDU0ZmRWlXS2dSa2VrZFdkay1PZ21sU2FGT0xwMmszQ0xBWkhXbU1NQ2RfVWNxU1lFb09hcE9PVVY1M0tIcE9ZZ2hoZmwtUEhHaVFhSG5Na09lMW5ubUVOZ0FSYXhFYzZYUUtIczdka05UalVjOGxxaEZyRU1nb1VtM1E?oc=5",
+      "concepts": [
+        "incumbency"
+      ],
+      "cases": [
+        "texas"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Paxton’s margin against Abbott’s, county by county."
     },
     {
       "category": "Redistricting",
@@ -79,25 +114,6 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
-      "category": "Redistricting",
-      "title": "Virginia approves referendum to redraw its congressional map to favor Democrats, AP projects",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-24T05:17:32Z",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPME80aURQTWhIck9BRU0wMzBXZVRQay1zeEFiajJqOFlvUTBlYkg0dlA4ZXFVUjQ4OHFDQ1g4V25kX05wYi1xbF8wSkxUUWcyUmFDMXdNQUhpUFJwbG5yekFoOWFvY2FCbTNlanZXTUNHaXpLaGhCelI0QnVTc1dwOG85WDh3ZVVEOHRWa0tnS09ZWF9KRlVZcmlMT2U1Y1ljRkhRVjQ0VXZBUdIBrwFBVV95cUxObmNsWE1vOGJPc3RqbkhRdkRYbTU1X28wTV9YcDZYcmNUYUVpcEI2eDZrQjU5dnM5ZnhkM2Yzc0hnUWZsbkI2ZkIyREhaU3RyUW1LMXJnSjRHT2RnNXVCLXBOWkhSZHRmcmZ3MGVZMVl2XzJiTWpQTl9YeWxLenhFMHBFblgwVEdaLTlqMjI5bnZHeG5UNno5UTBxbE9IUFpvYkt6bW9QUXU1WFhlTFNB?oc=5",
-      "concepts": [
-        "redistricting",
-        "direct-democracy"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
       "category": "Senate",
       "title": "Sullivan concedes to Peltola nearly a week after Alaska Senate race called",
       "summary": "Sen. Dan Sullivan (R-Alaska) has conceded the Alaska Senate race to Sen.-elect Mary Peltola (D) days after the race was called by major networks, including Decision Desk HQ (DDHQ), The Hill’s polling partner.",
@@ -123,24 +139,6 @@
       "source": "Democracy Docket",
       "published": "2026-11-24T19:14:29Z",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWnEyVUt1bGZjU19KS1V5cndkNEE0eTBhempJQUc0VnRZUUhwNjZNQjVGSlUzYmZzbHVMTWt6VnA0NGlEWWlwUjJqd2p4c3MtX3QtNWo2ZV9xNE1LTEZlMDFRS1AyMGJtR3BPaERlOFhicVQybHBjaTZ5R3hMOWhtcmI4NnBrd1I5UHB0SjVHRVRwZWhJLWFZY0psSjZkalRhSnlvanlkZmcxa2lsS3lZT2IweHNqQQ?oc=5",
-      "concepts": [
-        "federalism"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Federalism and election administration",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Senate",
-      "title": "Mary Peltola’s Alaska Senate Election Result Is Certified—What Happens Next",
-      "summary": "Open the source for the full story.",
-      "why": "States run elections; federal actors and courts contest the edges.",
-      "source": "Newsweek",
-      "published": "2026-11-24T17:49:00Z",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ3dUc3MxX1ZXZTFJam5WOWV0X29YN25xX3pyOHl4aVpHdUQ2bXN6cHBhV20wTTFLQ191Q2NZV0hmU2JoVFl2bUJPVTRnOXhlTFpzd085ZVRiNGNsb0p5TmNPWDNqb3MzYWpJM1h3RlVkN2xpVVdSbi1Ydlc5NW1NYXV4NEJUcFpDREQ3dG9KcXM3Sk4zd2pKZE5hODh4WnFtb0s3Z0hWaw?oc=5",
       "concepts": [
         "federalism"
       ],
