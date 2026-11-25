@@ -1,17 +1,36 @@
 {
-  "updated_at": "2026-11-25T02:22:42Z",
+  "updated_at": "2026-11-25T12:47:14Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
     {
       "category": "Redistricting",
+      "title": "Virginia Supreme Court overturns Democrats' redistricting measure",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-25T10:20:02Z",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMm1XQmNtWWJMMjRWdXhhNG4wcWhjM1FXbW04RGRRWklOZzRBSWNKWnFhb0VaMmc0QmZfLWtRT2JndjNfdjdlRjdpUlVwQkxLTTFESDM3MzN2N0Y3cWpVNmF0SW01dGRQUTEtY09nN3FoQkVUczFKdWprWnpEbkk5M0VRVDNHX0RxUTYtemx3NUs0ck90SWMtZlN0c2F2Ri1ZN2ZURkZwcmRlNlZ0WERoWE1R0gG3AUFVX3lxTE1WZ3p4WE1QdllUdWlyNE01ckhmOHNwQk5iTHJldkhsV0pTUUs5aGJmdUdGX25Wazh4MHhfaXBhWW53Y3BYS25jcmpUVXJQT0VGYkp4bXc5bGw3ZHpZWFF1Q2NwYk85azliU1dHbjkwUlVyQnRmVzlJNG5mRUg4cXg2dFFocEFEYWJLWUhvYXhFOU4ycGtRb3VUR2ZIQnRFa2ZTTTRFQWUxaFZHdi1CYUN6MG52OTJuWQ?oc=5",
+      "concepts": [
+        "redistricting",
+        "federalism"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
       "title": "How Latino voters in South Texas turned a GOP redistricting strategy upside down",
       "summary": "Open the source for the full story.",
       "why": "Durable coalition change is not the same as one unusual election.",
-      "source": "KSHB 41 Kansas City",
-      "published": "2026-11-24T17:36:38Z",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZlNXUkM3elJSUnlOdDk4OWw1LW1ZSGFPcWQ5aDV3WkVaMzkyYklHLTV4RU5HUDlhZDlGeTVvVDR4bTdCWHhmVUZzdkR1NmdHTDFIWFgySlZ4U3ZOSVR0TXhDS1NKTDctMHNQQS05Q2pyYy1FaVI1alMzNk9XRjJMZURsSThLQVFZRjlWY2M4WlZJTnVfTGpyY3VCNnkwQmNjMEJfZTl2Y2lMLWxEYlhR?oc=5",
+      "source": "Scripps News",
+      "published": "2026-11-24T17:56:29Z",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTXBSUlQweS03UE1xOGlEZ095OXhvR1oxUmQ3c0JDQUNKUWpXdXotM0pESjNrMGxibXhjSF9SMFc5ZGJfalU2RFIycG00ZnhIZFNFS19JMm1fXzZ1S09pZV95NU95VTl5cDZSbS01d2luU1V4WFNjYnFqWkdPUFc2MFlhcDlZVlIyVGpsMnVTWW1nNkV6eWY2cmt6UjNEdmxqSGwwN1QzOWNBX25jaEZvc0dxZUJTazVp?oc=5",
       "concepts": [
         "realignment",
         "redistricting"
@@ -25,6 +44,24 @@
     },
     {
       "category": "Redistricting",
+      "title": "Democrats on track to net 16 to 18 U.S. House seats in nine states that used new congressional maps this year",
+      "summary": "The nine states that used new Congressional maps in this year's general election are on track to send 16 to 18 more Democrats to Washington than they did in the last Congress, even though the states enacted new maps that included a net of…",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Ballotpedia News",
+      "published": "2026-11-25T06:06:56Z",
+      "url": "https://news.ballotpedia.org/2026/11/25/democrats-on-track-to-net-16-to-18-u-s-house-seats-in-nine-states-that-used-new-congressional-maps-this-year-2/",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
       "title": "Did GOP efforts to redistrict the House turn into a dummymander?",
       "summary": "Republicans undertook a historic effort to redraw several states' congressional districts mid-decade in an attempt to maintain control of the House.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
@@ -33,6 +70,25 @@
       "url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
       "concepts": [
         "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Virginia approves referendum to redraw its congressional map to favor Democrats, AP projects",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-24T05:17:32Z",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPME80aURQTWhIck9BRU0wMzBXZVRQay1zeEFiajJqOFlvUTBlYkg0dlA4ZXFVUjQ4OHFDQ1g4V25kX05wYi1xbF8wSkxUUWcyUmFDMXdNQUhpUFJwbG5yekFoOWFvY2FCbTNlanZXTUNHaXpLaGhCelI0QnVTc1dwOG85WDh3ZVVEOHRWa0tnS09ZWF9KRlVZcmlMT2U1Y1ljRkhRVjQ0VXZBUdIBrwFBVV95cUxObmNsWE1vOGJPc3RqbkhRdkRYbTU1X28wTV9YcDZYcmNUYUVpcEI2eDZrQjU5dnM5ZnhkM2Yzc0hnUWZsbkI2ZkIyREhaU3RyUW1LMXJnSjRHT2RnNXVCLXBOWkhSZHRmcmZ3MGVZMVl2XzJiTWpQTl9YeWxLenhFMHBFblgwVEdaLTlqMjI5bnZHeG5UNno5UTBxbE9IUFpvYkt6bW9QUXU1WFhlTFNB?oc=5",
+      "concepts": [
+        "redistricting",
+        "direct-democracy"
       ],
       "cases": [
         "redistricting"
@@ -94,60 +150,6 @@
       "signal": 2,
       "mechanism": "Federalism and election administration",
       "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Senate",
-      "title": "Democrat Mary Peltola wins US Senate race in Alaska, beating incumbent Republican Dan Sullivan",
-      "summary": "Open the source for the full story.",
-      "why": "Officeholders can build support that outlasts party tides.",
-      "source": "New Castle News",
-      "published": "2026-11-24T17:49:44Z",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNQUxBZHJsZDdlMjVET0RNdHAxZl9CRmVad2ZKZDdnWF9SdFdqeVpCZ3ItcURfTEhnLXdjRmJLQVRaOC1qeG84emxvbjlWT3ZwSzh0Qk5EUjFlUllCWXgzdmp2ODFqWEltYWs1MV9IMTRqLVM3UnhXTXFONnhFSVM4MHJCUDFPeTFWVDY0SlprWXNWajR3cmdic0pBemNyd2ZPOWpseE1WLVp5Nkd6bnVBR1NDazNtQmJlR3h5MkpFUzNOSXVydF81MGlmTGFzbENBSTVxNkt2S3ljelZLa2hhc01Qc3I1dGJ1WGRfalpKUjd3c0N2c0NIaUM3R290d2pjd05ZSzNBMk85UkRwdE5PbjlZZW4?oc=5",
-      "concepts": [
-        "incumbency"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Incumbency and the personal vote",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Redistricting",
-      "title": "Democrats on track to net 16 to 18 U.S. House seats in nine states that used new congressional maps this year",
-      "summary": "Welcome to the Tuesday, Nov. 24, 2026, Brew. By: Lara Bonatesta Here’s what’s in store for you as you start your day: Democrats on track to net 16 to 18 U.S.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Ballotpedia News",
-      "published": "2026-11-24T10:30:00Z",
-      "url": "https://news.ballotpedia.org/2026/11/24/democrats-on-track-to-net-16-to-18-u-s-house-seats-in-nine-states-that-used-new-congressional-maps-this-year/",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Despite Democrats’ big win, mid-decade redistricting still benefited Republicans in the 2026 election",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "NationofChange",
-      "published": "2026-11-24T10:21:50Z",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZ214dTNlVWdaVDZsS0RDNm9NbVRxY1phaG9uWlBvVndWWGlOeDZnd3RjZFNkU3hPeXFJb3B5Ym5UYl9JS1dPSktQY25hbjlMN2JyaGpZdzRBc0VmZzhzVlRPc2Nnczd2UnFVNkJueERhZnRCMjJOVnVPNEZJcEtjNy1STXNNUTFMZHBPemRzUm9mb1ZwVUVfWkk0eU9XT19PTG9USWRTeE03aktnMlU1dEVWalVaYTQyYTlyTjBzYmlpaGEtUE5PLU5TWW94ampWUUhUMFZFY3l0dw?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
 }
