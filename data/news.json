@@ -1,9 +1,118 @@
 {
-  "updated_at": "2026-11-24T17:38:08Z",
+  "updated_at": "2026-11-25T02:22:42Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
+    {
+      "category": "Redistricting",
+      "title": "How Latino voters in South Texas turned a GOP redistricting strategy upside down",
+      "summary": "Open the source for the full story.",
+      "why": "Durable coalition change is not the same as one unusual election.",
+      "source": "KSHB 41 Kansas City",
+      "published": "2026-11-24T17:36:38Z",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZlNXUkM3elJSUnlOdDk4OWw1LW1ZSGFPcWQ5aDV3WkVaMzkyYklHLTV4RU5HUDlhZDlGeTVvVDR4bTdCWHhmVUZzdkR1NmdHTDFIWFgySlZ4U3ZOSVR0TXhDS1NKTDctMHNQQS05Q2pyYy1FaVI1alMzNk9XRjJMZURsSThLQVFZRjlWY2M4WlZJTnVfTGpyY3VCNnkwQmNjMEJfZTl2Y2lMLWxEYlhR?oc=5",
+      "concepts": [
+        "realignment",
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Realignment versus short-term swing",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Did GOP efforts to redistrict the House turn into a dummymander?",
+      "summary": "Republicans undertook a historic effort to redraw several states' congressional districts mid-decade in an attempt to maintain control of the House.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "CBS News",
+      "published": "2026-11-24T20:27:07Z",
+      "url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Senate",
+      "title": "Sullivan concedes to Peltola nearly a week after Alaska Senate race called",
+      "summary": "Sen. Dan Sullivan (R-Alaska) has conceded the Alaska Senate race to Sen.-elect Mary Peltola (D) days after the race was called by major networks, including Decision Desk HQ (DDHQ), The Hill’s polling partner.",
+      "why": "States run elections; federal actors and courts contest the edges.",
+      "source": "The Hill",
+      "published": "2026-11-24T19:48:41Z",
+      "url": "https://thehill.com/homenews/campaign/6240650-dan-sullivan-concedes-alaska-senate/",
+      "concepts": [
+        "federalism"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Federalism and election administration",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
+      "title": "GOP’s Sullivan concedes Senate race after Alaska certifies Peltola’s win",
+      "summary": "Open the source for the full story.",
+      "why": "States run elections; federal actors and courts contest the edges.",
+      "source": "Democracy Docket",
+      "published": "2026-11-24T19:14:29Z",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWnEyVUt1bGZjU19KS1V5cndkNEE0eTBhempJQUc0VnRZUUhwNjZNQjVGSlUzYmZzbHVMTWt6VnA0NGlEWWlwUjJqd2p4c3MtX3QtNWo2ZV9xNE1LTEZlMDFRS1AyMGJtR3BPaERlOFhicVQybHBjaTZ5R3hMOWhtcmI4NnBrd1I5UHB0SjVHRVRwZWhJLWFZY0psSjZkalRhSnlvanlkZmcxa2lsS3lZT2IweHNqQQ?oc=5",
+      "concepts": [
+        "federalism"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Federalism and election administration",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
+      "title": "Mary Peltola’s Alaska Senate Election Result Is Certified—What Happens Next",
+      "summary": "Open the source for the full story.",
+      "why": "States run elections; federal actors and courts contest the edges.",
+      "source": "Newsweek",
+      "published": "2026-11-24T17:49:00Z",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ3dUc3MxX1ZXZTFJam5WOWV0X29YN25xX3pyOHl4aVpHdUQ2bXN6cHBhV20wTTFLQ191Q2NZV0hmU2JoVFl2bUJPVTRnOXhlTFpzd085ZVRiNGNsb0p5TmNPWDNqb3MzYWpJM1h3RlVkN2xpVVdSbi1Ydlc5NW1NYXV4NEJUcFpDREQ3dG9KcXM3Sk4zd2pKZE5hODh4WnFtb0s3Z0hWaw?oc=5",
+      "concepts": [
+        "federalism"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Federalism and election administration",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Senate",
+      "title": "Democrat Mary Peltola wins US Senate race in Alaska, beating incumbent Republican Dan Sullivan",
+      "summary": "Open the source for the full story.",
+      "why": "Officeholders can build support that outlasts party tides.",
+      "source": "New Castle News",
+      "published": "2026-11-24T17:49:44Z",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNQUxBZHJsZDdlMjVET0RNdHAxZl9CRmVad2ZKZDdnWF9SdFdqeVpCZ3ItcURfTEhnLXdjRmJLQVRaOC1qeG84emxvbjlWT3ZwSzh0Qk5EUjFlUllCWXgzdmp2ODFqWEltYWs1MV9IMTRqLVM3UnhXTXFONnhFSVM4MHJCUDFPeTFWVDY0SlprWXNWajR3cmdic0pBemNyd2ZPOWpseE1WLVp5Nkd6bnVBR1NDazNtQmJlR3h5MkpFUzNOSXVydF81MGlmTGFzbENBSTVxNkt2S3ljelZLa2hhc01Qc3I1dGJ1WGRfalpKUjd3c0N2c0NIaUM3R290d2pjd05ZSzNBMk85UkRwdE5PbjlZZW4?oc=5",
+      "concepts": [
+        "incumbency"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Incumbency and the personal vote",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
     {
       "category": "Redistricting",
       "title": "Democrats on track to net 16 to 18 U.S. House seats in nine states that used new congressional maps this year",
@@ -24,12 +133,12 @@
     },
     {
       "category": "Redistricting",
-      "title": "Did GOP efforts to redistrict the House turn into a dummymander?",
-      "summary": "Republicans undertook a historic effort to redraw several states' congressional districts mid-decade in an attempt to maintain control of the House.",
+      "title": "Despite Democrats’ big win, mid-decade redistricting still benefited Republicans in the 2026 election",
+      "summary": "Open the source for the full story.",
       "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "CBS News",
-      "published": "2026-11-23T20:38:05Z",
-      "url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
+      "source": "NationofChange",
+      "published": "2026-11-24T10:21:50Z",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZ214dTNlVWdaVDZsS0RDNm9NbVRxY1phaG9uWlBvVndWWGlOeDZnd3RjZFNkU3hPeXFJb3B5Ym5UYl9JS1dPSktQY25hbjlMN2JyaGpZdzRBc0VmZzhzVlRPc2Nnczd2UnFVNkJueERhZnRCMjJOVnVPNEZJcEtjNy1STXNNUTFMZHBPemRzUm9mb1ZwVUVfWkk0eU9XT19PTG9USWRTeE03aktnMlU1dEVWalVaYTQyYTlyTjBzYmlpaGEtUE5PLU5TWW94ampWUUhUMFZFY3l0dw?oc=5",
       "concepts": [
         "redistricting"
       ],
@@ -38,109 +147,6 @@
       ],
       "signal": 2,
       "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Republicans Fell Well Short in Early Redistricting",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Political Wire",
-      "published": "2026-11-23T23:12:45Z",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOREtQeHhjMkpTV1VBYVZfbDdnMFJwaDZDWFZOYWc2alFlb1Fkdk9KX0h3LTFZNUI1dlpucEwxSlBjMjhKRFBmZk5RT0NmQktXbF9oVlhGdDVHbTlERm5xZERlWEVlX3BmR3paS3pLTG9HeTFENWNrZHBlb2UxTmxGeW9zbGRvS1djeGFDQ1otTEU?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Research group: Cleaver would have survived GOP redistricting",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "St. Louis American",
-      "published": "2026-11-23T15:01:57Z",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYlZucU1KaG1EVGRjelZOY2xIc2lBTjFjakFsNGtBTDZwQ25ISi10RGZKTDJIczJMS00xZi1iUkRMbTlqMWF4V2EwbU91c2EzRzgtaHhkN29LRFFZOXJ3UkFpQ2NJaGttMDRWdjMxbTFWMmdkdGtJSlZJcjlLVDZLek1EZmlFM0owVWpOZ01OeVdxZUtLT1VoaFZR?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Democrat Adam Hamilton wins tight US Senate race in Kansas",
-      "summary": "Open the source for the full story.",
-      "why": "",
-      "source": "KSHB 41 Kansas City",
-      "published": "2026-11-24T08:59:01Z",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc0d6bTVSSFIwTGpIVFgwZjJaNDc1aWpqWHJLZU9Qc1JFYzdLeDBZY0d2YUVQTW5hN1R3RjFxb1RJeEJLZFl0ZTJpelY0N0I3VGcyVXhZc0l2WUw5TUI3dlR5OGhmek1XdzRpUjd6dUtZa19HcDU1eDNnWk5admltalROMWY1RVNVTV9UNjkycGxTNlg0SzBBSlA0TQ?oc=5",
-      "concepts": [],
-      "cases": [
-        "reach"
-      ],
-      "signal": 2,
-      "mechanism": "",
-      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
-    },
-    {
-      "category": "Senate",
-      "title": "Democrat Sherrod Brown defeats Republican Jon Husted in Ohio US Senate race",
-      "summary": "Open the source for the full story.",
-      "why": "",
-      "source": "News From The States",
-      "published": "2026-11-24T06:00:07Z",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNnJ4VWpDNVB5VEFFc0VhWnl4alJreVBUdW5SQ1Q2ZVhPTHMzRmRDSGhER0g0Nno0YVFJWUpDRkhYa3l4ZXgwRVJmYkMtYm9USE5QVE9OdjNUU2dabFRJaDBGbVl1ek1SUmE5LUVpMWlmc1VaRUtMVF8xd21rYVBnXzlFejFnbzRBRVNJMlR0U2dHd2pRd01tQmpBUHdCYzM0am53Nzc1SVR1bzc3LXpuaWdrekY?oc=5",
-      "concepts": [],
-      "cases": [
-        "reach"
-      ],
-      "signal": 2,
-      "mechanism": "",
-      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
-    },
-    {
-      "category": "Senate",
-      "title": "Andrews Wins South Carolina Senate Seat",
-      "summary": "Open the source for the full story.",
-      "why": "",
-      "source": "Wisevoter",
-      "published": "2026-11-24T03:43:58Z",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdVhTUENnMm5xR3h0Y2dsUlhudFY4aS1GUlZkVkFTSThlQUZHUTBrWTY4M3lXWVlvelRjM2JwZXZzVmhDM0k2RHNnZzRaTlhRbHRmM3Vyd2Z4aGExMWp0ZzBmLXJBZWU2MjJJRDR2S2t2VlJUWFU1dG1uNVprcFFJcEo4V3RqZE9KMkdMOA?oc=5",
-      "concepts": [],
-      "cases": [
-        "reach"
-      ],
-      "signal": 2,
-      "mechanism": "",
-      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
-    },
-    {
-      "category": "Redistricting",
-      "title": "EXPLAINER: Why Trump-backed primary wins could reshape congressional maps",
-      "summary": "Open the source for the full story.",
-      "why": "Nominations reveal bargaining among a party’s factions.",
-      "source": "WCIV",
-      "published": "2026-11-22T03:27:25Z",
-      "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxPV3ZkNmJSeVZiOVBFU1JpbWZ4cmNMTnliWjdEQlQwbXQ4bkNibEhkYk5lV25RQ1F4anVxVkpCejBGdk1fN01LeUJfWlREWGxUNVUxdGtEUnRFNmZwZjhES0dsZ3JRREk4RHladGVORWlGTm00RVdseWlwMlRnTF9fb19Ed1ZueHRhY04tY1kzZEtOV0JUUEN5WDRBcGlMd2xRWVlHSUxvdHBVLWRJby0xb29CYmVzdFp4dGR3ek5jR1dpRTVEelpiaW54cVp6TmRaSjhKeWtrQjBpU0RkYnhnUE94elpOem9TZTdaZ2VnWHhHZXZJZFg0N0lnMUo2VUJicXZsTWprNXdCclVIQi1faHFoTUVRQnpJSkU1MXpacU5zT2ZTNVpVVHlOLWVTLThyS2NjdzlGUVc2c3JWcVhVUlA4TkJQU1dpWm8teGV1ZlBoRnd1blRZbzJtYkNkRTV5TVQxV3BPYXhPMERGZ20wVG9aMkhIbEp4YUdHbl9wZHc0ZmJMUHZVVUFYdWdxNGduYW55WUxqeWgxSFZMNklweGxLNS0xRmxZYzYzd0hvd1cxdw?oc=5",
-      "concepts": [
-        "party-coalitions",
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Party coalitions, primaries and nominations",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
