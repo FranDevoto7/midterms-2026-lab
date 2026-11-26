@@ -1,28 +1,9 @@
 {
-  "updated_at": "2026-11-26T15:09:18Z",
+  "updated_at": "2026-11-26T23:49:28Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
-    {
-      "category": "Redistricting",
-      "title": "How Latino voters in South Texas turned a GOP redistricting strategy upside down",
-      "summary": "Open the source for the full story.",
-      "why": "Durable coalition change is not the same as one unusual election.",
-      "source": "Scripps News",
-      "published": "2026-11-26T10:46:45Z",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTXBSUlQweS03UE1xOGlEZ095OXhvR1oxUmQ3c0JDQUNKUWpXdXotM0pESjNrMGxibXhjSF9SMFc5ZGJfalU2RFIycG00ZnhIZFNFS19JMm1fXzZ1S09pZV95NU95VTl5cDZSbS01d2luU1V4WFNjYnFqWkdPUFc2MFlhcDlZVlIyVGpsMnVTWW1nNkV6eWY2cmt6UjNEdmxqSGwwN1QzOWNBX25jaEZvc0dxZUJTazVp?oc=5",
-      "concepts": [
-        "realignment",
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Realignment versus short-term swing",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
     {
       "category": "Senate",
       "title": "Ken Paxton unveils economic plan centered on tax breaks in U.S. Senate race",
@@ -58,6 +39,61 @@
       "signal": 2,
       "mechanism": "Party coalitions, primaries and nominations",
       "watch": "Collins’s margin against the Republican candidate for governor, town by town."
+    },
+    {
+      "category": "Senate",
+      "title": "Ken Paxton heard saying Trump's GOP midterm convention hurt him: Report",
+      "summary": "Open the source for the full story.",
+      "why": "Nominations reveal bargaining among a party’s factions.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-25T20:57:23Z",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUXVpUG0zRXVVVUI0bm5WbEQ0VkVuclE0akVXUEdZdUk0bndvYmx0SzRNRTl1aE92di02R0didldwLS1NRmxTNkJybGVTNjhfTmkxQ3BRVmR4U2JhcUh5aThCRm9MSHhjcmxXTktQYmZILUU5NHgxMlhKbm5zUGt5V19mZmljeDAxUjBLLVBHeXNDaVUyY0JTYk1jODlYQ2Fm0gGmAUFVX3lxTFBERU5TcjVYUjdiTXQ3RmhNWF9NZlYzRWZId0tPRmZtdWlJSFdhWUJiMVE4TlVxVWVFNjJlbWprdkN3RDNkUlN6Ul9rbmRfM2FTTGdFXzBKZWNjRVJzcndCTWQ2cEZzNkx3RVVqT1BRSFdpNXJtYmxBNkxPY1ktTDMwMGU2UGFxX1FDR2lhUHEyYTJRNG9FN0VyS2l2RGM3SGtDN3Myc3c?oc=5",
+      "concepts": [
+        "party-coalitions"
+      ],
+      "cases": [
+        "texas"
+      ],
+      "signal": 2,
+      "mechanism": "Party coalitions, primaries and nominations",
+      "watch": "Paxton’s margin against Abbott’s, county by county."
+    },
+    {
+      "category": "Senate",
+      "title": "Former President Bush and Sen. Cornyn take part in fundraiser for battleground Senate candidates -- without Paxton",
+      "summary": "Open the source for the full story.",
+      "why": "Money buys communication and organization, but it follows competitiveness.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-25T19:02:19Z",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRVNWemtQR2wteXBzeWZHald6YmRYSEVMcDc4X2QwQXh2OXVEMUNHRUJvNWRSOFlTME12WC05eHVqVUdwOVdGSGdzUDR5QUxzZlZfcFlqTjdxOVZIR0d3dDUxQU8zRFgxNFZ3Rnk4eE1leTMzQkxKdkhsVWxVSEtGbUNaOTJSWmxZRmhkbWtCenZoekNZcGlCQXFUbnExU2VNZ2ZzVzhTaW5XVG4tWkHSAbMBQVVfeXFMTjZYbXdrN1dxS2R1WkZydUFPSEV1LVExZElFLWdMeEkxOTFsNkNqcE5BOExCYzRINzlBaFR4VFZ4NEFKY3VLcFlsclBtelQwZllXQnFncmFaZmg2UTNTYmxLQkV5Y0JENnAxNzJud3dyeThTZFM3aGJMLTBsQ3pOQnFYMFpxWHV3WWk0RTMzQVVseVhwYzhPelF0TV83bFRfTEdfcHRCZi0yYnlHb2xwNUxHVTQ?oc=5",
+      "concepts": [
+        "campaign-finance"
+      ],
+      "cases": [
+        "texas"
+      ],
+      "signal": 2,
+      "mechanism": "Campaign finance and outside spending",
+      "watch": "Paxton’s margin against Abbott’s, county by county."
+    },
+    {
+      "category": "Redistricting",
+      "title": "How Latino voters in South Texas turned a GOP redistricting strategy upside down",
+      "summary": "Open the source for the full story.",
+      "why": "Durable coalition change is not the same as one unusual election.",
+      "source": "Scripps News",
+      "published": "2026-11-24T17:56:29Z",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTXBSUlQweS03UE1xOGlEZ095OXhvR1oxUmQ3c0JDQUNKUWpXdXotM0pESjNrMGxibXhjSF9SMFc5ZGJfalU2RFIycG00ZnhIZFNFS19JMm1fXzZ1S09pZV95NU95VTl5cDZSbS01d2luU1V4WFNjYnFqWkdPUFc2MFlhcDlZVlIyVGpsMnVTWW1nNkV6eWY2cmt6UjNEdmxqSGwwN1QzOWNBX25jaEZvc0dxZUJTazVp?oc=5",
+      "concepts": [
+        "realignment",
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Realignment versus short-term swing",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
       "category": "Redistricting",
@@ -112,42 +148,6 @@
       "signal": 2,
       "mechanism": "Gerrymandering and the seats–votes link",
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Did GOP efforts to redistrict the House turn into a dummymander?",
-      "summary": "Republicans undertook a historic effort to redraw several states' congressional districts mid-decade in an attempt to maintain control of the House.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "CBS News",
-      "published": "2026-11-24T20:27:07Z",
-      "url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Sullivan concedes to Peltola nearly a week after Alaska Senate race called",
-      "summary": "Sen. Dan Sullivan (R-Alaska) has conceded the Alaska Senate race to Sen.-elect Mary Peltola (D) days after the race was called by major networks, including Decision Desk HQ (DDHQ), The Hill’s polling partner.",
-      "why": "States run elections; federal actors and courts contest the edges.",
-      "source": "The Hill",
-      "published": "2026-11-24T19:48:41Z",
-      "url": "https://thehill.com/homenews/campaign/6240650-dan-sullivan-concedes-alaska-senate/",
-      "concepts": [
-        "federalism"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Federalism and election administration",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
     }
   ]
 }
