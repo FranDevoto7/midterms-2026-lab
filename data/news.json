@@ -1,11 +1,82 @@
 {
-  "updated_at": "2026-11-27T08:23:02Z",
+  "updated_at": "2026-11-27T18:55:19Z",
   "mode": "automatic-rss",
-  "feeds_ok": 9,
-  "feeds_failed": [
-    "Google News"
-  ],
+  "feeds_ok": 19,
+  "feeds_failed": [],
   "stories": [
+    {
+      "category": "Senate",
+      "title": "Primaries: Trump-endorsed Mills of Florida loses, as candidates vie for final 2 spots in Alaska Senate race",
+      "summary": "Open the source for the full story.",
+      "why": "Trusted figures help voters infer which choice fits their values.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-26T20:38:07Z",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbXh2Tkt2RGlzQTRQekdYVU1GMXd2MXotbTVraC1hNEVtX0huelhpRTRadHY4SDdhUlR5b19lVGsyZHZYdVRZUTZFcW1TZDU2czAyMDFjcW5tZ2ZDbGxFYk9IYWxTNmwta1ZGbGEyXzE4UGlEbmNSVjRCZDFMNkNndmxlX29PVm9LMlN2dHJIZ0VNYzlPNmlxS1JoallHSUXSAaQBQVVfeXFMT2pLdkhjMjI3UnZxZmNEU3hvTDdXLXRLUVZURF93QnRVYkpYMWp1SXV2eElDcXhHZFBEVko4NzluSWYwbThTWktILTl4U2g0Mmo0QUpneW91Tm9MT2NUWkNJMDNXa2k5QkNfUGlWbkFTRzNBTndhSDJRYnJLTTRadjlPUFZFSnA5bmIwSndhMlZsU3pHcTJrZ0tTdVZhTWVmVTFzYng?oc=5",
+      "concepts": [
+        "elite-cues",
+        "party-coalitions"
+      ],
+      "cases": [
+        "alaska"
+      ],
+      "signal": 2,
+      "mechanism": "Elite cues and endorsements",
+      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
+    },
+    {
+      "category": "Redistricting",
+      "title": "What Democrats’ Sweeping Midterm Wins Could Mean for the Redistricting Battle",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Time Magazine",
+      "published": "2026-11-27T08:00:55Z",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWFhvWXAxQmhJQjUxWUNOWDRVdlRiYlc4X3dKTG9kTy1PSkZmd3dXYklrS2ZsX055cHN2MWpOZ0JQR3hrQ3E5YXBzWlRIQ3dTZTRMRUwxRzN4TEZZeGdBQkxYZUpmelN3WHZiN1diUl8tdXRFUGtSZlhDeFFIUVlRdS0yN1l3aXg2WlI4?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Senate",
+      "title": "El-Sayed projected to win high-stakes Michigan Senate Democratic primary, as 5 states hold elections",
+      "summary": "Open the source for the full story.",
+      "why": "Nominations reveal bargaining among a party’s factions.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-27T04:05:32Z",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWDNwTTJ3aXpjYXlBQTRNLUlxUW9fZndfOS03VEN2RzBseV9nc0Z3NkQtOHA0SHZxYVU0OC1uaVFFLVd1UWNReFRpSVpvNllQdTkxYVpMY3E3V3JkVktrbkRUa3NTWmJZVl9zVDNRQ2VsSndxMHZfY3ZUcllyVGtJSTNHVjltZHNoMktjNlhDVEJ2TnJ3MXE0Sk16SENIX0p20gGmAUFVX3lxTE1mbFVabnVWb3BvTEphWUpRUDRRaUp3dkhfLS1PSDA0UFVlNWxXZ25NLTdfRFdfMXdqX2JxWVZvWXZCakQ2Q0dGZlJhN2JFblQ0T0hmM3BFU2NtdEFFNXJQN0VhMUo2aEhBeTEtaUVlaHJOODBXc0tNUy0zU2w3WDZVT2hmQlptUFBQdFpMNjFiOEMtOXNCZ3ZzbjVNQndCQTQxZ3pxbWc?oc=5",
+      "concepts": [
+        "party-coalitions"
+      ],
+      "cases": [
+        "michigan"
+      ],
+      "signal": 2,
+      "mechanism": "Party coalitions, primaries and nominations",
+      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+    },
+    {
+      "category": "Senate",
+      "title": "Ken Paxton unveils economic plan centered on tax breaks in U.S. Senate race",
+      "summary": "Open the source for the full story.",
+      "why": "Voters reward or punish the party in power for conditions they experience.",
+      "source": "News From The States",
+      "published": "2026-11-26T08:07:09Z",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcklDeHhfV2x1RGM4blM0NDBQelB3SDBIbWRnc2ttS0xNMVluWl9FV2dXU19DN0tlSGwzODBDWE51Ny1tY0ExZW1NdXNReEZsZnhsRTk0M3lXWE8xTktVNE1xdlozMVdKcUJtX2dCZE84VVJvZ1dtQzN1dFlCTFY3TzZfWkMtd1ZaWUVPNFNLUmxOckpWcmE0WXVvQnBRVTh3NnBLRWZ1VkM1ajhCcGc?oc=5",
+      "concepts": [
+        "referendum"
+      ],
+      "cases": [
+        "texas"
+      ],
+      "signal": 2,
+      "mechanism": "Referendum and retrospective voting",
+      "watch": "Paxton’s margin against Abbott’s, county by county."
+    },
     {
       "category": "Senate",
       "title": "Jackson, progressive Maine senator-elect, backs Van Hollen for leader",
@@ -25,123 +96,56 @@
       "watch": "Collins’s margin against the Republican candidate for governor, town by town."
     },
     {
-      "category": "Redistricting",
-      "title": "Democrats on track to net 16 to 18 U.S. House seats in nine states that used new congressional maps this year",
-      "summary": "The nine states that used new Congressional maps in this year's general election are on track to send 16 to 18 more Democrats to Washington than they did in the last Congress, even though the states enacted new maps that included a net of…",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Ballotpedia News",
-      "published": "2026-11-25T06:06:56Z",
-      "url": "https://news.ballotpedia.org/2026/11/25/democrats-on-track-to-net-16-to-18-u-s-house-seats-in-nine-states-that-used-new-congressional-maps-this-year-2/",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Redistricting",
-      "title": "Did GOP efforts to redistrict the House turn into a dummymander?",
-      "summary": "Republicans undertook a historic effort to redraw several states' congressional districts mid-decade in an attempt to maintain control of the House.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "CBS News",
-      "published": "2026-11-24T20:27:07Z",
-      "url": "https://www.cbsnews.com/news/dummymander-republican-redistricting-congress-trump/",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
-    },
-    {
-      "category": "Senate",
-      "title": "Sullivan concedes to Peltola nearly a week after Alaska Senate race called",
-      "summary": "Sen. Dan Sullivan (R-Alaska) has conceded the Alaska Senate race to Sen.-elect Mary Peltola (D) days after the race was called by major networks, including Decision Desk HQ (DDHQ), The Hill’s polling partner.",
-      "why": "States run elections; federal actors and courts contest the edges.",
+      "category": "U.S. politics",
+      "title": "Cenk Uygur backs Ro Khanna in 2028 race",
+      "summary": "Progressive media personality Cenk Uygur on Thursday backed Rep. Ro Khanna (D-Calif.) as a candidate in the 2028 presidential race if he decides to run. “So, 2028 presidential campaign starts right now. I endorse Rep.",
+      "why": "Trusted figures help voters infer which choice fits their values.",
       "source": "The Hill",
-      "published": "2026-11-24T19:48:41Z",
-      "url": "https://thehill.com/homenews/campaign/6240650-dan-sullivan-concedes-alaska-senate/",
+      "published": "2026-11-27T18:04:27Z",
+      "url": "https://thehill.com/homenews/campaign/6245451-cenk-uygur-ro-khanna-2028-election/",
       "concepts": [
-        "federalism"
+        "elite-cues",
+        "party-coalitions"
+      ],
+      "cases": [],
+      "signal": 1,
+      "mechanism": "Elite cues and endorsements",
+      "watch": "Movement among the sender’s constituency after the cue, relative to comparable places or people."
+    },
+    {
+      "category": "Economy and war",
+      "title": "Trump Weighs-in on Veto Power, Nvidia, Iran War and Putin",
+      "summary": "While making calls to U.S.",
+      "why": "Voters reward or punish the party in power for conditions they experience.",
+      "source": "NBC News",
+      "published": "2026-11-27T12:15:08Z",
+      "url": "https://www.today.com/video/trump-weighs-in-on-veto-power-nvidia-iran-war-and-putin-274257989639",
+      "concepts": [
+        "referendum",
+        "veto-players"
+      ],
+      "cases": [],
+      "signal": 1,
+      "mechanism": "Referendum and retrospective voting",
+      "watch": "Whether vote choice tracks evaluations of the economy and the Iran war in exit polls and AP VoteCast, and whether places more exposed to fuel prices move differently."
+    },
+    {
+      "category": "Redistricting",
+      "title": "How will Democrats handle redistricting?",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "Punchbowl News",
+      "published": "2026-11-25T12:54:28Z",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0xGalhSWHBldkc1a1FLQXlkTXlVZllIXzJubUxNSDdJM0NROHp6X1U5WmNfV1FoRE51c3FyTnFZUU5QY2JYZmpkRzNVMlUxaDhVRzZGemhCdkh1czE1MUk1dXpoVWwzbDBDdlhiZ2ctTlo3SWYxTDdKOXVsRE1pZ3Zyc0tWRW13V1E?oc=5",
+      "concepts": [
+        "redistricting"
       ],
       "cases": [
-        "alaska"
+        "redistricting"
       ],
       "signal": 2,
-      "mechanism": "Federalism and election administration",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
-      "category": "Economy and war",
-      "title": "Trump claims \"fake economic numbers\" were released before election",
-      "summary": "President Trump demanded an investigation into the Commerce Department's recent revising of the GDP, which happens routinely.",
-      "why": "Voters reward or punish the party in power for conditions they experience.",
-      "source": "CBS News",
-      "published": "2026-11-27T00:39:06Z",
-      "url": "https://www.cbsnews.com/news/trump-thanksgiving-commerce-department-gdp-investigation/",
-      "concepts": [
-        "referendum"
-      ],
-      "cases": [],
-      "signal": 1,
-      "mechanism": "Referendum and retrospective voting",
-      "watch": "Whether vote choice tracks evaluations of the economy and the Iran war in exit polls and AP VoteCast, and whether places more exposed to fuel prices move differently."
-    },
-    {
-      "category": "Courts and elections",
-      "title": "Judge declines to issue a long-term ban on taxpayer-funded, pro-Trump ads critics called propaganda",
-      "summary": "A federal judge on Wednesday sided against Democrats on the federal government's taxpayer-funded ads that promoted partisan messages and President Donald Trump ahead of the midterm elections, declining to extend a temporary ban.",
-      "why": "States run elections; federal actors and courts contest the edges.",
-      "source": "PBS News",
-      "published": "2026-11-26T22:20:22Z",
-      "url": "https://www.pbs.org/newshour/politics/judge-declines-to-issue-a-long-term-ban-on-taxpayer-funded-pro-trump-ads-critics-called-propaganda",
-      "concepts": [
-        "federalism"
-      ],
-      "cases": [],
-      "signal": 1,
-      "mechanism": "Federalism and election administration",
-      "watch": "Litigation over ballots and certification (California, Alaska) and court rulings on maps."
-    },
-    {
-      "category": "Economy and war",
-      "title": "Trump heads to Arizona next week for a high-stakes expansion of TSMC's computer chip factories",
-      "summary": "President Donald Trump, who has staked his economic policy on growth in the artificial intelligence sector, will travel to Arizona on Dec. 4 to speak at the groundbreaking for a new Taiwan Semiconductor Manufacturing Co.",
-      "why": "Voters reward or punish the party in power for conditions they experience.",
-      "source": "PBS News",
-      "published": "2026-11-26T17:52:23Z",
-      "url": "https://www.pbs.org/newshour/politics/trump-heads-to-arizona-next-week-for-a-high-stakes-expansion-of-tsmcs-computer-chip-factories",
-      "concepts": [
-        "referendum"
-      ],
-      "cases": [],
-      "signal": 1,
-      "mechanism": "Referendum and retrospective voting",
-      "watch": "Whether vote choice tracks evaluations of the economy and the Iran war in exit polls and AP VoteCast, and whether places more exposed to fuel prices move differently."
-    },
-    {
-      "category": "Courts and elections",
-      "title": "Rhode Island voters reject bond measures for the first time in 20 years",
-      "summary": "The Rhode Island Board of Elections certified the Nov. 3 election results on Nov. 24, confirming that voters defeated both Question 3 and Question 4. This marks the first time voters have defeated a bond measure since 2006.",
-      "why": "States run elections; federal actors and courts contest the edges.",
-      "source": "Ballotpedia News",
-      "published": "2026-11-25T21:22:57Z",
-      "url": "https://news.ballotpedia.org/2026/11/25/rhode-island-voters-reject-bond-measures-for-the-first-time-in-20-years/",
-      "concepts": [
-        "federalism",
-        "direct-democracy"
-      ],
-      "cases": [],
-      "signal": 1,
-      "mechanism": "Federalism and election administration",
-      "watch": "Litigation over ballots and certification (California, Alaska) and court rulings on maps."
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
 }
