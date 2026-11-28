@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-11-27T18:55:19Z",
+  "updated_at": "2026-11-28T01:56:40Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
   "stories": [
+    {
+      "category": "Redistricting",
+      "title": "Virginia Supreme Court overturns Democrats' redistricting measure",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-27T15:13:10Z",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMm1XQmNtWWJMMjRWdXhhNG4wcWhjM1FXbW04RGRRWklOZzRBSWNKWnFhb0VaMmc0QmZfLWtRT2JndjNfdjdlRjdpUlVwQkxLTTFESDM3MzN2N0Y3cWpVNmF0SW01dGRQUTEtY09nN3FoQkVUczFKdWprWnpEbkk5M0VRVDNHX0RxUTYtemx3NUs0ck90SWMtZlN0c2F2Ri1ZN2ZURkZwcmRlNlZ0WERoWE1R0gG3AUFVX3lxTE1WZ3p4WE1QdllUdWlyNE01ckhmOHNwQk5iTHJldkhsV0pTUUs5aGJmdUdGX25Wazh4MHhfaXBhWW53Y3BYS25jcmpUVXJQT0VGYkp4bXc5bGw3ZHpZWFF1Q2NwYk85azliU1dHbjkwUlVyQnRmVzlJNG5mRUg4cXg2dFFocEFEYWJLWUhvYXhFOU4ycGtRb3VUR2ZIQnRFa2ZTTTRFQWUxaFZHdi1CYUN6MG52OTJuWQ?oc=5",
+      "concepts": [
+        "redistricting",
+        "federalism"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
     {
       "category": "Senate",
       "title": "Primaries: Trump-endorsed Mills of Florida loses, as candidates vie for final 2 spots in Alaska Senate race",
@@ -43,21 +62,19 @@
     },
     {
       "category": "Senate",
-      "title": "El-Sayed projected to win high-stakes Michigan Senate Democratic primary, as 5 states hold elections",
+      "title": "Governor sets 12/15 date for special election to fill Iowa Senate vacancy",
       "summary": "Open the source for the full story.",
-      "why": "Nominations reveal bargaining among a party’s factions.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-27T04:05:32Z",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWDNwTTJ3aXpjYXlBQTRNLUlxUW9fZndfOS03VEN2RzBseV9nc0Z3NkQtOHA0SHZxYVU0OC1uaVFFLVd1UWNReFRpSVpvNllQdTkxYVpMY3E3V3JkVktrbkRUa3NTWmJZVl9zVDNRQ2VsSndxMHZfY3ZUcllyVGtJSTNHVjltZHNoMktjNlhDVEJ2TnJ3MXE0Sk16SENIX0p20gGmAUFVX3lxTE1mbFVabnVWb3BvTEphWUpRUDRRaUp3dkhfLS1PSDA0UFVlNWxXZ25NLTdfRFdfMXdqX2JxWVZvWXZCakQ2Q0dGZlJhN2JFblQ0T0hmM3BFU2NtdEFFNXJQN0VhMUo2aEhBeTEtaUVlaHJOODBXc0tNUy0zU2w3WDZVT2hmQlptUFBQdFpMNjFiOEMtOXNCZ3ZzbjVNQndCQTQxZ3pxbWc?oc=5",
-      "concepts": [
-        "party-coalitions"
-      ],
+      "why": "",
+      "source": "Radio Iowa",
+      "published": "2026-11-27T19:03:21Z",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLXdTYlZYY01PbU1FZ21XYTVNUS13dnRWRGtLNndjX1VNQTBvX0dlaVJDUldiYzJ2YnhoZFM4RDdRUjlvYUZNZjlCeU1NeGU5VUNzUFNGZUdyUnVLU0FvbWFfYkQ0NWlMcGV3RXNPN2FTeVp1MVpNY3NJZkFWbWx2MmUzM1JDa3Y4MzMtLTdya2VoQnI5cV9NT0dnRFhKbDBaU3FDVFpxcUhvRTc0VGJfOA?oc=5",
+      "concepts": [],
       "cases": [
-        "michigan"
+        "reach"
       ],
       "signal": 2,
-      "mechanism": "Party coalitions, primaries and nominations",
-      "watch": "Oakland, Macomb and Wayne counties, where Stevens led the primary, against comparable places where she did not."
+      "mechanism": "",
+      "watch": "The gap between each Senate margin and Trump’s 2024 margin."
     },
     {
       "category": "Senate",
@@ -128,24 +145,6 @@
       "signal": 1,
       "mechanism": "Referendum and retrospective voting",
       "watch": "Whether vote choice tracks evaluations of the economy and the Iran war in exit polls and AP VoteCast, and whether places more exposed to fuel prices move differently."
-    },
-    {
-      "category": "Redistricting",
-      "title": "How will Democrats handle redistricting?",
-      "summary": "Open the source for the full story.",
-      "why": "District lines translate votes into seats, and interested actors draw them.",
-      "source": "Punchbowl News",
-      "published": "2026-11-25T12:54:28Z",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM0xGalhSWHBldkc1a1FLQXlkTXlVZllIXzJubUxNSDdJM0NROHp6X1U5WmNfV1FoRE51c3FyTnFZUU5QY2JYZmpkRzNVMlUxaDhVRzZGemhCdkh1czE1MUk1dXpoVWwzbDBDdlhiZ2ctTlo3SWYxTDdKOXVsRE1pZ3Zyc0tWRW13V1E?oc=5",
-      "concepts": [
-        "redistricting"
-      ],
-      "cases": [
-        "redistricting"
-      ],
-      "signal": 2,
-      "mechanism": "Gerrymandering and the seats–votes link",
-      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     }
   ]
 }
