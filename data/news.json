@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T01:56:40Z",
+  "updated_at": "2026-11-28T10:21:00Z",
   "mode": "automatic-rss",
   "feeds_ok": 19,
   "feeds_failed": [],
@@ -24,25 +24,6 @@
       "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
     },
     {
-      "category": "Senate",
-      "title": "Primaries: Trump-endorsed Mills of Florida loses, as candidates vie for final 2 spots in Alaska Senate race",
-      "summary": "Open the source for the full story.",
-      "why": "Trusted figures help voters infer which choice fits their values.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-26T20:38:07Z",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbXh2Tkt2RGlzQTRQekdYVU1GMXd2MXotbTVraC1hNEVtX0huelhpRTRadHY4SDdhUlR5b19lVGsyZHZYdVRZUTZFcW1TZDU2czAyMDFjcW5tZ2ZDbGxFYk9IYWxTNmwta1ZGbGEyXzE4UGlEbmNSVjRCZDFMNkNndmxlX29PVm9LMlN2dHJIZ0VNYzlPNmlxS1JoallHSUXSAaQBQVVfeXFMT2pLdkhjMjI3UnZxZmNEU3hvTDdXLXRLUVZURF93QnRVYkpYMWp1SXV2eElDcXhHZFBEVko4NzluSWYwbThTWktILTl4U2g0Mmo0QUpneW91Tm9MT2NUWkNJMDNXa2k5QkNfUGlWbkFTRzNBTndhSDJRYnJLTTRadjlPUFZFSnA5bmIwSndhMlZsU3pHcTJrZ0tTdVZhTWVmVTFzYng?oc=5",
-      "concepts": [
-        "elite-cues",
-        "party-coalitions"
-      ],
-      "cases": [
-        "alaska"
-      ],
-      "signal": 2,
-      "mechanism": "Elite cues and endorsements",
-      "watch": "Daniel J. Sullivan’s first-choice share compared with his 2.5% in the primary."
-    },
-    {
       "category": "Redistricting",
       "title": "What Democrats’ Sweeping Midterm Wins Could Mean for the Redistricting Battle",
       "summary": "Open the source for the full story.",
@@ -50,6 +31,24 @@
       "source": "Time Magazine",
       "published": "2026-11-27T08:00:55Z",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWFhvWXAxQmhJQjUxWUNOWDRVdlRiYlc4X3dKTG9kTy1PSkZmd3dXYklrS2ZsX055cHN2MWpOZ0JQR3hrQ3E5YXBzWlRIQ3dTZTRMRUwxRzN4TEZZeGdBQkxYZUpmelN3WHZiN1diUl8tdXRFUGtSZlhDeFFIUVlRdS0yN1l3aXg2WlI4?oc=5",
+      "concepts": [
+        "redistricting"
+      ],
+      "cases": [
+        "redistricting"
+      ],
+      "signal": 2,
+      "mechanism": "Gerrymandering and the seats–votes link",
+      "watch": "Texas and Florida seats drawn on 2024 margins: do they hold in a less favorable environment?"
+    },
+    {
+      "category": "Redistricting",
+      "title": "Florida legislature approves new congressional map that could give Republicans 4 more seats",
+      "summary": "Open the source for the full story.",
+      "why": "District lines translate votes into seats, and interested actors draw them.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-27T01:19:24Z",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZHlPeDNnZGpjNE9wbzNCRnlJZEVtei1zMXUzU25DWFA4aVZmVUN0Y056X3FuaFBfYmx6UGltbE5QdG13QmJaYkd1TVlCckxiTGVzSkFFSWdmc3pZNWhsZmNYT0Rmb09UOXhEWVZQQU83aGphOTdiSHBKNTB3ZkdzbjhscEwwZDlKNU5lYTV4WXFRQmJqdlQxd3NDNFBqcjjSAaQBQVVfeXFMTjZuWnR2MDNFdGk1Q3ZnMElLeUJJd19SXzVWY2VpakkzVUxmdENOTEN2YnI2STRkNDd2cFJETlhHQTQ5X0NqWTZUc2Y1aXB0WHJpWFhqNEEyMkJVbmVYd2tXTlM4R3N1Yy1NbXFkN281TTV3V3JWXzFsLVBaU08yU0tQUnhTVlB5Mlg1MkptdGhhRExlNjlUR28tQV9QSzEyNDRkQ0o?oc=5",
       "concepts": [
         "redistricting"
       ],
@@ -78,20 +77,18 @@
     },
     {
       "category": "Senate",
-      "title": "Ken Paxton unveils economic plan centered on tax breaks in U.S. Senate race",
+      "title": "Democrat James Talarico flips a US Senate seat in Texas",
       "summary": "Open the source for the full story.",
-      "why": "Voters reward or punish the party in power for conditions they experience.",
-      "source": "News From The States",
-      "published": "2026-11-26T08:07:09Z",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcklDeHhfV2x1RGM4blM0NDBQelB3SDBIbWRnc2ttS0xNMVluWl9FV2dXU19DN0tlSGwzODBDWE51Ny1tY0ExZW1NdXNReEZsZnhsRTk0M3lXWE8xTktVNE1xdlozMVdKcUJtX2dCZE84VVJvZ1dtQzN1dFlCTFY3TzZfWkMtd1ZaWUVPNFNLUmxOckpWcmE0WXVvQnBRVTh3NnBLRWZ1VkM1ajhCcGc?oc=5",
-      "concepts": [
-        "referendum"
-      ],
+      "why": "",
+      "source": "KRGV",
+      "published": "2026-11-27T04:29:32Z",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPV043cXc4SDZweVY0aTJnbUg2bDhNcW5XbW9SZjJ4NlNpVE9KWm82UmJVRlJ3NTZIUTg5WmRBNFNOOXRYdW01dXI4SE9ZemU2X1VIT2lRcjJ2dFUwZzhXZFdqUnVxUGpJcy1reWZQNmhBbmpqWmQ2M3Q2WGxsRmloaVlLODU2emU5M2FyYw?oc=5",
+      "concepts": [],
       "cases": [
         "texas"
       ],
       "signal": 2,
-      "mechanism": "Referendum and retrospective voting",
+      "mechanism": "",
       "watch": "Paxton’s margin against Abbott’s, county by county."
     },
     {
